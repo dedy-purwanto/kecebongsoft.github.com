@@ -1,0 +1,3 @@
+[submodule "slide-opensource"]
+	path = slide-opensource
+	url = git@github.com:kecebongsoft/slide-opensource.git
