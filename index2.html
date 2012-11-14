@@ -42,55 +42,21 @@
             
 
         
-        
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="./2012/11/optimizing-io-cost-with-provisioned-iops.html">Optimizing I/O cost with provisioned IOPS</a></h1> 
-                    <footer class="post-info">
-        <abbr class="published" title="2012-11-11T20:51:27.927222">
-                Sun 11 November 2012
-        </abbr>
-
-        
-        <address class="vcard author">
-                By <a class="url fn" href="./author/dedi-purwanto.html">Dedi Purwanto</a>
-        </address>
-        
-<p>In <a href="./category/posts.html">posts</a>. </p>
-<p>tags: <a href="./tag/aws.html">AWS</a></p>
-
-
-</footer><!-- /.post-info --><p>Recently I've been watching my monthly AWS bill and notice the I/O cost has been increased in the last few months. Note that at this point I've been receiving something around 220 million I/O request on my EBS volume. Earlier this week, Amazon Singapore did an introductory workshop nearby our office and introduces provisioned IOPS. I didn't really paid any attention to it, but it turned out really handy.</p>
-<p>IOPS, or IO per second, is a term coined by AWS to allow some resource in EBS volume in order to serve I/O requests, the more you have it, the more you can serve a request in a second. In AWS, there are two flavors of EBS, standard or provisioned, from the latter you will be able to set how many IOPS you want to have in a month, which is called as IOPS-month. 1 IOPS-month is equal to the number of seconds in a month, which is approximately 27 million second, or 27 million IOPS. When looking at my monthly I/O requests, which was 220 million, I can safely provision my IOPS to 100 IOPS which is something around 270 million IOPS per month, a bit higher and also safer in case of sudden peak.</p>
-<p>When using a standard I/O request, you will be charged something around 11 cents per 1 million request, and when using provisioned IOPS, you will be charged 11 cents per 1 IOPS-month, this will approximately save $10 a month for I/O requests. Pricing will depends on region, and provisioned storage will cost more for space, but the end cost is cheaper.</p>
-<p>So far, the only way to use this provisioned IOPS is by creating a new instance / launching new EBS volume, I haven't figured any way to switch my EBS volume to use a provisioned IOPS. For more info, see the EBS detail page in AWS (http://aws.amazon.com/ebs/).</p>
-                </article>
-                
-            </aside><!-- /#featured -->
+         
             
                 <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-            
-        
-        
-        
-            
-
-        
-         
+                    <ol id="posts-list" class="hfeed" start="4">
             
             <li><article class="hentry">    
                 <header>
-                    <h1><a href="./2012/09/t-shirt-new-relic.html" rel="bookmark"
-                           title="Permalink to T-shirt New Relic">T-shirt New Relic</a></h1>
+                    <h1><a href="./2012/06/extracting-a-subset-of-tar-archive-to-a-specific-directory.html" rel="bookmark"
+                           title="Permalink to Extracting a subset of tar archive to a specific directory">Extracting a subset of tar archive to a specific directory</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2012-09-08T17:34:24.413922">
-                Sat 08 September 2012
+        <abbr class="published" title="2012-06-28T20:46:43.050315">
+                Thu 28 June 2012
         </abbr>
 
         
@@ -103,8 +69,15 @@
 
 
 </footer><!-- /.post-info -->
-                <p>4 Minggu yang lalu New Relic ada promosi bagi setiap user baru yang ngedeploy, bakal dapet t-shirt "Data Nerd" gratis, syaratnya, harus register via Geekli.st. Karna saya udah punya account New Relic sebelum ini, jadi harus register account terpisah buat ngedapetin t-shirt nya, maruk yah :p. Anyway t-shirtnya udah ...</p>
-                <a class="readmore" href="./2012/09/t-shirt-new-relic.html">read more</a>
+                <p>I came across a task where I need to automatically download solr
+package and extract the files in example/ directory to a specific 
+folder so here's how it's done:</p>
+<div class="codehilite"><pre><span class="nv">$ </span>mkdir -p /dest/path/ <span class="o">&amp;&amp;</span> tar -xf file.tar <span class="nb">source</span>/path --strip<span class="o">=</span>n
+</pre></div>
+
+
+<p>This will create a directory and extract ...</p>
+                <a class="readmore" href="./2012/06/extracting-a-subset-of-tar-archive-to-a-specific-directory.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -117,90 +90,14 @@
             
             <li><article class="hentry">    
                 <header>
-                    <h1><a href="./2012/07/samarinda-ada-di-posisi-6-worldwide-julython-2012.html" rel="bookmark"
-                           title="Permalink to Samarinda ada di posisi 6 worldwide-Julython 2012">Samarinda ada di posisi 6 worldwide-Julython 2012</a></h1>
+                    <h1><a href="./2012/06/owlerio-inbox.html" rel="bookmark"
+                           title="Permalink to owler.io inbox">owler.io inbox</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2012-07-28T17:11:10.639501">
-                Sat 28 July 2012
-        </abbr>
-
-        
-        <address class="vcard author">
-                By <a class="url fn" href="./author/dedi-purwanto.html">Dedi Purwanto</a>
-        </address>
-        
-<p>In <a href="./category/posts.html">posts</a>. </p>
-
-
-
-</footer><!-- /.post-info -->
-                <p>Yup, saya ikutan Julython 2012, Julython adalah event sebulan penuh tentang
-proyek open source berbasis python yang kita tulis sendiri, yang bikin
-seneng adalah "Samarinda, Indonesia" ada di ranking ke 6 di page locations 
-dari seluruh dunia (http://julython.org/location/), dan saya sekarang ada di 
-posisi pertama di people ...</p>
-                <a class="readmore" href="./2012/07/samarinda-ada-di-posisi-6-worldwide-julython-2012.html">read more</a>
-                
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-        
-            
-
-        
-         
-            
-            <li><article class="hentry">    
-                <header>
-                    <h1><a href="./2012/07/pemrograman-visual.html" rel="bookmark"
-                           title="Permalink to Pemrograman Visual">Pemrograman Visual</a></h1>
-                </header>
-                
-                <div class="entry-content">
-                <footer class="post-info">
-        <abbr class="published" title="2012-07-28T16:58:16.803501">
-                Sat 28 July 2012
-        </abbr>
-
-        
-        <address class="vcard author">
-                By <a class="url fn" href="./author/dedi-purwanto.html">Dedi Purwanto</a>
-        </address>
-        
-<p>In <a href="./category/posts.html">posts</a>. </p>
-
-
-
-</footer><!-- /.post-info -->
-                <p>Beberapa bulan lalu saya sering cerita via chat ama temen tentang tugas
-kuliahnya di kampus *tiiiit*, beberapa kali dia mention  tentang tugas
-mata kuliah Pemrograman Visual, setelah saya intip, cukup kaget karena
-materinya tidak sesuai dengan judul mata kuliahnya. Kalau kalian lagi
-ambil mata kuliah Pemrograman Visual dan diajarin VB ...</p>
-                <a class="readmore" href="./2012/07/pemrograman-visual.html">read more</a>
-                
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-        
-            
-
-        
-         
-            
-            <li><article class="hentry">    
-                <header>
-                    <h1><a href="./2012/07/owlerio-repository.html" rel="bookmark"
-                           title="Permalink to owler.io Repository">owler.io Repository</a></h1>
-                </header>
-                
-                <div class="entry-content">
-                <footer class="post-info">
-        <abbr class="published" title="2012-07-08T22:15:46.241475">
-                Sun 08 July 2012
+        <abbr class="published" title="2012-06-28T20:46:43.050315">
+                Thu 28 June 2012
         </abbr>
 
         
@@ -213,12 +110,132 @@ ambil mata kuliah Pemrograman Visual dan diajarin VB ...</p>
 
 
 </footer><!-- /.post-info -->
-                <p>Longer that I thought it should be, and as easy as I think it would be,
-owler.io is now on 
-<a href='http://github.com/kecebongsoft/owler.io'>github</a>.  It's an 
-empty planet for now but I'll try to be consistent sending seeds in 
-there, so stay tuned!</p>
-                <a class="readmore" href="./2012/07/owlerio-repository.html">read more</a>
+                <p>I launched owler.io a day before PyCon Apac 2012 has started, it was all
+a rush. I'm trying my best to make it work before the conference started
+for one single reason: show it at the lighting talk.</p>
+<p>You can probably guess how this could affect the internal ...</p>
+                <a class="readmore" href="./2012/06/owlerio-inbox.html">read more</a>
+                
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+        
+            
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="./2012/06/puppet-sentry.html" rel="bookmark"
+                           title="Permalink to puppet-sentry">puppet-sentry</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-06-28T20:46:43.050315">
+                Thu 28 June 2012
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="./author/dedi-purwanto.html">Dedi Purwanto</a>
+        </address>
+        
+<p>In <a href="./category/posts.html">posts</a>. </p>
+
+
+
+</footer><!-- /.post-info -->
+                <p>When I'm tasked to cast a new installation of sentry with puppet, I was
+faced with problem that sentry need to interactively ask a superuser
+creation when <em>syncdb</em> is performed, which came from Django's. Fortunately.
+in Django you can have initial predefined data that will be imported
+when ...</p>
+                <a class="readmore" href="./2012/06/puppet-sentry.html">read more</a>
+                
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+        
+            
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="./2012/06/72solarized-theme.html" rel="bookmark"
+                           title="Permalink to 72Solarized Theme">72Solarized Theme</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-06-24T22:22:03.481250">
+                Sun 24 June 2012
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="./author/dedi-purwanto.html">Dedi Purwanto</a>
+        </address>
+        
+<p>In <a href="./category/posts.html">posts</a>. </p>
+
+
+
+</footer><!-- /.post-info -->
+                <p>For the past few hours I've been trying to modify the default <em>notmyidea</em>
+theme that came from pelican to be more look alike my 
+<a href='http://kecebongsoft.tumblr.com'>Tumblr blog</a>. Why? Because
+I love solarized, and simplicity.</p>
+<p>Why 72? I am planning to make this blog to use fixed with font with 72 ...</p>
+                <a class="readmore" href="./2012/06/72solarized-theme.html">read more</a>
+                
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+        
+            
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="./2012/06/about-me.html" rel="bookmark"
+                           title="Permalink to About Me">About Me</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-06-24T20:45:19.678350">
+                Sun 24 June 2012
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="./author/dedi-purwanto.html">Dedi Purwanto</a>
+        </address>
+        
+<p>In <a href="./category/pages.html">pages</a>. </p>
+
+
+
+</footer><!-- /.post-info -->
+                <p>Hi, my name is Dedi, I'm more known with my nickname kecebongsoft.
+I build stuff, like <a href='http://owler.io'>owler.io</a>, and work
+in a startup company <a href='http://easyuni.com'>EasyUni</a>.</p>
+<p>You can find me through one of these:</p>
+<ul>
+<li><a href='http://github.com/kecebongsoft'>Github</a></li>
+<li><a href='http://bitbucket.org/kecebongsoft'>Bitbucket</a></li>
+<li><a href='http://twitter.com/kecebongsoft'>Twitter</a></li>
+<li><a href='http://geekli.st/kecebongsoft'>Geeklist</a></li>
+</ul>
+<p>Oh, and I have some blogs before this, my 
+<a href='http://kecebongsoft.wordpress.com'>first blog</a> was ...</p>
+                <a class="readmore" href="./2012/06/about-me.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -229,9 +246,13 @@ there, so stay tuned!</p>
                 
 <p class="paginator">
     
-    Page 1 / 3
+        
+            <a href="./index.html">&laquo;</a>
+        
     
-        <a href="./index2.html">&raquo;</a>
+    Page 2 / 3
+    
+        <a href="./index3.html">&raquo;</a>
     
 </p>
 

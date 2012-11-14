@@ -1,0 +1,55 @@
+body {
+  color: #586e75;
+  background-color: #fdf6e3;
+}
+a {
+  color: #cb4b16;
+}
+.codehilite {
+  background-color: #eee8d5;
+  border-color: #cb4b16;
+  /* box-shadow declaration is included here, because there is currently no
+     * way to split it from its color declaration as far as i know.
+     */
+
+  box-shadow: inset 1px 1px 5px 5px #ebe4ce;
+}
+#page {
+  background-color: #fdf6e3;
+  box-shadow: 0 0 20px 2px #ccc;
+}
+#page > header {
+  border-color: #cb4b16;
+}
+#page > header a {
+  color: #586e75;
+}
+#page > footer {
+  border-color: #cb4b16;
+}
+.article.list header h2 a,
+.article.single header h2 a,
+.article.list header h3 a,
+.article.single header h3 a,
+.article.list header h4 a,
+.article.single header h4 a,
+.article.list header h5 a,
+.article.single header h5 a,
+.article.list header h6 a,
+.article.single header h6 a {
+  color: #586e75;
+}
+.article.list header .seperator,
+.article.single header .seperator {
+  color: #cb4b16;
+}
+.article.list .article.item {
+  border-color: #d33682;
+}
+.comments {
+  border-color: #cb4b16;
+}
+.notice {
+  border-color: #b58900;
+  background-color: #eee8d5;
+}

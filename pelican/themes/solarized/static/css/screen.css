@@ -1,0 +1,143 @@
+html,
+body {
+  height: 101%;
+}
+body {
+  margin: 0;
+  font-family: 'Maven Pro', cursive;
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Amaranth', sans-serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  margin: 0.75em 0;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 2;
+  margin: 1em 0;
+}
+h3 {
+  font-size: 1.2em;
+  line-height: 2.5;
+  margin: 1.25em 0;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 1.5em 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  margin: 1.5em 0;
+}
+code {
+  font-size: 14px;
+}
+.codehilite {
+  margin: 1.5em 0;
+  padding: 1.5em;
+  border: 1px solid transparent;
+  border-radius: 0.5em;
+  overflow: auto;
+}
+pre {
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.9em;
+}
+ul {
+  margin: 1.5em 0;
+  padding-left: 1.5em;
+  list-style-type: square;
+}
+#page {
+  max-width: 42em;
+  margin: 0 auto;
+}
+#page > header {
+  border-bottom: 0.1em solid transparent;
+  margin: 0 3em;
+  padding: 1.4em 0;
+}
+#page > header h1 {
+  float: left;
+  margin: 0;
+}
+#page > header a {
+  text-decoration: none;
+}
+#page > header a:hover {
+  text-decoration: underline;
+}
+#page > header > nav {
+  text-align: right;
+  vertical-align: bottom;
+}
+#page > header > nav ul {
+  margin: 0.75em 0;
+  padding: 0;
+}
+#page > header > nav ul li {
+  display: inline;
+  padding-left: 1em;
+}
+#page > #content {
+  padding: 0 3em;
+}
+#page > footer {
+  border-top: 0.1em solid transparent;
+  text-align: center;
+  padding: 1.5em 0em;
+  margin: 0 3em;
+}
+.article.list header .seperator,
+.article.single header .seperator {
+  padding: 0 0.5em;
+}
+.article.list header .date,
+.article.single header .date {
+  font-size: 0.6em;
+  font-weight: normal;
+}
+.article.list .article.item {
+  border-top: 0.1em solid transparent;
+}
+.article.list .article.item .title {
+  margin: -0.1em 0 0 0;
+}
+.comments {
+  padding: 1.5em;
+  border-top: 0.1em solid transparent;
+  text-align: center;
+}
+.comments p {
+  margin: 0;
+}
+.notice {
+  margin: 1.5em -3em;
+  padding: 1.5em 3em;
+  border: 1px solid transparent;
+  border-left: none;
+  border-right: none;
+}
+.notice p {
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
