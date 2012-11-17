@@ -39,3 +39,5 @@ ARTICLE_EXCLUDES = (
             'env',
             'pages',
         )
+
+DISQUS_SITENAME = 'kecebongsoft'
