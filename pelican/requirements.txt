@@ -5,7 +5,7 @@ Pygments==1.5
 argparse==1.2.1
 docutils==0.9
 feedgenerator==1.2.1
--e git://github.com/getpelican/pelican.git#egg=pelican
+pelican==3.0
 pycrypto==2.6
 pypandoc==0.5.0
 pytz==2012c
