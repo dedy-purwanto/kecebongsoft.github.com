@@ -4,7 +4,9 @@
         <title>Dedi Purwanto</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi Purwanto Atom Feed" />
+        
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi Purwanto Atom Feed" />
+        
         
 
         <!--[if IE]>
@@ -27,11 +29,9 @@
                 
                 
                 
-                    <li><a href="./2012/11/pages/about-me.html">About Me</a></li>
+                    <li><a href="./2012/11/pages/about-me.html">about me</a></li>
                 
                 
-                
-                    <li ><a href="./category/pages.html">pages</a></li>
                 
                     <li ><a href="./category/posts.html">posts</a></li>
                 
@@ -45,10 +45,10 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="./2012/11/optimizing-io-cost-with-provisioned-iops.html">Optimizing I/O cost with provisioned IOPS</a></h1> 
+                    <h1 class="entry-title"><a href="./2012/11/my-new-pelican-build-mechanics.html">My new Pelican build mechanics</a></h1> 
                     <footer class="post-info">
-        <abbr class="published" title="2012-11-11T20:51:27.927222">
-                Sun 11 November 2012
+        <abbr class="published" title="2012-11-17T17:50:28.210948">
+                Sat 17 November 2012
         </abbr>
 
         
@@ -57,13 +57,30 @@
         </address>
         
 <p>In <a href="./category/posts.html">posts</a>. </p>
-<p>tags: <a href="./tag/aws.html">AWS</a></p>
 
 
-</footer><!-- /.post-info --><p>Recently I've been watching my monthly AWS bill and notice the I/O cost has been increased in the last few months. Note that at this point I've been receiving something around 220 million I/O request on my EBS volume. Earlier this week, Amazon Singapore did an introductory workshop nearby our office and introduces provisioned IOPS. I didn't really paid any attention to it, but it turned out really handy.</p>
-<p>IOPS, or IO per second, is a term coined by AWS to allow some resource in EBS volume in order to serve I/O requests, the more you have it, the more you can serve a request in a second. In AWS, there are two flavors of EBS, standard or provisioned, from the latter you will be able to set how many IOPS you want to have in a month, which is called as IOPS-month. 1 IOPS-month is equal to the number of seconds in a month, which is approximately 27 million second, or 27 million IOPS. When looking at my monthly I/O requests, which was 220 million, I can safely provision my IOPS to 100 IOPS which is something around 270 million IOPS per month, a bit higher and also safer in case of sudden peak.</p>
-<p>When using a standard I/O request, you will be charged something around 11 cents per 1 million request, and when using provisioned IOPS, you will be charged 11 cents per 1 IOPS-month, this will approximately save $10 a month for I/O requests. Pricing will depends on region, and provisioned storage will cost more for space, but the end cost is cheaper.</p>
-<p>So far, the only way to use this provisioned IOPS is by creating a new instance / launching new EBS volume, I haven't figured any way to switch my EBS volume to use a provisioned IOPS. For more info, see the EBS detail page in AWS (http://aws.amazon.com/ebs/).</p>
+
+</footer><!-- /.post-info --><p>As you know, my blog is powered by a python static blog engine, named Pelican. I really like it in many ways: simplicity, <em>geekyness</em>, and hostings. Yes, hostings, this blog is hosted with the help of Github user pages, enabling you create a static website through repository, and accessible with your Github username.</p>
+<p>Pelican, as a static blog engine, of course will generate static html files that you will have to push to your repository, these auto-generated files are pretty much meaningless, you don't want to 'manage' them, but it has to stay in the repo to serve request, and above that, it has to be placed in the root path of the repository. Meanwhile we also have some other files such as static files, the blog sources (posts, config file, build script, custom themes, etc), and in my case, I also have submodules repository which is a separate static site, they are mostly HTML5 slides.</p>
+<p>For me, I always wanted to keep everything clean, whenever I trigger a new build, I wanted to wipe all recent build files first. But I can't just do that with all other necessary files as mentioned, so few things need to be done before I trigger a build:</p>
+<ul>
+<li>Exclude all git submodules path from deletion.</li>
+<li>Exclude files that are not part of pelican auto-generated files.</li>
+<li>Wipe the rest.</li>
+<li>Trigger the build.</li>
+</ul>
+<p>While the last one is pretty much straightforward, the first three are quite tricky, but I finally figured it out with a bash script, note that I'm not a bash hacker, you might find my build script an eyesore, well, here it is:</p>
+<div class="codehilite"><pre><span class="c">#!/usr/bin/env bash</span>
+<span class="nv">GITMODULES</span><span class="o">=</span><span class="sb">`</span>grep path ../.gitmodules | sed <span class="s1">&#39;s/path = /\\\|/g&#39;</span> | sed <span class="s1">&#39;s/ //g&#39;</span> | sed <span class="s1">&#39;s/\t//g&#39;</span> | tr <span class="s1">&#39;\\n&#39;</span> <span class="s1">&#39;#&#39;</span> | sed <span class="s1">&#39;s/#//g&#39;</span> | sed <span class="s1">&#39;s/^\\\|//g&#39;</span><span class="sb">`</span>
+<span class="nv">FILES</span><span class="o">=</span><span class="s1">&#39;README\|pelican\|CNAME\|static&#39;</span>
+<span class="nv">EXCEPTIONS</span><span class="o">=</span><span class="nv">$GITMODULES</span><span class="s1">&#39;\|&#39;</span><span class="nv">$FILES</span>
+ls ../ | grep -v <span class="nv">$EXCEPTIONS</span> | xargs -i rm -rf ../<span class="o">{}</span>
+<span class="nb">source </span>env/bin/activate
+pelican . -o ../ -s pelican.conf.py
+</pre></div>
+
+
+<p>First I grab all the submodules path and combine them together with a '\|' separator for regex purpose later, and manually list out all other excluded files with the same regex separator, and then use an inverse grep to delete the others. In my case, the manual list is really static and not always changes, so it will be safe to keep it this way, as for submodules, I have to make it dynamic to reduce the coupling.</p>
                 </article>
                 
             </aside><!-- /#featured -->
@@ -83,14 +100,14 @@
             
             <li><article class="hentry">    
                 <header>
-                    <h1><a href="./2012/09/t-shirt-new-relic.html" rel="bookmark"
-                           title="Permalink to T-shirt New Relic">T-shirt New Relic</a></h1>
+                    <h1><a href="./2012/11/cleaning-up-ssh-keys.html" rel="bookmark"
+                           title="Permalink to Cleaning up SSH keys">Cleaning up SSH keys</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2012-09-08T17:34:24.413922">
-                Sat 08 September 2012
+        <abbr class="published" title="2012-11-17T16:29:16.742945">
+                Sat 17 November 2012
         </abbr>
 
         
@@ -103,8 +120,9 @@
 
 
 </footer><!-- /.post-info -->
-                <p>4 Minggu yang lalu New Relic ada promosi bagi setiap user baru yang ngedeploy, bakal dapet t-shirt "Data Nerd" gratis, syaratnya, harus register via Geekli.st. Karna saya udah punya account New Relic sebelum ini, jadi harus register account terpisah buat ngedapetin t-shirt nya, maruk yah :p. Anyway t-shirtnya udah ...</p>
-                <a class="readmore" href="./2012/09/t-shirt-new-relic.html">read more</a>
+                <p>All this time, I've been managing my own SSH keys pretty badly, at least that's how I see it. I have different SSH key for different machine, some with passphrase, others without. </p>
+<p>Whether this is good or not, I believe it remains debatable. Having different SSH keys per ...</p>
+                <a class="readmore" href="./2012/11/cleaning-up-ssh-keys.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -117,14 +135,14 @@
             
             <li><article class="hentry">    
                 <header>
-                    <h1><a href="./2012/07/samarinda-ada-di-posisi-6-worldwide-julython-2012.html" rel="bookmark"
-                           title="Permalink to Samarinda ada di posisi 6 worldwide-Julython 2012">Samarinda ada di posisi 6 worldwide-Julython 2012</a></h1>
+                    <h1><a href="./2012/11/72solarized-theme.html" rel="bookmark"
+                           title="Permalink to 72Solarized Theme">72Solarized Theme</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2012-07-28T17:11:10.639501">
-                Sat 28 July 2012
+        <abbr class="published" title="2012-11-17T15:58:46.314944">
+                Sat 17 November 2012
         </abbr>
 
         
@@ -137,12 +155,12 @@
 
 
 </footer><!-- /.post-info -->
-                <p>Yup, saya ikutan Julython 2012, Julython adalah event sebulan penuh tentang
-proyek open source berbasis python yang kita tulis sendiri, yang bikin
-seneng adalah "Samarinda, Indonesia" ada di ranking ke 6 di page locations 
-dari seluruh dunia (http://julython.org/location/), dan saya sekarang ada di 
-posisi pertama di people ...</p>
-                <a class="readmore" href="./2012/07/samarinda-ada-di-posisi-6-worldwide-julython-2012.html">read more</a>
+                <p>For the past few hours I've been trying to modify the default <em>notmyidea</em>
+theme that came from pelican to be more look alike my 
+<a href='http://kecebongsoft.tumblr.com'>Tumblr blog</a>. Why? Because
+I love solarized, and simplicity.</p>
+<p>Why 72? I am planning to make this blog to use fixed with font with 72 ...</p>
+                <a class="readmore" href="./2012/11/72solarized-theme.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -155,14 +173,14 @@ posisi pertama di people ...</p>
             
             <li><article class="hentry">    
                 <header>
-                    <h1><a href="./2012/07/pemrograman-visual.html" rel="bookmark"
-                           title="Permalink to Pemrograman Visual">Pemrograman Visual</a></h1>
+                    <h1><a href="./2012/11/dotfiles.html" rel="bookmark"
+                           title="Permalink to .dotfiles">.dotfiles</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2012-07-28T16:58:16.803501">
-                Sat 28 July 2012
+        <abbr class="published" title="2012-11-17T15:58:46.314944">
+                Sat 17 November 2012
         </abbr>
 
         
@@ -175,12 +193,8 @@ posisi pertama di people ...</p>
 
 
 </footer><!-- /.post-info -->
-                <p>Beberapa bulan lalu saya sering cerita via chat ama temen tentang tugas
-kuliahnya di kampus *tiiiit*, beberapa kali dia mention  tentang tugas
-mata kuliah Pemrograman Visual, setelah saya intip, cukup kaget karena
-materinya tidak sesuai dengan judul mata kuliahnya. Kalau kalian lagi
-ambil mata kuliah Pemrograman Visual dan diajarin VB ...</p>
-                <a class="readmore" href="./2012/07/pemrograman-visual.html">read more</a>
+                <p>I once maintain my own vimfiles repository, but vim plugins are now easier to manage using vundle and I realize it's time to only rely on my .vimrc without anything else (not .vim, not plugins, etc). So I created a <a href="https://github.com/kecebongsoft/dotfiles">new repository</a> and put all my dotfiles there, add ...</p>
+                <a class="readmore" href="./2012/11/dotfiles.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -193,14 +207,14 @@ ambil mata kuliah Pemrograman Visual dan diajarin VB ...</p>
             
             <li><article class="hentry">    
                 <header>
-                    <h1><a href="./2012/07/owlerio-repository.html" rel="bookmark"
-                           title="Permalink to owler.io Repository">owler.io Repository</a></h1>
+                    <h1><a href="./2012/11/extracting-a-subset-of-tar-archive-to-a-specific-directory.html" rel="bookmark"
+                           title="Permalink to Extracting a subset of tar archive to a specific directory">Extracting a subset of tar archive to a specific directory</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2012-07-08T22:15:46.241475">
-                Sun 08 July 2012
+        <abbr class="published" title="2012-11-17T15:58:46.314944">
+                Sat 17 November 2012
         </abbr>
 
         
@@ -209,16 +223,19 @@ ambil mata kuliah Pemrograman Visual dan diajarin VB ...</p>
         </address>
         
 <p>In <a href="./category/posts.html">posts</a>. </p>
-<p>tags: <a href="./tag/owlerio.html">owler.io</a></p>
+
 
 
 </footer><!-- /.post-info -->
-                <p>Longer that I thought it should be, and as easy as I think it would be,
-owler.io is now on 
-<a href='http://github.com/kecebongsoft/owler.io'>github</a>.  It's an 
-empty planet for now but I'll try to be consistent sending seeds in 
-there, so stay tuned!</p>
-                <a class="readmore" href="./2012/07/owlerio-repository.html">read more</a>
+                <p>I came across a task where I need to automatically download solr
+package and extract the files in example/ directory to a specific 
+folder so here's how it's done:</p>
+<div class="codehilite"><pre><span class="nv">$ </span>mkdir -p /dest/path/ <span class="o">&amp;&amp;</span> tar -xf file.tar <span class="nb">source</span>/path --strip<span class="o">=</span>n
+</pre></div>
+
+
+<p>This will create a directory and extract ...</p>
+                <a class="readmore" href="./2012/11/extracting-a-subset-of-tar-archive-to-a-specific-directory.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -244,29 +261,11 @@ there, so stay tuned!</p>
         <section id="extras" class="body">
         
         
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            
-
-                        
-                            <li><a href="http://github.com/kecebongsoft">github</a></li>
-                        
-                            <li><a href="http://twitter.com/kecebongsoft">twitter</a></li>
-                        
-                            <li><a href="http://geekli.st/kecebongsoft">geekli.st</a></li>
-                        
-                            <li><a href="http://julython.org/kecebongsoft">julython 2012</a></li>
-                        
-                        </ul>
-                </div><!-- /.social -->
-        
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://pelican.notmyidea.org/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
 
                 <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>

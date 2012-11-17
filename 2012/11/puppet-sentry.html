@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>.dotfiles</title>
+        <title>puppet-sentry</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="../.././theme/css/main.css" type="text/css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi Purwanto Atom Feed" />
+        
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi Purwanto Atom Feed" />
+        
         
 
         <!--[if IE]>
@@ -27,11 +29,9 @@
                 
                 
                 
-                    <li><a href="../.././2012/11/pages/about-me.html">About Me</a></li>
+                    <li><a href="../.././2012/11/pages/about-me.html">about me</a></li>
                 
                 
-                
-                    <li ><a href="../.././category/pages.html">pages</a></li>
                 
                     <li class="active"><a href="../.././category/posts.html">posts</a></li>
                 
@@ -42,15 +42,15 @@
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="2012/06/dotfiles.html" rel="bookmark"
-           title="Permalink to .dotfiles">.dotfiles</a></h1>
+        <a href="2012/11/puppet-sentry.html" rel="bookmark"
+           title="Permalink to puppet-sentry">puppet-sentry</a></h1>
       
     </header>
 
     <div class="entry-content">
       <footer class="post-info">
-        <abbr class="published" title="2012-06-12T19:02:04.858857">
-                Tue 12 June 2012
+        <abbr class="published" title="2012-11-17T15:58:46.314944">
+                Sat 17 November 2012
         </abbr>
 
         
@@ -63,7 +63,17 @@
 
 
 </footer><!-- /.post-info -->
-      <p>I once maintain my own vimfiles repository, but vim plugins are now easier to manage using vundle and I realize it's time to only rely on my .vimrc without anything else (not .vim, not plugins, etc). So I created a <a href="https://github.com/kecebongsoft/dotfiles">new repository</a> and put all my dotfiles there, add some submodules and setup script to make it easy, oh, and I removed my vimfiles as well.</p>
+      <p>When I'm tasked to cast a new installation of sentry with puppet, I was
+faced with problem that sentry need to interactively ask a superuser
+creation when <em>syncdb</em> is performed, which came from Django's. Fortunately.
+in Django you can have initial predefined data that will be imported
+when <em>syncdb</em> is performed. By having a json formatted file in the root
+project path and passing <em>--no-input</em> in the command, Django will 
+import the data and find the superuser information in the file.</p>
+<p>To make it easier for people, I created a puppet module to install 
+sentry without having to interactively enter superuser information. 
+Check it here: <a href='http://github.com/kecebongsoft/puppet-sentry'>
+kecebongsoft/puppet-sentry</a></p>
     </div><!-- /.entry-content -->
     
 
@@ -73,29 +83,11 @@
         <section id="extras" class="body">
         
         
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            
-
-                        
-                            <li><a href="http://github.com/kecebongsoft">github</a></li>
-                        
-                            <li><a href="http://twitter.com/kecebongsoft">twitter</a></li>
-                        
-                            <li><a href="http://geekli.st/kecebongsoft">geekli.st</a></li>
-                        
-                            <li><a href="http://julython.org/kecebongsoft">julython 2012</a></li>
-                        
-                        </ul>
-                </div><!-- /.social -->
-        
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://pelican.notmyidea.org/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
 
                 <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
