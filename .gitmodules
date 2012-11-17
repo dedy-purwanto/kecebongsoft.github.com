@@ -1,3 +1,6 @@
 [submodule "slide-opensource"]
 	path = slide-opensource
 	url = git@github.com:kecebongsoft/slide-opensource.git
+[submodule "pelican/themes/pelican-theme-cebong"]
+	path = pelican/themes/pelican-theme-cebong
+	url = git@github.com:kecebongsoft/pelican-theme-cebong.git
