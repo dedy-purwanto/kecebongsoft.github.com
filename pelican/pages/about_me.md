@@ -15,6 +15,6 @@ You can find me through one of these:
 - <a href='http://twitter.com/kecebongsoft'>Twitter</a>
 - <a href='http://geekli.st/kecebongsoft'>Geeklist</a>
 
-This blog is powered by Pelican, and hosted in github pages. <a href='https://github.com/kecebongsoft/kecebongsoft.github.com/' target='_blank'>You can browse the blog source here</a>
+This blog is powered by Pelican, and hosted in github pages. <a href='https://github.com/kecebongsoft/kecebongsoft.github.com/' target='_blank'>You can browse the blog source here</a>, and I wrote the theme myself, derived from <strong>notmyidea</strong> theme and inspired by my old tumblr blog.
 
 Oh, and I have some blogs before this, my <a href='http://kecebongsoft.wordpress.com'>first blog</a> was in Indonesian, and my <a href='http://kecebongsoft.tumblr.com'>second blog</a> was in english.
