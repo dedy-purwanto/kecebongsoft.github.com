@@ -4,7 +4,7 @@ Hi, my name is Dedi Purwanto, I'm more known with my nickname kecebongsoft.
 
 I know Python, Django, and things around them such as Postgres, AWS, caching, scaling, deployments, well you know, web and backend stuff.
 
-Oh, and I'm using linux, rxvt, tmux and vim, in case that matters for you to know.
+Oh, and I'm using rxvt, tmux and vim, in case that matters for you to know.
 
 I currently work for <a href='http://easyuni.com'>easyuni</a>, a startup company. Currently I'm the only guy who write code in there.
 
