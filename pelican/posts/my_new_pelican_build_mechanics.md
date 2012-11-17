@@ -1,6 +1,6 @@
 title: My new Pelican build mechanics
 
-As you know, my blog is powered by a python static blog engine, named Pelican. I really like it in many ways: simplicity, _geekyness_, and hostings. Yes, hostings, this blog is hosted with the help of Github user pages, enabling you create a static website through repository, and accessible with your Github username.
+As you know, my blog is powered by a python static blog engine, named Pelican. I really like it in many ways: simplicity, _geekyness_, and hostings. Yes, hostings, this blog is hosted with the help of Github user pages, enabling you create a static website through repository, and accessible with your Github username, plus you don't have to think about reliability and scaling, Github will handle it for you.
 
 Pelican, as a static blog engine, of course will generate static html files that you will have to push to your repository, these auto-generated files are pretty much meaningless, you don't want to 'manage' them, but it has to stay in the repo to serve request, and above that, it has to be placed in the root path of the repository. Meanwhile we also have some other files such as static files, the blog sources (posts, config file, build script, custom themes, etc), and in my case, I also have submodules repository which is a separate static site, they are mostly HTML5 slides.
 
