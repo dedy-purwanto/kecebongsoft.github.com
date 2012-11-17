@@ -9,13 +9,6 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG='en'
 
-SOCIAL =  (
-            ('github','http://github.com/kecebongsoft'),
-            ('twitter','http://twitter.com/kecebongsoft'),
-            ('geekli.st','http://geekli.st/kecebongsoft'),
-            ('julython 2012','http://julython.org/kecebongsoft'),
-         )
-
 LINKS = (
          )
 
@@ -34,3 +27,15 @@ PAGE_LANG_SAVE_AS = '%spages/{slug}-{lang}.html' % PERMALINK_STRUCTURE
 REVERSE_ARCHIVE_ORDER = True
 
 FEED_DOMAIN = 'http://kecebongsoft.com'
+
+THEME = 'notmyidea'
+
+PAGE_EXCLUDES = (
+            'env',
+            'posts',
+        )
+
+ARTICLE_EXCLUDES = (
+            'env',
+            'pages',
+        )
