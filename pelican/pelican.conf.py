@@ -3,7 +3,7 @@
 
 AUTHOR = u"Dedi Purwanto"
 SITENAME = u"Dedi Purwanto"
-SITEURL = ''
+SITEURL = 'http://kecebongsoft.com'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -33,5 +33,4 @@ PAGE_LANG_SAVE_AS = '%spages/{slug}-{lang}.html' % PERMALINK_STRUCTURE
 
 REVERSE_ARCHIVE_ORDER = True
 
-PAGE_EXCLUDES = ('themes',)
-ARTICLE_EXCLUDES = ('themes',)
+FEED_DOMAIN = 'http://kecebongsoft.com'
