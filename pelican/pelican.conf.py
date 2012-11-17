@@ -4,6 +4,8 @@
 AUTHOR = u"Dedi Purwanto"
 SITENAME = u"Dedi Purwanto"
 SITEURL = 'http://kecebongsoft.com'
+SITETAGLINE = u""
+FOOTERTEXT = u"&copy; Dedi Purwanto. "
 
 TIMEZONE = 'Europe/Paris'
 
@@ -32,12 +34,15 @@ THEME = 'notmyidea'
 
 PAGE_EXCLUDES = (
             'env',
+            'themes',
             'posts',
         )
 
 ARTICLE_EXCLUDES = (
             'env',
+            'themes',
             'pages',
         )
 
-DISQUS_SITENAME = 'kecebongsoft'
+#DISQUS_SITENAME = 'kecebongsoft'
+THEME = 'themes/cebong'
