@@ -1,4 +1,4 @@
-Title: About me
+Title: about me
 
 Hi, my name is Dedi Purwanto, I'm more known with my nickname kecebongsoft.
 I know Python, Django, and things around them such Postgres, AWS, cachings, well you know the rest.
