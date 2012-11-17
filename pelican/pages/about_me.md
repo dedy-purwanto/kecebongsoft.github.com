@@ -1,8 +1,9 @@
-Title: About Me
+Title: About me
 
-Hi, my name is Dedi, I'm more known with my nickname kecebongsoft.
-I build stuff, like <a href='http://owler.io'>owler.io</a>, and work
-in a startup company <a href='http://easyuni.com'>EasyUni</a>.
+Hi, my name is Dedi Purwanto, I'm more known with my nickname kecebongsoft.
+I know Python, Django, and things around them such Postgres, AWS, cachings, well you know the rest.
+Oh, and I'm using linux, rxvt, tmux and vim, in case that matters for you to know.
+I currently work for <a href='http://easyuni.com'>EasyUni</a>, a startup company. So far I'm the only guy who code in there.
 
 You can find me through one of these:
 
