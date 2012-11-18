@@ -34,13 +34,13 @@ THEME = 'notmyidea'
 
 PAGE_EXCLUDES = (
             'env',
-            'themes',
+            'pelican-themes',
             'posts',
         )
 
 ARTICLE_EXCLUDES = (
             'env',
-            'themes',
+            'pelican-themes',
             'pages',
         )
 
