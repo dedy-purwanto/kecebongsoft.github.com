@@ -1,4 +1,5 @@
 title: Samarinda ada di posisi 6 worldwide-Julython 2012
+date: 30/07/2012
 
 Yup, saya ikutan Julython 2012, Julython adalah event sebulan penuh tentang
 proyek open source berbasis python yang kita tulis sendiri, yang bikin

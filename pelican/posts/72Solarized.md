@@ -1,4 +1,5 @@
 Title: 72Solarized Theme
+date: 20/09/2012
 
 For the past few hours I've been trying to modify the default *notmyidea*
 theme that came from pelican to be more look alike my 
