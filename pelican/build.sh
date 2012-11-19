@@ -4,4 +4,4 @@ FILES='README\|pelican\|CNAME\|static'
 EXCEPTIONS=$GITMODULES'\|'$FILES
 ls ../ | grep -v $EXCEPTIONS | xargs -i rm -rf ../{}
 source env/bin/activate
-pelican . -o ../ -s pelican.conf.py
+pelican . -o ../build/ -s pelican.conf.py
