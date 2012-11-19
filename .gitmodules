@@ -1,6 +1,6 @@
-[submodule "slide-opensource"]
-	path = slide-opensource
-	url = git@github.com:kecebongsoft/slide-opensource.git
 [submodule "pelican/pelican-themes"]
 	path = pelican/pelican-themes
 	url = git@github.com:kecebongsoft/pelican-themes.git
+[submodule "externals/slide-opensource"]
+	path = externals/slide-opensource
+	url = git@github.com:kecebongsoft/slide-opensource
