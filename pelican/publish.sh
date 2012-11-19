@@ -2,6 +2,6 @@
 source ~/myaws_vars
 source env/bin/activate
 BUCKET='kecebongsoft'
-boto-rsync -g public-read ../ s3://kecebongsoft/
+boto-rsync ../ -g public-read ../ s3://kecebongsoft/
 
 
