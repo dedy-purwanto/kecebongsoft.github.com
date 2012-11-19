@@ -2,7 +2,11 @@ BeautifulSoup==3.2.1
 Jinja2==2.6
 Markdown==2.1.1
 Pygments==1.5
+Unidecode==0.04.9
 argparse==1.2.1
+blinker==1.2
+boto==2.6.0
+boto-rsync==0.8.1
 docutils==0.9
 feedgenerator==1.2.1
 pelican==3.0
