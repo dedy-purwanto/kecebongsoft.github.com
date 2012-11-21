@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-#GITMODULES=`grep path ../.gitmodules | sed 's/path = /\\\|/g' | sed 's/ //g' | sed 's/\t//g' | tr '\\n' '#' | sed 's/#//g' | sed 's/^\\\|//g'`
-#FILES='README\|pelican\|CNAME\|static'
-#EXCEPTIONS=$GITMODULES'\|'$FILES
-#ls ../ | grep -v $EXCEPTIONS | xargs -i rm -rf ../{}
 rm -rf ../build/
 source env/bin/activate
 pelican . -o ../build/ -s pelican.conf.py
