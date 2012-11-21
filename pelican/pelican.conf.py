@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+from pelican.settings import _DEFAULT_CONFIG
+
 AUTHOR = u"Dedi Purwanto"
 SITENAME = u"Dedi Purwanto"
 SITEURL = 'http://kecebongsoft.com'
@@ -25,6 +27,7 @@ ARTICLE_SAVE_AS = '%s{slug}.html' % PERMALINK_STRUCTURE
 ARTICLE_LANG_SAVE_AS = '%s{slug}-{lang}.html' % PERMALINK_STRUCTURE
 PAGE_SAVE_AS = '%spages/{slug}.html' % PERMALINK_STRUCTURE
 PAGE_LANG_SAVE_AS = '%spages/{slug}-{lang}.html' % PERMALINK_STRUCTURE
+DIRECT_TEMPLATES = list(_DEFAULT_CONFIG['DIRECT_TEMPLATES']) + ['stories',]
 
 REVERSE_ARCHIVE_ORDER = True
 
