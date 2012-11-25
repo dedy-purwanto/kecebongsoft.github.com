@@ -49,5 +49,5 @@ ARTICLE_EXCLUDES = (
 
 #DISQUS_SITENAME = 'kecebongsoft'
 THEME = 'pelican-themes/cebong'
-GITHUB_URL = 'https://kecebongsoft.github.com'
+GITHUB_URL = 'https://github.com/kecebongsoft'
 GOOGLE_ANALYTICS = 'UA-36468240-1'
