@@ -27,7 +27,7 @@ ARTICLE_SAVE_AS = '%s{slug}.html' % PERMALINK_STRUCTURE
 ARTICLE_LANG_SAVE_AS = '%s{slug}-{lang}.html' % PERMALINK_STRUCTURE
 PAGE_SAVE_AS = '%spages/{slug}.html' % PERMALINK_STRUCTURE
 PAGE_LANG_SAVE_AS = '%spages/{slug}-{lang}.html' % PERMALINK_STRUCTURE
-DIRECT_TEMPLATES = list(_DEFAULT_CONFIG['DIRECT_TEMPLATES']) + ['stories',]
+#DIRECT_TEMPLATES = list(_DEFAULT_CONFIG['DIRECT_TEMPLATES']) + ['stories',]
 
 REVERSE_ARCHIVE_ORDER = True
 
@@ -48,6 +48,6 @@ ARTICLE_EXCLUDES = (
         )
 
 #DISQUS_SITENAME = 'kecebongsoft'
-THEME = 'pelican-themes/cebong'
+THEME = 'mytheme'
 GITHUB_URL = 'https://github.com/kecebongsoft'
 GOOGLE_ANALYTICS = 'UA-36468240-1'
