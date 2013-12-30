@@ -105,8 +105,7 @@ ul li, ol li {
 
 /* line 89, ../../compass/src/main.scss */
 strong {
-  color: #555555;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
   font-weight: bold;
 }
 
@@ -141,7 +140,7 @@ header a#page-title {
 header a#site-title {
   font-weight: normal;
   font-size:34px;
-  border-right: 4px dashed #B8B8B8;
+  border-right: 4px solid #B8B8B8;
 
 }
 
