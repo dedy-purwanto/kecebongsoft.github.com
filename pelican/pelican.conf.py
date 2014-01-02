@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-from pelican.settings import _DEFAULT_CONFIG
+#from pelican.settings import _DEFAULT_CONFIG
 
 AUTHOR = u"Dedi Purwanto"
 SITENAME = u"Dedi Purwanto"
