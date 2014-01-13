@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : Indent / outdent like a GUI text editor with VIM</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2012/02/indent-outdent-like-a-gui-text-editor-with-vim.html" id="page-title">Indent / outdent like a GUI text editor with VIM</a></h1>
+<time datetime="2012-02-12T07:19:48">Sun 12 February 2012</time></header>
+<article>
+    <p>Or, precisely GVIM, or VIM will just do, I don't know, I think it should also work on VIM (tried it on SSH last time and it works).</p>
+<p>So with this you can visual block lines of codes, and press TAB to indent it, and SHIFT+TAB to outdent it, just like what you usually do on GUI text editor like Gedit or others:</p>
+<div class="gist">https://gist.github.com/1809013</div>
+
+<p>So what does it do?, it simply indent/outdent a code on a visual mode (<strong>&lt;</strong>/<strong>&gt;</strong>). But by default, visual mode will go back to normal mode after indenting/outdenting, so what we need to do is to back to visual mode and reselect our last selection, this is done by <strong>gv</strong>.</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>
