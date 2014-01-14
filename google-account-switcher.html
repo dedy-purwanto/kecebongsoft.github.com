@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Google Account Switcher</title>
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kecebongsoft.com/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://kecebongsoft.com/pages/about.html">about</a></li>
+                    <li class="active"><a href="http://kecebongsoft.com/category/posts.html">posts</a></li>
+                    <li><a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://kecebongsoft.com/google-account-switcher.html" rel="bookmark"
+           title="Permalink to Google Account Switcher">Google Account Switcher</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-01-06T00:00:00">
+                Mon 06 January 2014
+        </abbr>
+
+<p>In <a href="http://kecebongsoft.com/category/posts.html">posts</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Saya sudah bertahun-tahun menggunakan email, bagi saya email adalah salah satu medium paling efektif untuk berkomunikasi. Sudah berbagai macam layanan email yang saya gunakan. Saya masih ingat email pertama saya ada di plasa.com, Yahoo!-nya indonesia di tahun 2000an dulu. Kemudian berpindah ke Yahoo!, Hotmail, dan banyak lagi, sampai akhirnya berhenti di Gmail.</p>
+<p>Gmail bagi saya (dan banyak orang) adalah salah satu layanan email terbaik saat ini, dan untung saja kantor saya juga menggunakan Google Apps sehingga saya bisa menggunakan fitur multiple accounts-nya Google. Fitur ini memungkinkan kita untuk punya beberapa account Google dan berpindah account tanpa harus log-out.</p>
+<p>Kantor saya menggunakan berbagai macam layanan Google selain GMail, dan account switcher ini terasa sekali manfaatnya karna saya bisa melihat inbox personal dan kantor tanpa harus menggunakan browser/session berbeda. Masalahnya adalah tidak semua layanan Google menyediakan fitur ini (secara jelas). </p>
+<p>Contohnya adalah Google Sites, tempat dimana kita bisa membuat halaman statik web. Ketika ingin memanage sebuah Site atas account yg lain, saya dihadapkan dengan sebuah login form yang pada dasarnya menyuruh saya logout.</p>
+<p>Ternyata ada trik sederhana melakukan switch account disini tanpa harus logout. Pertama, di Gmail, URL yang ditampilkan memiliki <code>/u/0/</code> di satu account, dan memiliki <code>/u/1/</code> di account lainnya, yang kedua, di login url sites.google.com ada parameter  <code>authuser</code> yang sama dengan pola tersebut, kita hanya perlu menggantinya dari <code>0</code> ke <code>1</code>, maka halaman akan redirect ke  account yang sesuai..</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

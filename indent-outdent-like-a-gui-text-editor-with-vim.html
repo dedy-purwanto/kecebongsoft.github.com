@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Indent / outdent like a GUI text editor with VIM</title>
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kecebongsoft.com/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://kecebongsoft.com/pages/about.html">about</a></li>
+                    <li><a href="http://kecebongsoft.com/category/posts.html">posts</a></li>
+                    <li class="active"><a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://kecebongsoft.com/indent-outdent-like-a-gui-text-editor-with-vim.html" rel="bookmark"
+           title="Permalink to Indent / outdent like a GUI text editor with VIM">Indent / outdent like a GUI text editor with VIM</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-02-12T07:19:48">
+                Sun 12 February 2012
+        </abbr>
+
+<p>In <a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Or, precisely GVIM, or VIM will just do, I don't know, I think it should also work on VIM (tried it on SSH last time and it works).</p>
+<p>So with this you can visual block lines of codes, and press TAB to indent it, and SHIFT+TAB to outdent it, just like what you usually do on GUI text editor like Gedit or others:</p>
+<div class="highlight"><pre><span class="nx">vnoremap</span> <span class="o">&lt;</span><span class="nx">silent</span><span class="o">&gt;&lt;</span><span class="nx">S</span><span class="o">-</span><span class="nx">TAB</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">gv</span>
+<span class="nx">vnoremap</span> <span class="o">&lt;</span><span class="nx">silent</span><span class="o">&gt;&lt;</span><span class="nx">TAB</span><span class="o">&gt;</span> <span class="o">&gt;</span><span class="nx">gv</span>
+</pre></div>
+
+
+<p>So what does it do?, it simply indent/outdent a code on a visual mode (<strong>&lt;</strong>/<strong>&gt;</strong>). But by default, visual mode will go back to normal mode after indenting/outdenting, so what we need to do is to back to visual mode and reselect our last selection, this is done by <strong>gv</strong>.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

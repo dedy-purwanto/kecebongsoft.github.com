@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Places</title>
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kecebongsoft.com/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://kecebongsoft.com/pages/about.html">about</a></li>
+                    <li class="active"><a href="http://kecebongsoft.com/category/posts.html">posts</a></li>
+                    <li><a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://kecebongsoft.com/places.html" rel="bookmark"
+           title="Permalink to Places">Places</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-11-20T00:00:00">
+                Tue 20 November 2012
+        </abbr>
+
+<p>In <a href="http://kecebongsoft.com/category/posts.html">posts</a>. </p>
+
+</footer><!-- /.post-info -->      <p>A bit ambiguous, eh?. This time around I will talk about how I was struggled with choosing the <em>right</em> hosting for this blog, I spent almost an entire week finding out which host can serve my way of blogging: static sites, manage-able with repository, and pushing the updates with commits / rysnc style.</p>
+<p>As you might already know, this blog is powered by Pelican, a static blog engine written in Python, which making it possible to be hosted <em>almost</em> anywhere, my consideration is of course scalability and reliability. I wanted to host it in places that I don't need to think about scaling, so one obvious place in my mind would be <a href='https://pages.github.com'>Github User Pages</a> where it allows you to put static HTML files in the root of <code>username.github.com</code> repository and it will serve the static site for you, dead simple. But I've encountered a single big problem I was never able to solve (<em>yet</em>): after few days with several commits, it stopped building, I kept seeing the old version of the static site. I was able to trigger the build by removing the repository, create a new one and push the whole thing again, not a fancy solution. I checked out Twitter to see if anyone else got the same problem, and found them. I also contacted Github to see what they can say, but no words yet. I have to find another host.</p>
+<p>Now, we're still talking about scalability and reliability, at this time, I have an Amazon AWS account, and they provide a CDN service, I was thinking that a static site would be a great match when hosted at a CDN. So I set up an S3 bucket, use <a href='https://github.com/seedifferently/boto_rsync'>boto-rsync</a> to sync my build folder into my S3 bucket, set the bucket settings into what they called as <code>website-mode</code> and set my DNS to my S3 DNS. It turned out that the domain name has to match the bucket name, I was using different bucket name, and for some <em>personal</em> reason, I can't change my bucket name. I had to use CloudFront.</p>
+<p>While S3 is a simple storage service, hosting your files in a specific region, CloudFront is a CDN service to propagate your S3 contents to several edge locations around the globe. I set up a CloudFront distribution, set the default root object to <em>index.html</em> so when people hit <em>kecebongsoft.com</em> the file will be served, and updated my DNS, things worked fine, until I realize that it cannot serve a sub-site. I have some sub-sites containing my HTML5 slides, in a folder such as <em>slide-blahblah</em>, now if people hit <em>kecebongsoft.com/slide-blahblah</em>, they'll get an <em>Access Denied</em> message, that's because there is no such thing as default object in the subfolder, people will have to hit <em>kecebongsoft.com/slide-blahblah/index.html</em> in order to see the actual content, at this point, I was a bit upset, I looked around and can't find anyone who was able to work around this.</p>
+<p>I should set my target a bit lower now, let's just start to think no one cares about my blog, well maybe just a couple of people, so for now I'll just host it in my shared-cloud account, WebFaction. It's really straight forward compared to the other two, I just need to create a site in the Control Panel and rsync my build path into the remote server, that is all, but I sacrificed the scalability, for now it only live in Singapore region, which at this time, should be just okay.</p>
+<p>I'm really hoping that I could go back using Github User Pages. If the guy contact me back and solves the problem, it will be a home-call, I liked the User Pages mechanism in a way that you only have to push to the master branch to trigger the build, now if only it works well all the time..</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

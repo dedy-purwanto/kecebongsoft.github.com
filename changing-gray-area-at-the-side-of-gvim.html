@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Changing "gray area" at the side of GVIM</title>
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kecebongsoft.com/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://kecebongsoft.com/pages/about.html">about</a></li>
+                    <li><a href="http://kecebongsoft.com/category/posts.html">posts</a></li>
+                    <li class="active"><a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://kecebongsoft.com/changing-gray-area-at-the-side-of-gvim.html" rel="bookmark"
+           title="Permalink to Changing "gray area" at the side of GVIM">Changing "gray area" at the side of GVIM</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-10-16T20:15:00">
+                Sun 16 October 2011
+        </abbr>
+
+<p>In <a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a>. </p>
+
+</footer><!-- /.post-info -->      <p>I've faced similar case for several times, when I maximized my GVIM, it shows gray
+area at the bottom and right side of the screen. After some research, I found out
+that GVIM window dimension is actualy based on columns and rows rather than pixels.
+Therefore if your resolution is not matched with the total cols/rows
+of GVIM window, it will show 'waste' area which is on gray.</p>
+<p>Some people suggest to set the columns and rows to <code>8888</code> in their <code>vimrc</code>, which 
+doesn't really work for me, so instead of trying to hack the size, I'll just hack
+the color by customizing my theme's gtkrc. Let's replace the gray color into
+something similar to GVIM background, so we wouldn't notice the difference.</p>
+<p>I'm using Ubuntu 10.10 with Ambiance theme, so I updated my 
+<code>/usr/share/themes/ambiance/gtk-2.0/gtkrc</code> by adding this entry (at anywhere, I prefered
+in the middle):</p>
+<div class="highlight"><pre><span class="nx">style</span> <span class="s2">&quot;vim-background&quot;</span> <span class="p">{</span> 
+    <span class="nx">bg</span><span class="p">[</span><span class="nx">NORMAL</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;#202020&quot;</span> 
+<span class="p">}</span>
+
+<span class="nx">widget</span> <span class="s2">&quot;vim-main-window.*.GtkForm&quot;</span> <span class="nx">style</span> <span class="s2">&quot;vim-background&quot;</span>
+</pre></div>
+
+
+<p>That way, everytime I opened GVIM the grayed area will be changed to a darker color
+which is matched with my GVIM background.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Pemrograman Visual</title>
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kecebongsoft.com/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://kecebongsoft.com/pages/about.html">about</a></li>
+                    <li class="active"><a href="http://kecebongsoft.com/category/posts.html">posts</a></li>
+                    <li><a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://kecebongsoft.com/pemrograman-visual.html" rel="bookmark"
+           title="Permalink to Pemrograman Visual">Pemrograman Visual</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-08-05T00:00:00">
+                Sun 05 August 2012
+        </abbr>
+
+<p>In <a href="http://kecebongsoft.com/category/posts.html">posts</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Beberapa bulan lalu saya sering cerita via chat ama temen tentang tugas
+kuliahnya di kampus *tiiiit*, beberapa kali dia mention  tentang tugas
+mata kuliah Pemrograman Visual, setelah saya intip, cukup kaget karena
+materinya tidak sesuai dengan judul mata kuliahnya. Kalau kalian lagi
+ambil mata kuliah Pemrograman Visual dan diajarin VB atau Java, selamat,
+kalian tersesat.</p>
+<p>Belakangan ini saya mulai terusik lagi dengan judul mata kuliah Pemrograman Visual. 
+Sekarang saya pengen bahasa singkat aja (karna kalau diulas semua sumpah panjang 
+banget) tentang salahnya dimana dan apa yang membedakan antara 
+Pemrograman Visual dan yang bukan.</p>
+<p>Permasalahan utamanya adalah: Mata kuliah dengan judul Pemrograman 
+Visual, tapi dengan materi bahasa pemrograman seperti Visual Basic dan
+Java, digabungkan dengan software seperti Microsoft Visual Studio,
+Eclipse dan NetBeans.</p>
+<h2>Bahasa-bahasa tersebut bukanlah bahasa pemrograman visual</h2>
+<p>Dalam desain bahasa pemrograman, ada satu bagian tentang studi semantik,
+yaitu proses penterjemahan sebuah valid statement dari bahasa pemrograman 
+menjadi sebuah computational model, ini terdiri dari banyak sekali parameter, 
+salah satunya adalah struktur sintatik, dan dimensi. </p>
+<p>Jumlah dimensi inilah yang menentukan bahwa bahasa-bahasa seperti VB dan
+teman-temannya adalah bukan bahasa pemrograman visual, melainkan <em>textual
+programming language</em>. Apa saja dimensi textual programming language?</p>
+<ul>
+<li>Dimensi horizontal, adalah semantic sebagai legal linear string, yang
+  membentuk sebuah statement menjadi computational model</li>
+<li>Dimensi vertikal, adalah line continuation, baris ke 2 di kode
+  biasanya diartikan sebagai baris selanjutnya setelah baris pertama, atau
+  jalankan baris kedua setelah baris pertama</li>
+</ul>
+<p>Dimensi vertikal meskipun salah satu bagian utama, tapi bukan bagian dari
+semantik melainkan spatial relationship, atau flow/blok selanjutnya setelah
+blok pertama (baris pertama).</p>
+<h2>Apa itu Pemrograman Visual?</h2>
+<p>VPL adalah bahasa pemrograman yang menggunakan banyak dimensi yang
+visually expresive sebagai semantiknya. Expresi Visual bukan berarti
+tombol-tombol di Microsoft Visual Basic untuk bikin textbox atau picture
+box, tapi simbol-simbol yang menjelaskan tentang alur program, hubungan
+antar entity, dan impact.</p>
+<p>Didalam VPL, saya bisa secara visual mendeklarasikan A dan B, lalu
+menggabungkan keduanya dengan sebuah operator matematika, lalu melihat dampaknya
+secara langsung, semua dalam bentuk diagram/simbol.</p>
+<p>Flowchart, UML Diagram, adalah contoh dari model sebuah VPL, dimensinya
+adalah spatial relationship lewat penunjuk panah, atau time-based impact
+seperti perubahan data sebelum dan sesudah.</p>
+<h2>Tapi kan, saya pakai Microsoft Visual Basic/Netbeans, bisa drag &amp; drop, itu visual!</h2>
+<p>Software yang dipakai untuk 'drag &amp; drop' itu adalah development environment,
+nggak boleh disamakan dengan bahasa pemrogramannya, development environment
+adalah software yang ngasih kita shortcut untuk melakukan task-task yang
+umum seperti manage project, bikin GUI (Form/Tombol/Textbox/dll), bikin
+build, dll, tapi dibelakang layar mereka ngehasilin kode yang kurang lebih
+sama dengan kalau kita ngetik di teks editor biasa. Tampilan GUI yang dibuat
+di software ini juga di simpan ke file teks manifest biasa.</p>
+<p>Ini yang namanya VPE (Visual Programming Environment), bahasa pemrograman
+seperti Visual Basic dan Java punya Microsoft Visual Studio dan Netbeans
+sebagai VPEnya, namun nggak diwajibkan harus pakai karena sifat textual
+programming languagenya yang dengan semantik terbatas bisa dimanage
+sebagai teks biasa dan bisa di compile terpisah.</p>
+<p>Sedangkan VPE untuk untuk Visual Programming Language (VPL) lebih bersifat
+sebagai sebuah keharusan karna VPL sendiri sangat ekspresif dan sulit
+untuk bekerja dengan VPL (dengan simbol dan sebagainya) tanpa menggunakan
+software yang mensupport untuk membuat visually expressive syntax.</p>
+<h2>Tadi katanya Textual Programming itu berbentuk teks dan VPL berbentuk simbol, Jadi maksudnya VPL itu nggak boleh ada teks sama sekali?</h2>
+<p>Ini yang paling sering disalah artikan, TP dan VP itu yang membedakan adalah
+semantik, bukan tentang teks atau tidak, VPL juga punya teks di beberapa
+bagian sampai batas tertentu.</p>
+<p>Lalu kenapa ada VPL? Salah satu main goalnya adalah untuk nge-improve
+language design yang sekarang konvensional seperti textual programming
+language, masalah dengan textual programming language adalah sifatnya
+yang restriktif sekali, nggak banyak ekspresi yang bisa kita lakukan
+karena dibatasi oleh struktur sintaks &amp; parse tree bahasa pemrograman
+yang bersangkutan, sementara VPL punya lebih sedikit aturan, sehingga
+result yang dihasilkan bisa bermacam-macam karena objek dan spatial
+relationshipnya yang nggak terlalu restriktif.</p>
+<h2>Lalu apa efek negatifnya belajar Pemrograman Visual dengan materi yang salah?</h2>
+<p>Banyak sekali, ibaratkan dengan ikut les bahasa Korea tapi yang diajarkan
+adalah bahasa Jepang. VPL kebanyakan bukanlah general-purpose-language,
+sedangkan yang diajarkan (contoh:Java), adalah general-purpose-language,
+VPL lebih domain spesifik seperti untuk edukasi, hardware, dan multimedia
+seperti audio analyzer atau animation. Sedangkan bahasa seperti Java
+punya fungsi/domain yang luas sekali. Ditambah lagi biasanya materi yang
+diajarkan adalah tentang "Visual" yang salah, yaitu gimana cara membuat
+program berbasis GUI, gimana caranya supaya waktu tombol A ditekan, keluar
+gambar kucing lagi pakai topi semangka, dll. Ini bukan visual programming,
+mempelajari membuat program berbasis GUI nggak akan ngajarin kita tentang
+visual programming, dan bisa jadi tersesat lebih jauh, contoh: mengesampingkan
+materi yang lebih penting ketimbang belajar GUI, seperti programming language
+paradigm.</p>
+<p>Post ini cuma mau menekankan perbedaan mendasar dari textual-programming
+language, dan VPL. Nggak ada contoh/screenshot karena pengennya dibahas
+singkat aja tentang karakteristik utama masing2 jenis programming languagenya.</p>
+<p>Untuk paper yang ngebahas tentang VPL cukup lengkap, ada disini:
+http://www.cs.auckland.ac.nz/courses/compsci732s1c/archive/2005/lectures/WhatIsVP.pdf</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

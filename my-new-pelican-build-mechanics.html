@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>My new Pelican build mechanics</title>
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kecebongsoft.com/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://kecebongsoft.com/pages/about.html">about</a></li>
+                    <li class="active"><a href="http://kecebongsoft.com/category/posts.html">posts</a></li>
+                    <li><a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://kecebongsoft.com/my-new-pelican-build-mechanics.html" rel="bookmark"
+           title="Permalink to My new Pelican build mechanics">My new Pelican build mechanics</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-11-17T00:00:00">
+                Sat 17 November 2012
+        </abbr>
+
+<p>In <a href="http://kecebongsoft.com/category/posts.html">posts</a>. </p>
+
+</footer><!-- /.post-info -->      <p>As you know, my blog is powered by a python static blog engine, named Pelican. I really like it in many ways: simplicity, <em>geekyness</em>, and hostings. Yes, hostings, this blog is hosted with the help of Github user pages, enabling you to create a static website through repository, and accessible with your Github username, plus you don't have to think about reliability and scaling, Github will handle it for you.</p>
+<p>Pelican, as a static blog engine, of course will generate static html files that you will have to push to your repository, these auto-generated files are pretty much meaningless, you don't want to 'manage' them, but it has to stay in the repo to serve request, and above that, it has to be placed in the root path of the repository. Meanwhile we also have some other files such as static files, the blog sources (posts, config file, build script, custom themes, etc), and in my case, I also have submodules repository which is a separate static site, they are mostly HTML5 slides.</p>
+<p>For me, I always wanted to keep everything clean, whenever I trigger a new build, I wanted to wipe all recent build files first. But I can't just do that with all other necessary files as mentioned, so few things need to be done before I trigger a build:</p>
+<ul>
+<li>Exclude all git submodules path from deletion.</li>
+<li>Exclude files that are not part of pelican auto-generated files.</li>
+<li>Wipe the rest.</li>
+<li>Trigger the build.</li>
+</ul>
+<p>While the last one is pretty much straightforward, the first three are quite tricky, but I finally figured it out with a bash script, note that I'm not a bash hacker, you might find my build script an eyesore, well, here it is:</p>
+<div class="highlight"><pre><span class="c">#!/usr/bin/env bash</span>
+<span class="nv">GITMODULES</span><span class="o">=</span><span class="sb">`</span>grep path ../.gitmodules | sed <span class="s1">&#39;s/path = /\\\|/g&#39;</span> | sed <span class="s1">&#39;s/ //g&#39;</span> | sed <span class="s1">&#39;s/\t//g&#39;</span> | tr <span class="s1">&#39;\\n&#39;</span> <span class="s1">&#39;#&#39;</span> | sed <span class="s1">&#39;s/#//g&#39;</span> | sed <span class="s1">&#39;s/^\\\|//g&#39;</span><span class="sb">`</span>
+<span class="nv">FILES</span><span class="o">=</span><span class="s1">&#39;README\|pelican\|CNAME\|static&#39;</span>
+<span class="nv">EXCEPTIONS</span><span class="o">=</span><span class="nv">$GITMODULES</span><span class="s1">&#39;\|&#39;</span><span class="nv">$FILES</span>
+ls ../ | grep -v <span class="nv">$EXCEPTIONS</span> | xargs -i rm -rf ../<span class="o">{}</span>
+<span class="nb">source </span>env/bin/activate
+pelican . -o ../ -s pelican.conf.py
+</pre></div>
+
+
+<p>First I grab all the submodules path and combine them together with a '\|' separator for regex purpose later, and manually list out all other excluded files with the same regex separator, and then use an inverse grep to delete the others. In my case, the manual list is really static and not always changed, so it will be safe to keep it this way, as for submodules, I have to make it dynamic to reduce the coupling.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

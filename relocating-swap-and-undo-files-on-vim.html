@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Relocating swap and undo files on VIM</title>
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kecebongsoft.com/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://kecebongsoft.com/pages/about.html">about</a></li>
+                    <li><a href="http://kecebongsoft.com/category/posts.html">posts</a></li>
+                    <li class="active"><a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://kecebongsoft.com/relocating-swap-and-undo-files-on-vim.html" rel="bookmark"
+           title="Permalink to Relocating swap and undo files on VIM">Relocating swap and undo files on VIM</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-02-12T07:25:45">
+                Sun 12 February 2012
+        </abbr>
+
+<p>In <a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Every time I have a new repository, I always need to redefine the stuff that I need to ignore, more precisely, vim-related files such as swap and undo files. These things although they are really useful, but also make my working directory a bit dirty, redefine the same thing to ignore on my repository is also tedious. </p>
+<p>It turns out I can relocate it on other folder, and at the same time, avoid filename collision. Using this configuration:</p>
+<div class="highlight"><pre><span class="nx">set</span> <span class="nx">dir</span><span class="o">=~</span><span class="err">/.vim/swaps//,/var/tmp//,/tmp//,.</span>
+<span class="nx">set</span> <span class="nx">undodir</span><span class="o">=~</span><span class="err">/.vim/undos//,/var/tmp//,/tmp//,.</span>
+</pre></div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

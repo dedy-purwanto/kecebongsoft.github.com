@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>10FastFinger hack</title>
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kecebongsoft.com/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="http://kecebongsoft.com/pages/about.html">about</a></li>
+                    <li><a href="http://kecebongsoft.com/category/posts.html">posts</a></li>
+                    <li class="active"><a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://kecebongsoft.com/10fastfinger-hack.html" rel="bookmark"
+           title="Permalink to 10FastFinger hack">10FastFinger hack</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-02-12T07:05:00">
+                Sun 12 February 2012
+        </abbr>
+
+<p>In <a href="http://kecebongsoft.com/category/tumblr.html">tumblr</a>. </p>
+
+</footer><!-- /.post-info -->      <p>This is an old gist, I was simply playing with 10FastFinger and wondering how the game works. The gameplay is that you are required to type as fast as you can, there will be sentences that you need to re-type. Knowing that there are existing sentences, I was thinking to grab it and make the computer type itself. So here is the gist:</p>
+<div class="highlight"><pre><span class="cm">/*</span>
+<span class="cm"> * BOT for 10fastfingers, automatic typing with adjustable speed</span>
+<span class="cm"> * ================================================================</span>
+<span class="cm"> *</span>
+<span class="cm"> * bored in my apartment and decided to hack this game: http://indonesian-speedtest.10fastfingers.com/</span>
+<span class="cm"> * just start the game, when you&#39;re ready to type, DON&#39;T TYPE ANYTHING, open up</span>
+<span class="cm"> * your Developer Tools in Chrome (CTRL+SHIFT+J) and click Console tab, and</span>
+<span class="cm"> * then paste the whole code below, then press enter, and enjoy the show.</span>
+<span class="cm"> *</span>
+<span class="cm"> * twitter.com/kecebongsoft</span>
+<span class="cm"> */</span>
+
+<span class="kd">var</span> <span class="nx">word_idx</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">interval_per_word</span> <span class="o">=</span> <span class="mi">250</span><span class="p">;</span> <span class="c1">// in milliseconds</span>
+<span class="kd">function</span> <span class="nx">hackit</span><span class="p">(){</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">word_idx</span><span class="o">&lt;</span><span class="nx">words</span><span class="p">.</span><span class="nx">length</span><span class="p">){</span>
+        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#inputfield&#39;</span><span class="p">).</span><span class="nx">val</span><span class="p">(</span><span class="nx">words</span><span class="p">[</span><span class="nx">word_idx</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span><span class="p">);</span>
+        <span class="kd">var</span> <span class="nx">keyup</span> <span class="o">=</span> <span class="nx">jQuery</span><span class="p">.</span><span class="nx">Event</span><span class="p">(</span><span class="s1">&#39;keyup&#39;</span><span class="p">);</span>
+        <span class="nx">keyup</span><span class="p">.</span><span class="nx">which</span> <span class="o">=</span> <span class="mi">32</span><span class="p">;</span>
+        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#inputfield&#39;</span><span class="p">).</span><span class="nx">trigger</span><span class="p">(</span><span class="nx">keyup</span><span class="p">);</span>
+        <span class="nx">word_idx</span><span class="o">++</span><span class="p">;</span>
+        <span class="nx">setTimeout</span><span class="p">(</span><span class="s1">&#39;hackit()&#39;</span><span class="p">,</span> <span class="nx">interval_per_word</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">setTimeout</span><span class="p">(</span><span class="s1">&#39;hackit()&#39;</span><span class="p">,</span> <span class="nx">interval_per_word</span><span class="p">);</span>
+</pre></div>
+
+
+<p>And here is one of the sample output:</p>
+<p><a href="http://filebin.gamedevid.org/v/100vx/"><img src="http://media.tumblr.com/tumblr_lzacrw6Sw71qajazg.png" /></a></p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
