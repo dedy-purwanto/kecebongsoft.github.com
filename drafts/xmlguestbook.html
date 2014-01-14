@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : XMLGuestBook</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://localhost:9000/theme/css/main.css" type="text/css" />
+        <link href="http://localhost:9000/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://localhost:9000" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://localhost:9000/2007/07/xmlguestbook.html" id="page-title">XMLGuestBook</a></h1>
+<time datetime="2007-07-12T05:17:01">Thu 12 July 2007</time></header>
+<article>
+    <p class="main">Klo mau masang guestbook di web, mungkin sering berfikir, wah, repot pasang database lagi, bikin script lagi, bla..bla..bla. XMLGuestBook adalah script guestbok siap pakai, dan karena tidak pakai database, jadi bisa langsung dipasang, tentunya web server yang dipakai harus <s>semprot</s> support PHP.</p>
+
+<p style="font-family:'Courier New',Courier,monospace;font-weight:normal;">Pertama, <a href="http://kecebong.madpage.com/blog/wp-content/uploads/xmlguestbook.zip">donlot XMLGuestBook</a> kemudian ekstrak &amp; upload ke folder website (mis: http://kecebong.madpage.com/), kemudian masukan kode ini :</p>
+
+<ol>
+<li>
+<p style="font-family:'Courier New',Courier,monospace;font-weight:normal;">        <span style="color:#b1b100;">include</span> <span style="color:#ff0000;">"xmlgb.php"</span>; <span style="color:#808080;font-style:italic;">// memasukan file xmlgb</span></p>
+</li>
+<li>
+<p style="font-family:'Courier New',Courier,monospace;font-weight:normal;">        xmlgb_show<span style="color:#66cc66;">(</span><span style="color:#66cc66;">)</span>; <span style="color:#808080;font-style:italic;">// menampilkan XMLGuestBook</span></p>
+</li>
+</ol>
+
+<p>Oh iya, sebagai catatan kalau kalian menggunakan subfolder untuk meletakan XMLGuestBook, maka jangan lupa memodifikasi file xmlgb.php. Cari kode berikut pada file xmlgb.php:
+<strong>define(_PATH,)</strong></p>
+<p>Kemudian ganti dengan folder yang digunakan untuk meletakan XMLGuestBook, misalkan untuk http://kecebong.madpage.com/guestbook/xmlgb :
+<strong>define(_PATH,guestbook/xmlgb/);</strong></p>
+<p>Kemudian.. tada :D . Untuk memanajemen komentar, buka saja file data.xml, kemudian hapus/edit komentar-komentar yang ada, untuk menghapus komentar, hapus semua baris pada data.xml dan sisakan satu baris pertama.</p>
+<p>Kita juga dapat memodifikasi bahasa dan tampilan melalui file xmlgb.php, silahkan ubah beberapa konfigurasi yang ada sesuai keinginanan. Dan jangan lupa komentar, saran dan feedbacknya ya, udah lama nih nggak kirim posting di portfolio :D .</p>
+<p><a href="http://kecebong.madpage.com/blog/wp-content/uploads/xmlguestbook.zip">Donlot XMLGuestBook</a></p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

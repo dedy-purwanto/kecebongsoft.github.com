@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : Atom! Portal dan WML.</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://localhost:9000/theme/css/main.css" type="text/css" />
+        <link href="http://localhost:9000/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://localhost:9000" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://localhost:9000/2008/02/atom-portal-dan-wml.html" id="page-title">Atom! Portal dan WML.</a></h1>
+<time datetime="2008-02-15T08:14:33">Fri 15 February 2008</time></header>
+<article>
+    <div class="highlight"><pre><span class="nx">Hari</span> <span class="nx">ini</span> <span class="nx">adalah</span> <span class="nx">hari</span> <span class="nx">pertama</span> <span class="k">public</span> <span class="nf">beta</span> <span class="nx">testing</span> <span class="nx">untuk</span> <span class="o">&lt;</span><span class="nx">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">&quot;http://beta.atom.web.id&quot;</span><span class="o">&gt;</span><span class="nx">Atom</span><span class="o">!</span> <span class="k">Portal</span><span class="o">&lt;/</span><span class="nx">a</span><span class="o">&gt;</span><span class="nx">.</span> <span class="nx">Sebagai</span> <span class="nx">informasi</span><span class="p">,</span> <span class="nx">Atom</span><span class="o">!</span> <span class="k">Portal</span> <span class="nx">adalah</span> <span class="nx">mobile</span> <span class="k">portal</span> <span class="nx">yang</span> <span class="nx">berisi</span> <span class="nx">konten</span><span class="na">-konten</span> <span class="nx">lokal</span> <span class="nx">seperti</span> <span class="nx">berita</span> <span class="nx">dan</span> <span class="nx">horoskop</span><span class="p">,</span> <span class="nx">serta</span> <span class="nx">komunitas</span> <span class="nx">mobile</span> <span class="nx">chat.</span> <span class="nx">Beberapa</span> <span class="nx">layanan</span> <span class="nx">lainnya</span> <span class="nx">akan</span> <span class="nx">segera</span> <span class="nx">menyusul</span> <span class="nx">seiring</span> <span class="nx">dengan</span> <span class="nx">waktu.</span>
+</pre></div>
+
+
+<p>Jauh sebelum public beta testing ini dilakukan, bahkan beberapa waktu sebelum Atom! dibuat, tim dan saya pribadi sudah<!--more--> memiliki prasangka, bagaimana jika nanti orang-orang bertanya Kenapa masih pakai WML/WAP?. Sebagai informasi, WML (Wireless Markup Language) adalah salah satu format dokumen web yang kali pertama muncul untuk perangkat bergerak, dalam hal ini adalah ponsel. WML bisa dibilang sangat terbatas dari sisi kapabilitas. Format gambar yang hanya mendukung monokrom bitmap (WBMP), card deck system, dan banyak hal lainnya yang sangat terbatas. Hal ini memang sengaja dirancang untuk mengatasi minimnya performa perangkat mobile, kecilnya prosesor dan memori ponsel memaksa consortium untuk menerapkan standar-standar seperti diatas. Alasan lainnya adalah surfing menggunakan perangkat mobile masih mengutamakan teks sebagai konten utama. Tapi sekarang bukanlah seperti dulu, perangkat mobile sudah jauh berevolusi menjadi komputer bergerak, berbagai macam fitur multimedia sudah hampir bisa dianggap umum ada disetiap ponsel. Termasuk salah satunya adalah menampilkan dokumen web dalam format XHTML.</p>
+<p><b>Jadi kenapa masih pakai WML?</b>
+Well, meskipun semua perangkat sekarang sudah hampir mendukung XHTML, tapi tentu saja masih ada segelintir mereka-mereka yang masih menggunakan ponsel-ponsel biasa. Hal ini menjadi salah satu alasan kenapa Atom! masih menggunakan WML sebagai salah satu format dokumen webnya. Kemudian alasan kedua adalah, konten-konten di Atom! masih benar-benar teks. Terkecuali beberapa aksesoris untuk chat seperti emoticons.</p>
+<p><b>Jadi Atom! akan menggunakan WML terus-menerus?</b>
+Secara pribadi saya mengatakan tidak, Atom! adalah mobile content, formatnya tentu saja harus sebisa mungkin fleksibel. Kami sedari awal sudah memikirkan masa depan Atom!, bahwa portal ini akan terus berkembang dan kami tidak bisa terus-terusan menggunakan format dokumen WML dengan segala keterbatasannya. Karena itulah, portal ini dibangun dengan sedemikian rupa sehingga kedepannya bisa fleksibel, dalam artian bisa menyesuaikan dengan perangkatnya, jika hanya support WML, maka akan tampil WML, dan jika support XHTML, maka akan tampil XHTML.</p>
+<p><b>Bagaimana kami melakukannya?</b>
+Sistem Atom! adalah sistem yang memiliki beberapa sub-sistem. Tidak seperti website-website pada umumnya yang menggunakan metode struktural dan konvensional, kami me-encapsulate subsistem-subsistem Atom! serta menyembunyikan bagian internalnya. Mulai dari sisi data storage yang berisi kelas-kelas dan stored procedure. Business Layer yang juga dibagi beberapa subsistem dan modul, serta Presentation Layer yang sifatnya dinamis.</p>
+<p><b>Apakah ini sama dengan konsep template engine?</b>
+Definitely not, template engine memang memisahkan antara business layer dan presentation layer, namun business layer sendiri juga bisa berorientasikan objek dan juga bisa struktural. Atom! is fully object oriented. Semua bagian memiliki application programming interface masing-masing. Kami juga membangun mini-smarty. Sebuah penghubung antara output dari business layer dan format dokumen yang ada di presentation layer.</p>
+<p><b>Apakah Atom! telah mengimplementasikan multi document format ini?</b>
+Ya, namun untuk sekarang pada Atom! Portal, format dokumen yang kami tampilkan masih berupa WML. Namun proses translasi format dari WML ke XHTML relatif cukup mudah karena sistemnya sendiri sudah mendukung hal itu.</p>
+<p><b>Adakah contoh dari implementasi tersebut?</b>
+Yup, frontpage Atom! Portal (http://www.atom.web.id) adalah salah satu implementasi dari teknik yang kami gunakan. Ketika kita membukanya di perangkat yang hanya mendukung format dokumen WML, maka ia akan tampil sebagai format WML. Dan jika dibuka diperangkat yang mensupport XHTML, maka akan muncul dokumen XHTML.</p>
+<p><b>Bisa share sedikit tentang teknik pendeteksian perangkat mobile yg ada pada Atom! Portal?</b>
+Pengen juga bikin artikel tentang ini, tapi sayangnya ini adalah sistem internal Atom! Portal. Yang jelas nggak ada teknik deteksi browser disini ;) . Mudah-mudahan si bos besar mau berbaik hati mengizinkan anak buahnya nulis artikel tentang teknik ini, dan teknik-teknik lainnya :-p</p>
+<p><b>Sejauh apa kestabilan sistem Atom! Portal?</b>
+Ini adalah hal yang paling krusial, mungkin dari sis desain sistem sudah bisa dibilang lumayan, tapi tidak bisa dipungkiri bahwa Atom! Portal hampir tidak berbeda dengan sebuah telur, yang baru saja muncul dan benar-benar rentan akan serangan. Tentu kami sangat mengharapkan dukungan dari segala pihak untuk berpartisipasi mencoba dan menguji coba sistem ini. Karena pada akhirnya layanan ini akan dipergunakan oleh masyarakat luas :D</p>
+<p><b>Apa target-target selanjutnya dari Atom! Portal?</b>
+Untuk konten dan lain sebagainya, biarlah bos besar yang membahas :-p . Namun dari sisi internal sistem, tentu kami akan selalu berusaha meningkatkan peforma dan kestabilan sistem. Mengimplementasikan teknik-teknik yang benar dan memberikan hasil yang terbaik untuk user. Semoga ini didukung juga oleh user yang semakin bertambah setiap saat :D</p>
+<p>Well, setelah menulis panjang lebar seperti ini, maka bisa ditarik kesimpulan, Atom! Portal bukanlah mobile content yang terfokus pada satu format dokumen saja. Sistem yang dimiliki cukup mendukung untuk membuat tampilan menjadi fleksibel. Tinggal tunggu versi XHTMLnya aja untuk dapat menikmati Atom! Portal yang lebih berwarna. Selamat mencoba Atom! Portal dan jangan lupa saran dan kritiknya :D .</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

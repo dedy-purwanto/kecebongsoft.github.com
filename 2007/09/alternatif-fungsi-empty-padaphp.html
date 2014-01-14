@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : Alternatif fungsi Empty() padaPHP</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2007/09/alternatif-fungsi-empty-padaphp.html" id="page-title">Alternatif fungsi Empty() padaPHP</a></h1>
+<time datetime="2007-09-14T21:58:24">Fri 14 September 2007</time></header>
+<article>
+    <p>Yang sering pake php, biasanya kan kalau bikin form yang banyak field-fieldnya, begitu di submit si programmer mesti cek satu-satu dulu apakah field-field tersebut sudah terisi atau belum. Mungkin sebagian ada yang pakai fungsi
+<strong>
+ isset
+</strong>
+. Tapi bagaimana seandainya variabel tersebut sudah di set tapi belum terisi? contoh, jika dalam kondisi
+<strong>
+ register_globals=off
+</strong>
+, kita biasa menangkap variabel form dengan fungsi
+<em>
+ $nama=$_POST[&#8217;nama&#8217;]
+</em>
+dst&#8230; Sehingga pada php variabel tersebut sudah berstatus diset, namun mungkin saja belum ada isinya.</p>
+<p>Untuk mengatasi hal itu, sebagian programmer menggunakan fungsi
+<strong>
+ empty()
+</strong>
+, tapi kekurangan fungsi empty adalah dia hanya bisa menghandel satu parameter untuk setiap pemanggilan fungsi tersebut. Sehingga jika kita punya belasan atau bahkan puluhan field yang mesti dicek kosong atau tidak, akan menghasilkan listing yang cukup panjang.</p>
+<p>Jadi sekarang kita buat aja fungsi sendiri, yang bisa mengecek variabel itu kosong atau tidak (meskipun sudah diset). Dan fungsi ini bisa dimasukan parameter tidak terbatas. ini listingnya :
+    :::txt
+function empties(){
+for($i=0;$i &amp;lt; func_num_args() ;$i++){
+$isi=func_get_arg($i);
+echo "Parameter ke-$i : $isi";
+if(empty($isi)){
+echo "Variabel ini kosong!";
+}
+}
+}
+//Panggil fungsi empties()
+empties("Dedi","Titin","Mamah","Papah","Uncu","Ketek","","Jefri","Suanah");</p>
+<p>Selamat mencoba :D</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

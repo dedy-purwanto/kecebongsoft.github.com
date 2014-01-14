@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : Shoutbong v1.0</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2007/07/shoutbong-v10.html" id="page-title">Shoutbong v1.0</a></h1>
+<time datetime="2007-07-12T04:57:44">Thu 12 July 2007</time></header>
+<article>
+    <p class="main">
+ Setelah kemarin sempat bikin My Shout (shoutbox sederhana untuk wordpress). Sekarang bikin lagi shoutbox yang sudah &#8220;agak&#8221; disempurnakan. Yups, namanya adalah Shoutbong, Indonesia version :D.
+
+Perbedaannya dengan My Shout adalah, Shoutbong dapat menginstall tablenya secara otomatis (for the first time) ke database wordpress, dan tampilannya sudah lebih dirapikan, termasuk pengkodeannya. Shoutbong akan menampilkan 30 pesan terakhir beserta tanggal dan nama si pengirim berdasarkan urutan yang terbaru. Shoutbong juga dapat memfilter inputan tag HTML.
+
+Hal-hal yang segera menyusul adalah smilies, paging dan tentu saja Ajax-Based :D. Biar bisa dipakai rame-rame.
+ ![image](http://kecebong.madpage.com/blog/wp-includes/images/smilies/icon_biggrin.gif)
+ Bagi yang tertarik mencoba, bisa di download. Kemudian masukan file shoutbong.php ke direktori wp-content/plugins. Setelah itu aktifkan plugin Shoutbong dari admin page, Shoutbong akan membuat table &#8220;shoutbong&#8221; secara otomatis pada database wordpress. Kemudian buka file sidebar.php yang ada pada folder themes yang kamu pakai, kemudian selipkan script PHP ini sesuai di tempat yang diinginkan :
+ <strong>
+  pg_shoutbong();
+ </strong>
+ Untuk menghapus pesan-pesan yang ada, masih menggunakan PHPMyAdmin :D. Tunggu saja updatenya!.
+ <a href="http://kecebong.madpage.com/shoutbong.zip">
+  Download Shoutbong.
+ </a>
+</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

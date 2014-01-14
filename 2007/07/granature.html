@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : Granature</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2007/07/granature.html" id="page-title">Granature</a></h1>
+<time datetime="2007-07-14T12:40:50">Sat 14 July 2007</time></header>
+<article>
+    <p><a href="http://kecebong.madpage.com/granature/">
+ <img alt="image" src="/img/wordpress/2007-07-logo.jpg" />
+</a>
+Huahh... rasanya udah lama banget nggak bikin kue, padahal baru kemaren rilis XMLGuestBook. Langsung aja deh..</p>
+<p>Granature adalah
+<em>
+ RSS Parser
+</em>
+yang memanfaatkan PHP Graphic Device Library / GDL (mudah-mudahan singkatannya nggak salah :D ) sebagai tampilannya. Lantas apa maksudnya?. Bwegini om.. Apakah pernah punya website/blog yang memiliki RSS Feed didalamnya?. Pernah merasa bahwa selama mengirim posting (terutama blog), sangat jarang postingan tersebut dilirik oleh netter lain, untuk sekedar membaca, apalagi mengomentari?. Bahkan RSS Feed yang ada di website/blog pun terasa menjadi hambar karena nggak ada yang ngambil. Padahal, belum tentu postingan-postingan kita tidak berharga, beberapa diantaranya justru penting dan sangat berarti, tapi karena jumlah pengunjung yang relatif sedikit, postingan itu jadi debu.</p>
+<p>Salah satu solusinya adalah memasang setiap judul postingan terbaru kita di hampir semua website yang sering kita kunjungi, dalam hal ini yang paling memungkinkan adalah forum/mailling list, dimana meletakannya? mudah saja, di bagian signature!. Tapi hingga sekarang dakuw jarang melihat ada user yang mau mencantumkan postingan-postingan terbaru dari website/blog mereka secara rutin di signature (mungkin karena buang2 waktu?). Atau ada yang berfikir untuk meletakannya di signature dengan menggunakan teknologi Sindikasi RSS?, mungkin butuh beberapa tahap (atau malah njelimet?) untuk meletakan RSS di signature, karena biasanya signature pada forum-forum kebanyakan hanya dapat mengeksekusi kode secara terbatas. Hmmm.. kalau begitu kita akalin aja lewat image!.</p>
+<p>Yup, Granature (Grab to Signature) adalah
+<em>
+ widget
+</em>
+(atau apalah istilahnya) yang akan
+<s>
+ menyedot
+</s>
+mengambil RSS Feed yang kita miliki, kemudian meletakan 3 judul postingan dari website/blog terbaru tersebut kedalam sebuah Image, dan menampilkannya di website. Kita cukup memasukan kode &lt;img&gt; ke signature (atau yang lain juga bisa), yang secara jaman sekarang udah nyaris semua signature mendukung tag &lt;img&gt;, baik versi BBCode maupun natural.</p>
+<p>Want to see how it works? Ini adalah code generatornya :
+<a href="http://kecebong.madpage.com/granature/">
+ http://kecebong.madpage.com/granature/
+</a>
+Ini contoh granature untuk blog kecebongsoft :
+<img alt="image" src="http://kecebong.madpage.com/granature/granature.php?title=Blog,%20Portfolios,%20Creativity&amp;amp;rss=http://kecebongsoft.wordpress.com/feed/&amp;amp;home=http://kecebongsoft.wordpress.com&amp;amp;note=1" />
+Ini conton granature untuk DetikInet :
+<img alt="image" src="http://kecebong.madpage.com/granature/granature.php?title=News%20by%20DetikInet&amp;amp;rss=http://www.detikinet.com/index.php/feed&amp;amp;home=http://www.detikinet.com&amp;amp;note=1" />
+Beberapa hal yang perlu diingat adalah :
+<ol>
+ <li>
+  Pada code generator, terdapat sebuah sample-data xml sebagai contoh file xml yang bisa dibaca oleh Granature, format file tersebut telah mengikuti standar RSS 2.0. Tapi jika file xml Anda tidak bisa dibaca (meskipun formatnya sudah benar), silahkan reply kesini :D
+ </li>
+ <li>
+  "About Us" checkbox disarankan untuk diisi, ini demi kelangsungan Granature yang baru lahir ini agar bisa dipakai banyak orang :D
+ </li>
+ <li>
+  Granature menampilkan 3 postingan terakhir dari RSS yang diambil. Kenapa hanya 3? Ada beberapa forum yang membatasi resolusi image, takutnya ntar di jitak sama moderator :D
+ </li>
+ <li>
+  Sebelum memasang granature di forum, pastikan dulu signature mendukung bb code dan tag IMG (serta IMG yang support dynamic page).
+ </li>
+</ol>
+Mmm.. apa lagi ya.. Ya udah deh. Dengan Granature ini, kita bisa
+<s>
+ memamerkan
+</s>
+memberikan informasi tentang postingan terbaru di website/blog kita, yang secara orang penasaran pasti bakal hinggap ke sono :D. Oh iya, supaya imagenya membentuk hyperlink ke situs kita, pasang aja &lt;a  href="http://namasitus"&gt;&lt;img-granature-nya&gt;&lt;/a&gt;. Dan tentu saja bukan cuma di signature, di bagian avatar juga bisa :D</p>
+<p>Yang terakhir, dakuw selalu menunggu saran dan feedback yang pastinya bakal membuat Granature ini menjadi lebih dewasa :D. Btw benda beginian udah banyak blum ya?. Oh iya satu lagi, thanks bgt buat
+<a href="the.sandalian.com">
+ om sandal
+</a>
+, udah ngerekomendasikan pakai parser sendiri :D , dah mandi apa blom om?</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

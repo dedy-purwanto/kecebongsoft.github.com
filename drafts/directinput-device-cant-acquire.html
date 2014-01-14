@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : DirectInput device cant acquire</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://localhost:9000/theme/css/main.css" type="text/css" />
+        <link href="http://localhost:9000/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://localhost:9000" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://localhost:9000/2007/08/directinput-device-cant-acquire.html" id="page-title">DirectInput device cant acquire</a></h1>
+<time datetime="2007-08-21T12:03:09">Tue 21 August 2007</time></header>
+<article>
+    <p>Setelah beberapa hari yang lalu mencoba mengulik Direct3D 9, akhirnya dakuw bisa juga membuat objek-objek primitif seperti bola, silinder, kubus, dsb. Hehehehe.. Seneng rasanya bisa bereksplorasi di dunia 3D, banyak perhitungan matematis yang dulunya dakuw nggak suka sekarang jadi cinta. Tapi selama ini untuk keyboard-event-handlernya masih pakai yang bawaan windows, alhasil setiap kali menggerakan objek menggunakan keyboard, gerakannya selalu patah-patah. Makanya tadi malam langsung ngulik DirectInput yang memang difungsikan khusus untuk keyboard event handler di DirectX. Tapi malah trouble, Device nya nggak bisa di acquire, sialan!. Padahal sudah ngikutin tutorial yang ada di SDK Documentationnya, sampe jam 12 malam blon kelar-kelar juga, tetep aja nggak bisa di acquire. Akhirnya <a href="http://kecebongsoft.wordpress.com/2007/08/21/tek-dung/">tek dung</a> juga kira-kira satu jam, eh malah dapet mimpi, seperti wangsit yang kasih tahu bahwa untuk meng-acquire device, variable hInst dan hWnd nya mesti di init dulu atau dengan kata lain window program kita mesti nongol dulu baru bisa acquire device keyboard. Dor! Kebangun, langsung coba dan ternyata bisa ^_^. Hehehe.. thanks God.</p>
+<p>Jadi buat temen-temen yang lagi coba-coba DirectInput di C++, pastikan dulu class windownya udah diregister, windownya udah di tampilin, baru acquire device directinputnya. Kalau instance window (hInst dan hWnd) masih null, sampe kiamat kesepuluh kagak bakal ngepek!.</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

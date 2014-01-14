@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : How to make a window in C++</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://localhost:9000/theme/css/main.css" type="text/css" />
+        <link href="http://localhost:9000/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://localhost:9000" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://localhost:9000/2007/09/how-to-make-a-window-in-c.html" id="page-title">How to make a window in C++</a></h1>
+<time datetime="2007-09-24T10:08:06">Mon 24 September 2007</time></header>
+<article>
+    <p>Tutorial n00b ini dahulu kala dakuw submit di GameDevID (Indonesia Game Developer) untuk berbagi pengetahuan seputar dasar-dasar win32 programming di lingkungan C++, nggak ada salahnya deh di submit juga di sini :-D. Silahkan ikutin sampai selesai, cocok untuk kamuw-kamuw yang baru belajar C++, lupakan dulu wizard! :-D<!--more-->Tutorial kali ini akan membahas tentang bagaimana cara membuat sebuah window di C++, disini kita akan menggunakan Microsoft Visual C++ 6.0 sebagai IDEnya (Integrated Development Environment). Selain VC++, kita juga bisa menggunakan IDE lainnya yang bisa didapatkan secara gratis di internet, seperti CodeBlocks dan DevC++. Sebelum memulai membuat game, kita tentu membutuhkan "ruang" untuk tampilan game itu sendiri. Ruang yang dimaksud disini adalah Window. Ada beberapa cara untuk membuat window di C++, yang paling mudah mungkin adalah dengan Wizard, namun Wizard dapat menimbulkan pemborosan resource karena memasukan file-file header yang mungkin tidak akan kita gunakan nantinya. Baiklah, langsung saja kita mulai dengan membuat project baru : Pertama-tama, buka program Microsoft Visual C++ 6.0, kemudian pilih menu File &gt; New (atau dengan menekan shortcut CTRL + N). Pada dialog New Project, pilihlah Win32 Application dan beri nama "Tutor1" (atau terserah), lihat gambar 1.0.</p>
+<p><a href="http://kecebongsoft.files.wordpress.com/2007/09/cpp_1.JPG"><img src="http://kecebongsoft.files.wordpress.com/2007/09/cpp_1.thumbnail.JPG" /></a></p>
+<p>Kemudian akan muncul Win32 Application Wizard seperti gambar 1.1, pilih An Empty Project kemudian tekan tombol Finish.</p>
+<p><a href="http://kecebongsoft.files.wordpress.com/2007/09/cpp_21.JPG"><img src="http://kecebongsoft.files.wordpress.com/2007/09/cpp_21.thumbnail.JPG" /></a></p>
+<p>Akan muncul report bahwa project Tutor1 telah berhasil dibuat, Sekarang klik tab FileView pada workspace window, expand (klik tanda plus) item <strong>Tutor1 Files</strong> kemudian klik folder <strong>Source Files</strong> (Gambar 1.2).</p>
+<p><a href="http://kecebongsoft.files.wordpress.com/2007/09/cpp_3.JPG"><img src="http://kecebongsoft.files.wordpress.com/2007/09/cpp_3.thumbnail.JPG" /></a></p>
+<p>Setelah memilih folder Source Files, pilih menu File &gt; New (atau tekan shortcut CTRL + N) untuk membuat file baru. Pada window New File, pilih C++ Source File kemudian beri nama main.cpp, file ini akan dipanggil ketika project dijalankan, kita juga bisa menamakannya sesuai dengan nama project (mis : tutor1.cpp). Kemudian klik OK, akan muncul satu item baru pada folder Source Files, yaitu file main.cpp. Buka file tersebut dengan mengklik 2 kali item main.cpp. Kemudian ketik sintaks berikut :</p>
+<p>[sourcecode language='cpp']</p>
+<h1>include</h1>
+<p>LRESULT WINAPI MsgProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam){
+    switch (msg){
+    case WM_DESTROY:
+        PostQuitMessage(0);
+        return 0;
+    case WM_PAINT:
+        ValidateRect(hWnd,NULL);
+        return 0;
+    }
+    return DefWindowProc(hWnd,msg,wParam,lParam);
+}</p>
+<p>INT WINAPI WinMain(HINSTANCE hInst, HINSTANCE, LPSTR, INT){
+    WNDCLASSEX wc={ sizeof(WNDCLASSEX), CS_CLASSDC, MsgProc, 0L, 0L,
+                    GetModuleHandle(NULL), NULL, NULL, CreateSolidBrush(RGB(0,0,255)), NULL,
+                    "Tutor1",NULL};</p>
+<div class="highlight"><pre><span class="n">RegisterClassEx</span><span class="p">(</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">amp</span><span class="p">;</span><span class="n">wc</span><span class="p">);</span>
+
+<span class="n">HWND</span> <span class="n">hWnd</span><span class="o">=</span><span class="n">CreateWindow</span><span class="p">(</span><span class="s">&quot;Tutor1&quot;</span><span class="p">,</span><span class="s">&quot;Latihan Pertama&quot;</span><span class="p">,</span>
+                        <span class="n">WS_OVERLAPPEDWINDOW</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span>
+                        <span class="n">GetDesktopWindow</span><span class="p">(),</span><span class="nb">NULL</span><span class="p">,</span><span class="n">wc</span><span class="p">.</span><span class="n">hInstance</span><span class="p">,</span><span class="nb">NULL</span><span class="p">);</span>
+
+<span class="n">ShowWindow</span><span class="p">(</span><span class="n">hWnd</span><span class="p">,</span><span class="n">SW_SHOWDEFAULT</span><span class="p">);</span>
+<span class="n">UpdateWindow</span><span class="p">(</span><span class="n">hWnd</span><span class="p">);</span>
+
+<span class="n">MSG</span> <span class="n">msg</span><span class="p">;</span>
+<span class="k">while</span><span class="p">(</span><span class="n">GetMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">amp</span><span class="p">;</span><span class="n">msg</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)){</span>
+    <span class="n">TranslateMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">amp</span><span class="p">;</span><span class="n">msg</span><span class="p">);</span>
+    <span class="n">DispatchMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">amp</span><span class="p">;</span><span class="n">msg</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="n">UnregisterClass</span><span class="p">(</span><span class="s">&quot;Tutor1&quot;</span><span class="p">,</span> <span class="n">wc</span><span class="p">.</span><span class="n">hInstance</span><span class="p">);</span>
+<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</pre></div>
+
+
+<p>}
+[/sourcecode]
+Baris pertama (include) berfungsi untuk memasukan file header windows.h kedalam project kita, file windows.h berisi fungsi-fungsi yang dipergunakan untuk memanajemen window (mengubah, membuat, menutup, dll). Fungsi MsgProc adalah sebuah event handler yang akan mengatur pesan-pesan yang keluar masuk pada program kita. Pada dasarnya window itu berbasis pesan (yang dikirim oleh system), ketika program ditutup, tampilan di update dan sebagainya, sebagian besar di perintah melalui pesan. Pada umumnya fungsi MsgProc hanya berbentuk seperti diatas (jarang diubah). Seperti yang ada di kode, ada case WM_DESTROY yang menghandle proses ketika window akan ditutup, kemudian ada case WM_PAINT yang menghandle ketika tampilan window diubah, dsb. Fungsi MsgProc adalah mutlak harus dimasukan setiap membuat window, karena fungsi inilah yang menghandle semua pesan yang keluar masuk program kita. Di baris selanjutnya ada fungsi WinMain, yaitu fungsi yang dipangil pertama kali ketika program dijalankan (berlaku untuk Win32 Application). Tidak banyak yang saya jelaskan di fungsi ini karena parameternya kebanyakan tidak berubah. Pertama-tama fungsi ini akan membuat sebuah class window dengan nama class Tutor1, fungsi CreateSolidBrush akan mengisi window kita dengan warna biru (RGB 0,0,255). Kemudian fungsi RegisterClassEx akan meregistrasi kelas kita kedalam sistem. Setelah class terdaftar, kita bisa membuat window dengan fungsi CreateWindow, parameter pertama ("Tutor1") adalah sesuai dengan nama class, kemudian parameter kedua adalah caption window. Kita juga bisa mengisi posisi left,top, lebar serta tinggi window (100,100,300,300). Yup, class sudah terdaftar dan window sudah dibuat, sekarang kita tinggal menampilkannya dengan fungsi ShowWindow dan UpdateWindow. Tapi selanjutnya kita akan menemui kode While..., kenapa harus pakai perulangan While?. Jika Anda melihat pada baris terakhir, return 0 adalah akhir dari fungsi utama atau dengan kata lain akhir dari program, jika kita tidak "menahan" proses agar tidak mencapai "return 0", maka program akan langsung ditutup ketika dijalankan. Karena itulah kita membutuhkan kode perulangan (while). Semua pesan masuk akan di translate dan di dispatch, jika pesannnya adalah WM_DESTROY, barulah program akan ditutup. Sekarang jalankan program kita dengan menekan tombol F5, maka akan muncul tampilan seperti gambar 1.3 :
+<a href='http://kecebongsoft.files.wordpress.com/2007/09/cpp_4.JPG' title=''><img src='http://kecebongsoft.files.wordpress.com/2007/09/cpp_4.thumbnail.JPG' alt='' /></a></p>
+<p>Sekarang window kita telah berhasil dijalankan!. Untuk lebih mengerti tentang sintaks-sintaks diatas, cobalah untuk mengubah beberapa parameter yang tertera dan lihat hasilnya dengan menekan tombol F5. Teruslah berlatih dan mencari referensi di internet untuk mengasah kemampuan.</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

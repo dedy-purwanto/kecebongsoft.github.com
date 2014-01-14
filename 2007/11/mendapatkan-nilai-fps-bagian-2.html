@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : Mendapatkan nilai FPS - Bagian 2</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2007/11/mendapatkan-nilai-fps-bagian-2.html" id="page-title">Mendapatkan nilai FPS - Bagian 2</a></h1>
+<time datetime="2007-11-13T08:27:42">Tue 13 November 2007</time></header>
+<article>
+    <p>Setelah post sebelumnya membahas tentang bagaimana cara mendapatkan nilai FPS dengan mengambil nilai waktu menggunakan fungsi GetTickCount(), sekarang kita akan mencoba mengambil nilai fps yang lebih presisi, kali ini menggunakan fungsi QueryPerformanceCounter dan QueryPerformanceFrequency, funsi ini akan menghitung "tick" atau clock prosesor sehingga hasilnya lebih akurat dari GetTickCount. Aturan mainnya agak berbeda dari cara menghitung FPS yang sebelumnya, urutan adalah sebagai berikut</p>
+<ol>
+<li>Ambil nilai frekuensi tick (f)</li>
+<li>Ambil nilai waktu sekarang (w1)</li>
+<li>Mulai Render</li>
+<li>Hentikan Render</li>
+<li>Ambil nilai waktu sekarang (w2)</li>
+<li>delta waktu = w2-21</li>
+<li>waktu render = delta waktu/frekuensi</li>
+<li>fps = 1 / waktu render</li>
+</ol>
+<p>Dari urutan diatas, maka kita buat satu fungsi untuk menghitung fps dengan lebih presisi :
+    :::txt
+void Looping()
+{ <br />
+    static double rendertime;
+    static double fps;
+    static  __int64 w1,w2,freq;</p>
+<div class="highlight"><pre><span class="n">QueryPerformanceFrequency</span><span class="p">((</span><span class="n">LARGE_INTEGER</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">freq</span><span class="p">;);</span>
+<span class="n">QueryPerformanceCounter</span><span class="p">((</span><span class="n">LARGE_INTEGER</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">w1</span><span class="p">;);</span>
+
+<span class="cm">/* Mulai rutinitas render disini */</span>
+
+<span class="cm">/* Hentikan rutinitas render disini */</span>
+
+<span class="n">QueryPerformanceCounter</span><span class="p">((</span><span class="n">LARGE_INTEGER</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">w2</span><span class="p">;);</span>
+<span class="n">rendertime</span><span class="o">=</span><span class="p">(</span><span class="kt">double</span><span class="p">)(</span><span class="n">w2</span><span class="o">-</span><span class="n">w1</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="kt">double</span><span class="p">)(</span><span class="n">freq</span><span class="p">);</span>
+<span class="n">fps</span><span class="o">=</span><span class="p">(</span><span class="kt">double</span><span class="p">)(</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="kt">double</span><span class="p">)</span><span class="n">rendertime</span><span class="p">;</span>
+</pre></div>
+
+
+<p>}</p>
+<p>Pertama-tama kita melakukan casting terhadap variabel w1, w2 dan freq, karena tipenya adalah integer 64 dan parameter untuk fungsi QueryPerformanceFrequency/QueryPerformanceCounter adalah LARGE_INTEGER. Pada baris terakhir, kita cast hasil delta waktu menjadi double karena tipe dari rendertime dan fps adalah double.</p>
+<p>Met mencoba ya :D</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : Hacking Theme Wordpress (Vigilance)</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2011/02/hacking-theme-wordpress-vigilance.html" id="page-title">Hacking Theme Wordpress (Vigilance)</a></h1>
+<time datetime="2011-02-22T02:12:55">Tue 22 February 2011</time></header>
+<article>
+    <p>(
+<a href="http://kecebongsoft.wordpress.com/2011/02/22/hacking-vigilance-wordpress-theme/">
+ English Version Here
+</a>
+) Beberapa hari yang lalu, saya lumayan nggak ada kerjaan sekita rjam 3 pagi, dan nyoba2 buat modifikasi theme wordpress. Saya orang yang cukup cepat bosan dengan theme wordpress, dan cukup nggak punya modal untuk apply buat premium account :D. Wordpress sendiri nggak memberikan fasilitas untuk mengubah banyak bagian dari theme kepada free user. Ini screenshot asli theme Vigilance yang saya pakai:</p>
+<p><a href="/img/wordpress/2011-02-blogoriginal.jpg?w=300">image</a>
+<!--more-->
+Hanya untuk sedikit memperbaiki tampilan aja, saya coba ubah warna link dari defaultnya yang merah menjadi biru tua:</p>
+<p><a href="/img/wordpress/2011-02-colorschemeori.jpg?w=300">image</a></p>
+<p>Yup, simple aja, cukup click color picker dan ganti warnanya. Tapi tunggu, tiba2 saya ingat setahun lalu sempat main-main dengan SB GDI dan nulis tentang
+<a href="http://kecebongsoft.wordpress.com/2008/09/06/hacking-trick-css-injection/">
+ CSS Injection
+</a>
+, saya tiba2 punya ide konyol untuk nge-hack theme Wordpress, konyol karena tentu saja harusnya layanan raksasa seperti Wordpress nggak akan bisa dibodohi dengan trik kecil seperti ini. Idenya adalah dengan melakukan injeksi kode CSS kedalam input field, persis sama seperti SQL Injection. Misalkan coder webnya menulis seperti ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>echo &#8220;body{background-color: $color;}&#8221;;</p>
+<p>Dimana variabel Color secara default harusnya adalah warna hexadecimal seperti #FFFFFF. Tapi seandainya tidak ada filterisasi, kita bisa meng-inject variable tersebut dengan tambahan lain. Misalkan variabel warna hexadecimalnya bisa diubah melalui text field seperti di bagian Theme Options pada theme Vigilance, maka kita bisa meng-injectnya dengan code seperti ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<h1>FFFFFF;font-size:11px</h1>
+<p>Pada code diatas, saya meng-inject atribut tambahan yaitu font-size kedalam text-field. Dan ini bekerja karena ternyata tidak ada validasi sama sekali di Theme Options Wordpress!. Outputnya adalah seperti ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>body{background-color: #FFFFFF;font-size:11px;}</p>
+<p>Dan bukan hanya itu, saya bahkan bisa memasukan kelas CSS atau meng-overwrite existing class, lihat input saya ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<h1>FFFFFF;} .footer, .date {display:none} {</h1>
+<p>Lihat kan? Dengan mudahnya kita bisa menghilangkan footer dan elemen lainnya pada theme kita dengan cara melakukan overwrite existing class. Pada code diatas saya juga menambahkan curly bracket dibagian akhir untuk menutup pola CSS. Outputnya akan jadi seperti ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>body{background-color: #FFFFFF;} .footer, .date {display:none} {;}</p>
+<p>Tanpa harus mendaftar ke account premium, saya bisa melakukan modifikasi CSS secara total!. Tapi kesenangan belum berakhir, saya juga bisa menyelipkan code HTML dan JS!. Lihat input saya berikut ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<h1>FFFFFF;} &lt;/style&gt; &lt;b&gt;Hello World!&lt;/b&gt;&lt;script&gt;alert(&#8220;Hello World!&#8221;);&lt;/script&gt; &lt;style&gt; {</h1>
+<p>Pada input diatas, saya menutup tag CSS lalu melanjutkannya dengan tag HTML serta JS, lalu membuka kembali tag CSS untuk mencocokannya dengan pola output yang sudah ditulis oleh codernya. Kemungkinan modifikasi yang bisa kita lakukan hampir tak terbatas karena kita bisa menyelipkan HTML, artinya kita juga bisa menyelipkan elemen lain seperti flash, iframe, video, dan lain-lain.</p>
+<p>Ini adalah modifikasi theme Vigilance yang saya buat:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>Background Color:
+ #ffffff;}&lt;/style&gt; &lt;link href='//fonts.googleapis.com/css?family=Cantarell:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css' &gt; &lt;style&gt; body {&#160;&#160; font-family: 'Cantarell', serif;&#160;&#160; text-shadow: 2px 2px 2px #bbb; } &lt;/style&gt; &lt;style type='text/css' media='screen'&gt; {</p>
+<p>linkColor:
+ #3b72b5;} #title span{color:#3b72b5;} #description{float:none;width:100%;text-align:center;margin-top:-70px;margin-bottom:10px;} #nav, .author, .tags, .categories, #footer{display:none} .post-header{border:none;padding:0px}&#160; #content{width: 650px;} #sidebar{width: 250px;} .post .date{font-size:11px;text-align:right;} #sidebar a{font-size:12px;} {</p>
+<p>Dan ini adalah screenshot dari modifikasi di Theme Options:</p>
+<p><a href="/img/wordpress/2011-02-colorschemehacked.jpg?w=300">image</a></p>
+<p>Dalam modifikasi ini, saya mengubah default font menjadi Google Web Font, dan bahkan menambahkan font shadow. Saya juga mengubah banyak hal lain seperti title dan description blog saya, menghapus tag, kategori, footer, serta mengganti column width. Hasilnya blog saya menjadi lebih rapi :D</p>
+<p>Ini adalah hasil dari input CSS injection yang saya buat:</p>
+<p><a href="/img/wordpress/2011-02-bloghacked.jpg?w=300">image</a></p>
+<p>Begitulah, saya sengaja membiarkan blog saya seperti itu sekitar 2 hari. Sepertinya nggak ada admin Wordpress yang sadar. Entah apa mereka udah tau tentang bug in atau belum. Jadi saya menulis blog post dalam english sebagai proof of concept, juga membuar report ke Wordpress tentang masalah ini, saya juga udah mengembalikan konfigurasi awal theme saya menjadi yang default. Mudah-mudahan segera di-fix oleh pihak wordpress. Anda juga bisa mencobanya langsung dengan mengubah theme ke Vigilance dan mengaturnya di Theme Options :D</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

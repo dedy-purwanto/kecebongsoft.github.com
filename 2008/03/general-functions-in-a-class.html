@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : General functions in a class</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2008/03/general-functions-in-a-class.html" id="page-title">General functions in a class</a></h1>
+<time datetime="2008-03-02T00:00:00">Sun 02 March 2008</time></header>
+<article>
+    <p>Dari dulu aku punya kebiasaan yang (mungkin) cukup aneh : semua fungsi general seperti string utility, advanced math functions, i/o functions dikapsulkan dalam sebuah kelas. Biasanya kelas ini aku beri nama CUtils. Kenapa aneh? setidaknya menurutku, aku sering melihat dan menemukan kode berisi kumpulan fungsi umum yang "telanjang", dalam artian tidak memiliki class, sehingga terlihat (agak) tidak terklasifikasi. Yang paling dekat dengan "tidak telanjang" adalah penggunaan prefix pada tiap nama fungsi.</p>
+<p>Everyone has their own style, kenapa aku lebih suka mengkapsulkannya dalam class?. Aku sering membuat hand-made function yang memungkinkan namanya bisa bentrok dengan general function milikku. Kalau harus menggunakan prefix, aku sering membayangkan jika memiliki puluhan fungsi dan ingin mengganti prefixnya satu-persatu :roll::</p>
+<p>Jadi? solusinya ya dengan merakit class CUtils tadi, selain itu kelebihannya juga aku bisa menyebarnya ke siapa aja yang mau pakai tanpa harus takut nama fungsi nya bentrok, atau prefixnya bentrok, sebab semuanya ada dalam kelas dan kalau bentrok tinggal ganti nama kelas.</p>
+<p>Btw aku jadi ingat dulu pas pakai API Direct3D Extension, fungsi utility disana rata-rata pakai prefix yang mengerikan ketika di-spell, bahkan untuk yang bisa ngetik 11 jaripun harus memperhatikan casenya :D . Bayangkan jika itu diletakan didalam kelas, kita hanya perlu memberi nama instancenya dan bisa efisien ditiap kode. Tapi creatornya mungkin punya alasan tersendiri tidak memasukannya ke kelas dan hanya memberi prefix. Lagipula D3DX API tetap bisa dikapsulkan ke dalam class, cukup rakit satu kelas berisi shortcut function APInya dengan parameter dan return type yang sama, tapi sama yang mau bikin?. Lagian kok malah ngelantur kesini ya.. hehe..</p>
+<p>Ada yang suka main kapsul-kapsulan juga?. Kebiasaan aneh nggak ya :D</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

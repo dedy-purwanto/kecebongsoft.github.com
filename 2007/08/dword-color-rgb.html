@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : DWORD color = RGB()</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2007/08/dword-color-rgb.html" id="page-title">DWORD color = RGB()</a></h1>
+<time datetime="2007-08-20T02:41:41">Mon 20 August 2007</time></header>
+<article>
+    <p>Yang sering berurusan dengan
+<a href="http://en.wikipedia.org/wiki/Directx">
+ DirectX
+</a>
+di c++, mungkin sering "membuat warna" dengan dword seperti ini :
+<pre>DWORD dwColor1=0x00000000; // black color</p>
+<p>DWORD dwColor2=0xffffffff;// white color</pre>
+Repot kabeh, masa mesti inget warna-warna format dword. Ganti aja dengan RGB() :
+<pre>DWORD dwColor1=RGB(0,0,0); // black color</p>
+<p>DWORD dwColor2=RGB(255,255,255);// white color</pre>
+And Voila! :D</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Dedi Purwanto : AS3: Multidimensional Sort pada Array Object.</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
+        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
+        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+        
+<header>
+    <h1>
+        <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
+        <span style='font-size:11px;color:#cfcfcf;'>-</span>
+        <a href='/2010/01/about.html' class='site-links'>About</a>
+        <a href='/archives.html' class='site-links'>Archive</a>
+        <br /> <br /> <br />
+        <a href="http://kecebongsoft.com/2011/02/as3-multidimensional-sort-pada-array-object.html" id="page-title">AS3: Multidimensional Sort pada Array Object.</a></h1>
+<time datetime="2011-02-27T16:05:18">Sun 27 February 2011</time></header>
+<article>
+    <p>Terkadang ada kondisi dimana kita mempunyai sebuah array yang isinya object, lalu kita ingin melakukan sorting array tersebut, &#160;yang parameternya adalah member object didalam array.</p>
+<p>Contoh, jika saya punya object ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>public class Murid
+{
+    public var nama:String;
+    public var kelas:int;
+    public var nilai:int;
+    public function Murid(nNama:String,nKelas:String,nNilai:String)
+    {
+        nama = nNama;
+        kelas = nKelas;
+        nilai = nNilai;
+    }
+}</p>
+<!--more-->
+
+<p>Kemudian, saya punya vector Murid seperti ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>vecMurid = new Vector.&amp;lt;Murid&amp;gt;();
+vecMurid.push(new Murid(3, 6, &amp;quot;Tio&amp;quot;));
+vecMurid.push(new Murid(1, 5, &amp;quot;Andi&amp;quot;));
+vecMurid.push(new Murid(2, 8, &amp;quot;Lina&amp;quot;));
+vecMurid.push(new Murid(1, 10, &amp;quot;Dedi&amp;quot;));
+vecMurid.push(new Murid(2, 7, &amp;quot;Melisa&amp;quot;));</p>
+<p>Sekarang, saya ingin mengurutkan daftar murid ini, mulai dari
+<strong>
+ kelasnya yang terkecil
+</strong>
+, kemudian
+<strong>
+ niainya yang terbesar
+</strong>
+, ini adalah output yang saya inginkan:
+<blockquote>
+ Kelas 1, Nilai 10, Dedi
+Kelas 1, Nilai 5, Andi
+Kelas 2, Nilai 8, Melisa
+Kelas 2, Nilai 7, Lina
+Kelas 3, Nilai 6, Tio
+</blockquote>
+Inilah yang disebut multidimensional sort pada array yang berisikan object. Di ActionScript 3, kita bisa melakukan sorting ini dengan sangat mudah.
+<a href="http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/Array.html#sortOn()">
+ AS3 memperkenalkan fungsi sortOn
+</a>
+yang parameternya bisa kita custom sedemikian rupa untuk melakukan pengurutan yang kompleks, sintaks generalnya adalah:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>array.sortOn('names','options');</p>
+<p>Fungsi ini memungkinkan kita untuk mengurutkan sebuah array dengan berbagai parameter dan opsi. Misalkan saya ingin mengurutkan murid berdasarkan '
+<strong>
+ kelas
+</strong>
+' dan '
+<strong>
+ nilai
+</strong>
+', saya bisa memasukan ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>sortOn(['kelas','nilai'],Array.DESCENDING);</p>
+<p>Parameter pertama diatas adalah daftar keys yang akan digunakan untuk melakukan sorting, sementara parameter kedua adalah mode sorting. Tapi, kode diatas tidak akan bekerja, karena variabel
+<strong>
+ vecMurid
+</strong>
+yang kita pakai adalah
+<strong>
+ vector
+</strong>
+, dan isinya bukan
+<strong>
+ array set
+</strong>
+. Jadi untuk kasus ini, kita akan ubah sedikit fungsi sortingnya seperti ini:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>public function sortMurid(vec:Vector.&amp;lt;Murid&amp;gt;):Vector.&amp;lt;Murid&amp;gt; {
+    var arr:Array = new Array();
+    var i:int;</p>
+<div class="highlight"><pre><span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">lt</span><span class="p">;</span> <span class="n">vec</span><span class="p">.</span><span class="n">length</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">arr</span><span class="p">.</span><span class="n">push</span><span class="p">({</span><span class="n">kelas</span><span class="o">:</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">kelas</span><span class="p">,</span><span class="n">nilai</span><span class="o">:</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">nilai</span><span class="p">,</span><span class="n">o</span><span class="o">:</span><span class="n">vec</span><span class="p">[</span><span class="n">i</span><span class="p">]});</span>
+<span class="p">}</span>
+
+<span class="n">arr</span> <span class="o">=</span> <span class="n">arr</span><span class="p">.</span><span class="n">sortOn</span><span class="p">([</span><span class="err">&#39;</span><span class="n">kelas</span><span class="sc">&#39;,&#39;</span><span class="n">nilai</span><span class="err">&#39;</span><span class="p">],</span> <span class="p">[</span><span class="n">Array</span><span class="p">.</span><span class="n">NUMERIC</span><span class="p">,</span> <span class="n">Array</span><span class="p">.</span><span class="n">NUMERIC</span> <span class="o">|</span> <span class="n">Array</span><span class="p">.</span><span class="n">DESCENDING</span><span class="p">]);</span>
+
+<span class="n">var</span> <span class="n">vec_output</span><span class="o">:</span><span class="n">Vector</span><span class="p">.</span> <span class="o">=</span> <span class="n">new</span> <span class="n">Vector</span><span class="p">.();</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">lt</span><span class="p">;</span> <span class="n">arr_h</span><span class="p">.</span><span class="n">length</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">vec_output</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">arr</span><span class="p">[</span><span class="sc">&#39;i&#39;</span><span class="p">][</span><span class="sc">&#39;o&#39;</span><span class="p">]);</span>
+<span class="p">}</span>
+<span class="k">return</span> <span class="n">vec_output</span><span class="p">;</span>
+</pre></div>
+
+
+<p>}</p>
+<p>Pada kode diatas, kita membuat fungsi yang returnnya adalah vector Murid, dan parameternya adalah vector Murid yang telah kita buat sebelumnya. Pertama-tama kita akan menyalin semua isi dari parameter pertama kedalam sebuah array, tapi tidak hanya sekedar menyalin, kita juga menambahkan 2 buah key yaitu '
+<strong>
+ kelas
+</strong>
+' dan '
+<strong>
+ nilai
+</strong>
+' kedalam array tersebut. Sehingga setiap membernya adalah sebuah set yang isinya '
+<strong>
+ kelas
+</strong>
+', '
+<strong>
+ nilai
+</strong>
+', dan '
+<strong>
+ o
+</strong>
+', yaitu reference ke instance yang ada di setiap vector Murid.</p>
+<p>Setelah itu, kita bisa langsung melakukan sorting dengan fungsi
+<strong>
+ sortOn
+</strong>
+, parameter pertama adalah key set yang kita perlukan, yaitu '
+<strong>
+ kelas
+</strong>
+' dan '
+<strong>
+ nilai
+</strong>
+'. Parameter kedua adalah dua buah set opsi yang kita gunakan untuk melakukan sorting. Opsi pertama adalah '
+<em>
+ Array.NUMERIC
+</em>
+', yang artinya key '
+<strong>
+ kelas
+</strong>
+' adalah set numeric yang di set secara
+<em>
+ Ascending
+</em>
+. Opsi kedua adalah '
+<em>
+ Array.NUMERIC | Array.DESCENDING
+</em>
+', yang artinya key '
+<strong>
+ nilai
+</strong>
+' adalah set numeric yang harus di urut secara
+<em>
+ DESCENDING
+</em>
+(yang terbesar akan  muncul lebih dulu).</p>
+<p>Setelah di urut, kita tinggal menyalin kembali array tersebut ke output, lalu di return ke fungsi.</p>
+<p>And that's it :D</p>
+</article>
+
+        <footer>
+            &copy; 2013 Dedi Purwanto&nbsp;&nbsp;
+        </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>
