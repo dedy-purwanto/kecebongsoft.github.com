@@ -1658,10 +1658,10 @@ Saya sudah cukup lama menginginkan adanya layanan Similar Images seperti ini, sa
 &lt;p&gt;Read more :
 &lt;a href="http://www.pcworld.com/article/163476/google_news_timeline_a_glorious_intriguing_time_sink.html"&gt;
  PCWorld - Google News Timeline &amp;amp; Similar Images
-&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Keuntungan Tidak Terkenal</title><link href="http://kecebongsoft.com/2009/01/keuntungan-tidak-terkenal.html" rel="alternate"></link><updated>2009-01-01T00:00:00+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2009-01-01:2009/01/keuntungan-tidak-terkenal.html</id><summary type="html">&lt;p&gt;Dikantor tempat mamah bekerja, hirarki koneksi internet telah disusun sedemikian rupa agar melakukan bloking terhadap situs-situs tertentu seperti (mungkin) Friendster, Blogspot (yang ini pasti), serta mungkin juga layanan lainnya seperti instant messenger dan IRC. Alasannya belum pasti apa, tapi kebijaksanaan seperti ini memang sering ditemui diberbagai instansi dan perusahaan dengan tujuan agar aktivitas dan konsentrasi bisa terpusat kepada pekerjaan. Itulah mengapa layanan-layanan internet yang bersifat adiktif dan (mungkin) tidak memberi manfaat kepada perusahaan akan diblok.&lt;/p&gt;
-&lt;p&gt;Di lain sisi, mamah punya blog yang berada di Blogspot dan tidak bisa diakses dengan cara "biasa" melalui kantornya, setidaknya butuh proxy site untuk membuka layanan seperti Blogspot. Mungkin karena masalah ini, tidak pernah terlihat tulisan baru di blog mamah. Tapi cukup mengejutkan ketika mendengar kabar dari mamah bahwa layanan Wordpress tetap bisa diakses dari kantornya, yang berarti bahwa layanan ini tidak diblokir. Setidaknya aku punya 2 teori konspirasi tentang kenapa hal ini bisa terjadi.&lt;/p&gt;
+&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Keuntungan Tidak Terkenal</title><link href="http://kecebongsoft.com/2009/01/keuntungan-tidak-terkenal.html" rel="alternate"></link><updated>2009-01-01T00:00:00+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2009-01-01:2009/01/keuntungan-tidak-terkenal.html</id><summary type="html">&lt;p&gt;Dikantor tempat teman bekerja, hirarki koneksi internet telah disusun sedemikian rupa agar melakukan bloking terhadap situs-situs tertentu seperti (mungkin) Friendster, Blogspot (yang ini pasti), serta mungkin juga layanan lainnya seperti instant messenger dan IRC. Alasannya belum pasti apa, tapi kebijaksanaan seperti ini memang sering ditemui diberbagai instansi dan perusahaan dengan tujuan agar aktivitas dan konsentrasi bisa terpusat kepada pekerjaan. Itulah mengapa layanan-layanan internet yang bersifat adiktif dan (mungkin) tidak memberi manfaat kepada perusahaan akan diblok.&lt;/p&gt;
+&lt;p&gt;Di lain sisi, teman punya blog yang berada di Blogspot dan tidak bisa diakses dengan cara "biasa" melalui kantornya, setidaknya butuh proxy site untuk membuka layanan seperti Blogspot. Mungkin karena masalah ini, tidak pernah terlihat tulisan baru di blog teman. Tapi cukup mengejutkan ketika mendengar kabar dari teman bahwa layanan Wordpress tetap bisa diakses dari kantornya, yang berarti bahwa layanan ini tidak diblokir. Setidaknya aku punya 2 teori konspirasi tentang kenapa hal ini bisa terjadi.&lt;/p&gt;
 &lt;p&gt;Pertama adalah, jika aku menjadi network administrator di perusahaan tersebut dan ditugaskan oleh atasan untuk melakukan pemblokiran terhadap layanan dan situs adiktif (friendster, dll), maka aku akan cukup bingung, situs seperti apa yang harus diblokir?. Apa semua layanan blog (blogspot, wordpress, myspace, blogdrive, dll)? Rasanya tidak mungkin, layanan internet dijaman sekarang sudah seperti jamur yang dengan mudah tumbuh dimanapun kapanpun, mustahil melakukan pengecekan rutin terhadap layanan apa saja yang baru muncul untuk kemudian diblokir. Lagipula layanan tersebut suatu saat pasti berguna bagi karyawan yang (mungkin) ingin mencari informasi. Akhirnya aku hanya akan memblokir situs blogspot dan friendster, dengan pertimbangan bahwa layanan inilah yang paling sering diakses untuk tujuan yang tidak ada hubungannya dengan perusahaan, sisanya (wordpress, dll) mungkin akan berguna.&lt;/p&gt;
-&lt;p&gt;Kemungkinan kedua adalah, aku seorang network administrator yang hanya tau friendster dan blogspot. Mungkin aku tahu layanan lainnya tapi dengan enteng aku meremehkan layanan tersebut, menganggap bahwa tidak ada yang menggunakan layanan selain friendster dan blogspot, sehingga hanya kedua layanan diatas yang ku blokir. Kenapa hanya friendster dan blogspot? ya karena dua-duanya terkenal, orang yang bahkan tidak tahu internet pun mungkin sering mendengar friendster, bahkan di sinetron Bidadari 2 dulu salah satu tokoh antagonisnya menyinggung friendster. Dan yang lebih hebat lagi, di dekat rumah neneknya si mamah ada warung makan yang bernamakan "Warung Friendster". Ketenaran sebuah layanan memberiku bahan pertimbangan apakah layanan tersebut layak di blokir atau tidak.&lt;/p&gt;
+&lt;p&gt;Kemungkinan kedua adalah, aku seorang network administrator yang hanya tau friendster dan blogspot. Mungkin aku tahu layanan lainnya tapi dengan enteng aku meremehkan layanan tersebut, menganggap bahwa tidak ada yang menggunakan layanan selain friendster dan blogspot, sehingga hanya kedua layanan diatas yang ku blokir. Kenapa hanya friendster dan blogspot? ya karena dua-duanya terkenal, orang yang bahkan tidak tahu internet pun mungkin sering mendengar friendster, bahkan di sinetron Bidadari 2 dulu salah satu tokoh antagonisnya menyinggung friendster. Dan yang lebih hebat lagi, di dekat rumah neneknya si teman ada warung makan yang bernamakan "Warung Friendster". Ketenaran sebuah layanan memberiku bahan pertimbangan apakah layanan tersebut layak di blokir atau tidak.&lt;/p&gt;
 &lt;p&gt;Aku lebih memilih alasan yang kedua sebagai alasan kenapa Wordpress tidak ikutan di blokir. Siapa yang tahu Wordpress?, setidaknya dilingkunganku, sedikit sekali orang yang tidak punya Wordpress tapi tahu tentang Wordpress. Padahal layanan ini adalah kompetitor berat Blogspot, layanan Wordpress yang sangat lengkap dan storage yang besar (3GB) serta jumlah usernya yang membludak sudah cukup untuk membuktikan bahwa Wordpress benar-benar "besar". Tapi itu belum cukup untuk membuatnya Wordpress menjadi setenar Blogspot. Layanan Blogspot memang lebih dulu muncul dan sudah sangat lekat di telinga pengguna internet, bahkan yang tidak punya account di Blogspot pun tahu apa itu Blogspot.&lt;/p&gt;
 &lt;p&gt;Tidak hanya tentang Blogspot dan Wordpress. Sebenarnya friendster sendiri pun juga "menang terkenal" dibanding layanan lainnya. Coba tanya teman-teman SMA atau teman-teman kantor, "punya fs ngga?" sebagian besar bilang punya, dan yang ngga punya juga tetap tahu apa itu Friendster. Sekarang tanya lagi "Punya facebook ngga?", pasti ditanya balik "Apaan tuh facebook?". Ini layanan saingan Friendster yang usernya nggak kalah membludak dan fasilitas didalamnya tidak kalah keren dari Friendster, tapi karena mungkin "belum cukup terkenal", layanan ini juga tidak ikut diblokir. Coba saja buka situs Facebook dikantor dan lihat apakah layanan ini diblokir atau tidak :-D .&lt;/p&gt;</summary></entry><entry><title>Merakit robot sendiri dengan Bioloid</title><link href="http://kecebongsoft.com/2008/12/merakit-robot-sendiri-dengan-bioloid.html" rel="alternate"></link><updated>2008-12-28T15:24:54+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-12-28:2008/12/merakit-robot-sendiri-dengan-bioloid.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="/img/wordpress/2008-12-b1.jpg" /&gt;
 &lt;a href="http://en.wikipedia.org/wiki/Robotis_Bioloid"&gt;
@@ -3480,37 +3480,7 @@ dan rekannya dulu pernah diwawancari disebuah talkshow. Disitu Ari bercerita ten
 &lt;p&gt;Yang lainnya bagaimana?. Bagiku yang lainnya seperti menganggap bahwa rokok adalah "tradisi" dari jaman dahulu, dan belum dianggap seserius narkoba (oleh masyarakat &amp;amp; pemerintah), sehingga tidak ada "tekanan" untuk mengkonsumsi rokok. Jadi ya jalan terus aja.&lt;/p&gt;
 &lt;p&gt;No offense buat para perokok, itu hidup kalian dan nikmati aja. Aku tidak pernah mencoba untuk memprovokasi orang lain untuk berhenti merokok, tapi aku selalu mencoba mematahkan semua alasan kenapa mereka merokok.&lt;/p&gt;
 &lt;p&gt;Selamat hari tanpa tembakau sedunia.
-&lt;img alt="image" src="http://l.yimg.com/us.yimg.com/i/mesg/emoticons7/36.gif" /&gt;&lt;/p&gt;</summary></entry><entry><title>Saingan IronMan</title><link href="http://kecebongsoft.com/2008/05/saingan-ironman.html" rel="alternate"></link><updated>2008-05-30T21:39:42+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-05-30:2008/05/saingan-ironman.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="/img/wordpress/2008-05-ironman.jpg" /&gt;
-Betul,
-&lt;abbr title="pemeran utama di film Iron Man"&gt;
- Dr. Tony Stark
-&lt;/abbr&gt;
-memang bisa meluncur di udara dan menembakan misile pada saat dirinya mengenakan baju
-&lt;a href="http://en.wikipedia.org/wiki/Iron_Man"&gt;
- Iron Man
-&lt;/a&gt;
-. Tapi kita harus bangun dari mimpi dan lihat tahun berapa sekarang, butuh puluhan tahun lagi untuk melihat
-&lt;span style="text-decoration:line-through;"&gt;
- bikini
-&lt;/span&gt;
-baju perang seperti itu benar-benar ada. Saat itu aku dan
-&lt;a href="http://chrisnanice.blogspot.com"&gt;
- mamah
-&lt;/a&gt;
-sudah punya belasan cucu dan tidak mungkin mencoba baju tersebut.
-&lt;!--more--&gt;
-Tapi semua selalu dimulai dari sebuah awal.
-&lt;a href="http://www.engadget.com/2008/05/29/dean-kamens-luke-arm-now-has-mind-control-and-3d-spatial-interf/"&gt;
- Luke Arm
-&lt;/a&gt;
-ini bisa jadi salah satu awal dari baju Iron Man tersebut, belum cukup impresif, tapi sudah bisa dipakai untuk bikin teh dan cuci gelas :mrgreen: .
-&lt;img alt="image" src="/img/wordpress/2008-05-ironman2.jpg" /&gt;
-Melihat perangkat-perangkat seperti ini membuatku sering membayangkan seperti apa kehidupan manusia 20 atau 30 tahun lagi, serta mengganggap betapa kuno dan primitifnya jaman kita sekarang. Ada rasa menyesal juga hidup di jaman purba ini. Tapi nggak apa-apa, karena ada
-&lt;a href="http://chrisnanice.blogspot.com" title="si Mamah"&gt;
- satu hal yang tidak mungkin kutemui di jaman yang lain
-&lt;/a&gt;
-.&lt;/p&gt;
-&lt;p&gt;Semoga saja perangkat ini berkembang pesat dalam kurun waktu 5-10 tahun, dan bisa digunakan oleh masyarakat yang benar-benar membutuhkannya. Jangan malah dijadikan mainan hura-hura orang kaya, untuk pamer jam Rolex dengan 8 tangan misalnya?.&lt;/p&gt;</summary></entry><entry><title>Sudah pakaibaju</title><link href="http://kecebongsoft.com/2008/05/sudah-pakaibaju.html" rel="alternate"></link><updated>2008-05-30T18:22:48+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-05-30:2008/05/sudah-pakaibaju.html</id><summary type="html">&lt;p&gt;Bagi yang pernah melihat blog ini sebelum postingan ini dibuat, maka pasti akan mengerti bagaimana tampilan blog ini sebelumnya. Ya, telanjang!. Bukan dalam arti sebenarnya, yang dimaksud adalah telanjang CSS. Template blog yang ada sebelum ini menggunakan theme Sandbox yang memang "ditelanjangi" untuk tujuan modifikasi secara bebas, alhasil adalah tampilan blog menjadi sangat standar, tidak ada modifikasi warna, efek, dll. Halaman menjadi melebar memenuhi bidang browser, bener-bener polos deh.&lt;/p&gt;
+&lt;img alt="image" src="http://l.yimg.com/us.yimg.com/i/mesg/emoticons7/36.gif" /&gt;&lt;/p&gt;</summary></entry><entry><title>Sudah pakaibaju</title><link href="http://kecebongsoft.com/2008/05/sudah-pakaibaju.html" rel="alternate"></link><updated>2008-05-30T18:22:48+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-05-30:2008/05/sudah-pakaibaju.html</id><summary type="html">&lt;p&gt;Bagi yang pernah melihat blog ini sebelum postingan ini dibuat, maka pasti akan mengerti bagaimana tampilan blog ini sebelumnya. Ya, telanjang!. Bukan dalam arti sebenarnya, yang dimaksud adalah telanjang CSS. Template blog yang ada sebelum ini menggunakan theme Sandbox yang memang "ditelanjangi" untuk tujuan modifikasi secara bebas, alhasil adalah tampilan blog menjadi sangat standar, tidak ada modifikasi warna, efek, dll. Halaman menjadi melebar memenuhi bidang browser, bener-bener polos deh.&lt;/p&gt;
 &lt;p&gt;Itulah yang aku suka di theme yang lama, bidang yang lebar berguna untuk memposting screenshot yang besar dan source code yang panjang. Dan tampilan font yang standar membuat kita mudah membacanya. Belum kutemukan theme lain yang "tidak telanjang" tapi sebagus Sandbox. Simpel, bebas, representatif.
 &lt;!--more--&gt;
 Tapi Sandbox punya kekurangan dari sisi readability, karena tampilan yang nge-fit selebar layar browser, mata jadi cepat lelah membaca paragraf demi paragraf di tiap postingan ku, kenapa? soalnya lebar paragraf sangat besar dan bikin mata kita bergerak ke kekanan-kiri ketika membaca tiap baris. Itulah yang menjadi alasan aku untuk mengganti theme.&lt;/p&gt;
@@ -3961,7 +3931,7 @@ di amrik sono, meskipun ini bisa di hacking agar bisa menggunakan jaringan GSM d
 , sejauh ini handset inilah yang paling keren menurutku, dukungan teknologi lengkap, GPRS, WiFi, GPS, FM Radio, Windows Mobile (yeah! that's it!), 3G support aplikasi yang nggak usah diragukan, internal keyboard berbentuk slider kurva, dan banyak lagi. Screennya juga bisa  menggunakan jari (udah umum ya :p ).
 &lt;img alt="image" src="http://www.handphone-murah.com/files/images/handphone-sony-ericsson-xperia-x1.jpg" /&gt;
 &lt;img alt="image" src="http://www.handphone-murah.com/files/handphone-sony-ericsson-xperia-x1-1.jpg" /&gt;
-Kalaupun ada kekurangan, denger-denger handset ini tidak terlalu baik dalam hal akselerasi graphic, karena nggak hardware accelerated, tapi biasanya hal itu ngga jadi masalah karena pada prakteknya vendor software biasanya sudah melakukan optimisasi sebelum mengeluarkan softwarenya untuk perangkat ini. Harganya? sekitar $499 dan diperkirakan bakal keluar pada kuartal kedua tahun ini. Mesti nunggu dulu nih, tapi klo nggak salah aku dulu pernah liat handset ini di mall Lembuswana - Samarinda waktu jalan-jalan bareng si mamah yang lagi cari handset, beneran SE XPeria X1 ngga ya?. hmm...&lt;/p&gt;</summary></entry><entry><title>Kembali ke rumah</title><link href="http://kecebongsoft.com/2008/04/kembali-ke-rumah.html" rel="alternate"></link><updated>2008-04-24T17:30:31+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-04-24:2008/04/kembali-ke-rumah.html</id><summary type="html">&lt;p&gt;Libur akhir semester ini aku kembali ke kampung halaman (lagi). Meskipun mungkin akan sedikit terpisah dengan koneksi internet, tapi kembali ke rumah adalah hal yang jauh lebih menyenangkan saat ini. Kembali lagi ke kampus kira-kira tanggal 18 bulan depan, lumayan panjang :D .&lt;/p&gt;
+Kalaupun ada kekurangan, denger-denger handset ini tidak terlalu baik dalam hal akselerasi graphic, karena nggak hardware accelerated, tapi biasanya hal itu ngga jadi masalah karena pada prakteknya vendor software biasanya sudah melakukan optimisasi sebelum mengeluarkan softwarenya untuk perangkat ini. Harganya? sekitar $499 dan diperkirakan bakal keluar pada kuartal kedua tahun ini. &lt;/p&gt;</summary></entry><entry><title>Kembali ke rumah</title><link href="http://kecebongsoft.com/2008/04/kembali-ke-rumah.html" rel="alternate"></link><updated>2008-04-24T17:30:31+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-04-24:2008/04/kembali-ke-rumah.html</id><summary type="html">&lt;p&gt;Libur akhir semester ini aku kembali ke kampung halaman (lagi). Meskipun mungkin akan sedikit terpisah dengan koneksi internet, tapi kembali ke rumah adalah hal yang jauh lebih menyenangkan saat ini. Kembali lagi ke kampus kira-kira tanggal 18 bulan depan, lumayan panjang :D .&lt;/p&gt;
 &lt;p&gt;Yups, 1 jam lagi flight, semoga perjalanan lancar, amin :D .&lt;/p&gt;</summary></entry><entry><title>Mengakses Youtube yang di blokir</title><link href="http://kecebongsoft.com/2008/04/mengakses-youtube-yang-di-blokir.html" rel="alternate"></link><updated>2008-04-05T13:14:01+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-04-05:2008/04/mengakses-youtube-yang-di-blokir.html</id><summary type="html">&lt;p&gt;Yup,
 &lt;a href="http://www.detikinet.com/index.php/detik.read/tahun/2008/bulan/04/tgl/05/time/094059/idnews/918665/idkanal/399"&gt;
  Youtube beneran diblokir oleh pemerintah Indonesia
@@ -4158,18 +4128,7 @@ dengan java, tapi jelas itu jauh berbeda. Aku bukan salah satu yang ahli dan sam
 &lt;a href="http://smka-smr.sch.id/modules.php?op=modload&amp;amp;name=News&amp;amp;file=article&amp;amp;sid=569"&gt;
  dan juga ini
 &lt;/a&gt;
-. Mungkin aku baru akan ikut yang kompetisi lagi jika ada inisiatif sendiri :D&lt;/p&gt;</summary></entry><entry><title>Dakuw Terjerat UUITE</title><link href="http://kecebongsoft.com/2008/03/dakuw-terjerat-uuite.html" rel="alternate"></link><updated>2008-03-27T10:18:51+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-03-27:2008/03/dakuw-terjerat-uuite.html</id><summary type="html">&lt;p&gt;Beberapa minggu belakangan ini Y!Mail menampilkan advertisement yang gambarnya agak kurang sopan (mungkin) khususnya di mata penduduk Indonesia. Setelah beberapa hari yang lalu
-&lt;a href="http://www.detikinet.com/index.php/detik.read/tahun/2008/bulan/03/tgl/25/time/112233/idnews/912848/idkanal/399"&gt;
- UU ITE disahkan
-&lt;/a&gt;
-, jadi agak sedikit was-was nih..
-&lt;img alt="image" src="/img/wordpress/2008-03-uuite.jpg" /&gt;
-Hm.. kira-kira aku tertangkap UU ITE nggak ya (mbuka konten yang "mungkin" porno)? denda berapa milyar nih? nggak bisa cek email dari si
-&lt;a href="http://chrisnanice.blogspot.com"&gt;
- mamah
-&lt;/a&gt;
-lagi dong? :roll:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;ngumpet_dibalik_kasur&lt;/em&gt;&lt;/p&gt;</summary></entry><entry><title>Teman makan teman</title><link href="http://kecebongsoft.com/2008/03/teman-makan-teman.html" rel="alternate"></link><updated>2008-03-13T21:51:53+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-03-13:2008/03/teman-makan-teman.html</id><summary type="html">&lt;p&gt;Aku orang yang termasuk "sangat" tidak ingin kehilangan teman. Teman itu adalah harta karun yang paling berharga, nggak bisa diganti dengan harta sebanyak apapun. Ketika udah nggak punya apa-apa atau kepepet, teman pasti nolong. Untuk urusan tolong menolong pun mereka tidak pernah berlebihan, menolong semampu dan semau mereka saja. Itu membuktikan bahwa tidak ada "udang dibalik batu" dari setiap pertolongan yang diberikan. Yah, setidaknya bergitulah pandangan singkat yang kumiliki tentang seorang teman.&lt;/p&gt;
+. Mungkin aku baru akan ikut yang kompetisi lagi jika ada inisiatif sendiri :D&lt;/p&gt;</summary></entry><entry><title>Teman makan teman</title><link href="http://kecebongsoft.com/2008/03/teman-makan-teman.html" rel="alternate"></link><updated>2008-03-13T21:51:53+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-03-13:2008/03/teman-makan-teman.html</id><summary type="html">&lt;p&gt;Aku orang yang termasuk "sangat" tidak ingin kehilangan teman. Teman itu adalah harta karun yang paling berharga, nggak bisa diganti dengan harta sebanyak apapun. Ketika udah nggak punya apa-apa atau kepepet, teman pasti nolong. Untuk urusan tolong menolong pun mereka tidak pernah berlebihan, menolong semampu dan semau mereka saja. Itu membuktikan bahwa tidak ada "udang dibalik batu" dari setiap pertolongan yang diberikan. Yah, setidaknya bergitulah pandangan singkat yang kumiliki tentang seorang teman.&lt;/p&gt;
 &lt;p&gt;Aku punya seorang teman yang dulu bisa saling kenal karena bertemu diacara berskala nasional. Saat itu kami hanya saling bertemu selama satu minggu, tapi kami sempat bertukar kontak instant messenger.&lt;/p&gt;
 &lt;p&gt;Hari ini teman tersebut menyapaku dari instant messenger. Awalnya aku senang sekali, kami saling bertanya kabar seperti orang yang lama tidak bertemu pada umumnya. Tapi ketika pembicaraan sudah mulai jauh, dia bertanya "Hei, sekarang kerja apa kuliah". Karena aku bukan orang yang suka jujur, jadi aku bilang aja dulu "Masih nganggur nih dirumah". Aku pikir ini pertanyaan dan jawaban yang normal, sampai akhirnya dia bertanya "Kamu mau nggak dapat penghasilan perbulan tanpa modal?, caranya mudah kok!".
 &lt;!--more--&gt;
@@ -4412,16 +4371,7 @@ Kemarin mulai lagi ngubek-ngubek ubuntu gutsy, sebenernya aku dah donlot iso-nya
   &lt;img alt="image" src="/img/wordpress/2008-02-gutsycompiz2.thumbnail.png" /&gt;
  &lt;/a&gt;
 &lt;/p&gt;
-Banyak juga efek-efek yang bagus di compiz, tapi beryl yang dulu jauh lebih bagus menurutku.. hehehe.. selamat datang lagi deh ubuntu..&lt;/p&gt;</summary></entry><entry><title>Kebiasaan minumteh</title><link href="http://kecebongsoft.com/2008/02/kebiasaan-minumteh.html" rel="alternate"></link><updated>2008-02-02T02:29:57+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-02-02:2008/02/kebiasaan-minumteh.html</id><summary type="html">&lt;p&gt;Aku sebenernya bukan orang yang doyan minum teh, dari kecil juga nggak pernah nggak pernah ada kebiasaan minum teh, paling sekali-sekali aja, itu juga klo ada yang
-&lt;s&gt;
- bikini
-&lt;/s&gt;
-bikinin. Tapi semenjak sering ke tempat si
-&lt;a href="http://chrisnanice.blogspot.com"&gt;
- mamah
-&lt;/a&gt;
-, sering disuguhin teh sama si mamah pas baru datang ato juga pas udah mo pulang. Biasanya si mamah suka kasih jahe di tehnya biar hangat, apalagi klo dateng ato mo pergi malam, "Mo minum dulu? Tak bikinin teh ya.. biar anget badannya". Teh jahenya ya pasti kerasa banget enaknya, dulu pernah nyoba bikin teh jahe sendiri di rumah, udah abis berapa jahe tetep aja rasanya nggak sama :-( . Karena si mamah suka nyuguhin teh di rumahnya, jadi lidah ini rasanya udah nempel sama yang namanya teh.
-&lt;img alt="image" src="/img/wordpress/2008-02-fotoku006.jpg" /&gt;&lt;/p&gt;</summary></entry><entry><title>Sakit gigi</title><link href="http://kecebongsoft.com/2008/01/sakit-gigi.html" rel="alternate"></link><updated>2008-01-19T00:53:10+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-01-19:2008/01/sakit-gigi.html</id><summary type="html">&lt;p&gt;Belakangan ini nggak bisa apa-apa gara2 sakit gigi, assignment &amp;amp; project kuliah numpuk, kerjaan numpuk, hobi numpuk, semua pada terlantar. Jadi aku cuman mo bilang :&lt;/p&gt;
+Banyak juga efek-efek yang bagus di compiz, tapi beryl yang dulu jauh lebih bagus menurutku.. hehehe.. selamat datang lagi deh ubuntu..&lt;/p&gt;</summary></entry><entry><title>Sakit gigi</title><link href="http://kecebongsoft.com/2008/01/sakit-gigi.html" rel="alternate"></link><updated>2008-01-19T00:53:10+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-01-19:2008/01/sakit-gigi.html</id><summary type="html">&lt;p&gt;Belakangan ini nggak bisa apa-apa gara2 sakit gigi, assignment &amp;amp; project kuliah numpuk, kerjaan numpuk, hobi numpuk, semua pada terlantar. Jadi aku cuman mo bilang :&lt;/p&gt;
 &lt;p&gt;"Cepat sembuh ya..!! segeralah pergi wahai atit gigi!!"&lt;/p&gt;
 &lt;p&gt;Fiuhh.. sembuh sembuh sembuh ayo sembuh..&lt;/p&gt;</summary></entry><entry><title>Akibat kurang koordinasi</title><link href="http://kecebongsoft.com/2008/01/akibat-kurang-koordinasi.html" rel="alternate"></link><updated>2008-01-10T00:00:00+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-01-10:2008/01/akibat-kurang-koordinasi.html</id><summary type="html">&lt;p&gt;Di berbagai macam tempat, baik instansi, lembaga pendidikan, dan lain sebagainya, seringkali terjadi hal-hal yang tidak diinginkan akibat kurang koordinasi atau mungkin menyepelekan hal-hal kecil (yang sebenarnya tidak kecil). Kadang akibat dari itu bisa merugikan instansi atau lembaga pendidikan tersebut, atau juga merugikan konsumen atau pengguna instansi-nya.&lt;/p&gt;
 &lt;p&gt;Saya bisa dibilang salah satu yang dirugikan dari hal diatas, hari ini saya baru saja kembali ke kampus setelah kurang lebih satu bulan menghabiskan masa liburan di kampung halaman, setelah perjalanan 12 jam dan sampai di asrama kampus pukul 20:00, saya mendapati kamar saya telah ditinggali oleh orang lain, awalnya kaget, lalu saya tanya ke bagian security tentang masalah ini, kemudian mereka bilang bahwa saya belum melunasi biaya asrama untuk semester ini. Merasa ada yang salah dari apa yang beliau katakan, maka saya pun bilang bahwa saya sudah&amp;#160; melunasi semua biaya asrama dan pendidikan selama satu tahun penuh, pelunasan tersebut bahkan sudah saya lakukan semenjak bulan september silam, saya juga menunjukan semua bukti-bukti otentik yang saya punya. Tapi sepertinya pihak security tidak punya kapasitas untuk menampung masalah saya, jadi saya harus menunggu sampai lusa untuk menyelesaikan masalah ini dibagian akomodasi. Kenapa lusa? karena besok adalah hari libur Waisak.&lt;/p&gt;
@@ -4431,58 +4381,47 @@ December 26th 2007 I've got my very first birthday cake. There was 19 years I ne
 &lt;a href="http://chrisnanice.blogspot.com" target="_blank"&gt;
  my precious
 &lt;/a&gt;
-, you are always in my deepest heart :-)&lt;/p&gt;</summary></entry><entry><title>EasySMS : Teknologi berkekuatancinta</title><link href="http://kecebongsoft.com/2008/01/easysms-teknologi-berkekuatancinta.html" rel="alternate"></link><updated>2008-01-07T04:58:03+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-01-07:2008/01/easysms-teknologi-berkekuatancinta.html</id><summary type="html">&lt;p&gt;Judul yang bombastis.. hehehe. Ini sebenernya hanya hasil pemikiran yang sempat aku buat sebelum kembali ke kampus. Kasusnya seperti ini, saat aku ntar balik ke kampus, pengennya masih bisa tetep sms-an sama
-&lt;a href="http://chrisnanice.blogspot.com" target="_blank"&gt;
- mamahkuw
-&lt;/a&gt;
-. Tapi tarif sms antar negara itu mahalnya seanjrit-anjrit, mamahkuw pake kartu AS (secara tarifnya rp1000/sms), dan kami biasanya sms-an hampir 40-100 kali setiap harinya (pas lagi di indo), soalnya kita sama-sama pake kartu AS, jadi sms-annya bisa murah (Rp. 99/sms).  Nah kalau tetep sms-an antar negara, seharinya bisa abis sekitar rp.50.000 tuh.
+, you are always in my deepest heart :-)&lt;/p&gt;</summary></entry><entry><title>EasySMS</title><link href="http://kecebongsoft.com/2008/01/easysms.html" rel="alternate"></link><updated>2008-01-07T04:58:03+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-01-07:2008/01/easysms.html</id><summary type="html">&lt;p&gt;Tarif sms antar negara itu mahalnya seanjrit-anjrit, temankuw pake kartu AS (secara tarifnya rp1000/sms), dan kami biasanya sms-an hampir 40-100 kali setiap harinya (pas lagi di indo), soalnya kita sama-sama pake kartu AS, jadi sms-annya bisa murah (Rp. 99/sms).  Nah kalau tetep sms-an antar negara, seharinya bisa abis sekitar rp.50.000 tuh.
 &lt;!--more--&gt;
-Berawal dari situ, aku mulai cari alternatif, belakangan ini kan lagi asik browsing pakai Simpati yang tarif GPRSnya Rp.12/kb, kenapa nggak aku manfaatkan aja jalur GPRS buat sms-an ya?. Maka terbentuklah EasySMS, yaitu sebuah portal yang bisa dipakai untuk mengirim pesan-pesan dan menyimpannya ke database, mamahkuw akan ngebuka portal ini melalui ponsel, dan mengecek apakah ada inbox yang masuk atau enggak. Satu kali akses berkisar antara 600-950 bytes, artinya sekali cek inbox adalah Rp.12. Dan dibagian frontpage portal tersebut juga ada kolom untuk mengetik pesan, dimana pesan yang diketik akan dikirim ke inboxku, dan biaya kirimnya tetap berkisar Rp.12, terkecuali kalau karakternya 1000an lebih.Tapi aku masih nggak puas sampai disitu, tarif yang relatif murah ini bisa dimanfaatin,  gimana klo ada fasilitas kirim foto?. Yes!, jadi tiap kali mamahkuw ada acara apa gitu, bisa langsung jepret dan kirim, ponselnya kan punya kamera 1.3 megapixel, setiap kali jepret filesizenya berkisar antara 20-23kb. Nah, maka aku langsung tambahin aja satu field utk masukin foto, foto itu juga akan di upload ke server, misalkan size fotonya adalah 22kb, 22 * Rp.12 = Rp. 264. Hehehe.. lumayan murah juga.&lt;/p&gt;
+Berawal dari situ, aku mulai cari alternatif, belakangan ini kan lagi asik browsing pakai Simpati yang tarif GPRSnya Rp.12/kb, kenapa nggak aku manfaatkan aja jalur GPRS buat sms-an ya?. Maka terbentuklah EasySMS, yaitu sebuah portal yang bisa dipakai untuk mengirim pesan-pesan dan menyimpannya ke database, temankuw akan ngebuka portal ini melalui ponsel, dan mengecek apakah ada inbox yang masuk atau enggak. Satu kali akses berkisar antara 600-950 bytes, artinya sekali cek inbox adalah Rp.12. Dan dibagian frontpage portal tersebut juga ada kolom untuk mengetik pesan, dimana pesan yang diketik akan dikirim ke inboxku, dan biaya kirimnya tetap berkisar Rp.12, terkecuali kalau karakternya 1000an lebih.Tapi aku masih nggak puas sampai disitu, tarif yang relatif murah ini bisa dimanfaatin,  gimana klo ada fasilitas kirim foto?. Yes!, jadi tiap kali temankuw ada acara apa gitu, bisa langsung jepret dan kirim, ponselnya kan punya kamera 1.3 megapixel, setiap kali jepret filesizenya berkisar antara 20-23kb. Nah, maka aku langsung tambahin aja satu field utk masukin foto, foto itu juga akan di upload ke server, misalkan size fotonya adalah 22kb, 22 * Rp.12 = Rp. 264. Hehehe.. lumayan murah juga.&lt;/p&gt;
 &lt;p&gt;Jadi kalau diitung-itung, sms-an tanpa foto:
 -   Buka portal EasySMS untuk ngecek inbox = 600-950bytes = Rp.12
 -   Kirim Pesan = Rp. 12
 Total = Rp. 24
 &lt;b&gt;
- 1. Tampilan punya papah dari PC
+ 1. Tampilan punya saya dari PC
 &lt;/b&gt;
 &lt;img alt="image" src="/img/wordpress/2008-01-easysms1.jpg" /&gt;
 &lt;b&gt;
- 2. Tampilan punya mamah dari ponsel
+ 2. Tampilan punya teman dari ponsel
 &lt;/b&gt;
 &lt;img alt="image" src="/img/wordpress/2008-01-easysms2.jpg" /&gt;
 &lt;b&gt;
- 3. Si papah kirim foto plus pesan
+ 3. Si saya kirim foto plus pesan
 &lt;/b&gt;
 &lt;img alt="image" src="/img/wordpress/2008-01-easysms3.jpg" /&gt;
 &lt;b&gt;
- 4. Si mamah terima pesan
+ 4. Si teman terima pesan
 &lt;/b&gt;
 &lt;img alt="image" src="/img/wordpress/2008-01-easysms4.jpg" /&gt;
 &lt;b&gt;
- 5. Si mamah bales pesan
+ 5. Si teman bales pesan
 &lt;/b&gt;
 &lt;img alt="image" src="/img/wordpress/2008-01-easysms5.jpg" /&gt;
 &lt;b&gt;
- 6. Si papah dapet balesan
+ 6. Si saya dapet balesan
 &lt;/b&gt;
 &lt;img alt="image" src="/img/wordpress/2008-01-easysms6.jpg" /&gt;
 Memang kekurangannya ada di notifikasi, portal EasySMS nggak punya notifikasi otomatis kalau ada pesan baru, sehingga user harus rutin cek inbox, tapi cek inbox juga nggak mahal kok. Dan kirim foto juga nggak lebih dari Rp. 500 :-D&lt;/p&gt;
-&lt;p&gt;Maka jadilah EasySMS, saat ini hanya bisa dipakai untuk 2 user, yaitu papah dan mamah (hehehehehe&amp;#8230;). Si papah ngecek inboxnya dari PC (soalnya tiap hari bisa online di PC), dan si mamah ngecek inboxnya dari ponsel dengan kartu Simpati. Sekarang papah dan mamah bisa kirim-kiriman sms, kirim-kiriman foto dengan biaya relatif murah, nggak ada batasan karakter, pesan bisa di save di folder tersendiri, ada report sent items, dll. Ponsel yang dipakai adalah Nokia3230, kalau cuma kirim pesan biasa, bisa pakai browser bawaan Nokia 3230, tapi kalau mau kirim foto, pakai Opera Mini Browser.&lt;/p&gt;
-&lt;p&gt;Tapi kasian deh si papah, setelah EasySMS jadi, ternyata nggak dipake karena.. ehm ehm, ada aja! :p. gpp ah, itung-itung belajar2 web lagi.., klo nggak bisa sms-an, ya telpon :-p.&lt;/p&gt;
+&lt;p&gt;Maka jadilah EasySMS, saat ini hanya bisa dipakai untuk 2 user, yaitu saya dan teman (hehehehehe&amp;#8230;). Si saya ngecek inboxnya dari PC (soalnya tiap hari bisa online di PC), dan si teman ngecek inboxnya dari ponsel dengan kartu Simpati. Sekarang saya dan teman bisa kirim-kiriman sms, kirim-kiriman foto dengan biaya relatif murah, nggak ada batasan karakter, pesan bisa di save di folder tersendiri, ada report sent items, dll. Ponsel yang dipakai adalah Nokia3230, kalau cuma kirim pesan biasa, bisa pakai browser bawaan Nokia 3230, tapi kalau mau kirim foto, pakai Opera Mini Browser.&lt;/p&gt;
+&lt;p&gt;Tapi kasian deh si saya, setelah EasySMS jadi, ternyata nggak dipake karena.. ehm ehm, ada aja! :p. gpp ah, itung-itung belajar2 web lagi.., klo nggak bisa sms-an, ya telpon :-p.&lt;/p&gt;
 &lt;p&gt;So, buat yang mo nyoba, silahkan deh di ubek-ubek :
-&lt;a href="http://www.smka-smr.sch.id/cebong/easysms/?s=mamah" target="_blank"&gt;
- www.smka-smr.sch.id/cebong/easysms/?s=mamah
+&lt;a href="http://www.smka-smr.sch.id/cebong/easysms/?s=teman" target="_blank"&gt;
+ www.smka-smr.sch.id/cebong/easysms/?s=teman
 &lt;/a&gt;
-&lt;a href="http://www.smka-smr.sch.id/cebong/easysms/?s=papah" target="_blank"&gt;
- www.smka-smr.sch.id/cebong/easysms/?s=papah
-&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Kembali kekampus</title><link href="http://kecebongsoft.com/2008/01/kembali-kekampus.html" rel="alternate"></link><updated>2008-01-06T17:03:09+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2008-01-06:2008/01/kembali-kekampus.html</id><summary type="html">&lt;p&gt;Akhirnya, setelah liburan selama kurang lebih satu setengah bulan, aku balik juga ke kampus. Tidak puas rasanya liburan kali ini, masih banyak masa-masa indah yang ingin dilewatkan bersama keluarga dan orang-orang tersayang di tempat kelahiran, mulai dari masak sendiri di dapur (aku emang hobi masak-masakan di dapur), nonton tipi sambil kakinya diangkat ke atas meja, nyetel musik kenceng-kenceng pakai speaker 5.1 di kamar, nonton empat mata, nganter mamahkuw jalan-jalan tiap hari, banyak banget deh. Makanya kemarin sempat sedih aja pas mau berangkat, kok masa-masa ini berlalu begitu cepat ya..
-&lt;!--more--&gt;
-Tapi kembali ke kampus bukan berarti kembali ke penderitaan, disini juga ada segudang kegiatan yang bisa membuatku sibuk. Ada kurang lebih 4-5 subject yang ada di semester ini, belum lagi research-research pribadiku (halah gaya pake research segala :p). Aku disini kan juga buat mengejar impian, hehehe...&lt;/p&gt;
-&lt;p&gt;Jadi hari ini udah ada di kampus. Tadi pagi kira-kira pukul 05.00 dini hari udah berangkat dari Kalimantan, naik bis yang jalannya bener-bener lamban (untung nggak telat pesawat), trus nunggu flight berjam-jam, trus sampai di Jakarta, sempat ngurus fiskal dan cek in yang repotnya setengah mati. Trus nunggu flightnya lagi berjam-jam juga, sampe perut keroncongan. Untungnya pas nyampe di KL urusan jadi lebih enak, imigrasi lancar, tukar uang lancar, cari taksi lancar, kartu hape juga masih bisa dipake (dan masih ada pulsanya).&lt;/p&gt;
-&lt;p&gt;Pas nyampe, langsung ngeberesin pakaian dan kamar, semester ini Aku sekamar sama si Budi, makhluk asing dari Padang. Pas sampe di kamar, ternyata kursinya sedikit patah, bantal dan guling juga nggak ada, mesti beli sendiri (nggak seperti semester kemarin). Setelah beres-beres, pergi makan di Bistro Palma, sekalian beli ember, botol air, gembok, tempat pensil, sama pulsa. Habis itu baru deh telpon rumah, kasih kabar ke keluarga, kebetulan yang ngangkat si mami. Trus habis itu langsung telpon mamahkuw, ternyata dia lagi ngerjain PR adeknya, hari ini juga mamahkuw asik jalan-jalan sama mbak tituk. Hehehe.. senang rasanya klo mamahkuw tetep sibuk biarpun pangerannya lagi di kampus (halah.. hehehe :p).&lt;/p&gt;
-&lt;p&gt;Besok rencananya mau cek in ke Accommodation Office dulu trus enroll buat semester ini, mudah-mudahan aja bisa ambil semua subject. Amiinnn..&lt;/p&gt;
-&lt;p&gt;Oh iya, selain itu juga lagi sibuk main-main PHP lagi, sekarang interfacenya pake WML.&lt;/p&gt;
-&lt;p&gt;Sedih rasanya (lagi-lagi) mesti ninggalin hal-hal menyenangkan di kampung halaman, tapi Aku juga punya impian disini, mudah-mudahan semuanya lancar dan dapat tercapai.. Amiinn..&lt;/p&gt;</summary></entry><entry><title>Make aWish</title><link href="http://kecebongsoft.com/2007/12/make-awish.html" rel="alternate"></link><updated>2007-12-26T13:54:41+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-12-26:2007/12/make-awish.html</id><summary type="html">&lt;p&gt;Let me make a wish..
+&lt;a href="http://www.smka-smr.sch.id/cebong/easysms/?s=saya" target="_blank"&gt;
+ www.smka-smr.sch.id/cebong/easysms/?s=saya
+&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Make aWish</title><link href="http://kecebongsoft.com/2007/12/make-awish.html" rel="alternate"></link><updated>2007-12-26T13:54:41+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-12-26:2007/12/make-awish.html</id><summary type="html">&lt;p&gt;Let me make a wish..
 Let me say a ton of wish..
 Let me feel a happiness today..&lt;/p&gt;
 &lt;p&gt;This year..
@@ -4701,15 +4640,6 @@ kata, sesungguhnya saya hanyalah
  Radja
 &lt;/strike&gt;
 manusia biasa.&lt;/p&gt;
-&lt;p&gt;Buat
-&lt;a href="http://chrisnanice.blogspot.com/"&gt;
- mamahkuw
-&lt;/a&gt;
-, maapin ya klo selama ini ada salah-salah ucap dan salah-salah
-&lt;strike&gt;
- pegang
-&lt;/strike&gt;
-sikap, maapin ya semuanya :D&lt;/p&gt;
 &lt;p&gt;Tak lupa buat babe en mami di rumah
 &lt;strike&gt;
  kalo ini sih bisa ngomong langsung
@@ -5313,34 +5243,7 @@ Glutuk glutuk glutuk glutuk!. Eh??!! nongolnya 4 kaleng!!. Weks, dasar mesin geb
 &lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>My new Feisty</title><link href="http://kecebongsoft.com/2007/09/my-new-feisty.html" rel="alternate"></link><updated>2007-09-07T06:44:41+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-09-07:2007/09/my-new-feisty.html</id><summary type="html">&lt;p&gt;&lt;a href="http://kecebongsoft.files.wordpress.com/2007/09/screenshot.png" title="screenshot.png"&gt;
  &lt;img alt="image" src="/img/wordpress/2007-09-screenshot.png" /&gt;
 &lt;/a&gt;
-Akhirnya setelah pusing dengan VGA yang nggak support 1280x800, ditambah lagi dengan seabrek masalah lain, kini Ubuntu Feisty + Beryl ku terlihat manis, dengan efek-efek yang wah. Jadi sekarang Vistaku punya teman sekamar, yaitu Feisty Fawn!.&lt;/p&gt;</summary></entry><entry><title>Ganti widgettext</title><link href="http://kecebongsoft.com/2007/09/ganti-widgettext.html" rel="alternate"></link><updated>2007-09-04T11:09:28+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-09-04:2007/09/ganti-widgettext.html</id><summary type="html">&lt;p&gt;Kata
-&lt;a href="http://chrisnanice.blogspot.com"&gt;
- mamah
-&lt;/a&gt;
-(atau Miss Eva ya?), nama universitas yang dakuw tulis di widget text itu salah. Hehehe.. ternyata bener. Tapi pas diganti teksnya malah tambah turun kebawah. ya udah deh, dipasangin cyborg kecebong aja :-D&lt;/p&gt;</summary></entry><entry><title>Jika dakuw menjadirobot</title><link href="http://kecebongsoft.com/2007/09/jika-dakuw-menjadirobot.html" rel="alternate"></link><updated>2007-09-04T05:53:09+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-09-04:2007/09/jika-dakuw-menjadirobot.html</id><summary type="html">&lt;p&gt;Ini adalah dakuw...
-&lt;a href="http://cyborg.namedecoder.com"&gt;
- &lt;img alt="image" src="http://cyborg.namedecoder.com/webimages/governor3k3-PAPAH.png" /&gt;
-&lt;/a&gt;
-Ini adalah
-&lt;a href="http://chrisnanice.blogspot.com"&gt;
- mamah
-&lt;/a&gt;
-...
-&lt;a href="http://cyborg.namedecoder.com"&gt;
- &lt;img alt="image" src="http://cyborg.namedecoder.com/webimages/genic-MAMAH.png" /&gt;
-&lt;/a&gt;
-Ini papinya mamah..
-&lt;a href="http://cyborg.namedecoder.com"&gt;
- &lt;img alt="image" src="http://cyborg.namedecoder.com/webimages/edox-JEFRI.png" /&gt;
-&lt;/a&gt;
-Dan ini maminya mamah..
-&lt;a href="http://cyborg.namedecoder.com"&gt;
- &lt;img alt="image" src="http://cyborg.namedecoder.com/webimages/chi2-SUANAH.png" /&gt;
-&lt;/a&gt;
-Mau jadi robot?
-&lt;a href="http://cyborg.namedecoder.com"&gt;
- Ya bikin sekarang juga!
-&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Mengatasi lost focus pada Direct Input</title><link href="http://kecebongsoft.com/2007/09/mengatasi-lost-focus-pada-direct-input.html" rel="alternate"></link><updated>2007-09-03T10:38:05+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-09-03:2007/09/mengatasi-lost-focus-pada-direct-input.html</id><summary type="html">&lt;p&gt;Direct Input adalah salah satu bagian dari DirectX yang digunakan untuk memanajemen inputan user baik berupa keyboard, joystick, mouse, dan lain sebagainya. Belakangan ini dakuw lagi mencoba menggunakan direct input untuk memproses inputan keyboard. Inputan user tersebut diawasi dalam sebuah looping. Tapi muncul sebuah masalah...
+Akhirnya setelah pusing dengan VGA yang nggak support 1280x800, ditambah lagi dengan seabrek masalah lain, kini Ubuntu Feisty + Beryl ku terlihat manis, dengan efek-efek yang wah. Jadi sekarang Vistaku punya teman sekamar, yaitu Feisty Fawn!.&lt;/p&gt;</summary></entry><entry><title>Mengatasi lost focus pada Direct Input</title><link href="http://kecebongsoft.com/2007/09/mengatasi-lost-focus-pada-direct-input.html" rel="alternate"></link><updated>2007-09-03T10:38:05+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-09-03:2007/09/mengatasi-lost-focus-pada-direct-input.html</id><summary type="html">&lt;p&gt;Direct Input adalah salah satu bagian dari DirectX yang digunakan untuk memanajemen inputan user baik berupa keyboard, joystick, mouse, dan lain sebagainya. Belakangan ini dakuw lagi mencoba menggunakan direct input untuk memproses inputan keyboard. Inputan user tersebut diawasi dalam sebuah looping. Tapi muncul sebuah masalah...
 &lt;!--more--&gt;
 Ketika program kita kehilangan fokus (user mengklik program lain atau menekan alt+tab), kemudian setelah program kita mendapatkan fokus kembali, direct input tidak lagi bekerja. Hmm.. Setelah usut punya usut, ternyata direct input gagal meng-acquire device ketika program kehilangan fokus. Di dokumentasi Software Development Kit (SDK) juga tidak menyertakan sample untuk menghandle direct input ketika program kehilangan fokus. Gimana ya caranya mengetahui direct input gagal di acquire?. Di contoh direct input pada dokumentasi SDK, ada sebuah komentar yang mengatakan bahwa dalam sebuah looping, kita bisa menangkap error yang dibuat oleh direct input, sehingga kita bisa tahu direct input kehilangan fokus atau tidak. Jadi dakuw mengikuti nasehat komentar tersebut, dan berhasil :-D. So here is the damn stuff :
 &lt;pre&gt;
@@ -5428,7 +5331,7 @@ muncul meskipun halaman sudah beberapa kali dibuka. Entah memang ditujukan agar 
 &lt;/strike&gt;
 senyum-senyum?
 &lt;img alt="image" src="/img/wordpress/2007-09-webcam.jpg" /&gt;&lt;/p&gt;</summary></entry><entry><title>Better speed</title><link href="http://kecebongsoft.com/2007/08/better-speed.html" rel="alternate"></link><updated>2007-08-31T14:49:06+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-31:2007/08/better-speed.html</id><summary type="html">&lt;p&gt;Iseng iseng donlot gunbound world champion di kafe preman, kira2 jam 11 malam. Lumayan juga speednya, meskipun ga terlalu cepet :D
-&lt;img alt="image" src="/img/wordpress/2007-08-getright.jpg" /&gt;&lt;/p&gt;</summary></entry><entry><title>Where AmI?</title><link href="http://kecebongsoft.com/2007/08/where-ami.html" rel="alternate"></link><updated>2007-08-31T14:40:17+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-31:2007/08/where-ami.html</id><summary type="html">&lt;p&gt;Hehehe.. jadi begitulah. Pas sampai di KL, beli sim card ternyata mesti pakai registrasi yang lebih dari satu hari, mungkin karena hari ini peringatan hari kemerdakaan di Malaysia. Untunglah ada temen dari Indonesia (poto1) yang minjemin hp buat kirim sms ke mamah. Huah.. tenang di pikiran. Oh iya, foto yang lagi main basket itu pas malam hari. Trus sisanya foto di hostel. Foto yang terakhir itu lagi ngenet di stan preman. Asli ga ada makanan minuman cuma buat ngenet aja mpe subuh, fotonya diambil jam 11 malam.
+&lt;img alt="image" src="/img/wordpress/2007-08-getright.jpg" /&gt;&lt;/p&gt;</summary></entry><entry><title>Where AmI?</title><link href="http://kecebongsoft.com/2007/08/where-ami.html" rel="alternate"></link><updated>2007-08-31T14:40:17+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-31:2007/08/where-ami.html</id><summary type="html">&lt;p&gt;Hehehe.. jadi begitulah. Pas sampai di KL, beli sim card ternyata mesti pakai registrasi yang lebih dari satu hari, mungkin karena hari ini peringatan hari kemerdakaan di Malaysia. Untunglah ada temen dari Indonesia (poto1) yang minjemin hp buat kirim sms ke teman. Huah.. tenang di pikiran. Oh iya, foto yang lagi main basket itu pas malam hari. Trus sisanya foto di hostel. Foto yang terakhir itu lagi ngenet di stan preman. Asli ga ada makanan minuman cuma buat ngenet aja mpe subuh, fotonya diambil jam 11 malam.
 &lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto189.jpg" title="foto189.jpg"&gt;
  &lt;img alt="image" src="/img/wordpress/2007-08-foto189.thumbnail.jpg" /&gt;
 &lt;/a&gt;
@@ -5450,30 +5353,12 @@ senyum-senyum?
 &lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto190.jpg" title="foto190.jpg"&gt;
  &lt;img alt="image" src="/img/wordpress/2007-08-foto190.thumbnail.jpg" /&gt;
 &lt;/a&gt;
-Karena kampusnya luas kayak lapangan bola dikali 2 dipangkatin 100, jadi foto2 yang lain nyusul aja :D.&lt;/p&gt;</summary></entry><entry><title>Ngepak baju bersamamamah</title><link href="http://kecebongsoft.com/2007/08/ngepak-baju-bersamamamah.html" rel="alternate"></link><updated>2007-08-31T14:18:23+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-31:2007/08/ngepak-baju-bersamamamah.html</id><summary type="html">&lt;p&gt;Kamis, 30 Agustus 2007. Sebelum berangkat dakuw sempat ngepak baju sama mamah. Rusuh banget milihin baju, sikat gigi, sabun, sampo, celana, piring, dll. Dan akhirnya selesai ^_^. Trus nganter mamah pulang, karena abis ujan, jadi nongol
-&lt;strike&gt;
- nidji
-&lt;/strike&gt;
-pelangi deh..
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto179.jpg" title="foto179.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto179.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto181.jpg" title="foto181.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto181.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto180.jpg" title="foto180.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto180.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto182.jpg" title="foto182.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto182.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a class="upload-tab-link" href="https://kecebongsoft.wordpress.com/wp-admin/upload.php?style=inline&amp;amp;tab=browse-all&amp;amp;action=&amp;amp;ID=&amp;amp;post_id=-1188569308&amp;amp;paged" title="Browse All"&gt;
-&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>LittlePlanet</title><link href="http://kecebongsoft.com/2007/08/littleplanet.html" rel="alternate"></link><updated>2007-08-31T14:08:25+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-31:2007/08/littleplanet.html</id><summary type="html">&lt;p class="MsoNormal"&gt;
- Selasa 28 Oktober 2007, 2 hari menjelang keberangkatan ke Inti  University (Jum&amp;#8217;at). Dakuw hari ini punya beberapa agenda. Nemenin mami belanja setelah itu nemenin mamah kondangan. Oh iya, hari ini juga dakuw pengen nonton gerhana bulan, tapi sayangnya sedari pagi hujan dan awan hitam terus-terusan menutupi langit. Hingga pukul 5 sore, awan terus-terusan gelap, ditambah lagi hujan yang sebentar berenti sebentar nongol. Oh iya hampir lupa, hari ini juga dakuw ikutan puasa misfu sya&amp;#8217;ban.
+Karena kampusnya luas kayak lapangan bola dikali 2 dipangkatin 100, jadi foto2 yang lain nyusul aja :D.&lt;/p&gt;</summary></entry><entry><title>LittlePlanet</title><link href="http://kecebongsoft.com/2007/08/littleplanet.html" rel="alternate"></link><updated>2007-08-31T14:08:25+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-31:2007/08/littleplanet.html</id><summary type="html">&lt;p class="MsoNormal"&gt;
+ Selasa 28 Oktober 2007, 2 hari menjelang keberangkatan ke Inti  University (Jum&amp;#8217;at). Dakuw hari ini punya beberapa agenda. Nemenin mami belanja setelah itu nemenin teman kondangan. Oh iya, hari ini juga dakuw pengen nonton gerhana bulan, tapi sayangnya sedari pagi hujan dan awan hitam terus-terusan menutupi langit. Hingga pukul 5 sore, awan terus-terusan gelap, ditambah lagi hujan yang sebentar berenti sebentar nongol. Oh iya hampir lupa, hari ini juga dakuw ikutan puasa misfu sya&amp;#8217;ban.
 &lt;/p&gt;
 
 &lt;p class="MsoNormal"&gt;
- Jadi pas pukul 18.30, dakuw buka puasa di rumah mamah. Menunya enak tenan rek, sayur kangkung + mie goreng + ikan asin. Makannya rebutan sama kucing. Setelah buka puasa dakuw kembali melongok keluar, awannya masih hitam. Sepertinya harapan melihat gerhana bulan benar-benar cuma harapan :(. Trus pukul 19.15 nemenin mamah kondangan hingga pukul 20.00. Sepulangnya dari tempat kondangan, dakuw istirahat sebentar dirumah calon mertua. Nggak beberapa menit kemudian dakuw pamit pulang, sekalian pamit untuk kurun waktu setahun. Pamit yang sebelumnya juga dakuw sampaikan ke maminya babe. Rasanya semakin banyak pamit, hati ini semakin nggak mau ninggalin my beloved east Borneo. But live must go on, no sacrifice no victory (Transformers&amp;#8482;) :-D.
+ Jadi pas pukul 18.30, dakuw buka puasa di rumah teman. Menunya enak tenan rek, sayur kangkung + mie goreng + ikan asin. Makannya rebutan sama kucing. Setelah buka puasa dakuw kembali melongok keluar, awannya masih hitam. Sepertinya harapan melihat gerhana bulan benar-benar cuma harapan :(. Trus pukul 19.15 nemenin teman kondangan hingga pukul 20.00. Sepulangnya dari tempat kondangan, dakuw istirahat sebentar dirumah calon mertua. Nggak beberapa menit kemudian dakuw pamit pulang, sekalian pamit untuk kurun waktu setahun. Pamit yang sebelumnya juga dakuw sampaikan ke maminya babe. Rasanya semakin banyak pamit, hati ini semakin nggak mau ninggalin my beloved east Borneo. But live must go on, no sacrifice no victory (Transformers&amp;#8482;) :-D.
 &lt;/p&gt;
 
 &lt;p class="MsoNormal"&gt;
@@ -5649,16 +5534,7 @@ Kalau perlu passwordnya mesti pake md5, atau enkripsi 256 bit punya MySQL 4, mes
  tek dung
 &lt;/a&gt;
 juga kira-kira satu jam, eh malah dapet mimpi, seperti wangsit yang kasih tahu bahwa untuk meng-acquire device, variable hInst dan hWnd nya mesti di init dulu atau dengan kata lain window program kita mesti nongol dulu baru bisa acquire device keyboard. Dor! Kebangun, langsung coba dan ternyata bisa ^_^. Hehehe.. thanks God.&lt;/p&gt;
-&lt;p&gt;Jadi buat temen-temen yang lagi coba-coba DirectInput di C++, pastikan dulu class windownya udah diregister, windownya udah di tampilin, baru acquire device directinputnya. Kalau instance window (hInst dan hWnd) masih null, sampe kiamat kesepuluh kagak bakal ngepek!.&lt;/p&gt;</summary></entry><entry><title>Tek Dung</title><link href="http://kecebongsoft.com/2007/08/tek-dung.html" rel="alternate"></link><updated>2007-08-21T12:01:54+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-21:2007/08/tek-dung.html</id><summary type="html">&lt;p&gt;Tek dung = Tidur, bobo, slept, turu.
-Ini bahasa nasional
-&lt;a href="http://kecebongsoft.wordpress.com"&gt;
- papah
-&lt;/a&gt;
-dan
-&lt;a href="http://chrisnanice.blogspot.com"&gt;
- mamah
-&lt;/a&gt;
-sebagai pengganti kata tidur. Tek dung dalam salah satu lagu rapper Indonesia (Neo apa Saykoji ya?) diartikan sebagai hamil, bunting, mungkin karena perut orang hamil kalau dipukul bunyinya &amp;#8220;tek dung&amp;#8221;, hmm.. yang bunyi perutnya apa bayinya ya? Hehehe...&lt;/p&gt;</summary></entry><entry><title>Seandainya kita merdeka pada 2 Januari 1900</title><link href="http://kecebongsoft.com/2007/08/seandainya-kita-merdeka-pada-2-januari-1900.html" rel="alternate"></link><updated>2007-08-20T03:00:19+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-20:2007/08/seandainya-kita-merdeka-pada-2-januari-1900.html</id><summary type="html">&lt;p&gt;Lambang negara kita pasti Capung Botak!. Lho kenapa? Kita merdeka 17-8-1945, artinya 17 Sayap, 8 Ekor, 45 Leher.&lt;/p&gt;
+&lt;p&gt;Jadi buat temen-temen yang lagi coba-coba DirectInput di C++, pastikan dulu class windownya udah diregister, windownya udah di tampilin, baru acquire device directinputnya. Kalau instance window (hInst dan hWnd) masih null, sampe kiamat kesepuluh kagak bakal ngepek!.&lt;/p&gt;</summary></entry><entry><title>Seandainya kita merdeka pada 2 Januari 1900</title><link href="http://kecebongsoft.com/2007/08/seandainya-kita-merdeka-pada-2-januari-1900.html" rel="alternate"></link><updated>2007-08-20T03:00:19+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-20:2007/08/seandainya-kita-merdeka-pada-2-januari-1900.html</id><summary type="html">&lt;p&gt;Lambang negara kita pasti Capung Botak!. Lho kenapa? Kita merdeka 17-8-1945, artinya 17 Sayap, 8 Ekor, 45 Leher.&lt;/p&gt;
 &lt;p&gt;Kalau kita merdeka 2 Januari 1900, artinya? bayangin aja sendiri :D&lt;/p&gt;</summary></entry><entry><title>DWORD color = RGB()</title><link href="http://kecebongsoft.com/2007/08/dword-color-rgb.html" rel="alternate"></link><updated>2007-08-20T02:41:41+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-20:2007/08/dword-color-rgb.html</id><summary type="html">&lt;p&gt;Yang sering berurusan dengan
 &lt;a href="http://en.wikipedia.org/wiki/Directx"&gt;
  DirectX
@@ -5700,39 +5576,7 @@ sopwer dan sopwer.&lt;/p&gt;
 &lt;p&gt;Wokeh deh, dakuw flight sekitar tanggal 30-31 Agustus, buat fans-fans yang pengen cipika-cipiki silahkan melapor ke ketua RT terdekat untuk mendapatkan kupon. Sayonara my beloved city!.
 &lt;em&gt;
  Note : map klo selama ini orang2 tanya &amp;#8220;Dedi mo lanjut kmana?&amp;#8221; dakuw selalu jawab mau kerja, kalian sih nggak baca blog kuw&amp;#8230; hehehe.
-&lt;/em&gt;&lt;/p&gt;</summary></entry><entry><title>Karnaval!</title><link href="http://kecebongsoft.com/2007/08/karnaval.html" rel="alternate"></link><updated>2007-08-20T02:10:28+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-20:2007/08/karnaval.html</id><summary type="html">&lt;p&gt;Seperti biasa, setelah peringatan HUT RI selalu diadakan karnaval, baik di daerah-daerah maupun di pusat kota. Hari jum&amp;#8217;at dakuw sempat menonton karnaval di tenggarong seberang bersama mamah. Sayangnya karnaval ini jalannya agak tersendat-sendat, bukan karena kasetnya bajakan tapi karena kendaraan umum yang melintas, entah tujuannya ingin kesuatu tempat atau sekedar cari muka. Semoga di tahun-tahun selanjutnya pemandangan seperti itu tidak terlihat lagi. Ini poto-potonya, tapi nggak semua nih, soalnya beberapa ada yang ketutupan ama kendaraan-kendaaran umum yang melintas (seperti my beloved pocong, terhalang helm om-om sial*n). :
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto103.jpg" title="foto103.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto103.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto109.jpg" title="foto109.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto109.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto122.jpg" title="foto122.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto122.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto123.jpg" title="foto123.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto123.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-Di Samarinda sendiri karnaval diadakan sehari sesudah peringatan HUT RI, dakuw sekeluarga menonton, tapi pisah-pisah, mengikuti pasangan masing-masing :-D . Seperti tahun lalu, karnaval di Samarinda terlalu besar dan meriah untuk dakuw ikuti hingga selesai, baru sekitar 2-3 jam dakuw sudah teler dan balik ke sekolah, kaki udah pegel. Karnaval dimulai pukul 08.30 hingga sore hari, dimana sore hari diisi oleh kendaraan hias yang melintas di sepanjang jalan Dr. Sutomo dan sekitarnya. Ini poto-potonya..
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto136.jpg" title="foto136.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto136.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto144.jpg" title="foto144.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto144.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto145.jpg" title="foto145.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto145.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto148.jpg" title="foto148.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto148.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto149.jpg" title="foto149.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto149.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-&lt;a href="http://kecebongsoft.files.wordpress.com/2007/08/foto152.jpg" title="foto152.jpg"&gt;
- &lt;img alt="image" src="/img/wordpress/2007-08-foto152.thumbnail.jpg" /&gt;
-&lt;/a&gt;
-Sebenernya banyak poto-poto karnaval di Samarinda, tapi karena membludaknya makhluk yang menonton, kameranya jadi goyang Anisa Bahar, alhasil poto yang bagus tak dapat diraih :-(. Oh ya, selain karnaval di Samarinda, pada malam sebelum HUT RI juga ada karnaval obor, sayangnya dakuw nggak nonton dan nggak bisa share potonya disini. Oke deh, sampai jumpa karnaval 3 tahun lagi!.&lt;/p&gt;</summary></entry><entry><title>CompactDisc's birthday juga!</title><link href="http://kecebongsoft.com/2007/08/compactdiscs-birthday-juga.html" rel="alternate"></link><updated>2007-08-17T13:16:16+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-17:2007/08/compactdiscs-birthday-juga.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="http://www.cdvd-shop.com/catalog/images/SlimCaseSingleBlack.jpg" /&gt;
+&lt;/em&gt;&lt;/p&gt;</summary></entry><entry><title>CompactDisc's birthday juga!</title><link href="http://kecebongsoft.com/2007/08/compactdiscs-birthday-juga.html" rel="alternate"></link><updated>2007-08-17T13:16:16+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-17:2007/08/compactdiscs-birthday-juga.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="http://www.cdvd-shop.com/catalog/images/SlimCaseSingleBlack.jpg" /&gt;
 Seperti Indonesia yang "diresmikan" tanggal 17 Agustus 1945 dan dirayakan hari ini (17 Agustus 2007), CompactDisc (CD) pun "diresmikan" pemakaiannya pada tanggal 17 Agustus 1982. Harganya perkepingnya memang murah, hanya cukup untuk membeli satu kantong kresek gorengan, dominasinya pun sudah mulai bergeser ke DVD dan teknologi storage lainnya. Tapi kita nggak bisa pungkiri bahwa benda inilah yang selama ini benar-benar membantu kita dalam urusan storage, dari game, software &amp;amp; window$ bajakan, mp3 dan video klip, sampai ke miyabi. Met ultah ya
 &lt;strike&gt;
  CelanaDalam
@@ -6142,17 +5986,7 @@ Dan tentu saja dimasukan di bagian &amp;lt;head&amp;gt;&amp;#8230;&amp;lt;/head&
 &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"&amp;gt;
 &amp;lt;meta http-equiv="refresh" content="10;url=http://kecebong.madpage.com/blog/"&amp;gt;
 &amp;lt;/head&amp;gt;&lt;/pre&gt;
-Dibanding pakai javascript/php, META Refresh jauh lebih fleksibel karena merupakan bawaan HTML dan cross browser. Ada yang mo coba? coba? coba?.&lt;/p&gt;</summary></entry><entry><title>MimiUncu..!!</title><link href="http://kecebongsoft.com/2007/07/mimiuncu.html" rel="alternate"></link><updated>2007-07-12T05:20:53+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-07-12:2007/07/mimiuncu.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="/img/wordpress/2007-08-mimiuncu.jpg" /&gt;
-Ini
-&lt;s&gt;
- dakuw
-&lt;/s&gt;
-kita semua waktu kecil, ii&amp;#8230; lutuna&amp;#8230;&lt;/p&gt;
-&lt;p&gt;btw ini termasuk pornografi gak sih? kan yang ngelakuin anak kecil, bukan
-&lt;s&gt;
- anak besar
-&lt;/s&gt;
-orang dewasa&amp;#8230;&lt;/p&gt;</summary></entry><entry><title>Mengapa Cowok Merokok?</title><link href="http://kecebongsoft.com/2007/07/mengapa-cowok-merokok.html" rel="alternate"></link><updated>2007-07-12T05:20:27+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-07-12:2007/07/mengapa-cowok-merokok.html</id><summary type="html">&lt;p class="main"&gt;
+Dibanding pakai javascript/php, META Refresh jauh lebih fleksibel karena merupakan bawaan HTML dan cross browser. Ada yang mo coba? coba? coba?.&lt;/p&gt;</summary></entry><entry><title>Mengapa Cowok Merokok?</title><link href="http://kecebongsoft.com/2007/07/mengapa-cowok-merokok.html" rel="alternate"></link><updated>2007-07-12T05:20:27+02:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2007-07-12:2007/07/mengapa-cowok-merokok.html</id><summary type="html">&lt;p class="main"&gt;
  1. Perokok pasif lebih berbahaya daripada perokok aktif, maka untuk mengurangi resiko tersebut aktiflah merokok.
 
 2. Menghindarkan dari perbuatan jahat karena tidak pernah ditemui orang yang membunuh, mencuri dan berkelahi sambil merokok.
