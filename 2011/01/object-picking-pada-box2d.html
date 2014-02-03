@@ -21,7 +21,6 @@
         <a href="http://kecebongsoft.com/2011/01/object-picking-pada-box2d.html" id="page-title">Object picking pada Box2D</a></h1>
 <time datetime="2011-01-23T11:39:27">Sun 23 January 2011</time></header>
 <article>
-    <p>Beberapa minggu lalu saya sempat membuat fungsi sendiri untuk mouse picking di Box2D. Singkatnya, saya punya beberapa object di Box2D yang akan mentrigger respon berbeda ketika diklik oleh mouse. Kasus utamanya bukan tentang repson yang berbeda, tapi bagaimana caranya bisa mendapatkan posisi mouse di Box2D, sedangkan satuan yang digunakan berbeda ...</p>
     <p>Beberapa minggu lalu saya sempat membuat fungsi sendiri untuk mouse picking di Box2D. Singkatnya, saya punya beberapa object di Box2D yang akan mentrigger respon berbeda ketika diklik oleh mouse. Kasus utamanya bukan tentang repson yang berbeda, tapi bagaimana caranya bisa mendapatkan posisi mouse di Box2D, sedangkan satuan yang digunakan berbeda, yaitu pixel (untuk stage), dan meter (untuk box2D). Di demo Box2D ada contoh mekanisme Mouse-picking. Yaitu dengan membuat sebuah object box2D super kecil yang kemudian akan diset auto drag, lalu sisanya hanya tinggal mentrigger pengecekan koordinat object tersebut didalam event MouseDown().</p>
 <p>Rasanya solusi diatas terlalu repot, jadi saya buat solusi singkat aja, yaitu dengan melakukan konversi satuan dari pixel ke meter. Lihat kode dibawah:</p>
 <div class="highlight"><pre>

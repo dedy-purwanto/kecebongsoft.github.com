@@ -28,14 +28,6 @@ folder so here's how it's done:</p>
 </pre></div>
 
 
-<p>This will create a directory and extract ...</p>
-    <p>I came across a task where I need to automatically download solr
-package and extract the files in example/ directory to a specific 
-folder so here's how it's done:</p>
-<div class="highlight"><pre><span class="nv">$ </span>mkdir -p /dest/path/ <span class="o">&amp;&amp;</span> tar -xf file.tar <span class="nb">source</span>/path --strip<span class="o">=</span>n
-</pre></div>
-
-
 <p>This will create a directory and extract a folder <em>source/path</em> in the
 file.tar. Notice that there's a <em>--strip=n--</em>, this will let you 
 skip the directory structure up to certain level from the root. So if I
