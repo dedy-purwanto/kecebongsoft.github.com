@@ -15,12 +15,13 @@
     <h1>
         <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
         <span style='font-size:11px;color:#cfcfcf;'>-</span>
-        <a href='/2010/01/about.html' class='site-links'>About</a>
-        <a href='/archives.html' class='site-links'>Archive</a>
+        <a href='/2010/01/about.html' class='site-links'>Tentang saya</a>
+        <a href='/archives.html' class='site-links'>Arsip</a>
         <br /> <br /> <br />
         <a href="http://kecebongsoft.com/2012/11/my-new-pelican-build-mechanics.html" id="page-title">My new Pelican build mechanics</a></h1>
 <time datetime="2012-11-17T00:00:00">Sat 17 November 2012</time></header>
 <article>
+    <p>As you know, my blog is powered by a python static blog engine, named Pelican. I really like it in many ways: simplicity, <em>geekyness</em>, and hostings. Yes, hostings, this blog is hosted with the help of Github user pages, enabling you to create a static website through repository, and accessible ...</p>
     <p>As you know, my blog is powered by a python static blog engine, named Pelican. I really like it in many ways: simplicity, <em>geekyness</em>, and hostings. Yes, hostings, this blog is hosted with the help of Github user pages, enabling you to create a static website through repository, and accessible with your Github username, plus you don't have to think about reliability and scaling, Github will handle it for you.</p>
 <p>Pelican, as a static blog engine, of course will generate static html files that you will have to push to your repository, these auto-generated files are pretty much meaningless, you don't want to 'manage' them, but it has to stay in the repo to serve request, and above that, it has to be placed in the root path of the repository. Meanwhile we also have some other files such as static files, the blog sources (posts, config file, build script, custom themes, etc), and in my case, I also have submodules repository which is a separate static site, they are mostly HTML5 slides.</p>
 <p>For me, I always wanted to keep everything clean, whenever I trigger a new build, I wanted to wipe all recent build files first. But I can't just do that with all other necessary files as mentioned, so few things need to be done before I trigger a build:</p>

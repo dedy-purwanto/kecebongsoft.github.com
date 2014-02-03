@@ -15,12 +15,20 @@
     <h1>
         <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
         <span style='font-size:11px;color:#cfcfcf;'>-</span>
-        <a href='/2010/01/about.html' class='site-links'>About</a>
-        <a href='/archives.html' class='site-links'>Archive</a>
+        <a href='/2010/01/about.html' class='site-links'>Tentang saya</a>
+        <a href='/archives.html' class='site-links'>Arsip</a>
         <br /> <br /> <br />
         <a href="http://kecebongsoft.com/2012/07/extracting-a-subset-of-tar-archive-to-a-specific-directory.html" id="page-title">Extracting a subset of tar archive to a specific directory</a></h1>
 <time datetime="2012-07-20T00:00:00">Fri 20 July 2012</time></header>
 <article>
+    <p>I came across a task where I need to automatically download solr
+package and extract the files in example/ directory to a specific 
+folder so here's how it's done:</p>
+<div class="highlight"><pre><span class="nv">$ </span>mkdir -p /dest/path/ <span class="o">&amp;&amp;</span> tar -xf file.tar <span class="nb">source</span>/path --strip<span class="o">=</span>n
+</pre></div>
+
+
+<p>This will create a directory and extract ...</p>
     <p>I came across a task where I need to automatically download solr
 package and extract the files in example/ directory to a specific 
 folder so here's how it's done:</p>

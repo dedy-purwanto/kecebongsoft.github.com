@@ -15,12 +15,13 @@
     <h1>
         <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
         <span style='font-size:11px;color:#cfcfcf;'>-</span>
-        <a href='/2010/01/about.html' class='site-links'>About</a>
-        <a href='/archives.html' class='site-links'>Archive</a>
+        <a href='/2010/01/about.html' class='site-links'>Tentang saya</a>
+        <a href='/archives.html' class='site-links'>Arsip</a>
         <br /> <br /> <br />
         <a href="http://kecebongsoft.com/2008/03/general-functions-in-a-class.html" id="page-title">General functions in a class</a></h1>
 <time datetime="2008-03-02T00:00:00">Sun 02 March 2008</time></header>
 <article>
+    <p>Dari dulu aku punya kebiasaan yang (mungkin) cukup aneh : semua fungsi general seperti string utility, advanced math functions, i/o functions dikapsulkan dalam sebuah kelas. Biasanya kelas ini aku beri nama CUtils. Kenapa aneh? setidaknya menurutku, aku sering melihat dan menemukan kode berisi kumpulan fungsi umum yang "telanjang", dalam artian ...</p>
     <p>Dari dulu aku punya kebiasaan yang (mungkin) cukup aneh : semua fungsi general seperti string utility, advanced math functions, i/o functions dikapsulkan dalam sebuah kelas. Biasanya kelas ini aku beri nama CUtils. Kenapa aneh? setidaknya menurutku, aku sering melihat dan menemukan kode berisi kumpulan fungsi umum yang "telanjang", dalam artian tidak memiliki class, sehingga terlihat (agak) tidak terklasifikasi. Yang paling dekat dengan "tidak telanjang" adalah penggunaan prefix pada tiap nama fungsi.</p>
 <p>Everyone has their own style, kenapa aku lebih suka mengkapsulkannya dalam class?. Aku sering membuat hand-made function yang memungkinkan namanya bisa bentrok dengan general function milikku. Kalau harus menggunakan prefix, aku sering membayangkan jika memiliki puluhan fungsi dan ingin mengganti prefixnya satu-persatu :roll::</p>
 <p>Jadi? solusinya ya dengan merakit class CUtils tadi, selain itu kelebihannya juga aku bisa menyebarnya ke siapa aja yang mau pakai tanpa harus takut nama fungsi nya bentrok, atau prefixnya bentrok, sebab semuanya ada dalam kelas dan kalau bentrok tinggal ganti nama kelas.</p>
