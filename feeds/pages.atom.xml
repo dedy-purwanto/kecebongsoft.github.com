@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Dedi Purwanto</title><link href="http://kecebongsoft.com/" rel="alternate"></link><link href="http://kecebongsoft.com/feeds/pages.atom.xml" rel="self"></link><id>http://kecebongsoft.com/</id><updated>2010-01-01T00:00:00+01:00</updated><entry><title>about</title><link href="http://kecebongsoft.com/2010/01/about.html" rel="alternate"></link><updated>2010-01-01T00:00:00+01:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2010-01-01:2010/01/about.html</id><summary type="html">&lt;p&gt;Hello,&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dedi Purwanto</title><link href="http://kecebongsoft.com/" rel="alternate"></link><link href="http://kecebongsoft.com/feeds/pages.atom.xml" rel="self"></link><id>http://kecebongsoft.com/</id><updated>2010-01-01T00:00:00+08:00</updated><entry><title>about</title><link href="http://kecebongsoft.com/2010/01/about.html" rel="alternate"></link><updated>2010-01-01T00:00:00+08:00</updated><author><name>Dedi Purwanto</name></author><id>tag:kecebongsoft.com,2010-01-01:2010/01/about.html</id><summary type="html">&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;I'm Dedi.&lt;/p&gt;
+&lt;p&gt;I mostly code web applications in Django.&lt;/p&gt;
+&lt;p&gt;I'm currently working at &lt;a href="http://www.easyuni.com"&gt;easyuni&lt;/a&gt; for almost 3 years.&lt;/p&gt;
+&lt;p&gt;I'm currently using &lt;a href="http://www.apple.com/macbook-air/"&gt;Macbook Air&lt;/a&gt;, &lt;a href="http://en.wikipedia.org/wiki/Happy_Hacking_Keyboard"&gt;Happy Hacking Keyboard Professional 2&lt;/a&gt;, &lt;a href="http://www.iterm2.com"&gt;iTerm2&lt;/a&gt;, &lt;a href="http://www.vim.org/"&gt;vim&lt;/a&gt;, &lt;a href="http://www.git-scm.com/"&gt;git&lt;/a&gt;, &lt;a href="http://www.dropbox.com/"&gt;dropbox&lt;/a&gt;, and &lt;a href="http://www.notational.net/"&gt;notational velocity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I was born in Samarinda, Indonesia.&lt;/p&gt;
+&lt;p&gt;I enrolled to Vocational High School of Information Technology - SMKTI Airlangga&lt;/p&gt;
+&lt;p&gt;I took a Software Engineering Degree in Malaysia&lt;/p&gt;
 &lt;p&gt;I currently live in Kuala Lumpur, Malaysia. &lt;/p&gt;
-&lt;p&gt;I code mostly in python and django.&lt;/p&gt;
-&lt;p&gt;I took a degree in Software Engineering, and now I'm currently coding at &lt;a href="http://www.easyuni.com"&gt;easyuni&lt;/a&gt; for almost 3 years.&lt;/p&gt;
-&lt;p&gt;My current gears are &lt;a href="http://www.apple.com/macbook-air/"&gt;Macbook Air&lt;/a&gt;, &lt;a href="http://www.iterm2.com"&gt;iTerm2&lt;/a&gt;, &lt;a href="http://www.vim.org/"&gt;vim&lt;/a&gt;, &lt;a href="http://www.git-scm.com/"&gt;git&lt;/a&gt;, &lt;a href="http://www.dropbox.com/"&gt;dropbox&lt;/a&gt;, and &lt;a href="http://www.notational.net/"&gt;notational velocity&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can also find me in &lt;a href="https://twitter.com/kecebongsoft"&gt;Twitter&lt;/a&gt;, &lt;a href="https://github.com/kecebongsoft"&gt;github&lt;/a&gt;, and &lt;a href="https://plus.google.com/u/0/105581558374023241765"&gt;Google+&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This blog is powered by &lt;a href="http://www.getpelican.com"&gt;pelican&lt;/a&gt; and my own custom theme.&lt;/p&gt;
-&lt;p&gt;If you want to know more about my experience, &lt;a href="/cv.html"&gt;check out my CV&lt;/a&gt;&lt;/p&gt;</summary></entry></feed>
+&lt;p&gt;This blog is powered by &lt;a href="http://www.getpelican.com"&gt;pelican&lt;/a&gt; and my own custom theme.&lt;/p&gt;</summary></entry></feed>
