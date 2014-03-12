@@ -10,6 +10,15 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=427446243980802";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
         
 <header>
     <h1>
@@ -32,6 +41,7 @@
 <p>Saat ini untuk mencapai tujuan tersebut, saya menggunakan <a href="http://github.com/kecebongsoft/kecebongsoft.github.com.git">Github pages</a> untuk host blog saya, kemudian dihubungan oleh domain <a href="http://kecebongsoft.com">kecebongsoft.com</a>. Repositorinya sendiri saya pisahkan menjadi dua, satu untuk source dan satu lagi untuk build (yang kemudian dijadikan sebagai github pages).</p>
 <p>Dengan cara ini, saat github sendiri nanti sudah tiada, saya bisa memindahkan blog ini kemanapun tanpa harus mengganti apa-apa. Namun tentu saja ada kekurangannya, karena blog ini murni statik HTML, tidak ada elemen dinamis yang bisa di support, contohnya komentar, kita hanya bisa menggunakan <em>embeddable commenting platform</em> seperti <a href="http://lifefyre.com">Lifefyre</a> atau <a href="http://disqus.com">Disqus</a>, yang suatu saat nanti juga akan padam. Jadi untuk saat ini saya masih mencari cara untuk menghandle komentar, sampai nanti mendapatkan metode yang elegan, tidak akan ada kolom komentar di blog ini.</p>
 </article>
+<div class="fb-comments" data-href="http://kecebongsoft.com/2014/01/blog-yang-sustainable.html" data-width="700" data-numposts="50" data-colorscheme="light"></div>
 
         <footer>
             &copy; 2004-2014 Dedi Purwanto&nbsp;&nbsp;

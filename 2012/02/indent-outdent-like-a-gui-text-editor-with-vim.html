@@ -10,6 +10,15 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=427446243980802";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
         
 <header>
     <h1>
@@ -30,6 +39,7 @@
 
 <p>So what does it do?, it simply indent/outdent a code on a visual mode (<strong>&lt;</strong>/<strong>&gt;</strong>). But by default, visual mode will go back to normal mode after indenting/outdenting, so what we need to do is to back to visual mode and reselect our last selection, this is done by <strong>gv</strong>.</p>
 </article>
+<div class="fb-comments" data-href="http://kecebongsoft.com/2012/02/indent-outdent-like-a-gui-text-editor-with-vim.html" data-width="700" data-numposts="50" data-colorscheme="light"></div>
 
         <footer>
             &copy; 2004-2014 Dedi Purwanto&nbsp;&nbsp;

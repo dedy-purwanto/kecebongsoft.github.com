@@ -10,6 +10,15 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=427446243980802";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
         
 <header>
     <h1>
@@ -28,6 +37,7 @@
 juga kira-kira satu jam, eh malah dapet mimpi, seperti wangsit yang kasih tahu bahwa untuk meng-acquire device, variable hInst dan hWnd nya mesti di init dulu atau dengan kata lain window program kita mesti nongol dulu baru bisa acquire device keyboard. Dor! Kebangun, langsung coba dan ternyata bisa ^_^. Hehehe.. thanks God.</p>
 <p>Jadi buat temen-temen yang lagi coba-coba DirectInput di C++, pastikan dulu class windownya udah diregister, windownya udah di tampilin, baru acquire device directinputnya. Kalau instance window (hInst dan hWnd) masih null, sampe kiamat kesepuluh kagak bakal ngepek!.</p>
 </article>
+<div class="fb-comments" data-href="http://kecebongsoft.com/2007/08/directinput-device-cant-acquire.html" data-width="700" data-numposts="50" data-colorscheme="light"></div>
 
         <footer>
             &copy; 2004-2014 Dedi Purwanto&nbsp;&nbsp;

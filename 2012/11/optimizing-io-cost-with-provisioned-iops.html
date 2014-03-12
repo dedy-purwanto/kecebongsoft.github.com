@@ -10,6 +10,15 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=427446243980802";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
         
 <header>
     <h1>
@@ -26,6 +35,7 @@
 <p>When using a standard I/O request, you will be charged something around 11 cents per 1 million request, and when using provisioned IOPS, you will be charged 11 cents per 1 IOPS-month, this will approximately save $10 a month for I/O requests. Pricing will depends on region, and provisioned storage will cost more for space, but the end cost is cheaper.</p>
 <p>So far, the only way to use this provisioned IOPS is by creating a new instance / launching new EBS volume, I haven't figured any way to switch my EBS volume to use a provisioned IOPS. For more info, see the EBS detail page in AWS (http://aws.amazon.com/ebs/).</p>
 </article>
+<div class="fb-comments" data-href="http://kecebongsoft.com/2012/11/optimizing-io-cost-with-provisioned-iops.html" data-width="700" data-numposts="50" data-colorscheme="light"></div>
 
         <footer>
             &copy; 2004-2014 Dedi Purwanto&nbsp;&nbsp;

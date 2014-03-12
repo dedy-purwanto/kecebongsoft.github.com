@@ -10,6 +10,15 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=427446243980802";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
         
 <header>
     <h1>
@@ -43,6 +52,7 @@ int GetFPS(){
 <p>}
 Atribut static dipakai agar variabel-variabel tersebut menyimpan nilai terakhirnya meskipun proses telah keluar dari fungsi (terkecuali program di-destroy/tutup). Jumlah framerate kita increment setiap kali masuk fungsi, panggil fungsi diatas pada fungsi render yang ada di program kita.Sebagai catatan, kalau menggunakan CD3DApp (class tambahan dari DirectX9SDK), di class tersebut juga ada utility untuk menghitung fps. Mungkin masih banyak cara menghitung fps lainnya, cara diatas adalah salah satu yang general dan bisa dipakai diberbagai macam graphics lib (D3D, DDraw, OpenGL, dll).</p>
 </article>
+<div class="fb-comments" data-href="http://kecebongsoft.com/2007/11/mendapatkan-nilai-fps.html" data-width="700" data-numposts="50" data-colorscheme="light"></div>
 
         <footer>
             &copy; 2004-2014 Dedi Purwanto&nbsp;&nbsp;
