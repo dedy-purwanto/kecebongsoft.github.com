@@ -1,55 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8]>
+<html class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if ! lt IE 8 ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+
 <head>
-        <title>Dedi Purwanto - tumblr</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="http://kecebongsoft.com/theme/css/main.css" type="text/css" />
-        <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi Purwanto ATOM Feed" />
-        <link href='http://fonts.googleapis.com/css?family=Sanchez|Enriqueta' rel='stylesheet' type='text/css'>
-        <meta property="fb:admins" content="kecebongsoft"/>
-        <meta property="fb:app_id" content="427446243980802"/>
+<meta charset="UTF-8" />
+<link rel="stylesheet" media="all" href="http://kecebongsoft.com/theme/css/style.css" />
+<script>
+var templateDir = "http://kecebongsoft.com/theme/";
+// make windows load system fonts
+if(navigator.appVersion.indexOf("Win") != -1) {
+    var windowsCss = document.createElement("link");
+
+    windowsCss.setAttribute("rel", "stylesheet");
+    windowsCss.setAttribute("media", "all");
+    windowsCss.setAttribute("href", "http://kecebongsoft.com/theme/css/windows.css");
+
+    var head = document.getElementsByTagName("head")[0];
+    head.appendChild(windowsCss);
+
+    windows = true;
+
+} else {
+    var fontCss = document.createElement("link");
+
+    fontCss.setAttribute("rel", "stylesheet");
+    fontCss.setAttribute("media", "all");
+    fontCss.setAttribute("href", "http://kecebongsoft.com/theme/css/fonts-1-2.css");
+
+    var head = document.getElementsByTagName("head")[0];
+    head.appendChild(fontCss);
+}
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Dedi P. - tumblr</title>
+
+<link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi P. ATOM Feed" />
+
+<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
 </head>
 
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=427446243980802";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
+    <article id='content'>
+        <header> <a id="logo" href="http://kecebongsoft.com">Dedi P.</a> </header>
         
         
 
-            <header>
-                <h1>
-                    <a href="http://kecebongsoft.com" id="site-title">Dedi Purwanto </a>
-                    <span style='font-size:11px;color:#cfcfcf;'>-</span>
-                    <a href='/2010/01/about.html' class='site-links'>Tentang saya</a>
-                    <a href='/archives.html' class='site-links'>Arsip</a>
-                    <br /> <br /> <br />
-                    <a href="http://kecebongsoft.com/2012/05/dolphin-doll.html" id="page-title">Dolphin Doll</a></h1>
-<time datetime="2012-05-12T03:37:38">Sat 12 May 2012</time>            </header>
 
-            <style>
-            article p{margin-bottom:0px;}
-            </style>
-            <article>
-                <p><a href="https://plus.google.com/105581558374023241765/posts/iTst8EABzqu"><img src="https://lh4.googleusercontent.com/-y0kxsLlL0Co/T648rWyJ-MI/AAAAAAAAAp4/8JhLe217aM8/s816/2012+-+1"></a></p>
+            <section id="posts">
+                <article class="blog_post">
+                <h1 class="section_separator">
+                    <span>Sat 12 May 2012</span>
+                </h1>
+                    <h2 class="blog_post_title"><a href='2012/05/dolphin-doll.html'>Dolphin Doll</a></h2>
+                    <p class='blog_post_content'>
+                    <p><a href="https://plus.google.com/105581558374023241765/posts/iTst8EABzqu"><img src="https://lh4.googleusercontent.com/-y0kxsLlL0Co/T648rWyJ-MI/AAAAAAAAAp4/8JhLe217aM8/s816/2012+-+1"></a></p>
 <p>My girlfriend asked me to keep her dolphin doll while she's away. Now every time I look at it, I started to think why I bought her this in the first place.</p>
-            </article>
-            <a href='2012/05/dolphin-doll.html'>Baca selengkapnya</a>
-            <br />
-            <br />
-            <header>
-                <hr style="height: 1px; border: none; background-color: #c0c0c0; ">
-                <h2 style=" padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; ">
-                    Tulisan sebelumnya..
-                </h2>
-            </header>
+                    </p>
+                </article>
+            </section>
+
+            <section id="post">
+                <h1 class="section_separator">
+                    <span>Tulisan sebelumnya</span>
+                </h1>
+                <article id="post-9337" class="post" style='text-align:center'>
         
 
                 <a href="2012/02/depressive-realism.html ">Depressive realism</a><br />
@@ -102,12 +126,19 @@
 
         
 
-    <br />
+        </article>
         </section><!-- #article-list -->
+    </article>
 
-        <footer>
-            &copy; 2004-2014 Dedi Purwanto&nbsp;&nbsp;
-        </footer>
+
+    <footer>
+        <h1 class="section_separator"><span></span></h1>
+        <nav>
+            <a href='/2010/01/about.html' class='site-links'>Siapa saya</a>&nbsp;|&nbsp;
+            <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+        </nav>
+        <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
+    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
