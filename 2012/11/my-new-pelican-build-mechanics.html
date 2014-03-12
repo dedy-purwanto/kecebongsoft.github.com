@@ -55,6 +55,22 @@ pelican . -o ../ -s pelican.conf.py
 <p>First I grab all the submodules path and combine them together with a '\|' separator for regex purpose later, and manually list out all other excluded files with the same regex separator, and then use an inverse grep to delete the others. In my case, the manual list is really static and not always changed, so it will be safe to keep it this way, as for submodules, I have to make it dynamic to reduce the coupling.</p>
 </article>
 
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'kecebongsoft-blog'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+ var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+ })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                
+
 
         <footer>
             &copy; 2004-2014 Dedi Purwanto&nbsp;&nbsp;
