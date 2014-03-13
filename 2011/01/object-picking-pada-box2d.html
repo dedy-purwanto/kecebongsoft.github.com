@@ -35,6 +35,8 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     head.appendChild(fontCss);
 }
 </script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -58,7 +60,7 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     <h1 class="section_separator">
         <span>Sun 23 January 2011</span>
     </h1>
-    <article id="post-9337" class="post">
+    <article id="" class="post">
 
         <h1 class="post_title">Object picking pada Box2D</h1>
         <p>Beberapa minggu lalu saya sempat membuat fungsi sendiri untuk mouse picking di Box2D. Singkatnya, saya punya beberapa object di Box2D yang akan mentrigger respon berbeda ketika diklik oleh mouse. Kasus utamanya bukan tentang repson yang berbeda, tapi bagaimana caranya bisa mendapatkan posisi mouse di Box2D, sedangkan satuan yang digunakan berbeda, yaitu pixel (untuk stage), dan meter (untuk box2D). Di demo Box2D ada contoh mekanisme Mouse-picking. Yaitu dengan membuat sebuah object box2D super kecil yang kemudian akan diset auto drag, lalu sisanya hanya tinggal mentrigger pengecekan koordinat object tersebut didalam event MouseDown().</p>
@@ -85,21 +87,24 @@ for (var i:int = 0; i &amp;lt; shapes.length; i++) {
 <p>And that's it, nggak perlu buat place holder kecil untuk mouse seperti demo Box2D :D</p>
         <span class="post_fleuron symbol">Ð</span>
 
+
+        
+
     </article>
 
 </section>
 
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+            <nav>
+                <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
+                <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+            </nav>
+            <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
+        </footer>
     </article>
 
 
-    <footer>
-        <h1 class="section_separator"><span></span></h1>
-        <nav>
-            <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
-            <a href='/archives.html' class='site-links'>Arsip tulisan</a>
-        </nav>
-        <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
-    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

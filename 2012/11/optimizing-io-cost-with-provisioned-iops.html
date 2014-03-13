@@ -35,6 +35,8 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     head.appendChild(fontCss);
 }
 </script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -58,7 +60,7 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     <h1 class="section_separator">
         <span>Sat 10 November 2012</span>
     </h1>
-    <article id="post-9337" class="post">
+    <article id="" class="post">
 
         <h1 class="post_title">Optimizing I/O cost with provisioned IOPS</h1>
         <p>Recently I've been watching my monthly AWS bill and notice the I/O cost has been increased in the last few months. Note that at this point I've been receiving something around 220 million I/O request on my EBS volume. Earlier this week, Amazon Singapore did an introductory workshop nearby our office and introduces provisioned IOPS. I didn't really paid any attention to it, but it turned out really handy.</p>
@@ -67,21 +69,24 @@ if(navigator.appVersion.indexOf("Win") != -1) {
 <p>So far, the only way to use this provisioned IOPS is by creating a new instance / launching new EBS volume, I haven't figured any way to switch my EBS volume to use a provisioned IOPS. For more info, see the EBS detail page in AWS (http://aws.amazon.com/ebs/).</p>
         <span class="post_fleuron symbol">Ð</span>
 
+
+        
+
     </article>
 
 </section>
 
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+            <nav>
+                <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
+                <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+            </nav>
+            <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
+        </footer>
     </article>
 
 
-    <footer>
-        <h1 class="section_separator"><span></span></h1>
-        <nav>
-            <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
-            <a href='/archives.html' class='site-links'>Arsip tulisan</a>
-        </nav>
-        <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
-    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

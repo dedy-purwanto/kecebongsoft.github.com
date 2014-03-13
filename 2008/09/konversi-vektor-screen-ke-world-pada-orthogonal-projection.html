@@ -35,6 +35,8 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     head.appendChild(fontCss);
 }
 </script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -58,7 +60,7 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     <h1 class="section_separator">
         <span>Sun 28 September 2008</span>
     </h1>
-    <article id="post-9337" class="post">
+    <article id="" class="post">
 
         <h1 class="post_title">Konversi vektor screen ke world pada orthogonal projection</h1>
         <p>Banyak yang bingung mencari nilai vektor (x, y) pada 3D world yang berasal dari vektor screen. Biasanya teknik ini disebut picking. Kali ini kita akan melakukan konversi vektor screen ke vektor 3D world, tapi dalam orthogonal projection, yang berarti posisi y axis kamera sama nilainya dengan posisi y axis poros kamera. Disini kita menggunakan OpenGL dan
@@ -96,21 +98,24 @@ posy</em>=(zoom * 10);</p>
 <p>Banyak sekali implementasi teknik picking yang tersebar di internet. Teknik diatas adalah salah satu yang paling simpel :roll: .</p>
         <span class="post_fleuron symbol">Ð</span>
 
+
+        
+
     </article>
 
 </section>
 
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+            <nav>
+                <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
+                <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+            </nav>
+            <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
+        </footer>
     </article>
 
 
-    <footer>
-        <h1 class="section_separator"><span></span></h1>
-        <nav>
-            <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
-            <a href='/archives.html' class='site-links'>Arsip tulisan</a>
-        </nav>
-        <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
-    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

@@ -35,6 +35,8 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     head.appendChild(fontCss);
 }
 </script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -58,7 +60,7 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     <h1 class="section_separator">
         <span>Mon 03 September 2007</span>
     </h1>
-    <article id="post-9337" class="post">
+    <article id="" class="post">
 
         <h1 class="post_title">Mengatasi lost focus pada Direct Input</h1>
         <p>Direct Input adalah salah satu bagian dari DirectX yang digunakan untuk memanajemen inputan user baik berupa keyboard, joystick, mouse, dan lain sebagainya. Belakangan ini dakuw lagi mencoba menggunakan direct input untuk memproses inputan keyboard. Inputan user tersebut diawasi dalam sebuah looping. Tapi muncul sebuah masalah...
@@ -79,21 +81,24 @@ hr=lpdiDevice-&gt;GetDeviceState(sizeof(buffer),(LPVOID)&amp;buffer);</p>
 Kode tersebut diletakan dibagian awal dari sebuah looping direct input. Anggaplah kita sedang membuat function looping untuk menangkap inputan keyboard, maka kode diatas diletakan dibagian awal function looping. Yang pernah punya masalah yang sama silahkan mencoba kode diatas :-D.</p>
         <span class="post_fleuron symbol">Ð</span>
 
+
+        
+
     </article>
 
 </section>
 
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+            <nav>
+                <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
+                <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+            </nav>
+            <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
+        </footer>
     </article>
 
 
-    <footer>
-        <h1 class="section_separator"><span></span></h1>
-        <nav>
-            <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
-            <a href='/archives.html' class='site-links'>Arsip tulisan</a>
-        </nav>
-        <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
-    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

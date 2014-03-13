@@ -35,6 +35,8 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     head.appendChild(fontCss);
 }
 </script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -58,7 +60,7 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     <h1 class="section_separator">
         <span>Tue 21 August 2007</span>
     </h1>
-    <article id="post-9337" class="post">
+    <article id="" class="post">
 
         <h1 class="post_title">DirectInput device cant acquire</h1>
         <p>Setelah beberapa hari yang lalu mencoba mengulik Direct3D 9, akhirnya dakuw bisa juga membuat objek-objek primitif seperti bola, silinder, kubus, dsb. Hehehehe.. Seneng rasanya bisa bereksplorasi di dunia 3D, banyak perhitungan matematis yang dulunya dakuw nggak suka sekarang jadi cinta. Tapi selama ini untuk keyboard-event-handlernya masih pakai yang bawaan windows, alhasil setiap kali menggerakan objek menggunakan keyboard, gerakannya selalu patah-patah. Makanya tadi malam langsung ngulik DirectInput yang memang difungsikan khusus untuk keyboard event handler di DirectX. Tapi malah trouble, Device nya nggak bisa di acquire, sialan!. Padahal sudah ngikutin tutorial yang ada di SDK Documentationnya, sampe jam 12 malam blon kelar-kelar juga, tetep aja nggak bisa di acquire. Akhirnya
@@ -69,21 +71,24 @@ juga kira-kira satu jam, eh malah dapet mimpi, seperti wangsit yang kasih tahu b
 <p>Jadi buat temen-temen yang lagi coba-coba DirectInput di C++, pastikan dulu class windownya udah diregister, windownya udah di tampilin, baru acquire device directinputnya. Kalau instance window (hInst dan hWnd) masih null, sampe kiamat kesepuluh kagak bakal ngepek!.</p>
         <span class="post_fleuron symbol">Ð</span>
 
+
+        
+
     </article>
 
 </section>
 
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+            <nav>
+                <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
+                <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+            </nav>
+            <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
+        </footer>
     </article>
 
 
-    <footer>
-        <h1 class="section_separator"><span></span></h1>
-        <nav>
-            <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
-            <a href='/archives.html' class='site-links'>Arsip tulisan</a>
-        </nav>
-        <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
-    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

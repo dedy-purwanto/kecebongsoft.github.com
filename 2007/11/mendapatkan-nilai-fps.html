@@ -35,6 +35,8 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     head.appendChild(fontCss);
 }
 </script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -58,7 +60,7 @@ if(navigator.appVersion.indexOf("Win") != -1) {
     <h1 class="section_separator">
         <span>Mon 12 November 2007</span>
     </h1>
-    <article id="post-9337" class="post">
+    <article id="" class="post">
 
         <h1 class="post_title">Mendapatkan nilai FPS</h1>
         <p>FPS atau frame per second adalah satuan yang dipakai untuk menyatakan banyak frame yang ada tiap detiknya. Dalam game, tinggi/rendahnya nilai FPS sangat penting demi kenyamanan memainkan game, jika ada game yang fps-nya dibawah 10fps berarti dalam 1 detik game tersebut menampilkan 10 urutan gambar, sehingga akan terlihat patah-patah.</p>
@@ -84,21 +86,24 @@ int GetFPS(){
 Atribut static dipakai agar variabel-variabel tersebut menyimpan nilai terakhirnya meskipun proses telah keluar dari fungsi (terkecuali program di-destroy/tutup). Jumlah framerate kita increment setiap kali masuk fungsi, panggil fungsi diatas pada fungsi render yang ada di program kita.Sebagai catatan, kalau menggunakan CD3DApp (class tambahan dari DirectX9SDK), di class tersebut juga ada utility untuk menghitung fps. Mungkin masih banyak cara menghitung fps lainnya, cara diatas adalah salah satu yang general dan bisa dipakai diberbagai macam graphics lib (D3D, DDraw, OpenGL, dll).</p>
         <span class="post_fleuron symbol">Ð</span>
 
+
+        
+
     </article>
 
 </section>
 
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+            <nav>
+                <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
+                <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+            </nav>
+            <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
+        </footer>
     </article>
 
 
-    <footer>
-        <h1 class="section_separator"><span></span></h1>
-        <nav>
-            <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
-            <a href='/archives.html' class='site-links'>Arsip tulisan</a>
-        </nav>
-        <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
-    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
