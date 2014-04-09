@@ -40,6 +40,20 @@ if(navigator.appVersion.indexOf("Win") != -1) {
 <script src="http://kecebongsoft.com/theme/js/moment-with-langs.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:locale" content="en_US" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Extracting a subset of tar archive to a specific directory" />
+<meta property="og:description" content="<p>I came across a task where I need to automatically download solr
+package and extract the files in example/ directory to a specific 
+folder so here's how it's done:</p>
+<div class="highlight"><pre><span class="nv">$ </span>mkdir -p /dest/path/ <span class="o">&amp;&amp;</span> tar -xf file.tar <span class="nb">source</span>/path --strip<span class="o">=</span>n
+</pre></div>
+
+
+<p>This will create a directory and extract ...</p>" />
+<meta property="og:url" content="2012/07/extracting-a-subset-of-tar-archive-to-a-specific-directory.html" />
+
 
 <title>Dedi P. : Extracting a subset of tar archive to a specific directory</title>
 

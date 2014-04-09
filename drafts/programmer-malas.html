@@ -43,12 +43,15 @@ if(navigator.appVersion.indexOf("Win") != -1) {
 <meta property="og:locale" content="en_US" />
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Mesin minuman geblek" />
-<meta property="og:description" content="<p>Sabtu yang panas enaknya minum minuman kaleng yang dingin nih. Kebetulan di  kantong ada duit 1.50 ringgit. Langsung deh nyamperin mesin minuman di stand preman yang biasa dakuw pake buat ngenet gratis. Hmm.. satu kaleng 1.50 ringgit. Langsung deh dakuw masukin 1.50 ringgit. Trus dakuw pencet minuman ...</p>" />
-<meta property="og:url" content="2007/09/mesin-minuman-geblek.html" />
+<meta property="og:title" content="Programmer Malas" />
+<meta property="og:description" content="<p>Outline: 
+<em> Programmer stuck karena malas baca konsep.
+</em> Pengennya copy paste.
+* Pengennya dapat kode yang langsung jalan.</p>" />
+<meta property="og:url" content="2014/04/programmer-malas.html" />
 
 
-<title>Dedi P. : Mesin minuman geblek</title>
+<title>Dedi P. : Programmer Malas</title>
 
 <link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi P. ATOM Feed" />
 
@@ -66,20 +69,15 @@ if(navigator.appVersion.indexOf("Win") != -1) {
 
 <section id="post">
     <h1 class="section_separator">
-        <span>Sat 08 September 2007</span>
+        <span>Wed 09 April 2014</span>
     </h1>
     <article id="" class="post">
 
-        <h1 class="post_title">Mesin minuman geblek</h1>
-        <p>Sabtu yang panas enaknya minum minuman kaleng yang dingin nih. Kebetulan di  kantong ada duit 1.50 ringgit. Langsung deh nyamperin mesin minuman di stand preman yang biasa dakuw pake buat ngenet gratis. Hmm.. satu kaleng 1.50 ringgit. Langsung deh dakuw masukin 1.50 ringgit. Trus dakuw pencet minuman kaleng Season. Dan....
-<!--more-->
-Glutuk glutuk glutuk glutuk!. Eh??!! nongolnya 4 kaleng!!. Weks, dasar mesin geblek, rejeki nomplok deh ^_^.
-<a href="http://kecebongsoft.files.wordpress.com/2007/09/foto195.jpg" title="foto195.jpg">
- <img alt="image" src="/img/wordpress/2007-09-foto195.thumbnail.jpg" />
-</a>
-<a href="http://kecebongsoft.files.wordpress.com/2007/09/foto194.jpg" title="foto194.jpg">
- <img alt="image" src="/img/wordpress/2007-09-foto194.thumbnail.jpg" />
-</a></p>
+        <h1 class="post_title">Programmer Malas</h1>
+        <p>Outline: 
+<em> Programmer stuck karena malas baca konsep.
+</em> Pengennya copy paste.
+* Pengennya dapat kode yang langsung jalan.</p>
         <span class="post_fleuron symbol">Ð</span>
 
         <div id='comments'></div>
@@ -95,7 +93,7 @@ $(function(){
         "<span style='color:#acacac'>" + comment_date.format('Do MMMM YYYY') + "</span><br />" + "<p style='color:#8a8a8a'>" + comment + "</p></div>";
     }
 
-    $.getJSON("http://kecebongsoft-blog-comments.appspot.com/get/?url=2007/09/mesin-minuman-geblek.html", function(data){
+    $.getJSON("http://kecebongsoft-blog-comments.appspot.com/get/?url=2014/04/programmer-malas.html", function(data){
         comments = data['comments'];
 
         form_html = "<form method='post' action=''>" +
@@ -145,7 +143,7 @@ $(function(){
             }else{
                 console.log($name.val());
                 console.log($comment.val());
-                $.getJSON('http://kecebongsoft-blog-comments.appspot.com/post/?url=2007/09/mesin-minuman-geblek.html&name=' + 
+                $.getJSON('http://kecebongsoft-blog-comments.appspot.com/post/?url=2014/04/programmer-malas.html&name=' + 
                     $name.val() + '&comment=' + $comment.val(), function(new_comment){
 
                     $("#comments #comment_list #comments").prepend(format_comment(new_comment['name'], new_comment['comment'], new_comment['date']));
