@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>
+<html class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if ! lt IE 8 ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" media="all" href="http://kecebongsoft.com/theme/css/style.css" />
+<script>
+var templateDir = "http://kecebongsoft.com/theme/";
+// make windows load system fonts
+if(navigator.appVersion.indexOf("Win") != -1) {
+    var windowsCss = document.createElement("link");
+
+    windowsCss.setAttribute("rel", "stylesheet");
+    windowsCss.setAttribute("media", "all");
+    windowsCss.setAttribute("href", "http://kecebongsoft.com/theme/css/windows.css");
+
+    var head = document.getElementsByTagName("head")[0];
+    head.appendChild(windowsCss);
+
+    windows = true;
+
+} else {
+    var fontCss = document.createElement("link");
+
+    fontCss.setAttribute("rel", "stylesheet");
+    fontCss.setAttribute("media", "all");
+    fontCss.setAttribute("href", "http://kecebongsoft.com/theme/css/fonts-1-2.css");
+
+    var head = document.getElementsByTagName("head")[0];
+    head.appendChild(fontCss);
+}
+</script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="http://kecebongsoft.com/theme/js/moment-with-langs.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:locale" content="en_US" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Mencicipi PyCharm" />
+<meta property="og:description" content="Jika vim adalah sebuah keyakinan, maka saya adalah pengikut yang paling sering ragu, tidak jarang saya melirik editor lain yang tampilannya lebih wah dan lebih nge-hype, dan kali ini saya tergoda untuk meninggalkan VIM dengan melirik PyCharm Saya sudah acapkali melihat bagaimana satu demi satu editor teks bermunculan dan mengambil ..." />
+<meta property="og:url" content="2014/08/pycharm.html" />
+
+
+<title>Dedi P. : Mencicipi PyCharm</title>
+
+<link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi P. ATOM Feed" />
+
+<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <article id='content'>
+        <header> <a id="logo" href="http://kecebongsoft.com">Dedi P.</a> </header>
+        
+
+<section id="post">
+    <h1 class="section_separator">
+        <span>Sun 31 August 2014</span>
+    </h1>
+    <article id="" class="post">
+
+        <h1 class="post_title">Mencicipi PyCharm</h1>
+        <h2><em>Jika vim adalah sebuah keyakinan, maka saya adalah pengikut yang paling sering ragu, tidak jarang saya melirik editor lain yang tampilannya lebih wah dan lebih nge-hype, dan kali ini saya tergoda untuk meninggalkan VIM dengan melirik PyCharm</em></h2>
+<p>Saya sudah acapkali melihat bagaimana satu demi satu editor teks bermunculan dan mengambil perhatian banyak orang, seperti Sublime Text dan Atom, respons dari para usernya luar biasa heboh dan <strong>life-changing</strong>, saya sendiri sempat tergoda dan mencoba satu demi satu, Atom adalah salah satu yang paling gagal memberikan impresi bagus. Sublime Text, tidak terlalu bagus juga, kemudian sekitar 3 minggu yang lalu saya mulai melirik PyCharm, saya memang paling banyak berkutat dengan codebase python dan membutuhkan editor yang dukungan python-nya bagus. Sebagai orang yang terkadang merogoh kocek untuk membeli software legal, PyCharm yang dibanderol 1 juta rupiah terlihat menjanjikan untuk ukuran harga, jadi saya putuskan untuk mencoba versi trial nya selama 1 bulan.</p>
+<p><strong> Impresi Pertama </strong></p>
+<p>PyCharm adalah editor yang seringkali dielu-elukan di komunitas online yang saya ikutin, baik itu mailing-list, maupun news-aggregator seperti HN dan Reddit, setelah menginstall versi komersial dan mencoba selama beberapa jam, memang bagus sekali PyCharm ini, mulai dari code completion, code navigation, dsb. Berikut daftar fitur yang sangat saya sukai di PyCharm:</p>
+<ul>
+<li>Code completion: Pycharm bisa membaca dengan baik codebase python yang secara desain adalah weak-typing. Semua keyword yang diberikan sangat akurat</li>
+<li>Code navigation: Mulai dari jump-to-definition untuk class, member dan fungsi, mencari simbol tertentu, semua sangat cepat dan akurat</li>
+<li>Symbol explorer: Di sidebar ada sebuah panel yang menampilkan class members di file yang sedang dibuka, yang bisa auto-focus tergantung posisi kursor kita.</li>
+<li>Debugging: Mulai dari breakpoints hingga stacktrace ditampilkan dengan sangat rapi dan dengan fungsi-fungsi yang bagus</li>
+<li>Built-in terminal: Ini cukup umum sebenanrya, tapi salah satu yang saya suka di terminal PyCharm adalah multiple tabs.</li>
+<li>Django: Di versi komersial PyCharm mendukugn penuh Django mulai dari project, views, pembuatan modul dan app secara otomatis, hingga Django template tag.</li>
+<li>Refactoring: Terasa sangat mudah melakukan refactoring di PyCharm, IDE ini bisa mencari semua usage dan kita bisa melakukan preview terhadap perubahan yang akan dibuat.</li>
+<li>Shortcuts: Semua fitur memiliki shortcutnya masing-masing, sebagai programmer yang terbiasa dengan VIM, maka shortcut termasuk harga mati untuk saya.</li>
+<li>IdeaVim: Ini adalah plugin untuk menggunakan vim mode di PyCharm, dan menurut saya adalah vim plugin terbaik diantara semua vim plugin yang saya pernah pakai, termasuk yang ada di SublimeText.</li>
+<li>Git diff: Fitur ini sangat berguna dan tampilannya sangat nyaman, saat saya hendak commit atau ketika sedang melakukan conflict merge.</li>
+<li>VCS: Fitur ini digunakan untuk melihat outstanding changes, cukup berguna meskipun agak ambigu dengan git, karena sepertinya ada beberapa bagian seperti Ignore Files yang terpisah dengan git (ignore files belum tentu di ignore di git, ambigu).</li>
+</ul>
+<p><strong> Kekurangan Pycharm </strong></p>
+<p>Meskipun banyak sekali fitur yang sangat menarik lainnya dari PyCharm, berangkat dari VIM, saya banyak sekali melakukan adaptasi dan akhirnya frustasi sendiri dengan PyCharm, mungkin bisa dibilang juga frustasi dengan konsep GUI dan IDE untuk pemrograman, berikut ketidak nyamanan saya ketika menggunakan PyCharm (dan juga IDE/GUI editor pada umumnya)</p>
+<ul>
+<li>Lambat: Ini alasan pertama yang paling mengganggu, meskipun membuka PyCharm hanya kurang dari 10 detik, tapi saya sudah sangat terbiasa sekali dengan membuka VIM yang hampir tidak ada jedanya.</li>
+<li>Project-oriented: Bisa dibilang mustahil untuk membuat file kosong di PyCharm, sementara saya seringkali membuat file kosong di VIM yang biasanya saya pakai untuk membuat script python/shell untuk testing pseudo-code. Di PyCharm semua file harus bernaung dibawah project, dan jika menggunakan VCS, maka harus memilih apakah file terbebut akan dimasukan ke VCS atau tidak.</li>
+<li>Tidak stabil: Ya, saat mencoba codebase django yang lumayan besar, saya hampir tidak bisa bekerja dengan Django template, sepertinya ada yang tidak beres dengan Django supportnya, saya sempat harus downgrade ke edisi komunitas yang tidak mensupport Django.</li>
+<li>Keychords: Hampir semua shortcuts di PyCharm menggunakan chord, seperti Ctrl+F1, atau ALT+F2, atau Super+B, dan tidak jarang mencakup 3-4 key, seperti CTRL+SHIFT+B. Berangkat dari vim yang menggunakan sequence dan leader key yang sangat nyaman digunakan, keychords menjadi alternatif yang sangat tidak nyaman.</li>
+<li>Feel: Menggunakan vim, saya menjadi akrab dengan terminal dan multiplexer. Di Pycharm, terminal seperti 2nd class citizen; keberadaannya hanya sebagai pendukung, dan terasa sekali bedanya ketika saya bisa membuka hingga belasan tabs dan splits di iTerm dan tmux dibandingkan saat menggunakan PyCharm</li>
+<li>Vim bindings: IdeaVim meskipun cukup bagus, tapi masih sangat terbatas, contohnya command umum seperti :tabo dan sejenisnya tidak bisa digunakan, visual select juga sering kali berperilaku tidak sesuai seperti saat di vim.</li>
+<li>Indentasi yang kaku: Vim bisa membaca nilai indentasi yang kita pakai pada file yang sedang kita buka, sementara di PyCharm sepertinya hanya ada 1 setting untuk indentasi dan semua file harus mengikuti standard tersebut, seringkali saya harus membuka file dengan indentasi yang kecil seperti HTML dan HAML, dan sangat sulit melakukan indentasi di PyCharm untuk file-file tersebut.</li>
+<li>Dukungan syntax highlighting: Di edisi komunitas, file-file yang sebenarnya cukup umum namun tidak didukung oleh edisi komunitas, akan dianggap sebagai file text biasa, contohnya HAML, benar-benar tidak ada support untuk file ini, bahkan syntax highlighting pun tidak ada, sementara di editor lain yang terbilang gratis, setidaknya ada syntax highlighting.</li>
+</ul>
+<p><strong> Aftermath </strong></p>
+<p>Akhirnya saya kembali ke vim, mengambil beberapa hal yang saya suka dari PyCharm dan meletakannya di vim, contohnya CTAGS, vim-jedi, TagBar, NERDTree dan beberapa plugin lainnya. Plugin-plugin ini memang ada yang tidak sebaik PyCharm, contohnya untuk code navigation, tapi tingkat ke-akurasiannya masih sangat bagus dan hanya melenceng di saat-saat tertentu, dan keuntungnya menggunakan vim sendiri adalah plugin-plugin ini terus diperbaharui dan alternatif selalu bermunculan.</p>
+<p>PyCharm adalah editor yang sangat bagus dan akan saya rekomendasikan kepada siapapun yang baru mulai belajar Python ataupun yang sudah proffesional dan ingin lebih produktif (jika mereka lebih terbiasa dengan GUI). Untuk saya sendiri, saya akan masih tetap menjadi pemakai setia vim.</p>
+        <span class="post_fleuron symbol">Ð</span>
+
+        <div id='comments'></div>
+
+<script>
+$(function(){
+
+    function format_comment(name, comment, comment_date) {
+        moment.lang('id');
+        comment_date = moment(comment_date);
+
+        return  "<div class='comment' style='margin-bottom:20px;'><span style='font-weight:bold;'>" + name + "</span> " + 
+        "<span style='color:#acacac'>" + comment_date.format('Do MMMM YYYY') + "</span><br />" + "<p style='color:#8a8a8a'>" + comment + "</p></div>";
+    }
+
+    $.getJSON("http://kecebongsoft-blog-comments.appspot.com/get/?url=2014/08/pycharm.html", function(data){
+        comments = data['comments'];
+
+        form_html = "<form method='post' action=''>" +
+            "<input type='text' id='name' name='name' placeholder='Nama' style='border:none;background-color:inherit;border-bottom:1px dotted #acacac;width:100%' ><br />" +
+            "<textarea name='comment' id='comment' placeholder='Komentar' style='border:none;background-color:inherit;border-bottom:1px dotted #acacac;width:100%;height:70px;'></textarea><br />" +
+            "<div style='float:right'><a id='comment_submit' href='#'>Kirim</a></div>" +
+            "<div style='clear:both;'></div>" + 
+            "</form>";
+            
+        
+        comment_list = "";
+        comment_list += "<div id='comment_list'>";
+        comment_list += "<div id='form'>" + form_html + "</div><div id='comments'>";
+        if (comments.length > 0) {
+
+            $("#comments").append("" +
+                "<h3 style='text-align:center;'>" +
+                    "<a href='#' id='comments_toggle'>Lihat komentar (" + comments.length + ")</a>" +
+                    "</h3>");
+
+
+
+
+            for (i = 0; i < comments.length ; i += 1 ) {
+                c = comments[i];
+                comment_list += format_comment(c['name'], c['comment'], c['date']);
+            }
+
+
+
+
+        } else {
+            $("#comments").append("<h3 style='text-align:center;'><a href='#' id='comments_toggle'>Kirim komentar</a></h3>");
+        }
+
+        comment_list += "</div></div>";
+        $("#comments").append(comment_list);
+
+        $("#comments #comment_list #form #comment_submit").click(function(e){
+            e.preventDefault();
+
+            $name = $("#comments #comment_list #form form #name");
+            $comment = $("#comments #comment_list #form form #comment");
+
+            if ($name.val() == '' || $comment.val() == '') {
+                console.log('type first');
+            }else{
+                console.log($name.val());
+                console.log($comment.val());
+                $.getJSON('http://kecebongsoft-blog-comments.appspot.com/post/?url=2014/08/pycharm.html&name=' + 
+                    $name.val() + '&comment=' + $comment.val(), function(new_comment){
+
+                    $("#comments #comment_list #comments").prepend(format_comment(new_comment['name'], new_comment['comment'], new_comment['date']));
+
+                    $name.val('');
+                    $comment.val('');
+                });
+
+            }
+
+            return false;
+        });
+        $("#comments #comment_list").hide();
+        $("#comments_toggle").click(function(e){
+            e.preventDefault();
+            $("#comment_list").show();
+            return false;
+        });
+    });
+
+});
+</script>
+        
+
+    </article>
+
+</section>
+
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+            <nav>
+                <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
+                <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+            </nav>
+            <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
+        </footer>
+    </article>
+
+
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-36468240-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>
