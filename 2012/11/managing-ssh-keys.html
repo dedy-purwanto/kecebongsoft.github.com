@@ -1,77 +1,80 @@
 <!DOCTYPE html>
-<!--[if lt IE 8]>
-<html class="ie" dir="ltr" lang="en-US">
-<![endif]-->
-<!--[if ! lt IE 8 ]><!-->
-<html dir="ltr" lang="en-US">
-<!--<![endif]-->
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Dedi Purwanto" />
+        <meta name="copyright" content="Dedi Purwanto" />
 
-<head>
-<meta charset="UTF-8" />
-<link rel="stylesheet" media="all" href="http://kecebongsoft.com/theme/css/style.css" />
-<script>
-var templateDir = "http://kecebongsoft.com/theme/";
-// make windows load system fonts
-if(navigator.appVersion.indexOf("Win") != -1) {
-    var windowsCss = document.createElement("link");
+<meta name="keywords" content=", posts, " />
+        <title>Managing SSH keys  · Dedi P.
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://kecebongsoft.com/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://kecebongsoft.com/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="http://kecebongsoft.com/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="http://kecebongsoft.com/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://kecebongsoft.com/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://kecebongsoft.com/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://kecebongsoft.com/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://kecebongsoft.com/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="http://kecebongsoft.com/theme/images/apple-touch-icon-144x144.png" />
+        <link href="http://kecebongsoft.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi P. - Full Atom Feed" />
+        <link href="http://kecebongsoft.com/feeds/pages.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi P. - pages Category Atom Feed" />
+        <link href="http://kecebongsoft.com/feeds/posts.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi P. - posts Category Atom Feed" />
+        <link href="http://kecebongsoft.com/feeds/tumblr.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi P. - tumblr Category Atom Feed" />
+        <link href="http://kecebongsoft.com/feeds/wordpress.atom.xml" type="application/atom+xml" rel="alternate" title="Dedi P. - wordpress Category Atom Feed" />
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36468240-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://kecebongsoft.com/"><span class=site-name>Dedi P.</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://kecebongsoft.com">Home</a></li>
+                            <li ><a href="http://kecebongsoft.com/2001/01/pages/about.html">Tentang Saya</a></li>
+                            <li ><a href="http://kecebongsoft.com/categories.html">Categories</a></li>
+                            <li ><a href="http://kecebongsoft.com/tags.html">Tags</a></li>
+                            <li ><a href="http://kecebongsoft.com/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://kecebongsoft.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="http://kecebongsoft.com/2012/11/managing-ssh-keys.html"> Managing SSH keys  </a></h1>
+    </header>
+</div>
 
-    windowsCss.setAttribute("rel", "stylesheet");
-    windowsCss.setAttribute("media", "all");
-    windowsCss.setAttribute("href", "http://kecebongsoft.com/theme/css/windows.css");
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
 
-    var head = document.getElementsByTagName("head")[0];
-    head.appendChild(windowsCss);
-
-    windows = true;
-
-} else {
-    var fontCss = document.createElement("link");
-
-    fontCss.setAttribute("rel", "stylesheet");
-    fontCss.setAttribute("media", "all");
-    fontCss.setAttribute("href", "http://kecebongsoft.com/theme/css/fonts-1-2.css");
-
-    var head = document.getElementsByTagName("head")[0];
-    head.appendChild(fontCss);
-}
-</script>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="http://kecebongsoft.com/theme/js/moment-with-langs.js"></script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:locale" content="en_US" />
-
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Managing SSH keys" />
-<meta property="og:description" content="All this time, I've been managing my own SSH keys pretty badly, at least that's how I see it. I have different SSH key for different machine, some with passphrase, others without. Whether this is good or not, I believe it remains debatable. Having different SSH keys per ..." />
-<meta property="og:url" content="2012/11/managing-ssh-keys.html" />
-
-
-<title>Dedi P. : Managing SSH keys</title>
-
-<link href="http://kecebongsoft.com/" type="application/atom+xml" rel="alternate" title="Dedi P. ATOM Feed" />
-
-<!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <article id='content'>
-        <header> <a id="logo" href="http://kecebongsoft.com">Dedi P.</a> </header>
-        
-
-<section id="post">
-    <h1 class="section_separator">
-        <span>Sat 17 November 2012</span>
-    </h1>
-    <article id="" class="post">
-
-        <h1 class="post_title">Managing SSH keys</h1>
-        <p>All this time, I've been managing my own SSH keys pretty badly, at least that's how I see it. I have different SSH key for different machine, some with passphrase, others without. </p>
+            <p>All this time, I've been managing my own SSH keys pretty badly, at least that's how I see it. I have different SSH key for different machine, some with passphrase, others without. </p>
 <p>Whether this is good or not, I believe it remains debatable. Having different SSH keys per machine will make you somehow safe in terms of not having to pass around your private key and storing it in place like Dropbox, you also don't really have to set a passphrase since the possibility of somebody remotely steal your private keys is highly unlikely. But in many ways I think it's inconvenient, in my case, I have to add those new keys to places like Github and Bitbucket everytime I generate them. They will stack up together in time, say in six months, I can't really remember which keys I'm still using, some might be dead already, Especially if you work on sandboxes like Vagrant &amp; VirtualBox for development.</p>
 <p>Well, today I decided to remove all those keys, generate a new <em>global</em> SSH key, set a very strong passphrase, and store it in my cloud storage (hint: it's not dropbox). It's really not that complex, the additional part is just putting it in a cloud storage, hell, you can even put it in a password-protected archive if you're super paranoid.</p>
 <p>One thing I learned was that you can freely change the user and hostname in your public key in case you don't like it, or in case the host name is too specific / ugly.</p>
@@ -84,120 +87,49 @@ if(navigator.appVersion.indexOf("Win") != -1) {
 </ul>
 <p>So from today onwards, there shouldn't be any problem with managing SSH keys, or I can safely say I don't have to do it anymore. </p>
 <p><em>Update: When using shared private key like this, you'll have to run <code>ssh-add</code> after you add the private key in a another machine, if you've set a passphrase, it will ask you for it, enter it and you should be good to go</em></p>
-        <span class="post_fleuron symbol">Ð</span>
-
-        <div id='comments'></div>
-
-<script>
-$(function(){
-
-    function format_comment(name, comment, comment_date) {
-        moment.lang('id');
-        comment_date = moment(comment_date);
-
-        return  "<div class='comment' style='margin-bottom:20px;'><span style='font-weight:bold;'>" + name + "</span> " + 
-        "<span style='color:#acacac'>" + comment_date.format('Do MMMM YYYY') + "</span><br />" + "<p style='color:#8a8a8a'>" + comment + "</p></div>";
-    }
-
-    $.getJSON("http://kecebongsoft-blog-comments.appspot.com/get/?url=2012/11/managing-ssh-keys.html", function(data){
-        comments = data['comments'];
-
-        form_html = "<form method='post' action=''>" +
-            "<input type='text' id='name' name='name' placeholder='Nama' style='border:none;background-color:inherit;border-bottom:1px dotted #acacac;width:100%' ><br />" +
-            "<textarea name='comment' id='comment' placeholder='Komentar' style='border:none;background-color:inherit;border-bottom:1px dotted #acacac;width:100%;height:70px;'></textarea><br />" +
-            "<div style='float:right'><a id='comment_submit' href='#'>Kirim</a></div>" +
-            "<div style='clear:both;'></div>" + 
-            "</form>";
-            
-        
-        comment_list = "";
-        comment_list += "<div id='comment_list'>";
-        comment_list += "<div id='form'>" + form_html + "</div><div id='comments'>";
-        if (comments.length > 0) {
-
-            $("#comments").append("" +
-                "<h3 style='text-align:center;'>" +
-                    "<a href='#' id='comments_toggle'>Lihat komentar (" + comments.length + ")</a>" +
-                    "</h3>");
-
-
-
-
-            for (i = 0; i < comments.length ; i += 1 ) {
-                c = comments[i];
-                comment_list += format_comment(c['name'], c['comment'], c['date']);
-            }
-
-
-
-
-        } else {
-            $("#comments").append("<h3 style='text-align:center;'><a href='#' id='comments_toggle'>Kirim komentar</a></h3>");
-        }
-
-        comment_list += "</div></div>";
-        $("#comments").append(comment_list);
-
-        $("#comments #comment_list #form #comment_submit").click(function(e){
-            e.preventDefault();
-
-            $name = $("#comments #comment_list #form form #name");
-            $comment = $("#comments #comment_list #form form #comment");
-
-            if ($name.val() == '' || $comment.val() == '') {
-                console.log('type first');
-            }else{
-                console.log($name.val());
-                console.log($comment.val());
-                $.getJSON('http://kecebongsoft-blog-comments.appspot.com/post/?url=2012/11/managing-ssh-keys.html&name=' + 
-                    $name.val() + '&comment=' + $comment.val(), function(new_comment){
-
-                    $("#comments #comment_list #comments").prepend(format_comment(new_comment['name'], new_comment['comment'], new_comment['date']));
-
-                    $name.val('');
-                    $comment.val('');
-                });
-
-            }
-
-            return false;
-        });
-        $("#comments #comment_list").hide();
-        $("#comments_toggle").click(function(e){
-            e.preventDefault();
-            $("#comment_list").show();
-            return false;
-        });
-    });
-
-});
-</script>
-        
-
-    </article>
-
-</section>
-
-        <footer>
-            <h1 class="section_separator"><span></span></h1>
+            <aside>
+            <hr/>
             <nav>
-                <a href='/2001/01/about.html' class='site-links'>Siapa saya</a> | 
-                <a href='/archives.html' class='site-links'>Arsip tulisan</a>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://kecebongsoft.com/2012/11/my-new-pelican-build-mechanics.html" title="Previous: My new Pelican build mechanics">My new Pelican build mechanics</a></li>
+ 
+                <li class="next_article"><a href="http://kecebongsoft.com/2012/11/places.html" title="Next: Places">Places</a> »</li>
+            </ul>
             </nav>
-            <span>&copy;&nbsp;2004-2014 Dedi Purwanto</span>
-        </footer>
-    </article>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2012-11-17T00:00:00">Nov 17, 2012</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#posts-ref">posts</a> 
 
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
 
-
-    <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-        var pageTracker = _gat._getTracker("UA-36468240-1");
-    pageTracker._trackPageview();
-    } catch(err) {}</script>
-</body>
+    </body>
 </html>
