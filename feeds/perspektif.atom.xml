@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dedy Purwanto</title><link href="http://kecebongsoft.com/" rel="alternate"></link><link href="http://kecebongsoft.com/feeds/perspektif.atom.xml" rel="self"></link><id>http://kecebongsoft.com/</id><updated>2014-06-08T00:00:00+08:00</updated><entry><title>Programmer dan mengetik</title><link href="http://kecebongsoft.com/2014/06/programmer-dan-mengetik.html" rel="alternate"></link><updated>2014-06-08T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-06-08:2014/06/programmer-dan-mengetik.html</id><summary type="html">&lt;h2&gt;&lt;em&gt;Seorang programmer menemukan sebuah ide, lalu dia mulai menuliskan kode baris demi baris secara perlahan sambil melihat keyboardnya, satu jam kemudian dia berhenti dan membuang idenya, frustasi karena kecepatan mengetiknya tidak bisa mengejar kecepatannya berfikir. Banyak yang tidak menyadari kemampuan mengetik fasih bagi programmer sama halnya seperti mempunyai kaki yang sehat bagi seorang pelari.&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Perjalanan saya berlatih mengetik cepat dimulai ketika saya belajar pemrograman secara otodidak, pada saat itu, saya seringkali membeli majalah pemrograman yang memuat artikel tentang pembuatan sebuah software, yang mana pada kala itu, source code di lampirkan langsung di majalah tersebut, sehingga saya harus menyalin kodenya baris demi baris. Perlahan tapi pasti, saya mulai mengingat posisi tombol-tombol keyboard dan setelah beberapa bulan, saya mulai fasih mengetik tanpa melihat keyboard.&lt;/p&gt;
+&lt;p&gt;Pada saat itu, saya sudah memposisikan diri saya sebagai 'touch-typist', atau seseorang yang bisa mengetik tanpa melihat keyboard. Namun teknik mengetik saya masih jauh dari kata 'benar', saya tidak pernah mengikuti pendidikan formal mengetik dan cara mengetik saya cenderung acak, saya bahkan tidak menggunakan beberapa jari seperti kelingking dan jempol. &lt;/p&gt;
+&lt;p&gt;Ketika saya mulai lebih sering mengetik kode, terutama saat saya mulai bekerja, barulah saya merasakan bahwa kemampuan mengetik saya meskipun cepat, masih terasa 'gagap', setiap kali mengetik, saya masih harus berfikir tentang posisi-posisi tombol di keyboard serta menyesuaikannya dengan posisi jari saya yang acak dalam menekan tombol. Disaat menulis kode, saya merasa cara saya menterjemahkan apa yang ada di fikiran menjadi baris-baris kode terhambat oleh cara mengetik saya yang tidak benar ini.&lt;/p&gt;
+&lt;p&gt;Pada saat itulah saya mulai berniat untuk belajar mengetik dengan benar, untuk mendukung rencana ini, saya membeli sebuah keyboard yang desainnya dibagi antara lengan kanan dan kiri, yaitu Microsoft Natural Ergonomic 4000, keyboard ini memaksa kita untuk mengetik dengan benar dengan cara membagi set huruf menjadi 2 bagian, sehingga huruf-hurufnya harus ditekan oleh tangan dan jari yang benar.&lt;/p&gt;
+&lt;p&gt;Setelah beberapa bulan 'memaksa' diri saya untuk terbiasa dengan layout keyboard tersebut, akhirnya saya bisa fasih mengetik 10 jari dan sangat merasakan manfaatnya, mengetik bukan lagi menjadi hambatan bagi pikiran saya untuk menulis seperti dulu. Mengetik sudah terasa seperti menulis tangan, dimana keyboard sudah terasa seperti ekstensi dari tangan saya, tidak ada lagi 'thought process' dimana saya harus membayangkan posisi jari dan tombl keyboard seperti dulu. Ketika menulis kode, saya bisa terfokus pada apa yang ingin saya tulis ketimbang bagaimana cara saya menulisnya (membayangkan posisi keyboard).&lt;/p&gt;
+&lt;p&gt;Setelah fasih mengetik 10 jari dengan cara yang benar, barulah saya mengakui benar manfaatnya, dulunya, saya sering mencemooh orang yang mengikuti kursus mengetik 10 jari, menganggap bahwa asalkan kita bisa mengetik tanpa melihat, tidak perduli benar atau tidak, maka sudah cukup.&lt;/p&gt;
+&lt;p&gt;Saat ini, saya masih sering melihat teman serta rekan kerja saya, terutamanya sesama programmer, yang masih harus 'berfikir' sejenak ketika mengetik, mencari-cari dan menyesuaikan posisi keyboard dengan jari mereka, sehingga memperlambat kerja serta kemungkinan menghilangkan fokus mereka terhadap apa yang mereka kerjakan. Apa yang mereka fikirkan dan ingin dituliskan di kode, terhambat oleh 'thought process' dalam mengetik. Ini seharusnya bisa dieliminasi dengan kemampuan mengetik yang benar. Mengetik seharusnya sudah seperti berbicara, fasih dan tanpa keraguan.&lt;/p&gt;
+&lt;p&gt;Pada akhirnya saya berprinsip bahwa seorang programmer sudah wajib untuk menguasai kemampuan mengetik 10 jari yang benar, secara langsung atau tidak, alam bawah sadar kita 'terganggu' fokusnya dalam bekerja ketika kemampuan mengetik menghambat proses penyampaian ide di fikiran menjadi kata-kata. Mengetik bagi seorang programmer sama seperti melukis bagi seorang seniman, fasih, tidak gagap dan penuh kepastian. &lt;/p&gt;</summary></entry><entry><title>Jupiter</title><link href="http://kecebongsoft.com/2014/04/jupiter.html" rel="alternate"></link><updated>2014-04-14T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-04-14:2014/04/jupiter.html</id><summary type="html">&lt;h2&gt;&lt;em&gt;Saya sering memandang ke langit dan membayangkan jika asteroid sebesar gunung Kilimanjaro jatuh ke Bumi saat ini, teknologi apa yang kita miliki sekarang, yang dapat mencegah kehancuran masal tersebut?&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Seperti yang kita ketahui, Bumi sudah seringkali dijatuhi meteor. Bumi sendiri terbentuk dari hasil &lt;em&gt;karambol&lt;/em&gt; luar angkasa; Jutaan meteor, beradu satu dengan yang lain selama milyaran tahun, di &lt;em&gt;tarik ulur&lt;/em&gt; oleh gravitasi hingga terbentuk planet yang kita kenal dengan nama Bumi. Meteor, adalah awal dari kehidupan di Bumi.&lt;/p&gt;
+&lt;p&gt;Di saat yang sama, meteor juga pembawa bencana bagi kehidupan. Jutaan tahun yang lalu, meteor &lt;em&gt;mampir&lt;/em&gt; di padang Meksiko, dengan keuatan lebih dari satu trilyun bom yang menghancurkan Hiroshima pada tahun 1945. Meteor tersebut memusnahkan 70-persen kehidupan di Bumi. Mungkin sudah sering kali meteor jatuh dan membawa kematian bagi kehidupan di Bumi jutaan tahun yang lalu, siapa yang tahu.&lt;/p&gt;
+&lt;p&gt;Saya terkadang membayangkan bagaimana jika meteor yang cukup besar jatuh ke Bumi sekarang, apa kita punya cukup cara untuk mencegah tamu tak diundang tersebut? atau kita akan punya nasib yang sama seperti nenek moyang kita jutaan tahu yang lalu, dilenyapkan oleh meteor?&lt;/p&gt;
+&lt;p&gt;Hari ini ketika menonton Discovery Channel, saya menemukan bahwa ternyata Bumi punya &lt;em&gt;bodyguard&lt;/em&gt;. Pelindung ini men-tamengi Bumi dari bencana yang memusnahkan nenek moyang kita jutaan tahun lalu. Namanya adalah Jupiter.&lt;/p&gt;
+&lt;p&gt;Jupiter, sebuah monster. Sebagai planet terbesar di tata surya kita, Jupiter memiliki gravitasi yang luar biasa kuat, sangat kuat, menghipnotis objek-objek disekitarnya untuk mendekat, termasuk asteroid. Yang lebih luar biasa lagi, Jupiter ternyata meng-orbit pada posisi yang sangat tepat untuk melindungi Bumi dari asteroid. &lt;/p&gt;
+&lt;p&gt;Beberapa waktu yang lalu, asteroid yang cukup besar menghantam Jupiter, asteroid yang dipercaya kemungkinan akan menabrak Bumi, jika tidak ada Jupiter. Asteroid tersebut adalah salah satu yang terbesar yang pernah direkam. Katakan asteroid tersebut jatuh sebagai meteor ke Bumi, mungkin manusia akan musnah.&lt;/p&gt;
+&lt;p&gt;Ini adalah salah satu masa dimana pikiran saya lagi-lagi terbuka oleh keajaiban alam semesta. Selama ini saya sering berpikir planet-planet lain yang mengintari Matahari kita punya relasi yang banyak dengan Bumi, namun saya keliru. Jupiter, sabagai raksasa, ternyata adalah salah satu pelindung kehidupan di Bumi dari kehancuran. Terima kasih, Jupiter.&lt;/p&gt;</summary></entry><entry><title>Penjelas Hebat</title><link href="http://kecebongsoft.com/2014/04/penjelas-hebat.html" rel="alternate"></link><updated>2014-04-12T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-04-12:2014/04/penjelas-hebat.html</id><summary type="html">&lt;h2&gt;&lt;em&gt;Seringkali ketika mencoba menjelaskan hal-hal kompleks kepada teman atau kolega, saya mendapati diskusi kami berakhir dengan kebingungan, apa selama ini ada yang salah dengan cara saya berkomunikasi?&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Saya adalah penggemar berat astronomi dan fisika. Semenjak sekolah dasar saya seringkali larut dalam mata pelajaran fisika dan astronomi, yang waktu itu disebut dengan Ilmu Pengetahuan Alam (IPA). Tanpa sadar saya punya ketertarikan lebih ketika belajar tentang tata-surya, hukum fisika, gravitasi, dan hal-hal sejenisnya; semuanya terdengar seperti dongeng yang nyata.&lt;/p&gt;
+&lt;p&gt;Ketika melanjutkan ke pendidikan yang lebih tinggi — SD dan SMA —, saya mulai mempelajari materi fisika dan astronomi yang lebih kompleks, yang seringkali tidak bisa di-representasikan dengan media visual. Terkadang saya menyerah ketika membaca artikel tertentu karena keterbatasan saya dalam mencerna hal-hal kompleks. Di saat-saat seperti itulah saya seringkali berpindah menonton para ilmuan yang bisa menjelaskan dengan bahasa yang sangat mudah serta menarik bagi orang awam, salah satu ilmuan tersebut adalah &lt;a href="http://en.wikipedia.org/wiki/Michio_Kaku"&gt;Michio Kaku&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Michio Kaku, adalah seorang ilmuan dari Jepang yang saat ini mengajar di salah satu universitas di Amerika Serikat. Beliau memulai "karir"nya sebagai ilmuan pada saat membuat &lt;a href="http://en.wikipedia.org/wiki/Particle_accelerator"&gt;particle accelerator&lt;/a&gt; ketika masih SMA. Saat ini, beliau adalah salah satu dari sekian ilmuan yang bekerja memecahkan satu dari sekian misteri alam semesta: &lt;a href="http://en.wikipedia.org/wiki/String_theory"&gt;string theory&lt;/a&gt;. Di waktu yang sama, beliau juga mengajar serta mengisi acara-acara bertema sains.&lt;/p&gt;
+&lt;p&gt;Michio Kaku adalah seorang ilmuan yang juga penggemar berat cerita fiksi-ilmiah, seperti Star Trek, Star Wars, dan sejenisnya. Seringkali ketika mengisi acara, beliau mencoba membawa tema fiksi-ilmiah digabungkan dengan cara pandang orang awam, serta dibawakan dengan bahasa yang simpel, singkat dan padat.&lt;/p&gt;
+&lt;p&gt;Ketika saya menonton video-video beliau, seringkali saya terperanjat dengan konsep yang selama ini susah dimengerti, yang beliau jelaskan dengan sangat simpel disertai contoh yang mudah dimengerti.&lt;/p&gt;
+&lt;p&gt;Seringkali saya bercermin, sebagai orang yang bekerja di bidang IT, mungkin tidak sedikit kolega dan teman saya yang ada diposisi sama seperti saya ketika membaca artikel fisika yang kompleks: bingung, susah mengerti, dan menyerah. Seringkali saya ada diposisi dimana saya harus menjelaskan hal-hal teknikal kepada orang awam dan diskusi kami berakhir pada kebingungan dan kesalah-pahaman.&lt;/p&gt;
+&lt;p&gt;Terkadang saya bertanya, apakah saya bisa seperti seorang Michio Kaku?. Tidak hanya beliau mendapatkan pertanyaan-pertanyaan yang sulit, namun juga bisa dibalas dengan jawaban yang sangat mudah dimengerti. Mulai saat itu, saya mencoba memperbaiki diri melalui cara saya menyampaikan apa yang ada di pikiran saya, terutama hal-hal yang sulit untuk dimengerti orang lain.&lt;/p&gt;
+&lt;p&gt;Michio Kaku tentu tidak menggunakan ilmu sihir yang menyulap pendengarnya untuk langsung mengerti. Saya menyadari pastilah ada teknik-teknik tertentu yang dipakai orang-orang seperti beliau dalam berkomunikasi yang efektif. Saya mulai memperhatikan cara beliau berkomunikasi dan sejauh ini yang dapat saya pelajari:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jeda di setiap kalimat / jawaban&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Seringkali saya menjawab setiap pertanyaan secara instan, atau berbicara dengan cepat, tanpa berfikir panjang tentang apa yang sebenarnya si lawan bicara coba sampaikan, atau apa yang saya sendiri coba sampaikan; hingga akhirnya saya memilih kata-kata yang membuat interpretasi menjadi salah.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pengulangan kata&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Terkadang saya menggunakan kata-kata yang sama berulang kali sehingga menambah "polusi" didalam setiap kalimat, dan "polusi" ini membuat inti yang ingin saya sampaikan menjadi buram.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kata-kata yang kurang perlu&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tanpa saya sadari, saya seringkali menggunakan kata-kata tambahan yang tidak perlu dalam setiap kalimat, ini juga salah satu bentuk "polusi" yang mengaburkan maksud yang ingin saya sampaikan. Pola seperti "agar supaya" atau "tanpa saya sadari" yang sebenarnya bisa disingkat menjadi "tanpa disadari".&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tidak ada intonasi dan penekanan&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Terkadang ketika berbicara dengan cepat, saya gagal menyampaikan bagian mana dari kalimat saya yang paling penting. Saya berbicara dengan nada datar dan setiap kata terdengar sama pentingnya (atau tidak penting sama sekali).&lt;/p&gt;
+&lt;p&gt;Banyak sekali hal yang saya bisa pelajari dari orang-orang seperti Michio Kaku dan yang lainnya, semoga setiap kali saya mempelajari sesuatu, saya bisa mengambil tidak hanya ilmu yang ingin saya pelajari, tapi juga hal-hal positif disekitarnya.&lt;/p&gt;</summary></entry><entry><title>Ponsel Pintar</title><link href="http://kecebongsoft.com/2014/04/ponsel-pintar.html" rel="alternate"></link><updated>2014-04-07T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-04-07:2014/04/ponsel-pintar.html</id><summary type="html">&lt;h2&gt;&lt;em&gt;Lalu lintas di jalan raya sudah menyepi, waktu menunjukan pukul 3 pagi. Belasan halaman web tentang smartphone yang gagal charge  masih terbuka di laptop sembari saya sesekali mengutak-atik smartphone saya yang sudah mati berhari-hari. Saya mulai sering bertanya apakah saya benar-benar butuh smartphone?&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;3 tahun lalu dibulan Agustus, saya mendapatkan smartphone pertama saya setelah berbulan-bulan (&lt;em&gt;atau tahun?&lt;/em&gt;) menabung dan membaca berbagai artikel tentang perangkat "pintar" ini. 3 tahun lalu adalah salah satu awal dari era ke-emasan gadget pintar, saat itu saya tidak perlu berfikir 2-kali untuk mengambil keputusan bahwa saya benar-benar membutuhkan smartphone. Saya sempat &lt;a href="/2008/05/sony-ericsson-xperia-x1-saingan-iphone.html"&gt;membanding-bandingkan beberapa ponsel&lt;/a&gt;, serta mengikuti &lt;a href="/2008/11/se-xperia-htc-touch-hd-atau-htc-touch-pro.html"&gt;kabar terbaru ponsel incaran saya&lt;/a&gt; pada waktu itu.&lt;/p&gt;
+&lt;p&gt;Tidak ada target khusus tentang kapan saat itu saya harus memiliki smartphone, namun beberapa minggu sebelum akhirnya membeli, saya kehilangan ponsel saya di kereta karena kelalaian sendiri; dan petualangan menggunakan smartphone akhirnya dimulai.&lt;/p&gt;
+&lt;p&gt;Smartphone pertama saya adalah Samsung Galaxy S2, yang diluncurkan di Malaysia pada bulan Agustus 2011. Ponsel ini adalah salah satu yang paling dielu-elukan banyak media, yang penjualannya diprediksi akan menyaingin — atau bahkan mengalahkan — iPhone. Saya pribadi memutuskan memilih S2 karena bisa di ubah-ubah sesuai keinginan, mengikutin &lt;em&gt;nature&lt;/em&gt;-nya yang open-source.&lt;/p&gt;
+&lt;p&gt;Beberapa minggu pertama saya menggunakan smartphone adalah masa-masa yang paling adiktif; saya menginstall berbagai macam software dan game, melakukan modifikasi dan sebagainya. Setiap ada waktu luang, mata saya selalu tertuju pada smartphone. Seiring berjalannya waktu — meskipun tidak signifikan — saya mulai mengurangi penggunaan smartphone.&lt;/p&gt;
+&lt;p&gt;Selama lebih dari setengah tahun, saya harus menggunakan kereta untuk pergi ke kantor. Semasa itulah smartphone serasa berguna untuk mengisi kekosongan waktu; mulai dari membaca artikel, membalas email hingga bermain game, semua saya lakukan untuk mengusir kebosanan. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Fast-forward&lt;/em&gt; ke beberapa tahun kemudian, tepatnya setelah setahun menggunakan smartphone, saya mulai merasa penggunaan saya terhadap smartphone cenderung tidak produktif dan kurang membawa manfaat. Saya lebih sering aktif di media sosial serta bermain game, sedikit sekali — bahkan hampir tidak ada — waktu saya di gadget yang saya gunakan untuk keperluan yang bermanfaat, terkecuali mengecek email.&lt;/p&gt;
+&lt;p&gt;Masa-masa selanjutnya mulai mengubah pemikirkan saya tentang gadget, seringkali saya melihat orang-orang menghabiskan waktu mereka bersama dengan bermain gadget masing-masing, hal yang dulunya saya anggap keren, namun mulai saya anggap jauh dari baik. Saya mulai lebih suka untuk melihat sekitar, berfikir tentang ide-ide, hal-hal kecil yang sering terlewatkan serta mengapresiasi lingkungan sekitar ketimbang sibuk dengan smartphone.&lt;/p&gt;
+&lt;p&gt;Beberapa hari yang lalu, smartphone saya memutuskan untuk rusak, tidak bisa di-charge dan sudah berkali-kali diganti baterai. Beberapa hari tanpa smartphone ternyata tidak membuat saya susah, saya semakin menyadari bahwa saya memang tidak butuh smartphone, saya mulai menyadari gemerlap dunia gadget adalah sebuah delusi yang memancing naluri konsumerisme.&lt;/p&gt;
+&lt;p&gt;Kini saya sudah tidak tertarik dengan smartphone, kalaupun harus punya, akan saya batasi ke fitur yang memang dibutuhkan untuk pekerjaan saya seperti email dan web-browser. Waktu yang dulu saya habiskan dengan menatap smartphone, kini mulai saya ganti dengan hal-hal yang lebih bermanfaat, seperti kembali aktif menulis serta hal-hal menarik lainnya. Semoga saja ini bisa berlanjut hingga bertahun-tahun. &lt;/p&gt;</summary></entry><entry><title>Takut Email</title><link href="http://kecebongsoft.com/2014/03/email.html" rel="alternate"></link><updated>2014-03-13T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-03-13:2014/03/email.html</id><summary type="html">&lt;h2&gt;&lt;em&gt;Sebagai medium komunikasi yang berumur lebih dari 3 dekade, email masih menjadi benda yang asing bagi kebanyakan orang — terutama para remaja. Gelombang media sosial dan instant messaging ikut membuat keberadaan email semakin terbenam. Apa kini email sudah bukan jamannya lagi? apakah keberadaan email hanya sebatas untuk mereka para senior saja?&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Hari ini saya dapat pesan tentang pengenalan email untuk kalangan remaja. Meski antusias, saya tidak bisa berhenti bertanya: &lt;em&gt;Seberapa lama mereka bisa tahan menggunakan email?&lt;/em&gt;. Pertanyaan ini tidak lepas dari pengalaman pribadi dulu, saya bukanlah pengguna aktif email ketika SMA, bahkan kuliah. Butuh bertahun-tahun bagi saya untuk akhirnya benar-benar aktif memanfaatkan email.&lt;/p&gt;
+&lt;p&gt;Di era media sosial seperti sekarang, kita lebih memilih media sosial seperti Facebook dan Twitter sebagai media komunikasi, dengan alasan responnya yang lebih cepat, serta fitur yang kompetitif. Kita bisa terhubung lebih mudah dengan kenalan serta orang-orang baru melalui media sosial. Dalam hal ini tidak ada alasan untuk menggunakan email; media sosial sudah lebih dari cukup.&lt;/p&gt;
+&lt;p&gt;Inilah kenapa saya terkadang skeptis mencari relevansi antara email dan remaja. Susah sekali mencari hal yang membuat email menjadi komunikas yang lebih efektif dibanding media sosial bagi para remaja; di pekerjaan saya pun sering mendengar keluhan rekan kerja, yang sulit menghubungi pelajar SMA melalui email (saya bekerja di bidang portal edukasi).&lt;/p&gt;
+&lt;h2&gt;Kenapa saya perlu email?&lt;/h2&gt;
+&lt;p&gt;Ketika mencoba melihat dari perspektif remaja, memang wajar kalau email menjadi medium yang tidak menarik. Ingin berkorespondensi? Ada Facebook dan Twitter. Mengerjakan tugas sekolah? Ada Google, forum, dan yang terakhir ini ada QA platform seperti &lt;a href="http://stackexchange.com"&gt;StackExchange&lt;/a&gt;. Hampir semua kebutuhan informasi mereka bisa di akomodir tanpa menggunakan email.&lt;/p&gt;
+&lt;p&gt;Pada saat mereka — secara inisiatif atau &lt;em&gt;dipaksa&lt;/em&gt; — menggunakan email, otomatis email akan menjadi benda yang lambat laun akan dibuang. Komunikasi via email hanya akan dilakukan ketika: si penerima tidak ada di medial sosial, atau &lt;em&gt;dipaksa&lt;/em&gt; untuk berkorespondensi via email oleh guru/dosen.&lt;/p&gt;
+&lt;p&gt;Beberapa tahun lalu, sebagai anak kuliah, saya terjatuh di alasan pertama: Saya mulai kesulitan berkomunikasi dengan berbagai pihak melalui media sosial. Ada dosen, ada mantan guru SMA, ada researcher dari universitas lain, yang memiliki medium komunikasi berbeda tapi punya satu kesamaan: menggunakan email. Akhirnya saya mulai mencoba lagi untuk aktif menggunakan email. Disinilah saya merasa email menjadi lebih superior: Cocok untuk komunikasi dengan siapapun, dari manapun, dalam hal apapun.&lt;/p&gt;
+&lt;p&gt;Email menjadi kompetitif ketika kita berkomunikasi dengan berbagai macam pihak. Mulai dari mereka yang ada di media sosial, yang tidak ada, ataupun yang hanya ingin media sosial mereka dipakai untuk keperluan pribadi.&lt;/p&gt;
+&lt;p&gt;Menurut saya inilah masalah utama penggunaan email di kalangan remaja. Ada perbedaan tipe komunikasi antara remaja dan proffesional. Sehingga membuat email dalam perspektif mereka menjadi tidak efisien. Pada akhirnya, siapa yang mau di-email? semua teman sudah ada di Facebook dan Twitter.&lt;/p&gt;
+&lt;p&gt;Apakah ini sebuah implikasi bahwa sekarang memang bukan jamannya email? Entahlah, masih terlalu dini karena email masih jadi medium vital bagi sebagian besar lainnya. Yang jelas, sosialisasi email di kalangan remaja tidak bisa hanya dilakukan secara &lt;em&gt;berjamaah&lt;/em&gt;: mendaftarkan akun mereka dan membiarkan mereka berjalan sendiri.&lt;/p&gt;
+&lt;h2&gt;"Sosialisasi email"&lt;/h2&gt;
+&lt;p&gt;Jika harus dilakukan — menurut saya — sosialisasi email haruslah dijalankan secara progresif; perlahan tapi pasti. Aspek terpenting yang membuat media sosial menjadi lebih kompetitif adalah karena si pengguna sudah punya kenalan disana. Itu juga alasan kenapa Facebook masih berjaya dibanding Google+: Karena teman kita ada di Facebook dan tidak di Google+.&lt;/p&gt;
+&lt;p&gt;Harus ada stimulan agar pengguna baru tetap aktif berkorespondensi melalui email, stimulan ini berbentuk komunikasi dua arah. Kita bisa memperkenalkan email melalui model mailing-list, atau membuat korespondensi secara grup. Intinya jangan memperkenalankan email dan membiarkan si pengguna berjalan sendiri, berharap mereka akan mendapatkan seseorang yang akan jadi teman ber-email. &lt;/p&gt;
+&lt;p&gt;Pada akhirnya, email dan media sosial punya tempat tersendiri, tapi tidak dipungkiri bahwa media sosial berhasil mencuri hati banyak orang, sementara email — yang lebih tua — masih dipandang asing bagi sebagian besar masyarakat. Memperkenalkan email ke khalayak awam tidaklah seperti memperkenalkan media sosial, yang pada umumnya kita &lt;em&gt;disuapi konten&lt;/em&gt;. Haruslah ada kesabaran, serta ketekunan.&lt;/p&gt;</summary></entry><entry><title>Pendidikan Modern</title><link href="http://kecebongsoft.com/2014/03/pendidikan-modern.html" rel="alternate"></link><updated>2014-03-11T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-03-11:2014/03/pendidikan-modern.html</id><summary type="html">&lt;p&gt;Malam ini ketika saya sedang bersantai dan lurking di facebook, saya menemukan tautan essay dari seorang dosen di Universitas Pancasila Indonesia, yang menulis bahwa mahasiswanya menggunakan cara belajar yang sama seperti 17 tahun lalu, sangat outdated dan tidak efektif. Beliau kemudian mengemukakan tools dan metodologi yang lebih modern seperti penggunaan &lt;a href="http://en.wikipedia.org/wiki/Revision_control"&gt;VCS&lt;/a&gt; dan social media sebagai bahan belajar. Saya setuju dengan sebagian besar poin yang beliau kemukakan, namun saya terperangkap dengan kata-kata &lt;em&gt;stagnan selama 17 tahun&lt;/em&gt;, penggunaan teknologi serta relevansi dan impactnya terhadap sistem pendidikan modern.&lt;/p&gt;
+&lt;p&gt;Awalnya saya hanya ingin membuat komentar singkat, namun karena ada beberapa poin dipikiran saya yang (seperti biasa) berkembang menjadi kalimat lalu paragraf, saya memutuskan untuk menulis artikel singkat mengenai ini. &lt;a href="http://software.endy.muhardin.com/life/menjadi-mahasiswa-hi-tech/"&gt;Berikut adalah ucapan beliau&lt;/a&gt; yang membuat saya tertarik untuk membuat tulisan ini:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dari sekian banyak mahasiswa, tidak ada satupun yang mengikuti perkuliahan sesuai dengan kondisi jaman sekarang. Semuanya, tanpa terkecuali, masih kuliah seperti halnya saya kuliah di tahun 1997 dulu. Ya benar, selama 17 tahun tidak ada perubahan metodologi sama sekali.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Saya mengerti dari tulisan beliau, fokus utamanya adalah dari sisi mahasiswa/individual: yang seharusnya di jaman sekarang menggunakan tools dan metodologi yang lebih modern, mengurangi aktifitas online/offline yang tidak positif, serta proaktif dalam belajar (tidak hanya dikelas). Namun ketika berbicara sistem pendidikan yang tidak berubah selama belasan tahun, pemanfaatan teknologi modern sebagai &lt;em&gt;complementary tools&lt;/em&gt; tidak akan banyak mengubah keadaan. Jadi ditulisan ini saya ingin berbicara tentang konsep pendidikan modern yang ada dibenak saya, yang lebih penting dan besar dampaknya.&lt;/p&gt;
+&lt;p&gt;Sebelum itu, menurut saya tools dan metodologi yang beliau kemukakan adalah jenis usaha untuk membuat kegiatan belajar menjadi lebih efektif. Contohnya di kampus saya dulu, dosen akan meng-upload material satu semester penuh ke portal mahasiswa, yang bisa didownload dan dipelajari secara proaktif sebelum masuk ke kelas. Dosen saya jarang sekali menulis material yang jauh berbeda dipapan tulis dengan yang sudah mereka upload. Ini juga salah satu usaha membuat sistem belajar menjadi efektif, sama seperti anjuran beliau untuk memanfaatkan VCS dan media sosial.&lt;/p&gt;
+&lt;p&gt;Permasalahannya adalah: Seorang pengajar, duduk dikelas selama satu jam bersama puluhan murid, berusaha mengajarkan sesuatu kepada para murid yang memiliki:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Basis pengetahuan berbeda.&lt;/li&gt;
+&lt;li&gt;Kecepatan pemahaman berbeda.&lt;/li&gt;
+&lt;li&gt;Cara menterjemahkan materi yang berbeda.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bayangkan mengajarkan kelas awal pemrograman, dimana ada murid yang baru pegang komputer satu bulan lalu, sudah pegang komputer 3 tahun lalu, belum tau apa itu program, dsb (basis pengetahuan berbeda). Setelah kelas berakhir dan dilanjutkan ke hari berikutnya ke topik yang lebih tinggi, berapa banyak yang sudah mengerti materi kemarin? (kecepatan pemahaman berbeda). Dan dari yang mengerti, berapa banyak yang sepaham dengan apa yang guru fikirkan? (cara menterjemahkan materi yang berbeda). Ini berlanjut selama bertahun-tahun hingga kalendar perkuliahan berakhir. Tentu saja sebagai mahasiswa diharapkan untuk belajar secara proaktif diluar jam kelas, tapi seberapa banyak yang bisa seperti ini? Terlepas dari alasannya (kerja sampingan, malas, ada tanggung jawab lain, dsb).&lt;/p&gt;
+&lt;p&gt;Diatas semua itu, tambahkan kurikulum dan matakuliah yang sudah di preset selama satu semester, yang mengasumsikan kita akan bisa belajar B setelah belajar A. Menarik semasa kuliah dulu banyak teman saya yang mengaku bisa jaringan setelah belajar pemrograman, tapi pemrograman diajarkan setelah jaringan.&lt;/p&gt;
+&lt;p&gt;Sejauh ini apa yang ingin saya kemukakan adalah secara langsung/tidak langsung, sistem belajar-mengajar konvensional yang diterapkan oleh institutsi pendidikan membuat mahasiswa menjadi pasif dikelas dan cenderung "disuapi", oleh materi yang awalnya ditargetkan agar mahasiswa menguasai hal-hal tertentu, namun gagal karena cara penyampaiannya yang tidak sesuai dengan cara mencerna tiap individu. Sebagai contoh, bahasa pemrograman apa yang cocok untuk mata kuliah logika dasar? Python atau C++? Kita naikan lagi, pemrograman berbasis teks atau &lt;a href="/2012/08/pemrograman-visual.html"&gt;pemrograman visual&lt;/a&gt;? Lalu apa yang selama ini diajarkan diperkuliahan untuk mencapai objektif tersebut? efektifkah?.&lt;/p&gt;
+&lt;p&gt;Teknologi dan layanan yang dikemukakan oleh beliau adalah asupan yang menurut saya, harus dipelajari oleh para mahasiswa. Saya sangat setuju kalau mahasiswa IT harus punya akun Github, bukan cuma mahasiswa, siswa SMP/SMA, karyawan, siapapun yang berminat di computer science dan software development harus belajar tools yang membawa produktifitas seperti git dan VCS lainnya. Tapi dari sisi belajar-mengajar saya melihat itu cuma sebagai &lt;em&gt;complementary&lt;/em&gt; ketimbang solusi. Apakah si A akan menulis kode yang lebih bagus karena di-push ke GitHub ketimbang si B yang hanya di zip? belum tentu. Memang betul dengan &lt;em&gt;mendandani&lt;/em&gt; kode kita melalui git dan github, &lt;em&gt;presummably&lt;/em&gt; karya kita lebih bagus ketimbang yang tidak, tapi kembali lagi seberapa relevan menyelesaikan sebuah problemset programming versus menggunakan git? ditambah lagi dengan &lt;a href="http://en.wikipedia.org/wiki/Correlation_does_not_imply_causation"&gt;correlation doesn't mean causation&lt;/a&gt;, ditambah lagi dengan &lt;a href="http://windows.github.com/"&gt;mudahnya menggunakan github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tentu saja saya nggak menentang penggunaan teknologi dan metodologi yang beliau kemukakan, saya sendiri punya akun github dan aktif di sosial media, menggunakan berbagai layanan dan tools yang membuat saya lebih produktif. Saya sangat setuju bahwa setiap individu harus &lt;a href="/2014/02/masa-depan-vs-trend-kemarin-sore.html"&gt;terus mengasah pengetahuannya secara proaktif karena dunia berkembang luar biasa cepat&lt;/a&gt;. Bagi pelajar, mempunyai online presence di tempat-tempat seperti Github, milis dan sebagainya bukan hanya sebagai suplemen untuk belajar yang lebih efektif, tapi juga sebuah jembatan kedunia informasi yang jauh lebih luas. Namun menjadi proaktif secara individual, pada akhirnya hanya akan memberi keuntungan secara individu. Target yang lebih besar, yaitu mencari metodologi pendidikan modern serta merombak yang lama, adalah misi yang efeknya jauh lebih besar.&lt;/p&gt;
+&lt;p&gt;Meskipun belum menemukan kandidat yang ideal, beberapa tahun yang lalu saya diperkenalkan dengan &lt;a href="https://www.youtube.com/watch?v=gM95HHI4gLk"&gt;KhanAcademy melalui TED&lt;/a&gt;. Melalui event ini, sang penemu KhanAcademy menjelaskan permasalahan yang hampir mirip dengan pembahasan ini; banyak murid yang tidak bisa mengejar ketinggalan materi di kelas dan 'malu' untuk terus-terusan bertanya hal yang itu-itu saja, sementara kurikulum terus berjalan.&lt;/p&gt;
+&lt;p&gt;Inilah yang KhanAcademy coba untuk selesaikan, dengan cara memberikan video materi pembelajaran seperti aritmatika, biologi, astronomi dan sebagainya, pengunjung dipersilahkan untuk nonton dan mengulang sepuasnya, lalu dihadapkan dengan ratusan latihan yang seiring dengan waktu, akan menyesuaikan dengan kemampuan dan teknik belajar mereka. Siapapun bebas mau belajar apa dan mulai dari mana, kita bisa men-track progress kita, bagian apa yang paling susah dimengerti, serta berdiskusi dengan member lain.&lt;/p&gt;
+&lt;p&gt;Perbedaan utamanya adalah disini kita bisa mulai belajar dari manapun, ingin belajar pemrograman? bisa mulai dari Java, tidak cocok? mulai dengan Python, dsb. Setiap individu bisa belajar dan mencapai target yang sama melalui jalur yang berbeda, tanpa ada target waktu tertentu.&lt;/p&gt;
+&lt;p&gt;Menurut saya pendidikan modern jauh dari sekedar menggunakan modern tools, tapi lebih kepada bagaimana teknologi dan tools tersebut menyelesaikan permasalahan dalam proses belajar-mengajar, jangan hanya sekedar &lt;em&gt;tools tambahan&lt;/em&gt;. Saya akan lebih senang kalau belajar melalui &lt;em&gt;screencast&lt;/em&gt; seperti di KhanAcademy, kumpul tugas tanpa git pun tak masalah, kirim sourcecode dalam zip pun tak mengapa; meskipun bagus, mereka tidak terlalu relevan.&lt;/p&gt;
+&lt;p&gt;Tentu saja model pembelajaran seperti di KhanAcademy bukan hal yang mudah untuk diterapkan di institutsi pendidikan konvensional, di US saja masih belum banyak institusi yang memanfaatkan KhanAcademy secara penuh, lebih-lebih berganti total. Tapi menurut saya ini adalah salah satu awal menuju pendidikan yang lebih modern, menggantikan sistem belajar-mengajar yang stagnan selama belasan, puluhan atau bahkan ratusan tahun yang lalu. Menuju ke sistem belajar yang jauh lebih bebas dan versatile, agar para mahasiswa bisa &lt;a href="http://paulgraham.com/love.html"&gt;belajar apa yang mereka sukai, dan menyukai apa yang mereka pelajari&lt;/a&gt;.  Mengutip testimoni Bill Gates diakhir video TED diatas:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You just got a glimpse at the future of education.&lt;/p&gt;
+&lt;/blockquote&gt;</summary></entry><entry><title>Masa depan vs trend kemarin sore</title><link href="http://kecebongsoft.com/2014/02/masa-depan-vs-trend-kemarin-sore.html" rel="alternate"></link><updated>2014-02-21T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-02-21:2014/02/masa-depan-vs-trend-kemarin-sore.html</id><summary type="html">&lt;p&gt;Akhirnya datang juga. Saya adalah salah satu yang paling penasaran dengan langkah &lt;a href="http://gizmodo.com/a-humans-guide-to-googles-many-robots-1509799897"&gt;Google membeli selusin&lt;/a&gt; perusahaan dan institusi robotika: Schaft (tim robot Jepang pemenang kontes DARPA), Industrial Perception (3D vision robotics), Redwood Robotics (terfokus di motor functions), Boston Dynamics (ultra-responsive humanoid robotics), dan seabrek perusahaan robotics lainnya. Beberapa bulan sebelumnya, Google juga berinvestasi biotech startup seperti Amidab dan Calico, yang visi-misinya adalah untuk better-living seperti anti-aging dan obat berbasis protein. Sedangkan untuk akuisisi perusahaan robotika, hingga pada waktu Google membeli salah satu selebriti di dunia robotika: Boston Dynamics, Google masih bungkam tentang apa yang akan perusahaan raksaksa dengan aset lebih dari 100 trillion ini lakukan terhadap selusin perusahaan robotika yang dibelinya. &lt;/p&gt;
+&lt;p&gt;Lebih terdengar menakutkan atau menjanjikan?. Melihat kebelakang dengan hal-hal yang sudah mereka perkenalkan, Google tidak terdengar seperti perusahaan yang suka bermain aman, sebagian besar dari kita masih memperdebatkan tingkat keamanan &lt;a href="/2011/03/mobil-tanpa-supir-milik-google.html"&gt;Google self-driving car&lt;/a&gt; ketika Google memperkenalkan &lt;a href="http://www.google.com/glass/start/"&gt;Google Glass&lt;/a&gt;, yang tentunya semakin banyak menuai kontroversi, namun tidak dipungkiri visi yang tertanam didalamnya bisa merubah cara hidup kita sebagaimana itu telah terjadi ketika Google Search diperkenalkan hampir 14 tahun yang lalu. &lt;/p&gt;
+&lt;p&gt;Hari ini, Google memperkenalkan &lt;a href="https://www.google.com/atap/projecttango/"&gt;Tango&lt;/a&gt;, sebuah cara untuk men-digitalkan lingkungan sekitar kita dengan menggunakan kamera smartphone. Kamera cukup di arahkan ke sekeliling kita dan Tango akan membuat model 3Dnya lengkap dengan semua objek yang ada disekitar kita. Bayangkan ini seperti Google Map yang punya alur jalan, disini Tango akan membuat alur jalan didalam sebuah ruangan: ia akan mengerti arah mana yang tidak bisa/bisa dilewati, seperti koridor, atau dinding dan meja. Seperti Google Map yang bisa memberikan kita rekomendasi restoran atau pom bensin terdekat, Tango juga nantinya bisa memberitahu kita letak buku yang kita cari di perpustakaan yang besar, atau juga memberitahu posisi penjahat didalam sebuah gedung tanpa polisi harus masuk. Dengan Tango kita juga bisa bermain virtual reality, dimana akan ada objek virtual yang bisa berkeliling ruangan kita, dan kita bisa melihatnya melalui layar smartphone, pernah terpikir untuk main petak umpet dengan karakter virtual dikantor Anda?.&lt;/p&gt;
+&lt;p&gt;Dengan banyaknya pujian yang diterima oleh Tango, datang juga banyak skeptisisme dan ketakutan, seperti Google yang nantinya akan memiliki lebih banyak lagi informasi pribadi kita, terlebih lagi dengan pemberitaan beberapa bulan ini tentang pemerintah yang melakukan penyadapan data melalui perusahaan teknologi seperti Google dan Facebook, sehingga hampir tidak satu orang pun datanya akan aman di internet. Bagaimana nasib Tango dan penerimaanya di khalayak luas nanti, kita akan lihat. Yang jelas, Tango adalah salah satu buah dari hasil membeli selusin perusahaan robotika beberapa bulan yang lalu. Dan kita sekarang sudah mulai bisa membaca kemana arahnya, besar kemungkinan Tango akan diintegrasikan dengan Google Glass, mengingat smartphone bukanlah benda yang ergonomis untuk environmental mapping, bisa juga ini akan diintegrasikan dengan self-driving car, atau Google juga membuat robot mini yang bisa melakukan auto-mapping tanpa supervisi manusia.&lt;/p&gt;
+&lt;p&gt;Tango bukanlah yang pertama melakukan 3D mapping seperti ini, sudah banyak upaya pihak lain untuk mengaplikasikan 3D mapping. Salah satu yang menurut saya menarik adalah &lt;a href="http://www.nintendo.co.uk/Nintendo-3DS/Instant-Software/AR-Games-Augmented-Reality/AR-Games-Augmented-Reality-115169.html"&gt;Nintendo 3DS&lt;/a&gt;, sebuah konsol dengan bentuk seperti Gameboy, yang dilengkapi dengan 6 buah kartu yang bisa disusun diatas meja, kemudian jika kita arahkan konsol ini ke kartu-kartu tersebut, dilayar konsol akan terbentuk objek 3D yang akan merespon pergerakan konsol kita.&lt;/p&gt;
+&lt;p&gt;Melihat satu lagi hal yang diperkenalkan oleh Google ini, membuat saya merasa bahwa hal-hal yang kita pelajari sekarang akan semakin cepat menjadi &lt;em&gt;outdated&lt;/em&gt;. Baru beberapa tahun lalu saya bisa membuat website sendiri, namun anak-anak SMA sekarang sudah bermain mikrokontroler dan robotika. &lt;/p&gt;
+&lt;p&gt;Inilah kenapa tulisan ini saya beri judul "masa depan vs trend kemarin sore". Beberapa waktu lalu, Facebook membeli Whatsapp dengan harga $19 billion, dan sebelumnya juga membeli Instagram $1 billion. Menarik sekali melihat dua perusahaan raksaksa, Google dan Facebook, melakukan investasi dengan jumlah besar, ke arah yang berbeda. Apa yang membedakan? Google melakukan investasi ke bidang yang masih relatif baru, sementara Facebook kearah yang sudah aman dan terbukti. Tidak hanya Google dan Facebook, cukup banyak startup yang &lt;em&gt;bermain aman&lt;/em&gt; dengan memilih jalur yang sudah proven, seperti social network dan sejenisnya, karena itulah kita masih melihat website seperti Google+, Path, dan sebagainya.&lt;/p&gt;
+&lt;p&gt;"Trend kemarin sore" saya pinjam dari sebuah tulisan menarik tentang &lt;a href="http://takeaswig.com/the-end-of-the-facebook-era"&gt;Facebook adalah last-year fashion&lt;/a&gt;: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What was cool in the 70s wasn’t cool in the 80s. What became cool in the 80s was no longer cool in the 90s. Social networks are susceptible to the same shift in trends and fashion that we’ve witnessed in society before our social lives extended into the digital world. This is why social networks, like Google+ (where I worked for one year), are struggling even more than Facebook to get a foothold in the future of social networking. They are betting on last year’s fashion – they’re fighting Facebook for the last available room on the Titanic when they should be looking at all of the other ships leaving the marina.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Menarik sekali bahwa tidak hanya di level startup, kita-kita pun secara individual masih banyak bermain di last-year fashion, bidang-bidang yang kenyataannya sekarang sedang terbenam menunggu tenggelam. Banyak dari kita yang aware bahwa hal-hal yang sedang kita pelajari saat ini, besok pagi sudah akan tenggelam digantikan oleh hal-hal baru, namun tetap menjalaninya. Saya sering mengingatkan diri sendiri setiap kali belajar hal baru, untuk memahami konsepnya lebih dari teknologinya. Ini pula yang saya terapkan dipemrograman, sebagai upaya saya untuk tidak terikat di last-year fashion, agar tidak terikat di bahasa pemrograman atau framework manapun, serta lebih mendalami konsep fundamentalnya yang bisa saya terapkan di teknologi lain.&lt;/p&gt;
+&lt;p&gt;Sebuah tulisan menarik tentang automation yang saya baca, 10 tahun yang lalu, kita harus menghabiskan 500 ribu dollar untuk melakukan bisnis logistik, yang hari ini, bisa dilakukan dengan biaya $30 melalui automation. Contoh lainnya? Beberapa tahun yang lalu web freelancer kebanjiran job membuat website, hari ini? sudah ada Wordpress, dan gratis. &lt;a href="http://blog.baugues.com/autoworkers"&gt;Mengutip dari blog yang bersangkutan&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don’t get too comfortable. Don’t get locked into a language. Don’t burn bridges for short term gain. Keep your tools sharp. Learn soft skills. Build an audience. Save some money. Network. Read.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Larry Page bisa menyimpulkan ini dalam dua kata: &lt;a href="http://www.wired.com/business/2013/01/ff-qa-larry-page/"&gt;moon shot&lt;/a&gt;. Untuk mengikuti perkembangan jaman yang benar-benar cepat seperti sekarang, dan terhindar dari tempurung last-year fashion, maka kita harus memiliki target yang tinggi. Caranya? selalu berani mengambil resiko dan tidak bermain dizona aman, hal-hal yang bisa membuat kita berkembang berkali-kali lipat dibanding dengan hal-hal yang biasa kita lakukan setiap harinya, mengutip perkataan &lt;a href="http://blog.codinghorror.com/10-years-of-coding-horror/"&gt;Jeff Atwood&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One of my philosophies is to always pick the choice that scares you a little. The status quo, the path of least resistance, the everyday routine — that stuff is easy. Anyone can do that. But the right decisions, the decisions that challenge you, the ones that push you to evolve and grow and learn, are always a little scary.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Semoga dengan berbagai macam inovasi yang ada sekarang, bisa membuat saya juga termotivasi untuk belajar lebih banyak lagi dan berani keluar dari zona aman.&lt;/p&gt;</summary></entry><entry><title>Determinasi dulu dan sekarang</title><link href="http://kecebongsoft.com/2014/02/determinasi-dulu-dan-sekarang.html" rel="alternate"></link><updated>2014-02-03T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-02-03:2014/02/determinasi-dulu-dan-sekarang.html</id><summary type="html">&lt;p&gt;Jika melihat kebelakang, saya seringkali kagum dengan diri saya yang dulu, sekitar 14-15 tahun yang lalu ketika saya masih duduk di bangku SD/SMP. Ketika itu saya baru pertama kali mendapatkan komputer yang tujuan aslinya bukanlah untuk saya, melainkan untuk kakak pertama saya yang saat itu mengenyam pendidikan SMA, yang sedang membutuhkan komputer sebagai pendukung kegiatan belajarnya. Waktu itu komputer bukanlah barang umum, dan saya yang dibesarkan dengan kartun sci-fi seperti Spiderman, Jurrassic, serta game-game playstation, seringkali mengasosiasikan komputer dengan hal-hal yang imaginatif. Hasilnya, rencanya ayah saya membeli komputer membuat saya jauh lebih antusias dibanding si kakak. Berminggu-minggu sebelum membeli, saya sudah membayangkan berbagai macam hal luar biasa yang ingin saya lakukan di komputer, saya membeli buku gambar, lalu membuat berbagai macam sketsa seperti karakter game, robot, mobil, yang rencananya akan saya aplikasikan di komputer tersebut. Aplikasi seperti apa? saya tidak tahu, bahkan memegang komputer pun belum pernah.&lt;/p&gt;
+&lt;p&gt;Sampailah hari dimana komputer yang ditunggu datang, saya masih ingat tidak tidur semalaman karena terlalu antusias. Kemudian saya mengetahui kalau komputer yang dibeli ayah adalah bekas, tapi tidak membuat saya kecewa sedikitpun. Komputer tersebut adalah Compact dengan prosesor Intel generasi sebelum pentium, dengan Windows 95, 32MB RAM, CD dan Floppy. Ketika pertama kali dinyalakan dan windows menampilkan desktop, semua imajinasi saya tiba-tiba buyar, tampilan komputer ternyata sangat berbeda dengan apa yang ada di film-film yang saya tonton. Esok harinya, kakak saya mulai menunjukan ketidak tertarikannya terhadap komputer, sehingga sebagian besar kesempatan bisa saya pakai untuk mempelajari benda yang bagi saya benar-benar baru tersebut. Perlahan tapi pasti saya mulai bisa menggunakan program di komputer tersebut, mulai dari Wordpad, Paint, Notepad, Calculator dan lain sebagainya. Dengan kemampuan bahasa inggris yang hampir tidak ada, saya mulai menangkap bagaimana cara membuka sebuah file melalui program apapun, menggunakan Windows Explorer, mencari file, men-defrag hardisk (tanpa tau apa itu defrag), hingga suatu waktu komputer saya rusak dan saya harus berjuang mencari cara memperbaikinya sendiri, karena ayah saya tidak akan mau mengeluarkan biaya lagi untuk memperbaiki komputer yang saat itu harganya tidak murah, saya kemudian mulai belajar tentang installasi ulang windows, dan berhasil melakukannya untuk pertama kali, dengan modal 10 floppy disk yang saat itu saya gunakan untuk backup data, yang akhirnya tidak dipakai sama sekali!.&lt;/p&gt;
+&lt;p&gt;Seiring waktu berjalan, saya mulai fasih menggunakan komputer, dan mulai kenal dengan dunia game development dari majalah-majalah seperti Hotgame, Chip dan Mikrodata. Saat itu saya masih ada di bangku SMP, dan setiap kali membaca majalah-majalah tersebut, hati saya berdegub kencang, ingin sekali rasanya menghasilkan sesuatu (game) tapi saat itu pengetahuan saya sangat minim sekali. Setiap sore saya selalu ke toko majalah menanyakan apakah ada edisi baru dari salah satu majalah tersebut, saya menyisihkan uang jajan saya untuk membeli ketiga majalah tersebut yang saat itu rata-rata harganya adalah 30 ribu rupiah. Kemudian pada satu waktu, saya menemukan sebuah artikel tentang membuat game menggunakan HTML dan Applet di majalah Mikrodata, itu adalah salah satu pintu pertama saya di dunia programming, artikel tersebut melampirkan full source code untuk membuat game, dan saya menyalinnya ke komputer selama beberapa jam, yang akhirnya tidak jalan sama sekali. Tapi dengan kegagalan itu saya belajar tentang sintaks Applet dan HTML (yang tidak bisa saya bedakan keduanya pada saat itu). Kemudian saya menjadi lebih antusias di dunia gamedev, saya mulai curi-curi kesempatan untuk pergi ke mall (saat itu saya tidak diperbolehkan karena jauh dan tidak bisa naik motor). Di mall, saya menghabiskan berjam-jam di warnet, itu adalah masa-masa pertama bagi saya mengenal internet, kemudian saya juga menghabiskan waktu di toko buku, untuk membaca buku pemrograman game menggunakan Pascal dan VB, karena uang yang tidak cukup, saya membawa buku catatan dan menyalin bagian-bagian penting buku, seringkali saya tertangkap basah sedang menyalin oleh staff lalu kemudian dimarahi, tapi karena usia saya yang masih SMP, saya hampir tidak merasa malu, saya hanya merasa sedikit takut, lalu melanjutkan aktifitas saya seperti biasa.&lt;/p&gt;
+&lt;p&gt;Di rumah, saya mulai melihat iklan tentang telkomnet instan di TV, pada satu malam, saya secara diam-diam mulai menggunakan layanan tersebut, dan mulai aktif di dunia maya, email pertama saya berada di Plasa.com, dan melalui situs tersebut juga, saya mulai mengenal tentang dunia Chat, saya juga mulai mengenal cara membuat situs dengan bantuan Geocities dan Tripod. Pada saat itu saya sangat ketagihan dengan internet untuk mencari berbagai macam pembelajaran. Hingga pada satu waktu sepulang dari sekolah, saya akhirnya ketahuan memakai telkomnet instan dari tagihan telepon yang mencapai angka diatas 2 juta. Angka yang luar biasa besar di jaman itu, dan saya sama sekali tidak terfikir bahwa layanan telkomnet instan yang saya pakai setiap malam ternyata memakan biaya sebanyak itu. Saya dimarahi habis-habisan selama beberapa minggu selanjutnya. Saat itu saya dipenuhi oleh rasa bersalah, tapi pada waktu yang sama antusiasme saya di bidang komputer tidak luluh sedikitpun, malah semakin bertambah.&lt;/p&gt;
+&lt;p&gt;Beberapa minggu kemudian, saya berhasil menghasilkan sebuah game berjenis Dart menggunakan software SwishMax, lalu berlanjut ke game HTML kemudian VB. Saya semakin antusias di bidang pemrograman, saya menghabiskan banyak sekali uang dan waktu untuk belajar pemrograman, mengesampingkan waktu untuk keluarga dan teman sebaya. Saya masih ingat saat itu pernah mengajukan proposal pembuatan website untuk sekolah SMP saya, yup, benar sekali, waktu SMP saya pernah membuat website untuk SMP saya dan mengajukannya ke kepala sekolah, yang akhirnya kemudian di tolak mentah-mentah, karna pada akhirnya ya saya memang masih SMP.&lt;/p&gt;
+&lt;p&gt;Waktu berjalan hingga akhirnya saya masuk SMK, antusias saya di bidang pemrograman tidak turun sedikitpun, tapi bergeser dari game ke web development. Disinipun saya menghabiskan banyak waktu untuk belajar, belajar dan belajar. Saat itu dipikirkan saya hanya ingin belajar tentang segalanya, saya ingin tahu segalanya.&lt;/p&gt;
+&lt;p&gt;Semakin banyak saya belajar, semakin banyak saya tahu, hingga pasca kuliah hingga bekerja sekarang, ketika saya sudah cukup tahu tentang berbagai hal, mulailah muncul berbagai macam &lt;em&gt;noise&lt;/em&gt;, atau gangguan kanan-kiri yang terkadang memecahkan konsentrasi saya. Saya mendapati diri saya lebih jarang belajar hal-hal baru ketimbang dulu di awal-awal, saya lebih banyak terganggu dengan hal-hal sepele seperti lurking di situs aggregator seperti HN dan Reddit, memikirkan tentang setup yang ergonomic, debat kusir tentang IDE yang terbaik, atau sekedar melihat-lihat timeline twitter dan facebook. Saya masih ingat dulu ketika saya tidak punya akses seperti ini serta tanpa social network seperti sekarang, saya justru jauh lebih produktif dalam hal belajar.&lt;/p&gt;
+&lt;p&gt;Saya sering berfikir, apakah saya masih bisa punya determinasi seperti dulu? seperti ketika saya rela dimarahi oleh staff penjaga toko buku? atau seperti ketika saya dimahari orang tua karena memakai internet diam-diam? atau juga seperti ketika saya tahan tidak tidur hingga pagi hari untuk membuat program?.&lt;/p&gt;
+&lt;p&gt;Karena itulah belakangan ini saya mulai berfikir, dengan akses yang luar biasa mudah seperti sekarang, saya seharusnya bisa memaksimalkannya dan bisa menghasilkan hal-hal yang lebih bermanfaat, dengan pengetahuan yang jauh lebih ada ketimbang dulu, saya seharusnya bisa berbagi kepada teman-teman lain jauh lebih banyak dibanding dulu. Saya mulai meluangkan lebih banyak waktu lagi didepan komputer, untuk sekedar menulis artikel, membuat library, atau melanjutkan ide-ide saya dulu yang sempat tertunda.&lt;/p&gt;
+&lt;p&gt;Saya berharap tulisan ini nantinya bisa menjadi pengingat bagi saya untuk tetap memaksimalkan apapun yang saya punya: waktu, pengetahuan, sumber daya, semuanya. Saya berharap tulisan ini bisa membangkitkan semangat saya di waktu malam atau pagi, untuk menimba ilmu dan tetap produktif, dengan determinasi yang tinggi, sama seperti diri saya yang dulu saat masih polos dan penuh dengan rasa ingin tahu.&lt;/p&gt;</summary></entry><entry><title>Blog yang sustainable</title><link href="http://kecebongsoft.com/2014/01/blog-yang-sustainable.html" rel="alternate"></link><updated>2014-01-21T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2014-01-21:2014/01/blog-yang-sustainable.html</id><summary type="html">&lt;p&gt;Saya selalu menganggap blog adalah media yang penting, tapi tidak sepenting sekarang, ketika tanpa terasa, saya sudah ngeblog hampir 10 tahun, ya, sepuluh tahun!. &lt;/p&gt;
+&lt;p&gt;Rasanya baru kemarin saya ngeblog, kemudian ketika saya mulai menggunakan static blog generator Pelican tahun lalu, lalu menyatukan semua postingan blog saya ke sini, terungkaplah bahwa postingan blog pertama saya adalah &lt;a href="http://shoput.blogspot.com/"&gt;bulan Mei 2004 di Blogspot&lt;/a&gt;, waktu itu saya masih SMP, mulai belajar pemrograman dan membuat beberapa software game, saat itu saya juga aktif mengisi entry di Geocities, yang sekarang sudah dicampakan oleh Yahoo, kemudian &lt;a href="http://kecebong.madpage.com/old/"&gt;saya membuat blog sendiri&lt;/a&gt; menggunakan PHP karena saat itu belum mengenal Wordpress, lalu dilanjutkan dengan &lt;a href="http://kecebong.madpage.com/blog/"&gt;menginstall wordpress&lt;/a&gt;, lalu &lt;a href="http://kecebngsoft.wordpress.com"&gt;berpindah ke Wordpress.com&lt;/a&gt;, selang beberapa tahun saya &lt;a href="http://kecebongsoft.tumblr.com"&gt;sempat mencoba Tumblr&lt;/a&gt;, &lt;a href="http://kecebongsoft.lifejournal.com"&gt;LifeJournal&lt;/a&gt;, &lt;a href="http://kecebongsoft.typepad.com"&gt;Typepad&lt;/a&gt; dan banyak lagi.&lt;/p&gt;
+&lt;p&gt;Saya banyak sekali menemukan entry-entry lama yang sangat sayang kalau harus dihilangkan, postingan, komentar, karya-karya, dan lain sebagainya. Saat ini saya sedang dalam proses memindahkan itu semua ke blog ini.&lt;/p&gt;
+&lt;p&gt;Saya baru merasakan seberapa pentingnya data-data post dan komentar tersebut setelah mencoba mencari dan menyatukan semuanya, setiap platform mempunyai standar yang berbeda, terutama untuk komentar yang sangat dinamis dan cukup sulit untuk di regenerate.&lt;/p&gt;
+&lt;p&gt;Saya juga mulai menyadari satu hal penting, blog seharusnya ada si sebuah platform yang sustainable, platform yang harusnya bisa bertahan hingga berpuluh-puluh tahun, blog sudah seperti catatan perjalanan hidup, sementara platform bisa saja hilang seiring dengan berjalannya waktu, bisa jadimatikan oleh induk perusahaan (seperti Geocities), atau tractionnya sudah memudar (seperti LifeJournal).&lt;/p&gt;
+&lt;p&gt;Setelah diteliti, rasanya sangat sulit menemukan sebuah blog platform yang sustainable, apakah Wordpress dan Blogspot akan tetap ada 20-30 tahun lagi? apa yang akan terjadi pada konteks Blog itu sendiri. Saya akhirnya memutuskan untuk tidak terpaku pada platform, melainkan pada konsep dan protokol.&lt;/p&gt;
+&lt;p&gt;Konsep blog saat ini, adalah sebuah post dengan judul, tanggal, dan isi, kemudian bisa ditambahkan dengan komentar (nama dan komentar). Untuk kedepannya, saya akan mencoba mempertahankan konsep ini, tidak ada tambahan lain, tidak ada kategori, tags, dan yang lainnya. Dengan ini mensortir tentu lebih rumit, tapi jumlah post saya sendiri juga tidak banyak, lagipula menurut pengalaman, memasukan sebuah post kedalam kategori dan tags sangat rentan terhadap inkonsistensi, sebuah post bisa terdiri dari beberapa kategori dan tags, dan beberapa post bisa punya konteks yang sama, tapi karena perbedaan waktu yang jauh, kita lupa untuk menyamakan struktur kategori dan tags nya. Saya memutuskan untuk tidak menggunakan kategori dan tags, dan orang bisa melihat daftar post dengan cara &lt;a href="http://kecebongsot.com/archives.html"&gt;melihat arsip&lt;/a&gt;, atau search by keyword.&lt;/p&gt;
+&lt;p&gt;Kemudian saya harus menggunakan medium atau protokol, kali ini saya tidak ingin lagi terpaku pada wordpress, tumblr dan sebagainya, saya ingin blog saya bisa di host &lt;em&gt;hampir&lt;/em&gt; dimanapun. Caranya? buat sesimpel mungkin, dengan konten HTML statik. Dengan ini saya bisa memasukan blog saya di hosting manapun, bisa di Github, Webfaction, Amazon S3, dan yang lainnya, ketika salah satu hostingan bangkrut, saya bisa dengan mudah memindahkan blog saya ketempat lain dengan struktur dan sistem yang benar-benar tidak berubah, tinggal disandingkan dengan sebuah domain. Untuk memudahkan pengerjaannya, saya menggunakan &lt;em&gt;static blog generator&lt;/em&gt; &lt;a href=""&gt;pelican&lt;/a&gt; yang ditulis menggunakan python, Pelican memungkinkan kita untuk membuat post dalam berbagai format seperti Markdown, lalu di compile menjadi statik HTML. Saya bisa menyimpan post mentah saya dalam format Markdown, kemudian memasukannya dalam sebuah repository (yang lagi-lagi bisa disimpan dimanapun). Pelican sendiri meskipun suatu saat nanti akan mati, sebagai OSS project kita masih bisa menggunakan source codenya.&lt;/p&gt;
+&lt;p&gt;Saat ini untuk mencapai tujuan tersebut, saya menggunakan &lt;a href="http://github.com/kecebongsoft/kecebongsoft.github.com.git"&gt;Github pages&lt;/a&gt; untuk host blog saya, kemudian dihubungan oleh domain &lt;a href="http://kecebongsoft.com"&gt;kecebongsoft.com&lt;/a&gt;. Repositorinya sendiri saya pisahkan menjadi dua, satu untuk source dan satu lagi untuk build (yang kemudian dijadikan sebagai github pages).&lt;/p&gt;
+&lt;p&gt;Dengan cara ini, saat github sendiri nanti sudah tiada, saya bisa memindahkan blog ini kemanapun tanpa harus mengganti apa-apa. Namun tentu saja ada kekurangannya, karena blog ini murni statik HTML, tidak ada elemen dinamis yang bisa di support, contohnya komentar, kita hanya bisa menggunakan &lt;em&gt;embeddable commenting platform&lt;/em&gt; seperti &lt;a href="http://lifefyre.com"&gt;Lifefyre&lt;/a&gt; atau &lt;a href="http://disqus.com"&gt;Disqus&lt;/a&gt;, yang suatu saat nanti juga akan padam. Jadi untuk saat ini saya masih mencari cara untuk menghandle komentar, sampai nanti mendapatkan metode yang elegan, tidak akan ada kolom komentar di blog ini.&lt;/p&gt;</summary></entry><entry><title>Places</title><link href="http://kecebongsoft.com/2012/11/places.html" rel="alternate"></link><updated>2012-11-20T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2012-11-20:2012/11/places.html</id><summary type="html">&lt;p&gt;A bit ambiguous, eh?. This time around I will talk about how I was struggled with choosing the &lt;em&gt;right&lt;/em&gt; hosting for this blog, I spent almost an entire week finding out which host can serve my way of blogging: static sites, manage-able with repository, and pushing the updates with commits / rysnc style.&lt;/p&gt;
+&lt;p&gt;As you might already know, this blog is powered by Pelican, a static blog engine written in Python, which making it possible to be hosted &lt;em&gt;almost&lt;/em&gt; anywhere, my consideration is of course scalability and reliability. I wanted to host it in places that I don't need to think about scaling, so one obvious place in my mind would be &lt;a href='https://pages.github.com'&gt;Github User Pages&lt;/a&gt; where it allows you to put static HTML files in the root of &lt;code&gt;username.github.com&lt;/code&gt; repository and it will serve the static site for you, dead simple. But I've encountered a single big problem I was never able to solve (&lt;em&gt;yet&lt;/em&gt;): after few days with several commits, it stopped building, I kept seeing the old version of the static site. I was able to trigger the build by removing the repository, create a new one and push the whole thing again, not a fancy solution. I checked out Twitter to see if anyone else got the same problem, and found them. I also contacted Github to see what they can say, but no words yet. I have to find another host.&lt;/p&gt;
+&lt;p&gt;Now, we're still talking about scalability and reliability, at this time, I have an Amazon AWS account, and they provide a CDN service, I was thinking that a static site would be a great match when hosted at a CDN. So I set up an S3 bucket, use &lt;a href='https://github.com/seedifferently/boto_rsync'&gt;boto-rsync&lt;/a&gt; to sync my build folder into my S3 bucket, set the bucket settings into what they called as &lt;code&gt;website-mode&lt;/code&gt; and set my DNS to my S3 DNS. It turned out that the domain name has to match the bucket name, I was using different bucket name, and for some &lt;em&gt;personal&lt;/em&gt; reason, I can't change my bucket name. I had to use CloudFront.&lt;/p&gt;
+&lt;p&gt;While S3 is a simple storage service, hosting your files in a specific region, CloudFront is a CDN service to propagate your S3 contents to several edge locations around the globe. I set up a CloudFront distribution, set the default root object to &lt;em&gt;index.html&lt;/em&gt; so when people hit &lt;em&gt;kecebongsoft.com&lt;/em&gt; the file will be served, and updated my DNS, things worked fine, until I realize that it cannot serve a sub-site. I have some sub-sites containing my HTML5 slides, in a folder such as &lt;em&gt;slide-blahblah&lt;/em&gt;, now if people hit &lt;em&gt;kecebongsoft.com/slide-blahblah&lt;/em&gt;, they'll get an &lt;em&gt;Access Denied&lt;/em&gt; message, that's because there is no such thing as default object in the subfolder, people will have to hit &lt;em&gt;kecebongsoft.com/slide-blahblah/index.html&lt;/em&gt; in order to see the actual content, at this point, I was a bit upset, I looked around and can't find anyone who was able to work around this.&lt;/p&gt;
+&lt;p&gt;I should set my target a bit lower now, let's just start to think no one cares about my blog, well maybe just a couple of people, so for now I'll just host it in my shared-cloud account, WebFaction. It's really straight forward compared to the other two, I just need to create a site in the Control Panel and rsync my build path into the remote server, that is all, but I sacrificed the scalability, for now it only live in Singapore region, which at this time, should be just okay.&lt;/p&gt;
+&lt;p&gt;I'm really hoping that I could go back using Github User Pages. If the guy contact me back and solves the problem, it will be a home-call, I liked the User Pages mechanism in a way that you only have to push to the master branch to trigger the build, now if only it works well all the time..&lt;/p&gt;</summary></entry><entry><title>Depressive realism</title><link href="http://kecebongsoft.com/2012/02/depressive-realism.html" rel="alternate"></link><updated>2012-02-29T05:41:45+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2012-02-29:2012/02/depressive-realism.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Today I learned about &lt;a href="http://en.wikipedia.org/wiki/Depressive_realism"&gt;Depressive realism&lt;/a&gt;. Something that describes me so well.&lt;/p&gt;
+&lt;/blockquote&gt;</summary></entry><entry><title>Hard times</title><link href="http://kecebongsoft.com/2012/02/hard-times.html" rel="alternate"></link><updated>2012-02-23T04:14:15+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2012-02-23:2012/02/hard-times.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;at hard times like this, things always, somehow, goes easier than I thought it would be.&lt;/p&gt;
+&lt;/blockquote&gt;</summary></entry><entry><title>Glad</title><link href="http://kecebongsoft.com/2012/02/glad.html" rel="alternate"></link><updated>2012-02-22T03:54:20+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2012-02-22:2012/02/glad.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;I'm glad that everyone have made this far happily&lt;/p&gt;
+&lt;/blockquote&gt;</summary></entry><entry><title>Gw dan gathering</title><link href="http://kecebongsoft.com/2012/02/gw-dan-gathering.html" rel="alternate"></link><updated>2012-02-14T07:10:44+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2012-02-14:2012/02/gw-dan-gathering.html</id><summary type="html">&lt;p&gt;
+Waktu SMA dulu, meskpun udah suka ama programming, tapi gw tinggal di daerah yg ITnya belum terlalu rame, sehingga event-event kayak gathering, cuman bisa gw baca beritanya di pulau2 jawa, atau gathering lokal dengan tema yang umum, itupun jarang.
+&lt;p&gt;
+
+&lt;p&gt;
+Semenjak ada di Malaysia dan proffesionaly kerja sebagai programmer, gw mulai dapet kesempatan buat ikutan gathering programming yg sebenernya. Setelah ikut beberapa, gw, yg sebagai noob, nggak ngerasaain manfaat yg luar biasa setelah ikutan gath. Entah apa karna gw masih outcast, ga kenal sapa2, atau karna gw masih cupu, ga tau apa2. Entahlah.. tapi gw suka nanya diri sendiri kenapa gw ikutan gathering.
+&lt;p&gt;
+
+&lt;p&gt;
+Pengen kenal ma orang2 yg ikutan gathering?, kan gw bisa kenalan atau nyari mereka online, biar gimanapun geeks pasti online dan noticeable. Atau pengen tau tech trend terbaru?, udah menyebar online dimana2. Pengen ketemuan ama geeks2 ternama? bisa online (dan lebih elegan, imho).
+&lt;/p&gt;
+
+&lt;p&gt;
+Setelah mulai aktif untuk punya pet projects, akhirnya gw punya satu alasan kenapa pengen ikutan gath: pengen ngenalin pet project gw ke geek2 yg lain secara langsung, sehingga ada jalur direct QA + iklan gratisan. Dan sepertinya gw bakal mutusin untuk ikut gath hanya jika gath-nya bener2 penting, misalkan kayak PyCon, atau ketika gw punya pet projects yg worth to mention, jadi gw bisa mention ketika ada sesi free talks / discussion.
+&lt;/p&gt;
+
+&lt;p&gt;
+Alasan lain? hmm bolos kerja, free food, dan free merchandise kali yah :D
+&lt;/p&gt;</summary></entry><entry><title>Mom and dad</title><link href="http://kecebongsoft.com/2011/12/mom-and-dad.html" rel="alternate"></link><updated>2011-12-25T05:31:21+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2011-12-25:2011/12/mom-and-dad.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;There were times when I feel so burden and weak, talking to my mom and dad never fails to make me strong again, even though we just talked about everything unrelated to my problem.&lt;/p&gt;
+&lt;/blockquote&gt;</summary></entry><entry><title>Times</title><link href="http://kecebongsoft.com/2011/12/times.html" rel="alternate"></link><updated>2011-12-24T12:26:19+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2011-12-24:2011/12/times.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;times are like a big and deep ocean, we set a sail and took someone with us, some of us wonder where would the sea take them to, and there are people who just let it flow.&lt;/p&gt;
+&lt;/blockquote&gt;</summary></entry><entry><title>Line on a sand</title><link href="http://kecebongsoft.com/2011/12/line-on-a-sand.html" rel="alternate"></link><updated>2011-12-24T11:57:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2011-12-24:2011/12/line-on-a-sand.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;I drew a line on a sand once, and then it came the time where those were stripped away by the ashes of the sea. I can still catch the glimpse of it although times have brought it away from me into the ocean. Memories, life's remnants, the pieces of my life that dwells inside, form scars and thought me of every lesson I know today.&lt;/p&gt;
+&lt;/blockquote&gt;</summary></entry><entry><title>Asah Kemampuan Software Development</title><link href="http://kecebongsoft.com/2011/02/asah-kemampuan-software-development.html" rel="alternate"></link><updated>2011-02-28T14:30:04+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2011-02-28:2011/02/asah-kemampuan-software-development.html</id><summary type="html">&lt;p&gt;
+ ![image](/img/wordpress/2011-02-fertility_egg1.png)
+&lt;/p&gt;
+
+&lt;p&gt;
+ Saya ingin melakukan klaim pribadi, bahwa mayoritas lulusan IT, setidaknya yang saya kenal, memiliki pehamaman minim di jurusannya, bahkan setelah lulus. Salah satu skill yang
+ &lt;em&gt;
+  katanya
+ &lt;/em&gt;
+ sangat sulit dijamah adalah software development (programming). Kenapa?.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Setiap tahunnya, kampus saya meluluskan setidaknya hampir seribu mahasiswa/i fakultas Computing &amp;amp; IT (FOCIT). Di fakultasi ini ada beberapa jurusan seperti Multimedia, Networking, Business IT, Computer Science dan Software Engineering. Saya adalah salah satu dari
+ &lt;em&gt;
+  mungkin
+ &lt;/em&gt;
+ hampir seribuan pelajar yang lulus di FOCIT tahun lalu, jurusan saya adalah
+ &lt;a href="http://en.wikipedia.org/wiki/Software_engineering"&gt;
+  Software Engineering
+ &lt;/a&gt;
+ .
+&lt;/p&gt;
+
+&lt;p&gt;
+ Kesan saya setelah lulus adalah, apa yang disajikan
+ &lt;em&gt;
+  degree
+ &lt;/em&gt;
+ (S1) IT memang sangat kurang jika kita ingin benar-benar mengasah kemampuan IT, utamanya di bagian Software Development, sehingga
+ &lt;a href="http://www.networkworld.com/news/2011/022511-it-graduates.html?hpg1=bn" target="_blank"&gt;
+  banyak perusahaan yang memvonis lulusan IT sebagai benar-benar pemula
+ &lt;/a&gt;
+ . Saya nggak terkejut melihat sebagian teman-teman belum mahir dalam mengembangkan sebuah system, problem solving, atau sekedar menulis program kecil. Karna ternyata dibeberapa negara lain juga mengalami masalah yang sama,
+ &lt;a href="http://www.codinghorror.com/blog/2010/02/the-nonprogramming-programmer.html"&gt;
+  bahkan di negara-negara yang sering orang bilang "barat".
+ &lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+ Software Development memang satu topik yang sangat luas, nyaris mustahil bisa di cover dalam 3-4 tahun kuliah dengan jam belajar hanya sebatas pagi sampai sore dan ditambah beberapa tugas rumah. Untuk menguasai banyak topik software development, kita tidak bisa hanya mengandalkan jam kuliah. Satu-satunya cara adalah dengan belajar secara mandiri, dan untungnya, banyak sekali media yang memudahkan belajar software development secara mandiri.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Meskipun saya sendiri belum bisa meng-klaim diri sebagai orang yang berpengalaman, tapi saya bersyukur punya teman-teman yang sudah cukup kaliber di beberapa field software development. Ada beberapa hal yang saya selalu ikuti dan ingat, dan terasa sangat bermanfaat untuk mengasah kemampuan kita di software development. Apa saja?.
+&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3&gt;
+ Jangan takut dengan bahasa pemrograman
+&lt;/h3&gt;
+
+&lt;p&gt;
+ Ini adalah poin penting, tidak hanya bahasa pemrograman, tapi teknologi, API, teknik dan arsitektur baru. Saya ngerasa hal yang paling sulit untuk memulai belajar soft-development adalah belajar bahasa pemrograman. Kenyataannya adalah, belajar bahasa pemrograman hanya butuh beberapa minggu/bulan sampai kita cukup punya ide dan skill untuk mempergunakannya. Pemahaman tentang variabel, operator, statement, dll tidak butuh waktu bertahun-tahun.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Memang, bahasa pemrograman butuh waktu untuk dipahami alurnya. Tapi dengan melakukan latihan rutin setiap harinya, kita bisa menguasai sebuah bahasa pemrograman dengan cepat. Orang sering lupa bahwa ada bahasa yang lebih sulit dari bahasa pemrograman, yaitu bahasa manusia. Bahasa pemrograman jauh lebih terstruktur dan universal. Ada ratusan ekspresi manusia untuk menyampaikan "Kalau sudah malam, saatnya tidur", sedangkan bahasa pemrograman tidak akan sekompleks itu. Cukup dengan:
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;
+  &lt;font color="#242424"&gt;
+   if (malam) tidur = true
+  &lt;/font&gt;
+ &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+ Yup, bahasa pemrograman jauh lebih terstruktur, dan
+ &lt;strong&gt;
+  universal
+ &lt;/strong&gt;
+ . Artinya kebanyakan bahasa pemrograman menggunakan bahasa inggris, sehingga bisa dibaca oleh siapapun yang punya dasar inggris cukup.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Belajar bahasa pemrograman, pada dasarnya nggak lebih dari sekedar belajar
+ &lt;em&gt;
+  gimana cara menyuruh sistem untuk melakukan sesuatu
+ &lt;/em&gt;
+ . Dan alur serta aturannya telah dibuat baku, bahannya pun tersedia luas di internet. Singkatnya, belajar bahasa pemrograman (dasar) bukan sesuatu yang rumit.
+&lt;/p&gt;
+
+&lt;h3&gt;
+ Konsentrasi pada kasus, bukan tools.
+&lt;/h3&gt;
+
+&lt;p&gt;
+ Hal kedua yang sebenarnya sering luput dari
+ &lt;em&gt;
+  concern
+ &lt;/em&gt;
+ kita adalah,
+ &lt;a href="http://en.wikipedia.org/wiki/Problem_domain"&gt;
+  problem domain
+ &lt;/a&gt;
+ . Ketika ada tugas membuat program kuis, atau game tetris. Yang sering terpikir pertama kali adalah, bagaimana bahasa X bisa dipakai untuk membuat program Y?, fungsi apa di bahasa X yang bisa dipakai untuk membuat fitur di program Y?. Saya ngerasa anggapan ini lebih banyak salahnya, pemikiran seperti ini sama saja seperti bilang:
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;
+  &lt;font color="#242424"&gt;
+   ketika saya menguasai kapak, dan saya ingin membuka pintu, gimana caranya supaya kapak ini bisa dipakai untuk membuka pintu?
+  &lt;/font&gt;
+ &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+ Kita terlalu terfokus pada tools yang kita miliki, sehingga kasus apapun selalu berusaha di selesaikan dengan tools yang kita punya, dan melupakan inti kasusnya, karena terfokus pada toolsnya. Ini membuat penyelesaian yang kita buat jadi salah, atau bahkan benar-benar buruk. Contoh, memilih plain text sebagai tempat
+ &lt;em&gt;
+  &lt;a href="http://en.wikipedia.org/wiki/Web_feed"&gt;
+   web feed
+  &lt;/a&gt;
+ &lt;/em&gt;
+ hanya karna nggak ngerti
+ &lt;a href="http://en.wikipedia.org/wiki/Rss"&gt;
+  RSS
+ &lt;/a&gt;
+ .
+&lt;/p&gt;
+
+&lt;p&gt;
+ Ada banyak alasan kenapa paham seperti ini ada, salah satunya adalah rasa takut mencoba hal baru, seperti poin pertama tadi. Dampaknya bermacam-macam, kita jadi
+ &lt;em&gt;
+  stuck
+ &lt;/em&gt;
+ di satu tool dan hanya mengerti arsitektur tool tersebut, tidak akan ada proses pembelajaran software development yang benar, karena pada dasarnya kita mencoba mem-fit kan semua masalah ke tool yang kita miliki.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Cara yang benar adalah, dengan lebih fokus kepada apa yang ingin kita lakukan, ketimbang apa yang kita miliki. Setelah kita tahu apa yang kita mau capai, mulailah mempelajari secara detail apa saja yang kita perlukan, lalu kumpulkan kebutuhannya.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;
+  &lt;font color="#242424"&gt;
+   Saya ingin membuka pintu, pintu memiliki lubang kunci dan kenob, maka saya akan mencari kunci dan memutar kenobnya.
+  &lt;/font&gt;
+ &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+ Contoh diatas adalah cara yang benar dalam observasi kasus, dengan mengetahui goals yang kita ingin capai, serta mempelajari apa saja yang diperlukan untuk mencapai goals tersebut, kita akan belajar banyak tentang meng-engineer sistem dengan benar, termasuk memilih arsitektur, platform, bahasa pemrograman, dan teknik yang benar.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;
+  &lt;font color="#242424"&gt;
+   Jika saya ingin membuat game yang bisa dijalankan dengan browser, saya akan pilih teknologi yang didukung oleh browser seperti HTML5, Flash, Unity, atau WebGL
+  &lt;/font&gt;
+ &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+ Ketimbang memaksakan untuk membuat game browser dengan Visual Basic karna alasan hanya ngerti VB, kita memutuskan untuk mempelajari teknologi lain, mengetahui kekurangan dan kelebihannya, dan memilih yang paling cocok untuk goals yang ingin kita capai. Disinilah salah satu skill software development diasah.
+&lt;/p&gt;
+
+&lt;h3&gt;
+ Mulai darimana?
+&lt;/h3&gt;
+
+&lt;p&gt;
+ Belajar bahasa pemrograman, dan lebih lanjut lagi adalah software development, memang butuh waktu. Saya ingat awal-awal saya belajar programming language adalah waktu SMP. Saat itu internet masih sangat terbatas, saya harus diam-diam
+ &lt;em&gt;
+  kabur
+ &lt;/em&gt;
+ dari tugas jaga adek di rumah dan naik angkot sekitar 1 jam ke warnet. Pertama kali saya belajar programming dari majalah
+ &lt;a href="http://bukulawas.com/index.php/vmchk/Majalah-Komputer/Mikrodata-vol.-4-seri-14/flypage.tpl.html"&gt;
+  Mikrodata
+ &lt;/a&gt;
+ , disitu saya menyalin habis sebuah script yang
+ &lt;em&gt;
+  katanya
+ &lt;/em&gt;
+ bisa dipakai untuk membuat game puzzle dengan basis
+ &lt;a href="http://en.wikipedia.org/wiki/MIDlet"&gt;
+  MIDlet
+ &lt;/a&gt;
+ . Setelah berjam-jam menyalin script dari majalah ke Notepad, hasilnya?. Nggak ada, game nggak jalan sama sekali. Saya bahkan nggak tahu bahwa komputer saya nggak ada Java-nya. Tapi dari situ saya belajar banyak, salah satunya adalah tentang HTML, Javascript, variable, statement dan operator.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Setelah frustasi karna script yang saya salin nggak jalan, saya coba memodifikasi berhari-hari. Dan memang tetap nggak jalan, tapi dari situ saya tahu banyak sekali tentang tag HTML dan Javascript. Saya mulai iseng membuat web page kecil, ada message boxnya, input box, conditional statement, dll.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Mulai dari situ saya merambah ke server side scripting, juga programming di desktop seperti VB. Saya membuat ratusan program kecil yang fungsinya hanya sekedar nampilin angka 1 sampai 100, angka ganjil genap, bilangan prima, nampilin gambar, dan lain-lain. Dan manfaatnya benar-benar saya rasakan.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Intinya adalah
+ &lt;em&gt;
+  start somewhere
+ &lt;/em&gt;
+ . Ambil sisi IT yang paling kita suka, web development misalnya, lalu buat sebanyak mungkin hal-hal kecil yang memang nggak ada gunanya di sisi user, tapi ada gunanya untuk bahan belajar. Semakin dalam kita belajar, akan semakin fun, dan semakin banyak pemahaman yang kita dapatkan dari situ. Disinilah kita dapat banyak basic tentang bahasa pemrograman.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Setelah mulai dapat dasar tentang bahasa pemrograman, buatlah sesuatu yang lebih kompleks dan bisa digunakan. Buku tamu misalnya, atau game kuis yang hanya sekedar nampilin pertanyaan dan jawaban. Disini kita mulai dihadapkan dalam satu kasus spesifik (buku tamu / game kuis), dan diharuskan untuk melakukan mapping, memecah satu tugas besar menjadi beberapa tugas kecil, dan mengaturnya serapi mungkin. Contoh untuk buku tamu, kita ditantang untuk membuat beberapa subsistem untuk menangani tugas-tugas tertentu, seperti menulis pesan, menyimpan pesan, dan menampilkan pesan.
+&lt;/p&gt;
+
+&lt;h3&gt;
+ Oke mulai!
+&lt;/h3&gt;
+
+&lt;p&gt;
+ Meskipun cara
+ &lt;em&gt;
+  nyoba-nyoba acak
+ &lt;/em&gt;
+ milik saya terasa berhasil, tapi di jaman yang akses internet sangat mudah seperti sekarang, ada cara-cara yang lebih baik. Selain membuat ratusan program kecil yang pada dasarnya hanya
+ &lt;em&gt;
+  "sampah"
+ &lt;/em&gt;
+ , ada satu hal yang
+ &lt;strong&gt;
+  wajib
+ &lt;/strong&gt;
+ dikerjakan untuk mengasah kemampuan software development. yaitu
+ &lt;a href="http://en.wikipedia.org/wiki/Open_source"&gt;
+  Open Source
+ &lt;/a&gt;
+ !.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Ikut atau membuat open source project, mengajarkan kita banyak sekali hal-hal baru. Kolaborasi, debugging, arsitektur baru, teknologi dan teknik baru, latest issue di dunia IT, dll. Cobalah ikut join di berbagai project open source. Contohnya, kita bisa download CMS Wordpress, pelajari cara install dan konfigurasinya, lalu coba buat sebuah plugin yang bermanfaat,
+ &lt;a href="http://kecebongsoft.wordpress.com/2007/07/12/shoutbong-v10/"&gt;
+  contohnya plugin shoutbox
+ &lt;/a&gt;
+ . Mengembangkan plugin membuat kita mengerti tentang arsitektur sebuah sistem. Setelah menulis plugin, jangan lupa di lepas sebagai project open source, lalu orang-orang akan datang dan memberi berbagai feedback bermanfaat.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Kita bisa pakai layanan code hosting untuk mengelola aktifitas coding open source, ada
+ &lt;a href="https://github.com/"&gt;
+  GitHub
+ &lt;/a&gt;
+ ,
+ &lt;a href="http://sourceforge.net/"&gt;
+  SourceForge
+ &lt;/a&gt;
+ ,
+ &lt;a href="http://www.codeplex.com/"&gt;
+  CodePlex
+ &lt;/a&gt;
+ ,
+ &lt;a href="http://code.google.com/"&gt;
+  Google Code
+ &lt;/a&gt;
+ ,
+ &lt;a href="https://launchpad.net/" target="_blank"&gt;
+  LaunchPad
+ &lt;/a&gt;
+ , dll. Cukup mendaftar dan mencari project-project yang sekiranya menarik dan bisa ikuti, lalu join dan ikut kembangkan.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Banyak sekali manfaat yang bisa kita dapatkan dengan aktif di open source project, jika dibanding dengan materi yang kita dapatkan pada jam kuliah.
+&lt;/p&gt;
+
+&lt;h3&gt;
+ Blogging!
+&lt;/h3&gt;
+
+&lt;p&gt;
+ Yup, menulis artikel atau
+ &lt;em&gt;
+  blogging
+ &lt;/em&gt;
+ adalah cara selanjutnya untuk mengasah kemampuan. Kedengarannya simpel, tapi manfaatnya baru terasa setelah kita menulis banyak artikel.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Ketika kita baru saja belajar tentang teknik pemrograman baru, bahasa pemrograman baru, teknologi atau issue seputar IT, sempatkan menulisnya di blog walau hanya 2-3 paragraf. Dengan menulis, kita mengasah kemampuan untuk menjelaskan. Semakin banyak menulis, kita semakin tahu bagaimana cara memecah penjelasan agar mudah dimengerti. Manfaatnya? Kemampuan visualisasi kita terhadap masalah menjadi lebih baik. Ketika kita ingin melakukan sebuah task di programming, kita bisa mendapatkan gambaran bersih tentang apa saja yang harus dilakukan.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Seringkali, ada hal-hal yang terlewatkan dan baru kita sadari setelah kita menulis artikelnya. Contohnya, jika kita berhasil membuat fungsi untuk mencari item dengan cepat di array yang isinya sejuta member. Kita bisa memilih untuk diam dan menyimpan codenya di komputer, tanpa ada yang tahu. Atau kita bisa menulis artikelnya, pada saat artikel tersebut ditulis, kita kadang menyadari bahwa ada bagian-bagian yang kurang dari code kita yang bisa diperbaiki. Ini karena dengan menulis, kita menjelaskan ulang semua bagian dari karya yang sudah kita buat, sehingga menulis karya yang kita buat sendiri bisa dikatakan sebagai self-review.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Dengan menulis, kita juga jadi giat mencari bahan baru di internet, dengan fasilitas yang ada sekarang seperti RSS Reader, kita bisa mengetahui banyak sekali issue IT terbaru, terutama di bidang software development, lalu mencoba merangkumnya di tulisan kita.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Tentu saja manfaat yang pasti dari menulis adalah kita bisa berbagi pengetahuan dengan yang lain, dengan menulis artikel tentang pemikiran dan karya kita, orang lain bisa memberikan feedbacknya dan kita bisa banyak belajar.
+&lt;/p&gt;
+
+&lt;h3&gt;
+ Aktif di komunitas
+&lt;/h3&gt;
+
+&lt;p&gt;
+ Ini adalah hal yang tidak kalah penting. Terserah apakah kita suka web atau desktop programming, ataupun yang lain, aktif di komunitas adalah harus. Dengan aktif di komunitas, kita bisa berbagi feedback dengan orang lain. Menjawab pertanyaan orang lain ikut membantu mengasah kemampuan kita di software development, dan aktif bertanya dan posting di forum membuat kita lebih terbiasa dengan lingkungan software development. Kita juga bisa kenal dengan banyak orang-orang yang sudah berpengalaman melalui forum.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;
+ &lt;p&gt;
+  Finally, ini adalah opini
+  &lt;em&gt;
+   singkat
+  &lt;/em&gt;
+  saya bahwa sebenarnya materi pendidikan S1 saja tidak cukup jika kita memang benar-benar haus di dunia software development. Belajar secara mandiri dan konsisten akan sangat bermanfaat, banyak sekali materi ekstra yang bisa kita dapatkan di luar dunia kuliah. Saya sendiri masih junior dan belum bisa memberi tips super ampuh selain belajar dan belajar. Opini diatas sekedar pengalaman pribadi dan semoga ada manfaatnya :D
+ &lt;/p&gt;
+&lt;/hr&gt;&lt;/p&gt;</summary></entry><entry><title>Jangan mengerjakan soal programming pakai kertas</title><link href="http://kecebongsoft.com/2011/02/jangan-mengerjakan-soal-programming-pakai-kertas.html" rel="alternate"></link><updated>2011-02-23T14:46:31+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2011-02-23:2011/02/jangan-mengerjakan-soal-programming-pakai-kertas.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="/img/wordpress/2011-02-zyeco.jpg" /&gt;&lt;/p&gt;</summary></entry><entry><title>Udah lama nggak nyentuh Mercurial, bukan...</title><link href="http://kecebongsoft.com/2010/12/udah-lama-nggak-nyentuh-mercurial-bukan.html" rel="alternate"></link><updated>2010-12-01T08:05:38+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2010-12-01:2010/12/udah-lama-nggak-nyentuh-mercurial-bukan.html</id><summary type="html">&lt;p&gt;Udah lama nggak nyentuh Mercurial, bukan karna nggak suka, tapi nggak ada tools yang semudah TortoiseSVN. Dulu sempat lihat TortoiseHG, tapi interface dan featuresnya masih kalah jauh, sampai pagi ini berani nyoba lagi, karena terpengaruh dengan BitBucket. Well, sekarang TortoiseHG udah jauh lebih baik, meskipun prosedurnya tetap lebih banyak dari SVN. Kayaknya bakal pindah ke Mercurial secara bertahap.&lt;/p&gt;</summary></entry><entry><title>Keuntungan Tidak Terkenal</title><link href="http://kecebongsoft.com/2009/01/keuntungan-tidak-terkenal.html" rel="alternate"></link><updated>2009-01-01T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2009-01-01:2009/01/keuntungan-tidak-terkenal.html</id><summary type="html">&lt;p&gt;Dikantor tempat teman bekerja, hirarki koneksi internet telah disusun sedemikian rupa agar melakukan bloking terhadap situs-situs tertentu seperti (mungkin) Friendster, Blogspot (yang ini pasti), serta mungkin juga layanan lainnya seperti instant messenger dan IRC. Alasannya belum pasti apa, tapi kebijaksanaan seperti ini memang sering ditemui diberbagai instansi dan perusahaan dengan tujuan agar aktivitas dan konsentrasi bisa terpusat kepada pekerjaan. Itulah mengapa layanan-layanan internet yang bersifat adiktif dan (mungkin) tidak memberi manfaat kepada perusahaan akan diblok.&lt;/p&gt;
+&lt;p&gt;Di lain sisi, teman punya blog yang berada di Blogspot dan tidak bisa diakses dengan cara "biasa" melalui kantornya, setidaknya butuh proxy site untuk membuka layanan seperti Blogspot. Mungkin karena masalah ini, tidak pernah terlihat tulisan baru di blog teman. Tapi cukup mengejutkan ketika mendengar kabar dari teman bahwa layanan Wordpress tetap bisa diakses dari kantornya, yang berarti bahwa layanan ini tidak diblokir. Setidaknya aku punya 2 teori konspirasi tentang kenapa hal ini bisa terjadi.&lt;/p&gt;
+&lt;p&gt;Pertama adalah, jika aku menjadi network administrator di perusahaan tersebut dan ditugaskan oleh atasan untuk melakukan pemblokiran terhadap layanan dan situs adiktif (friendster, dll), maka aku akan cukup bingung, situs seperti apa yang harus diblokir?. Apa semua layanan blog (blogspot, wordpress, myspace, blogdrive, dll)? Rasanya tidak mungkin, layanan internet dijaman sekarang sudah seperti jamur yang dengan mudah tumbuh dimanapun kapanpun, mustahil melakukan pengecekan rutin terhadap layanan apa saja yang baru muncul untuk kemudian diblokir. Lagipula layanan tersebut suatu saat pasti berguna bagi karyawan yang (mungkin) ingin mencari informasi. Akhirnya aku hanya akan memblokir situs blogspot dan friendster, dengan pertimbangan bahwa layanan inilah yang paling sering diakses untuk tujuan yang tidak ada hubungannya dengan perusahaan, sisanya (wordpress, dll) mungkin akan berguna.&lt;/p&gt;
+&lt;p&gt;Kemungkinan kedua adalah, aku seorang network administrator yang hanya tau friendster dan blogspot. Mungkin aku tahu layanan lainnya tapi dengan enteng aku meremehkan layanan tersebut, menganggap bahwa tidak ada yang menggunakan layanan selain friendster dan blogspot, sehingga hanya kedua layanan diatas yang ku blokir. Kenapa hanya friendster dan blogspot? ya karena dua-duanya terkenal, orang yang bahkan tidak tahu internet pun mungkin sering mendengar friendster, bahkan di sinetron Bidadari 2 dulu salah satu tokoh antagonisnya menyinggung friendster. Dan yang lebih hebat lagi, di dekat rumah neneknya si teman ada warung makan yang bernamakan "Warung Friendster". Ketenaran sebuah layanan memberiku bahan pertimbangan apakah layanan tersebut layak di blokir atau tidak.&lt;/p&gt;
+&lt;p&gt;Aku lebih memilih alasan yang kedua sebagai alasan kenapa Wordpress tidak ikutan di blokir. Siapa yang tahu Wordpress?, setidaknya dilingkunganku, sedikit sekali orang yang tidak punya Wordpress tapi tahu tentang Wordpress. Padahal layanan ini adalah kompetitor berat Blogspot, layanan Wordpress yang sangat lengkap dan storage yang besar (3GB) serta jumlah usernya yang membludak sudah cukup untuk membuktikan bahwa Wordpress benar-benar "besar". Tapi itu belum cukup untuk membuatnya Wordpress menjadi setenar Blogspot. Layanan Blogspot memang lebih dulu muncul dan sudah sangat lekat di telinga pengguna internet, bahkan yang tidak punya account di Blogspot pun tahu apa itu Blogspot.&lt;/p&gt;
+&lt;p&gt;Tidak hanya tentang Blogspot dan Wordpress. Sebenarnya friendster sendiri pun juga "menang terkenal" dibanding layanan lainnya. Coba tanya teman-teman SMA atau teman-teman kantor, "punya fs ngga?" sebagian besar bilang punya, dan yang ngga punya juga tetap tahu apa itu Friendster. Sekarang tanya lagi "Punya facebook ngga?", pasti ditanya balik "Apaan tuh facebook?". Ini layanan saingan Friendster yang usernya nggak kalah membludak dan fasilitas didalamnya tidak kalah keren dari Friendster, tapi karena mungkin "belum cukup terkenal", layanan ini juga tidak ikut diblokir. Coba saja buka situs Facebook dikantor dan lihat apakah layanan ini diblokir atau tidak :-D .&lt;/p&gt;</summary></entry><entry><title>Peluru jatuh yang mematikan</title><link href="http://kecebongsoft.com/2008/12/peluru-jatuh-yang-mematikan.html" rel="alternate"></link><updated>2008-12-17T21:00:03+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-12-17:2008/12/peluru-jatuh-yang-mematikan.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="/img/wordpress/2008-12-telop-mkd.jpg" /&gt;
+Sekitar setahun yang lalu, saya pernah menonton sebuah acara TV yang menampilkan kejadian kriminalitas diseluruh dunia. Saat itu ada seorang pemuda mabuk yang ditangkap karena menembakan pistol keatas (ke langit), kemudian seorang polisi sempat berkomentar bahwa "
+&lt;em&gt;
+ menembakan pistol keatas (vertikal) sama berbahayanya dengan menembakan pistol secara horizontal, karena peluru yang dilontarkan akan jatuh dan bisa mengenai siapa saja, terlebih tidak banyak yang tahu soal ini"
+&lt;/em&gt;
+. Beberapa hari ini saya kembali penasaran dengan kalimat tersebut. Saya rasa senjata api berukuran relatif kecil juga punya peluru yang cukup berat dan bisa jadi sangat cepat saat jatuh dari ketinggian.
+&lt;!--more--&gt;
+Sebelumnya saya konfirmasi dulu bahwa saya bukan orang yang ahli dibidang seperti ini, jadi saya cuma menyinggung beberapa hal yang bisa saya cerna diotak untuk sekedar obat rasa penasaran :D . Sepengetahuan saya ada beberapa contoh kegiatan dimana menembak secara vertikal dilakukan, pertama adalah tembakan peringatan, kedua adalah tembakan selebrasi seperti saat tahun baru atau perayaan sesuatu, mungkin ada contoh lainnya seperti saat event olahraga dimana seseorang menembak secara vertikal sebagai tanda dimulainya pertandingan. Khusus untuk tembakan selebrasi, setahu saya beberapa negara telah memperingatkan siapapun untuk tidak menembak vertikal saat selebrasi apapun.&lt;/p&gt;
+&lt;p&gt;Ternyata efek yang ditimbulkan juga cukup serius, mulai dari lecet kecil hingga kematian. Peluru yang ditembakkan secara vertikal bisa jatuh dimana saja, dan dari artikel-artikel yang saya baca, peluru ini bisa sampai hingga bermil-mil dari asal tembakan. Saat jatuh, kemungkinan peluru ini bisa mengenai leher, wajah, dan kepala. Contoh kasus yang saya dapatkan seperti,
+&lt;a href="http://xo.typepad.com/blog/2005/07/bullet_falls_fr.html"&gt;
+ peluru jatuh yang menembus kepala bayi hingga masuk ke punggung
+&lt;/a&gt;
+, lalu ada juga
+&lt;a href="http://www.setimes.com/cocoon/setimes/xhtml/en_GB/features/setimes/features/2006/01/27/feature-02"&gt;
+ seorang gadis yang terbunuh 2 hari setelah terkena peluru jatuh saat perayaan tahun baru
+&lt;/a&gt;
+. Serta banyak lagi kasus lainnya yang bisa dibaca di
+&lt;a href="http://en.wikipedia.org/wiki/Celebratory_gunfire#Notable_incidents"&gt;
+ sini
+&lt;/a&gt;
+,
+&lt;a href="http://www.iansa.org/regions/aerial-gunfire.htm"&gt;
+ sini
+&lt;/a&gt;
+,
+&lt;a href="http://www.straightdope.com/columns/read/1199/can-a-bullet-fired-into-the-air-kill-someone-when-it-comes-down"&gt;
+ sini
+&lt;/a&gt;
+,
+&lt;a href="http://www.thefiringline.com/forums/archive/index.php?t-158418.html"&gt;
+ sini
+&lt;/a&gt;
+,
+&lt;a href="http://msgboard.snopes.com/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=97;t=000219;p=1"&gt;
+ sini
+&lt;/a&gt;
+, dan
+&lt;a href="http://ask.metafilter.com/50588/Bullets-fired-into-the-air-a-health-hazard"&gt;
+ sini
+&lt;/a&gt;
+, serta banyak lagi artikel lainnya jika googling dengan keyword sejenis "falling bullets".&lt;/p&gt;
+&lt;p&gt;Saat dulu saya masih SMP, saya juga pernah diceritakan ayah bahwa saat kakak pertama saya (cewek) masih berumur beberapa bulan, sebuah peluru jatuh dari atap dan tembus kedalam rumah, jatuh hanya beberapa centimeter diatas kepala kakak saya yang saat itu sedang tidur dilantai. Saat itu memang rumah kami menggunakan atap berbahan kayu-kayu tipis yang sering disebut sirap. Bayangkan jika peluru tersebut jatuh didahi. Ayah saya memang tidak tahu tentang asal peluru tersebut, karena masih jaman dulu banget, jadi itu dianggap peluru yang ditembakkan seseorang dari pesawat atau helikopter :D .&lt;/p&gt;
+&lt;p&gt;Kejadian-kejadian diatas bisa terjadi dimana saja, sebab peluru bisa jatuh bermil-mil dari asal tembakan. Tapi kasus terbanyak terjadi saat perayaan tahun baru dan sejenisnya, juga akibat dari tembakan peringatan dan warga sipil yang tidak paham tentang senjata api. Hal-hal seperti ini memang sangat-sangat sulit untuk diprediksi, kita tidak mungkin selalu waspada melihat langit untuk mencari peluru kecil yang bisa datang dari segala arah dengan cepat. Mungkin antisipasinya adalah berhati-hati ditempat yang ramai dan ricuh, seperti saat perayaan, atau saat kerusuhan dimana aparat keamanan kadang melepaskan tembakan peringatan. Better safe than sorry.&lt;/p&gt;
+&lt;p&gt;Mungkin ada yang lebih tahu tentang masalah ini?, sepertinya akan sedikit nyerempet ke fisika.&lt;/p&gt;</summary></entry><entry><title>Web buatan Christian Sugiono?</title><link href="http://kecebongsoft.com/2008/09/web-buatan-christian-sugiono.html" rel="alternate"></link><updated>2008-09-02T08:48:22+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-09-02:2008/09/web-buatan-christian-sugiono.html</id><summary type="html">&lt;p&gt;Oke, sebelum mulai ngobrol, saya mau tekankan dulu kalau disini saya nggak ada niat buat mojokin siapapun. Yang saya mau tulis ini nggak lebih dari sekedar analisa seorang bocah 19 tahun belaka. Lagian lagi puasa gini ngga banget deh klo saya ngomong yang enggak-enggak :roll: &lt;/p&gt;
+&lt;p&gt;Tanggal 9 Juni lalu,
+&lt;a href="http://techno.okezone.com/index.php/ReadStory/2008/06/09/94/117128/christian-sugiono-dulu-gue-kerja-jadi-programmer"&gt;
+ muncul berita
+&lt;/a&gt;
+tentang
+&lt;a href="http://id.wikipedia.org/wiki/Christian_Sugiono"&gt;
+ Christian Sugiono
+&lt;/a&gt;
+, itu tuh.. seleb yang dulu pernah kuliah IT di Jerman. Saya juga pernah nonton dia dan Roy Suryo satu frame bareng di acara Empat Mata (kebetulan saya penggemar Empat Mata :-p ). Well, beritanya sih nggak terlalu heboh (skandal, dll).. cuma nampilin sisi lain hidupnya dia aja. Bahwa dia diangkat jadi icon IT sekaligus brand ambassador HP Indonesia. Dia juga cerita bahwa dulu pas di Jerman dia pernah work as a programmer, bikin tim bareng temennya. Trus, saya sempat liat statementnya dia diberita tersebut, kurang lebih gini (langsung kopi paste) :
+&lt;!--more--&gt;
+&lt;blockquote&gt;
+ &lt;em&gt;
+  Menutup jumpa pers, Christian sempat memaparkan alamat website yang dibikin langsung olehnya sendiri. "Dulu gue sempat bikin website sendiri, masih aktif, di
+  &lt;a href="http://www.christian-sugiono.com/" target="_blank"&gt;
+   www.christian-sugiono.com
+  &lt;/a&gt;
+  ," paparnya.
+ &lt;/em&gt;
+&lt;/blockquote&gt;
+Bikin web sendiri? Nggak bisa dibilang luar biasa untuk ukuran mahasiswa IT, apalagi dia jebolan Jerman (nggak tau juga universitas mana tapi kayaknya sih keren wkwkwkwk). Saya penasaran aja gimana sih webnya. Jadi dibuka deh tuh www.christian-sugiono.com-nya, eh malah ke-redirect ke http://christian-sugiono.seleb.tv, well.. gpp juga sih sama aja.&lt;/p&gt;
+&lt;p&gt;Tapi wow :shock: , ini webnya keren juga. Udah kayak CMS terkenal macam Wordpress/Blogspot aja.. Ada category, post comment, macem-macem deh. Belum lagi URLnya pake
+&lt;a href="http://en.wikipedia.org/wiki/Permalink"&gt;
+ Permalink
+&lt;/a&gt;
+pakai gaya Wordpress (
+&lt;em&gt;
+ domain.com/tahun/bulan/hari/namaartikel
+&lt;/em&gt;
+). Udah lumayan advanced tuh bisa bikin permalink gitu (pake mod rewrite, setting .htaccess dan bla bla bla). Jangan-jangan bikin engine sendiri? wuih keren juga.. atau pake framework kayak Zend Framework, CakePHP, dll?.. Nggak kalah keren, ngikutin perkembangan jaman dong namanya.&lt;/p&gt;
+&lt;p&gt;Saya nggak ngeragukan kemampuannya, tapi tetep aja penasaran masa iya dia yang bikin. Trus nggak sengaja saya baca
+&lt;a href="http://christian-sugiono.seleb.tv/2008/08/21/bagi-yang-kurang-paham/"&gt;
+ salah satu postingan dia
+&lt;/a&gt;
+yang isinya :
+&lt;div class="post-content"&gt;
+ &lt;blockquote&gt;
+  Setelah keluar di infotainment, ada beberapa orang yang tanya dan protes ke gue misalnya seperti ini :
+  &lt;em&gt;
+   Statement Tian di infotainment tgl 21 agustus, mengatakan bahwa web ini http://christian-sugiono.seleb.tv/ yang buat Tian sendiri?Saya yakin tidak mungkin, karena:1. http://christian-sugiono.seleb.tv/ redirected to subdirectory dari http://www.seleb.tv/2. Dan website seleb.tv yang memiliki adalah sbg.:Registrant:
+Sandika Digital Media PT
+Jl. Panglima Polim Raya
+101 Kebayoran Baru
+Jakarta, Jakarta 12160
+  &lt;/em&gt;
+  Sampe di cari whoisnya segala loh uhuhuhe
+  &lt;img alt="image" src="http://christian-sugiono.seleb.tv/wp-includes/images/smilies/icon_razz.gif" /&gt;
+  Yah, mungkin buat orang-orang diluar sana yang masih belum paham,
+  &lt;strong&gt;
+   website development dan designing
+  &lt;/strong&gt;
+  dan hosting adalah 2 hal yang berbeda.
+  &lt;strong&gt;
+   Ini blog saya buat 100% sendiri
+  &lt;/strong&gt;
+  dan di taruh di server milik seleb.tv &amp;#8230;so&amp;#8230;gak usah gw lanjutin lagi kan ?&lt;/p&gt;
+&lt;p&gt;Cheers.
+ &lt;/blockquote&gt;
+&lt;/div&gt;
+Sip, bener. Development emang beda sama hosting... habis dari situ saya percaya deh dia yang bikin, dan ngga mau ngelanjutin penasarannya. Eh tapi kok masih kepikiran ya?. Ya udah lah.. saya cobain dulu buka source HTMLnya (klik kanan pilih view page source), wuih keren juga.. detail dan.. eh? ketemu ini :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;meta content="WordPress 2.5.1" name="generator"/&gt;&lt;/p&gt;
+&lt;p&gt;Wordpress? Loh tapi tadi katanya bikin sendiri, lagian apa iya dia nggak bisa ngebedain antara nginstall CMS dan bikin sendiri. Hmm.. saya salah lihat kali. Tapi... ah percobaan terakhir deh.., ngebuktiin apa beneran wordpress atau bukan. Tes buka link ini :
+&lt;a href="http://christian-sugiono.seleb.tv/wp-login.php"&gt;
+ christian-sugiono.seleb.tv/wp-login.php
+&lt;/a&gt;
+, eh ternyata ada!. Kalau yang pernah pakai wordpress, wp-admin adalah halaman administrasi CMS Wordpress, dan wp-login adalah halaman login untuk masuk ke wp-admin (wp singkatan dari Wordpress, cmiiw).&lt;/p&gt;
+&lt;p&gt;Kalau memang Christian Sugiono yang bikin web ini, berarti dengan kata lain dia pembuat tunggal
+&lt;a href="http://wordpress.org/"&gt;
+ Wordpress
+&lt;/a&gt;
+? (Spt dia bilang tadi, 100% bikin sendiri). Ah mustahil, Wordpress kan open source project, bikinan kepala-kepala jenius dari macem-macem negara.&lt;/p&gt;
+&lt;p&gt;Jadi apa dong arti "
+&lt;strong&gt;
+ Ini blog saya buat 100% sendiri
+&lt;/strong&gt;
+" tadi?. Iseng-iseng lagi saya intip source HTMLnya, ketemu ini :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;link href="http://christian-sugiono.seleb.tv/wp-content/themes/christiansugiono/css/main-style.css" rel="stylesheet" type="text/css"/&gt;&lt;/p&gt;
+&lt;p&gt;Hoo.. mungkin itu kali maksudnya. Dia yang 100% bikin themesnya. Well, bikin themes juga bukan kerjaan gampang, plus, theme blog dia lumayan keren :-D .&lt;/p&gt;
+&lt;p&gt;Jadi?. Saya nggak bisa bilang klo blog itu dia yang bikin sendiri, karena udah jelas keliatan itu mesin Wordpress, yang statusnya adalah open source project, dikerjakan oleh para programmer di berbagai belahan dunia.&lt;/p&gt;
+&lt;p&gt;Apa dia bo'ong?. Nggak tau deh, tapi yang bisa kita ambil hikmahnya disini, dunia teknologi itu nggak segede daun kelor, banyak banget yang kita nggak tahu dan riskan banget bikin statement yang kita sendiri nggak terlalu paham apa maksudnya. Bagi yang ngerasa heran "kenapa sih itu programmer-programmer pinter nggak mau bikin artikel?", klo saya boleh ngewakilin jawab (meskipun saya bukan programmer dan nggak pinter) "Mungkin karena mereka blum merasa yakin, bahkan setelah belajar bertahun-tahun, mereka nggak mau bikin statement sembarangan.".&lt;/p&gt;
+&lt;p&gt;Atau jangan-jangan web yang dibikin Christian Sugiono bukan web yang sekarang kali, tapi web yang dulu (sekarang udah nggak aktif &amp;amp; diganti dengan WP). Well, saya nggak tahu. Tapi sepertinya nggak, soalnya postingan tadi dia bikin tanggal 21 Agustus (baru-baru aja), dan ada di blog WP-nya dia.&lt;/p&gt;
+&lt;p&gt;Sebenernya yang ginian udah umum, dan sebenernya nggak boleh. Mengklaim teknologi (Lisensi GPL) orang/kelompok lain atas nama kita pribadi. Coba deh liat kadang-kadang ada web yang jelas-jelas pakai CMS (Joomla, WP, dll), tapi copyright di footernya atas nama pribadi/instansi. Memang siapa yang bikin Joomla? WP?. &lt;/p&gt;
+&lt;p&gt;Jadi yang bisa diambil hikmahnya : "Jangan ambil statement yang kita sendiri nggak paham", dan "Jangan melanggar hukum", Loh?. Yah bingung juga nyebutnya apa, pokoknya jangan main klaim-klaim sembarang gitu-gitu deh.&lt;/p&gt;
+&lt;p&gt;Saya sendiri bukan siapa-siapa, bikin web aja masih belepotan. Dan yang jelas sebelum ini saya nggak pernah protes/tanya ke dia tentang siapa pembuat web tersebut. Btw saya ngga iri lho yah, kali2 aja ada yang ngira saya iri ma Christian Sugiono gara2 dia cakep+seleb+pinter :lol: . Mending direnungkan lagi deh dengan kepala dingin. Yang dibuka disini adalah hal teknikal, bukan ledek-ledekan/menjatuhkan salah satu pihak :roll: &lt;/p&gt;
+&lt;p&gt;Oh iya sapa tau masih ada yang blur, klo bikin web menurut versi saya : bikin desain sendiri (coret2 di photoshop/gimp/dll) trus bikin HTMLnya, trus desain + generate databasenya (klo memang pake database), trus bikin script server side/client sidenya dari nol (klo memang pakai server/client side script)... dsb..dsb.. Beda dengan nginstall CMS : sediain hosting + dbaccount, download CMS, ubah file config (klo di WP namanya wp-config.php), upload, install, jadi deh (biasanya nggak sampe 10 menitan). Cmiiw.&lt;/p&gt;
+&lt;p&gt;Lastly, kalau memang analisa saya salah, silahkan klarifikasi, via email atau langsung isi di box komen. Saya nggak bilang Christian Sugiono bo'ong loh ya (mungkin cuma kurang paham ato gimana), cuma web yang tadi emang keliatan beneran Wordpress, kecuali klo saya salah, abisnya ngantuk berat, lembur dari tadi jam sembilan malam ampe sekarang jam sembilan pagi hehehe.. :lol:&lt;/p&gt;
+&lt;p&gt;btw met puasa ya buat yang menjalankan. Maafin saya yang setiap hari adaaa aja bikin salah..&lt;/p&gt;
+&lt;p&gt;-
+&lt;b&gt;
+ Updated
+&lt;/b&gt;
+-
+Akhirnya kasus ini dah case closed. Christian Sugiono udah datang langsung ke blog gw (lihat di kolom komentar) dan menjelaskan semuanya. Singkatnya, memang dialah yang membuat web di
+&lt;a href="http://www.christian-sugiono.com"&gt;
+ christian-sugiono.com
+&lt;/a&gt;
+, tapi bukan yang sekarang, melainkan web yang dulu. Sekarang sudah diganti dengan WP karena pertimbangan kemudahan bagi admin untuk manajemen post, comments, dsb. Yang bersangkutan juga udah kasih beberapa sampel web yang dia buat seperti gallery di blognya saat ini, juga
+&lt;a href="http://www.malesbanget.com"&gt;
+ malesbanget.com
+&lt;/a&gt;
+yang pernah dibuatnya dulu.&lt;/p&gt;
+&lt;p&gt;Lega deh gw nggak nebak-nebak lagi, gw juga udah ngga sangsi lagi dengan statement yang pernah dia kasih ke berita, dan gw juga salut bahwa profesi programmer yang super sibuk dengan research, bisa digabungkan dengan profesi aktor. Well.. I welcome you here Christian Sugiono, met bergabung di blogsphere wordpress dan gw senang klo lo mau ikut berbagi info IT disini :roll:&lt;/p&gt;</summary></entry><entry><title>Sunset on Mars</title><link href="http://kecebongsoft.com/2008/06/sunset-on-mars.html" rel="alternate"></link><updated>2008-06-04T07:26:27+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-06-04:2008/06/sunset-on-mars.html</id><summary type="html">&lt;p&gt;&lt;a href="http://kecebongsoft.files.wordpress.com/2008/06/sunsetmars.jpg"&gt;
+ &lt;img alt="image" src="/img/wordpress/2008-06-sunsetmars.jpg?w=300" /&gt;
+&lt;/a&gt;
+Di asrama kampusku, aku tinggal di lantai paling atas sendirian. Kebetulan wilayah kampus cukup terpencil dari pusat kota dan dikelilingi bukit yang lapang. Jadi setiap hari aku selalu menyempatkan diri "menatap" sunset yang bener-bener indah dari lantai atas. Tapi tidak seperti sunset yang ini pastinya, sunset yang ini diambil dari planet Mars.
+&lt;!--more--&gt;
+&lt;a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_347.html"&gt;
+ Gambar sunset ini
+&lt;/a&gt;
+dikirim oleh
+&lt;a href="http://marsrover.nasa.gov/"&gt;
+ Mars Exploration Rover Spirit
+&lt;/a&gt;
+sebagai bagian dari
+&lt;a href="http://www.nasa.gov/multimedia/imagegallery/"&gt;
+ Image of the Day
+&lt;/a&gt;
+milik NASA. Di ambil pada tanggal 19 Mei 2005 pukul 06:07.&lt;/p&gt;
+&lt;p&gt;Entahlah, tapi sunset selalu berhasil membuatku merasakan bahwa kesunyian itu indah :-D&lt;/p&gt;</summary></entry><entry><title>Ajaib dan 7</title><link href="http://kecebongsoft.com/2008/05/ajaib-dan-7.html" rel="alternate"></link><updated>2008-05-31T17:45:02+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-05-31:2008/05/ajaib-dan-7.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="/img/wordpress/2008-05-komodo.jpg" /&gt;
+Ya, itu adalah gambar
+&lt;a href="http://en.wikipedia.org/wiki/Komodo_dragon"&gt;
+ komodo
+&lt;/a&gt;
+yang terukir diatas logam 50 rupiah. Uang
+&lt;span style="text-decoration:line-through;"&gt;
+ receh
+&lt;/span&gt;
+koin ini sudah beredar belasan tahun lalu saat aku masih belum ngerti pacaran. Ini juga menandakan bahwa habitat komodo telah ada sejak lama di Indonesia. Tahun ini,
+&lt;a href="http://www.new7wonders.com/"&gt;
+ The New7Wonders Foundation
+&lt;/a&gt;
+untuk kesekian kalinya mengadakan voting 7 keajaiban dunia yang baru, dan komodo-komodo ini adalah salah satu kontestan perwakilan dari Indonesia. Kita bisa memenangkan kontestan ini jika mau bersatu untuk memberikan suara.
+&lt;!--more--&gt;
+Caranya?. Masuk saja ke situs
+&lt;a href="http://www.new7wonders.com/nature/en/liveranking/"&gt;
+ live ranking New7Wonders
+&lt;/a&gt;
+dan vote untuk
+&lt;a href="http://en.wikipedia.org/wiki/Komodo_%28island%29"&gt;
+ Komodo Island Indonesia
+&lt;/a&gt;
+, saat tulisan ini dirilis, kita masih berada di posisi 36.  Posisi satu masih dikuasai oleh Ha Long Bay Vietnam.&lt;/p&gt;
+&lt;p&gt;Selain pulau komodo, kita juga punya perwakilan lain yaitu Gunung Krakatau dan Danau Toba, sayang posisi keduanya masih sangat jauh yaitu 70 dan 71.&lt;/p&gt;
+&lt;p&gt;Tahun 2007 kemarin Candi Borobudur telah lepas dari nominasi dan tidak lagi diklaim sebagai salah satu dari 7 keajaiban dunia. Tahun ini kita harus bisa meraih kembali gelar tersebut :-D&lt;/p&gt;</summary></entry><entry><title>Tanpa asap</title><link href="http://kecebongsoft.com/2008/05/tanpa-asap.html" rel="alternate"></link><updated>2008-05-31T07:32:38+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-05-31:2008/05/tanpa-asap.html</id><summary type="html">&lt;p&gt;&lt;img alt="image" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/No_smoking_symbol.svg/150px-No_smoking_symbol.svg.png" /&gt;
+Hari ini adalah peringatan
+&lt;a href="http://en.wikipedia.org/wiki/World_No_Tobacco_Day" title="World No Tobacco Day"&gt;
+ hari tanpa tembakau sedunia
+&lt;/a&gt;
+yang rutin diselebrasi setiap 31 Mei oleh
+&lt;a href="http://en.wikipedia.org/wiki/World_Health_Organization" title="World Health Organization"&gt;
+ WHO
+&lt;/a&gt;
+. Pesan yang ingin dibawakan adalah peringatan, bahwa kecanduan pada rokok dapat menyebabkan penyakit dan kematian. Seberapa pedulikah para perokok dengan pesan ini?.
+&lt;!--more--&gt;
+Aku pribadi tidak pernah anti pada rokok, atau membenci orang yang merokok. Hanya saja aku sering tidak bisa menerima alasan kenapa mereka merokok :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;"Dulu sih coba-coba aja, tapi sekarang udah susah dilepas nih"&lt;/li&gt;
+&lt;li&gt;"Biar keliatan jantan bro, pemberani"&lt;/li&gt;
+&lt;li&gt;"Ikut-ikutan temen aja sih awalnya, tapi sekarang udah keenakan nih"&lt;/li&gt;
+&lt;li&gt;"Ya iya lah, rokok tuh temen paling enak klo lagi ngapa-ngapain.."&lt;/li&gt;
+&lt;li&gt;"Dulu liat ortu ngerokok, jadi ikut-ikutan"&lt;/li&gt;
+&lt;li&gt;"Mengurangi pengangguran bro, klo ngga ngerokok ntar siapa yang mau kerja di pabrik rokok?"&lt;/li&gt;
+&lt;li&gt;dsb..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tidak pernah kudengar satupun alasan logis kenapa merokok, untuk menyembuhkan penyakit misalnya
+?. Mungkin memang aku yang masih awam dalam hal "kenapa merokok". Aku jadi ingat, seorang entertainer
+&lt;a href="http://id.wikipedia.org/wiki/Ari_Lasso"&gt;
+ Ari Lasso
+&lt;/a&gt;
+dan rekannya dulu pernah diwawancari disebuah talkshow. Disitu Ari bercerita tentang kehidupan masa lalunya sebagai pengguna narkoba, dan dia (serta rekannya) bercerita betapa hebatnya perjuangan mereka untuk menyembuhkan Ari dari kecanduan narkoba. Ari yang berusaha terus menerus, serta rekannya yang terus membantu dengan mengurangi dosis obat-obatan Ari secara perlahan hingga akhirnya dia lepas dari narkoba.&lt;/p&gt;
+&lt;p&gt;Dalam pandanganku, Ari tahu, dia tidak punya alasan logis kenapa ia menggunakan narkoba selain hanya karena kecanduan. Dia tahu apa yang dia jalani saat itu hanya akan membunuh dirinya sendiri sehingga dia berusaha melawannya (dan mengalahkannya). Itu narkoba, zat yang jauh lebih hebat adiktifnya dibanding rokok.&lt;/p&gt;
+&lt;p&gt;Apa kisah seperti Ari jarang terjadi pada kasus rokok?. Sering juga, tapi biasanya disebabkan karena pelakunya mengalami hal serius, dilarang orang tua misalnya, atau terserang kanker. Saat itu mau tidak mau berhenti.&lt;/p&gt;
+&lt;p&gt;Yang lainnya bagaimana?. Bagiku yang lainnya seperti menganggap bahwa rokok adalah "tradisi" dari jaman dahulu, dan belum dianggap seserius narkoba (oleh masyarakat &amp;amp; pemerintah), sehingga tidak ada "tekanan" untuk mengkonsumsi rokok. Jadi ya jalan terus aja.&lt;/p&gt;
+&lt;p&gt;No offense buat para perokok, itu hidup kalian dan nikmati aja. Aku tidak pernah mencoba untuk memprovokasi orang lain untuk berhenti merokok, tapi aku selalu mencoba mematahkan semua alasan kenapa mereka merokok.&lt;/p&gt;
+&lt;p&gt;Selamat hari tanpa tembakau sedunia.
+&lt;img alt="image" src="http://l.yimg.com/us.yimg.com/i/mesg/emoticons7/36.gif" /&gt;&lt;/p&gt;</summary></entry><entry><title>Tautology dan amnesia</title><link href="http://kecebongsoft.com/2008/04/tautology-dan-amnesia.html" rel="alternate"></link><updated>2008-04-02T07:00:51+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-04-02:2008/04/tautology-dan-amnesia.html</id><summary type="html">&lt;p&gt;Hari ini aku beres-beres kamar, dan nemu satu catatan bekas ringkasan math-ku waktu semester satu. Disitu tertera sebuah soal logika. Aku kemudian teringat satu prinsip logika yang pernah kupelajari, salah satu kalimat yang kuingat adalah "To be or not to be, that is a ...". Udah sampai situ aja, aku nyaris nggak bisa menyebut lanjutan kalimat itu apa, padahal aku hampir ingat tapi susah sekali menyebutnya, sudah ada diujung lidah.&lt;/p&gt;
+&lt;p&gt;Jadi seperti orang gila, aku mencoba mengingat-ingat kembali kata apa yang ada dikalimat tersebut, mulai dari googling dengan keyword "To be or not to be", tapi hasilnya rata-rata ke Shakespeare :( .  Rasa penasaran makin mengerikan, sepertinya jantung ini berdegup kencang, ugh, apa ya kata terakhir kalimat itu :( . Aku mengabaikan pekerjaan lainnya dan menghabiskan waktu untuk masalah ini. Hampir dua jam berputar-putar mencari jawabannya, rasa kesal dan jengkel numpuk jadi satu, jengkel dengan diri sendiri tentunya, kok bisa-bisanya nggak ingat.&lt;/p&gt;
+&lt;p&gt;Aku jadi berfikir, seperti inikah rasanya jadi orang yang hilang ingatan, kemudian mendapatkan serpihan-serpihan ingatannya kembali?. Seperti inikah tersiksanya seorang amnesia mencari kebenaran dimasa lalunya?. Aku yang pusing mengingat satu kata saja sudah tersiksa begini, apalagi mereka yang punya banyak hal yang harus diingat?.&lt;/p&gt;
+&lt;p&gt;Lagipula apa alasannya harus mengingat-ingat hal yang mungkin tidak penting seperti ini?, nggak ada alasan selain rasa penasaran yang luar biasa. Kalau nggak dapet jawabannya tuh rasanya gimana gitu.. hahaha.&lt;/p&gt;
+&lt;p&gt;Well, setelah memutar otak cukup keras, akhirnya ingat juga :
+&lt;b&gt;
+ To be or not to be, that is a
+ &lt;a href="http://en.wikipedia.org/wiki/Tautology_%28logic%29"&gt;
+  tautology
+ &lt;/a&gt;
+ !
+&lt;/b&gt;
+Yeah!, dapet juga akhirnya. Tautology adalah formula propositional yang akan selalu menghasilkan nilai true dibawah semua kemungkinan interpretasi dari semua variabel yang dia miliki. Finally i've found this bloody word after a couple hours!.&lt;/p&gt;</summary></entry><entry><title>Software ITS Ubah Por*o Jadi Tak Por*o</title><link href="http://kecebongsoft.com/2008/03/software-its-ubah-poro-jadi-tak-poro.html" rel="alternate"></link><updated>2008-03-29T10:56:35+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-03-29:2008/03/software-its-ubah-poro-jadi-tak-poro.html</id><summary type="html">&lt;p&gt;Menarik sekali, PENS-ITS akan meluncurkan piranti lunak yang akan membaca pattern por&lt;em&gt;o dalam tiap multimedia content dan mengubahnya menjadi tidak por&lt;/em&gt;o. Seperti apa tekniknya, kalau diberita, mereka bilang gini :
+&lt;i&gt;
+ Irvan menjelaskan, piranti lunak tersebut menggunakan sistem
+ &lt;i&gt;
+  image processing
+ &lt;/i&gt;
+ dengan basis pemrograman bahasa C. Dengan demikian, paparnya, piranti lunak pendukung UU ITE itu dapat dijalankan di komputer dengan sistem operasi Linux dan Windows.
+&lt;/i&gt;
+&lt;!--more--&gt;
+Wow, maksudnya baca pattern gambar raster per-pixel dan mencocokannya dengan pattern-pattern yang mereka miliki?.&lt;/p&gt;
+&lt;p&gt;Programmer diseluruh dunia membuat code setengah mampus hanya untuk membaca huruf/angka yang ada pada
+&lt;a href="http://en.wikipedia.org/wiki/Captcha"&gt;
+ captcha
+&lt;/a&gt;
+rapidshare/yahoo, itupun tingkat kesalahannya masih ada. Software image-comparison butuh puluhan menit untuk membaca dan mencocokan duplikasi file image (dengan teknik image-processing) yang ada dihardisk, dan itu semua masih dilakukan dalam single frame!.&lt;/p&gt;
+&lt;p&gt;Lantas  seperti apa bentuk kode yang bisa mencocokan pattern por*o dalam multimedia content? yang memiliki ratusan frame (video) ?. Seakurat apa hasilnya dan berapa lama waktu yang dibutuhkan?. Apalagi jika diletakan kedalam satu server dan dipasang sebagai service? Server yang sekarang saja sudah cukup sibuk dengan konten yang keluar masuk hampir tanpa filtering system, jika kali ini dibuat filtering system seperti diatas, seperti apakah nasib server :roll:&lt;/p&gt;
+&lt;p&gt;Kali ini aku nggak mau ngebahas tentang kontennya yang por*o atau tentang UU ITE, aku hanya penasaran abis teknik image-processing seperti apa yang mereka pakai sampai-sampai piranti lunaknya bisa sejenius ini. Mudah-mudahan bukan omongan sepintas aja, karena jika memang benar-benar dirilis dan terbukti efektif, ini bakal jadi kemajuan dunia programming yang besar di Indonesia :D&lt;/p&gt;
+&lt;p&gt;http://www.detikinet.com/index.php/detik.read/tahun/2008/bulan/03/tgl/29/time/150013/idnews/915343/idkanal/399&lt;/p&gt;</summary></entry><entry><title>Teman makan teman</title><link href="http://kecebongsoft.com/2008/03/teman-makan-teman.html" rel="alternate"></link><updated>2008-03-13T21:51:53+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-03-13:2008/03/teman-makan-teman.html</id><summary type="html">&lt;p&gt;Aku orang yang termasuk "sangat" tidak ingin kehilangan teman. Teman itu adalah harta karun yang paling berharga, nggak bisa diganti dengan harta sebanyak apapun. Ketika udah nggak punya apa-apa atau kepepet, teman pasti nolong. Untuk urusan tolong menolong pun mereka tidak pernah berlebihan, menolong semampu dan semau mereka saja. Itu membuktikan bahwa tidak ada "udang dibalik batu" dari setiap pertolongan yang diberikan. Yah, setidaknya bergitulah pandangan singkat yang kumiliki tentang seorang teman.&lt;/p&gt;
+&lt;p&gt;Aku punya seorang teman yang dulu bisa saling kenal karena bertemu diacara berskala nasional. Saat itu kami hanya saling bertemu selama satu minggu, tapi kami sempat bertukar kontak instant messenger.&lt;/p&gt;
+&lt;p&gt;Hari ini teman tersebut menyapaku dari instant messenger. Awalnya aku senang sekali, kami saling bertanya kabar seperti orang yang lama tidak bertemu pada umumnya. Tapi ketika pembicaraan sudah mulai jauh, dia bertanya "Hei, sekarang kerja apa kuliah". Karena aku bukan orang yang suka jujur, jadi aku bilang aja dulu "Masih nganggur nih dirumah". Aku pikir ini pertanyaan dan jawaban yang normal, sampai akhirnya dia bertanya "Kamu mau nggak dapat penghasilan perbulan tanpa modal?, caranya mudah kok!".
+&lt;!--more--&gt;
+Doh, perasaanku mulai nggak enak. Karena nggak mau berprasangka buruk dulu, jadi aku ladenin saja "Wah, memangnya bisa? gimana caranya tuh?". Maka diapun mulai menjelaskan panjang lebar tentang bisnis yang ditawarkan, yaitu mencari partner jualan, mengumpulkan poin, dll.. Sampai disitu aku sudah tidak bisa lagi menyangkal prasangka buruk yang tadi udah dihilangkan. Aku dibisnisin  MLM sama teman sendiri :evil: . Mungkin karena itu dia terlihat begitu akrab dan aku sendiri sempat heran kenapa bisa terlalu care saat bertanya kabar. Berusaha untuk tidak menyinggung perasaannya, akupun meladeni pembicaraan itu hingga ketahap yang agak lebih mendalam, kemudian dengan sengaja mengubah status IM ku jadi invisible :D&lt;/p&gt;
+&lt;p&gt;Itulah yang mengerikan dari seorang teman yang tidak tahu apa artinya memiliki teman, mungkin agak berlebihan jika aku mengutip kalimat yang pernah kutonton disatu film : "Kamu nggak akan pernah tahu apa yang kamu punya, sebelum semuanya hilang.". Bisnis sih boleh-boleh saja, aku juga nggak ada komentar tentang bisnis tipe-tipe seperti diatas, tapi mbok ya kira-kira to mbak,jangan temen baik juga dijadiin sasaran keuntungan. Kayak nggak ada orang lain aja, memangnya nggak mikir ya gimana perasaan temen kalau dia tahu bahwa dia dimanfaatkan. Yah mungkin juga dia masih hijau dan belum tahu banyak tentang ini, sampai saat ini aku masih bisa menganggapnya sebagai teman, tapi tidak pernah kusapa karena setiap disapa selalu ujung-ujungnya ngajakin bisnis tersebut (yang bisa bikin dia untung). Bukan aku nggak mau teman sendiri sukses, tapi ini bukan tentang uang. Punya uang berapapun juga ngga guna klo ngga punya siapa-siapa.&lt;/p&gt;
+&lt;p&gt;Yah, sekali lagi aku ngga kritik bisnisnya, tapi orang yang menjalankannya dengan cara "mencaplok" teman sendiri, setidaknya untukku pribadi, aku risih banget kalau digituin :D . Pernah dengar sejarah group band legendaris The Beattles?. Kini personilnya hanya tinggal 2. 2 diantara mereka telah meninggal, yang satu ditembak mati oleh penggemarnya sendiri, dan yang satu lagi kalau tidak salah terkena kanker (atau serangan jantung?). Kedua personilnya yang masih ada sering ditanya dan ditawari untuk manggung di seluruh dunia, dan mereka selalu menolak, "Kami tidak mungkin melakukannya, 2 dari kami telah tiada". Padahal mereka bisa meraup keuntungan jutaan dolar dari konser itu.&lt;/p&gt;
+&lt;p&gt;Itu baru namanya teman!.&lt;/p&gt;</summary></entry><entry><title>KISS vs Generalization</title><link href="http://kecebongsoft.com/2008/03/kiss-vs-generalization.html" rel="alternate"></link><updated>2008-03-03T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-03-03:2008/03/kiss-vs-generalization.html</id><summary type="html">&lt;p&gt;Dalam software development, sering terdengar istilah Keep It Simple Stupid. Jika bisa dilakukan dengan sederhana, maka lakukan dengan sederhana, jangan buat yang rumit-rumit, jika pensil bisa digunakan diluar angkasa, maka tidak perlu riset jutaan dollar untuk membuat alat tulis yang bisa dipakai pada kondisi apapun.&lt;/p&gt;
+&lt;p&gt;Sering juga kita mendengar istilah Generalization. Tahu gear kan? sepasang (atau lebih?) roda gigi berotasi yang memindah gaya mekanis. Gear nyaris dipakai diseluruh benda bermotor. Bayangkan jika tidak ada gear, mungkin tiap mesin mengambil/memindahkan tenaga mekanis dengan cara berbeda-beda, ada yang menggunakan cara kerja batangan baja pada roda kereta api klasik, dan cara-cara lainnya.&lt;/p&gt;
+&lt;p&gt;Beberapa orang ada yang menjunjung tinggi prinsip KISS, segala sesuatu harus disederhanakan sebisa mungkin. Tapi yang terjadi adalah, ketika memulai hal lain yang sebenarnya mirip dengan yang mereka kerjakan sebelumnya, mereka terpaksa harus memulai dari awal, prinsip dan metode yang mereka pakai pada pekerjaan sebelumnya terlalu sederhana dan spesifik, sehingga tidak bisa dipakai untuk kebutuhan lainnya. Ambil saja contoh kasus pensil dan pulpen yang sebelumnya, jika kita ingin menulis di ruang angkasa dan didalam laut, mana yang akan diambil? pensil atau pulpen?.&lt;/p&gt;</summary></entry><entry><title>Akibat kurang koordinasi</title><link href="http://kecebongsoft.com/2008/01/akibat-kurang-koordinasi.html" rel="alternate"></link><updated>2008-01-10T00:00:00+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2008-01-10:2008/01/akibat-kurang-koordinasi.html</id><summary type="html">&lt;p&gt;Di berbagai macam tempat, baik instansi, lembaga pendidikan, dan lain sebagainya, seringkali terjadi hal-hal yang tidak diinginkan akibat kurang koordinasi atau mungkin menyepelekan hal-hal kecil (yang sebenarnya tidak kecil). Kadang akibat dari itu bisa merugikan instansi atau lembaga pendidikan tersebut, atau juga merugikan konsumen atau pengguna instansi-nya.&lt;/p&gt;
+&lt;p&gt;Saya bisa dibilang salah satu yang dirugikan dari hal diatas, hari ini saya baru saja kembali ke kampus setelah kurang lebih satu bulan menghabiskan masa liburan di kampung halaman, setelah perjalanan 12 jam dan sampai di asrama kampus pukul 20:00, saya mendapati kamar saya telah ditinggali oleh orang lain, awalnya kaget, lalu saya tanya ke bagian security tentang masalah ini, kemudian mereka bilang bahwa saya belum melunasi biaya asrama untuk semester ini. Merasa ada yang salah dari apa yang beliau katakan, maka saya pun bilang bahwa saya sudah&amp;#160; melunasi semua biaya asrama dan pendidikan selama satu tahun penuh, pelunasan tersebut bahkan sudah saya lakukan semenjak bulan september silam, saya juga menunjukan semua bukti-bukti otentik yang saya punya. Tapi sepertinya pihak security tidak punya kapasitas untuk menampung masalah saya, jadi saya harus menunggu sampai lusa untuk menyelesaikan masalah ini dibagian akomodasi. Kenapa lusa? karena besok adalah hari libur Waisak.&lt;/p&gt;
+&lt;p&gt;Sekarang masalahnya adalah&lt;/p&gt;</summary></entry><entry><title>Tsunami &amp; the Survivors</title><link href="http://kecebongsoft.com/2007/10/tsunami-the-survivors.html" rel="alternate"></link><updated>2007-10-27T16:19:09+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-10-27:2007/10/tsunami-the-survivors.html</id><summary type="html">&lt;p&gt;Malam ini harusnya aku membuka catatan-catatan kuliah, sebab minggu depan akan ada final examination untuk short semester. Tapi entah kenapa badan rasanya malas, trus tiba-tiba jadi ingat bencana besar yang terjadi 26 desember 2004 silam.&lt;/p&gt;
+&lt;p&gt;Ya, tsunami. Aliran air yang menjadi senjata yang sangat destruktif, menghancurkan kota-kota besar pinggir pantai, siapa yang bisa menghentikannya? kita hanya bisa berlari, mencari tempat yang tinggi, hingga jutaan trilyun tetes air itu pergi dan samudra kembali tenang. Sebagian bertahan, menganggap ini bencana biasa, memilih untuk memeluk harta bendanya. Sebagian menjadi pahlawan, berlari mengejar sanak saudara dan kerabat dekat, mencoba menyelamatkan orang-orang yang disayangi. Sisanya adalah orang-orang yang tidak tahu menahu tentang kejadian ini, mereka yang sedang terlelap, anak-anak bayi yang tertidur pulas, tanpa mengetahui apa yang sedang terjadi, mereka meninggal begitu saja.
+&lt;!--more--&gt;
+Mencoba mengetahui lebih jauh tentang hal ini, aku mulai membuka kamus wikipedia, dan youtube. Masih kental di ingatan seperti apa pasukan air itu dengan cepat menghancurkan bangunan yang telah dirancang sedemikian kokoh. Terjadi karena pergeseran dan pertemuan lempeng bumi, hingga munculnya ombak dahsyat.
+&lt;img alt="image" src="http://cache.boston.com/bonzai-fba/AP_Photo/2005/01/04/1104852284_5787.jpg" /&gt;
+&lt;span style="font-size:9px;"&gt;
+ &lt;em&gt;
+  A mosque stands alone amongst the ruins ot the tsunami  in a district of Banda Aceh, Aceh province, in western  Indonesia.
+ &lt;/em&gt;
+&lt;/span&gt;
+Aku bukanlah saksi hidup dari kejadian itu, karena aku berada di bumi kalimantan. Tapi aku masih sangat ingat waktu itu, 25 desember 2004, kira-kira pukul 20:00, ayahku yang sangat hobi nonton berita di televisi tidak mengubah chanelnya selain metro tivi, rcti, dan tvri. Ayah berkali-kali memanggilku untuk melihat berita-berita terbaru seputar gempa di aceh. Ya, saat itu masih gempa, saat badai perenggut nafas belum datang.&lt;/p&gt;
+&lt;p&gt;Saat itu sempat kulihat di tayangan tivi, 2 orang laki-laki berlari keluar di sebuah rumah makan tepi pantai di Banda Aceh, mereka menunjuk-nunjuk ke laut, sempat kulihat lampu gantung di rumah makan tersebut bergoyang-goyang. Betapa dahsyatnya gempa saat itu.&lt;/p&gt;
+&lt;p&gt;Esoknya, bencana terbesar itu akhirnya tiba, seluruh dunia menyorot bumi Aceh. Puluhan rekaman video amatir masuk ke redaksi berita, salah satu video itu menampilkan ibu-ibu yang membaca surah Yasin di lantai dua rumah mereka, seorang diantaranya menangis. Tak lama kemudian kulihat kamera tersebut menyorot lantai satu, seorang bapak-bapak sedang terendam air dan meminta tolong. Tapi nggak ada yang bisa menolong hingga air surut, dan orang itu telah meninggal.&lt;/p&gt;
+&lt;p&gt;Jika ditanya siapa yang paling sering mengikuti perkembangan berita tentang bencana ini, akulah salah satunya. Waktu itu aku baru saja duduk di kelas 1 SMK. Semua video dan berita dari internet aku kumpulkan, sekedar ingin tahu, betapa hebatnya air pasang naik ke daratan dan menyeret berton-ton bangunan beserta isinya.&lt;/p&gt;
+&lt;p&gt;Beberapa jam sebelum bencana ini datang, aku sedang dalam keadaan bahagia. This is my birthday. Although no one knows this is my birthday, I still can celebrate it on my self. 01.00 AM I make a wish, God, please let me see all people smile today, please let me see their happiness, although they don't know today is my birthday, but I want they fell like I was. Tapi Tuhan berkata lain :-)&lt;/p&gt;
+&lt;p&gt;Mencoba mencari sisi positif dari bencana ini, aku kembali membuka beberapa keyword di youtube. Kutemukan beberapa video, salah satunya berjudul "2 Years After Tsunami".  Disana diperlihatkan mereka-mereka yang berhasil bertahan, bukan hanya fisiknya, melainkan semangatnya. Kulihat anak-anak mulai tersenyum, orang tua mulai membuka lahan pertanian, ibu-ibu mulai mencari nafkah. Aku bangga melihatnya, mereka tersenyum, mereka sudah mulai merasakan kebahagiaan. Aku tersadar, ternyata aku harus menunggu 2 tahun untuk melihat mereka tersenyum dan bahagia kembali. Terima kasih ya Tuhan, kau telah kabulkan doa hati kecilku.&lt;/p&gt;</summary></entry><entry><title>Ngikutin kemauan mereka atau..?</title><link href="http://kecebongsoft.com/2007/10/ngikutin-kemauan-mereka-atau.html" rel="alternate"></link><updated>2007-10-09T10:59:06+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-10-09:2007/10/ngikutin-kemauan-mereka-atau.html</id><summary type="html">&lt;p&gt;Ini adalah minggu ke enam dari total 8 minggu untuk semester pendek akhir tahun. Dosenku kali ini lebih cepat menyudahi materi pembahasannya dan lebih memilih untuk memberikan gambaran final examination yang akan kami hadapi nanti di minggu ke delapan. Final examination atau bahasa
+&lt;strike&gt;
+ ndeso
+&lt;/strike&gt;
+bakunya adalah ulangan umum, adalah event evaluasi terhadap materi yang telah diberikan selama satu semester. Ngeri juga dengan final examination, karena mitosnya yang terkenal sulit dan ketat. Tapi bukan itu yang sedang aku pikirkan waktu sang dosen berbagi cerita, ada satu hal yang dia singgung dan cukup menyita pikiranku hingga detik ini, dan akhirnya kuputuskan untuk membaginya disini.
+&lt;!--more--&gt;
+"Because you are a software engineering student, you have to study hard about software development. Just look behind and see all of your senior doing great things in their project, 2 of them were getting award of eGenting Coding Competition and also award from our university, they making an great application with Java technology".&lt;/p&gt;
+&lt;p&gt;Ini bukan kali pertama mereka (para dosen) mengelu-elukan Java dan ASP. Sudah hampir di setiap kelas mereka tidak pernah menyebut teknologi lainnya seperti PHP, C++ (kalo ini pernah terkadang). Kenapa?, Aku sampai sekarang hanya bisa menyimpulkan karena universitas memang mendapat support oleh Sun Microsystem, tapi kenapa harus
+&lt;em&gt;
+ menghipnotis
+&lt;/em&gt;
+mahasiswanya agar terjun ke dunia tersebut?. Java adalah teknologi yang oke, ASP juga, semua bahasa punya kelebihan dan kekurangan, harusnya ini yang diajarkan kepada para mahasiswa, bukannya menyetir mereka untuk terjun ke bahasa-bahasa tertentu, atau ini lebih mirip dengan
+&lt;em&gt;
+ dikadalin?
+&lt;/em&gt;
+Hmm.. itu sekedar intermezo dari permasalahan inti, karena yang aku pikirkan adalah, judul tugas akhir apa ya yang akan aku buat nanti?. Haruskah selalu berkaitan dengan Java?.  Terus terang sekarang aku lebih fokus ke Graphic Programming dengan C++ dan graphics library semacam Open GL dan Microsoft DirectX, khususnya untuk keperluan pembuatan game. Jika nanti aku mengusulkan judul tugas akhir bertemakan game, kira-kira apa tanggapan mereka? pesimis kah? kalaupun diterima, apakah ada perbedaan nilai antara membuat game dengan Java versus bahasa pemrograman lain?.&lt;/p&gt;
+&lt;p&gt;Oke, mari berpikir positif aja, anggap mereka menyetujui judul tugas akhir ku, lantas masalah selanjutnya adalah, darimana mereka menilai hasil akhir dari sebuah game?. Mungkin kalau aplikasi akan lebih mudah menilainya, bisa dari segi teknologi yang digunakan, tingkat kesulitan, dan fungsi aplikasi tersebut untuk khalayak ramai.&lt;/p&gt;
+&lt;p&gt;Tapi kalau game memangnya apa yang bisa dinilai?. Teknologi yang digunakan? ah biasa mah kalau pakai DirectX atau OpenGL, rata-rata game juga gitu. Tingkat kesulitan?, sayang sekali disini sepertinya dosennya terlalu banyak bikin aplikasi non game, tidak terlalu paham seberapa sulitnya perkalian matriks 3 dimensi, deteksi tubrukan, event handler, ray tracing, kalkulasi cahaya, dll, bahkan kalaupun dimasukan fungsi multiplayer jangan-jangan dikira biasa juga. Fungsi game untuk khalayak ramai? hmm.. melatih ketangkasan (sudah umum),  edukasi (umum juga), menghibur (apalagi ini). Atau dari sisi grafis?, wah kalau yang ini udah lepas dari bagian software engineering, lagipula anak kecilpun jarang yang kagum dengan sistem partikel yang ada di setiap tubrukan mobil di NFSU, mereka menganggap "memang seharusnya begitu".&lt;/p&gt;
+&lt;p&gt;Ya, memang jauh lebih mudah menilai sebuah aplikasi (non game) daripada menilai game. Kenapa?, karena aplikasi sudah dikelompokan untuk tujuan-tujuan tertentu, contoh adalah word processor, kita bisa membandingkan Microsoft Word, Abi  Word, Open Office, dan sederet software lainnya, cukup mudah juga membandingkannya, bisa dilihat dari segi fitur, kemudahan pemakaian, kompatibilitas sistem, kelengkapan dokumen manual, tampilan, dll. Atau bisa juga dinilai dari apakah aplikasi tersebut mengusung teknologi baru. Contoh adalah Microsoft Word yang mendukung voice command dan voice dictation (meskipun ini udah lama), atau beberapa word processor lainnya yang dapat berjalan di browser. Relatif mudah menilai bagus tidaknya sebuah aplikasi, karena kebanyakan dari kita lebih sering menggunakan aplikasi dari pada memainkan sebuah game.&lt;/p&gt;
+&lt;p&gt;Bagaimana menilai sebuah game?, kita ambil satu contoh, NFSU dengan TrackMania, kedua-duanya adalah game bergenre balapan, kedua-duanya mengusung modifikasi mobil. Tapi mana yang terbaik?. Susah juga membandingkannya, dari segi grafis, NFSU lebih unggul (meskipun TrackMania juga nggak bisa diremehkan), dari segi gameplay cukup sulit membandingkan, NFSU lebih kepada balapan liar ditengah kota, TrackMania lebih kepada balapan berkecepatan tinggi (yang udah pernah main pasti pernah liat speed meternya lebih dari 600). Atau aku salah membandingkan?. Ya, mungkin aku salah membandingkan, dan itulah yang aku takutkan kalau mengambil tugas akhir bertemakan game. Anggap saja aku membuat game bergenre SHMUP (Shoot'em Up) semacam Raiden atau Giga Wings, jangan-jangan mereka nanti membandingkannya dengan Microsoft Flight Simulator, atau lebih buruk lagi, membandingkannya dengan Half Life II atau Doom?
+&lt;em&gt;
+ "Belajar semua aja kalo gitu!"
+&lt;/em&gt;
+. Hehehe.. aku lebih suka menyelam di sumur yang dalam daripada harus menjelajahi danau, entahlah judul tugas akhir apa yang harus kuambil nanti, apapun itu, mudah-mudahan bisa memuaskan. Lagi pula masih lama kok, kan ini baru first semester, just curious what will happened :mrgreen:. Lagi pula mungkin aku masih terlalu dini untuk memikirkan hal tersebut, terlalu dini untuk memuat berbagai macam statement, belum terlalu banyak makan asam garam :mrgreen:&lt;/p&gt;</summary></entry><entry><title>Tips jika berada di negri jiran</title><link href="http://kecebongsoft.com/2007/10/tips-jika-berada-di-negri-jiran.html" rel="alternate"></link><updated>2007-10-09T06:27:11+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-10-09:2007/10/tips-jika-berada-di-negri-jiran.html</id><summary type="html">&lt;p&gt;Sebenarnya dakuw agak malas mbahas ini, karena dakuw sendiri nggak suka ngurusin
+&lt;s&gt;
+ cekcok
+&lt;/s&gt;
+selisih yang terjadi antara Indonesia dan Malaysia (disini dakuw nggak mau bilang Malingsia, so kalian juga jangan manggil kita2 dengan panggilan
+&lt;a href="http://antobilang.wordpress.com/2007/10/08/jangan-panggil-aku-indon/"&gt;
+ Indon
+&lt;/a&gt;
+). Ok, dari kasus klaim
+&lt;a href="http://antobilang.wordpress.com/2007/10/03/kampanye-malaysia-klaim-lagu-rasa-sayang-sayange/"&gt;
+ lagu Indonesia
+&lt;/a&gt;
+, pulau, tradisi &amp;amp; budaya, sepertinya semua kejadian-kejadian itu membuat beberapa oknum di Malaysia menjadi gerah dengan kita dan memanfaatkan situasi. Alhamdulillah dakuw disini dah kenal orang-orang yang baek2 yang selalu memberikan pengarahan ketika berada disini, jadi dakuw bisa bagi-bagi siasat di blog ini, buat mereka-mereka yang lagi/akan pergi ke Malaysia.
+&lt;!--more--&gt;
+Pertama dan yang pasti, selalu bawa dokumen lengkap ketika jalan-jalan (kemanapun), KTP dan Passport, ponsel, dan uang cadangan.&lt;/p&gt;
+&lt;p&gt;Kedua, jangan pernah merasa "terlalu aman" karena bersenjatakan dokumen lengkap. Mereka disini (yang memangsa kita) nggak ada bedanya dengan polisi lalu lintas di Indonesia yang mencari "setoran preman". Kalau mereka udah ngincar kita, biasanya mereka nggak perduli dokumen kita lengkap atau enggak, yang penting digotong dulu. Cara menyiasatinya adalah dengan bersikap sebiasa mungkin, jangan karena takut jadi celingak celinguk kiri kanan ngeliatin sekitar, itu justru mengundang kecurigaan, jangan juga berpenampilan yang terlalu
+&lt;s&gt;
+ nyeleneh
+&lt;/s&gt;
+mencolok. Bersikaplah seperti biasa.&lt;/p&gt;
+&lt;p&gt;Ketiga, kalau emang udah apes dipertemukan dengan orang yang mencari-cari masalah, biasanya mereka akan tanya, "Kamu
+&lt;a href="http://antobilang.wordpress.com/2007/10/08/jangan-panggil-aku-indon/"&gt;
+ Indon
+&lt;/a&gt;
+ya?". Kalau kita bilang iya, mereka akan langsung minta passport. Eits..! jangan dulu dikasih, tanya siapa mereka. Biasanya mereka akan jawab bahwa mereka polisi berpakaian preman. Jangan langsung percaya, minta kartu identitas mereka, tunjukan bahwa mereka oknum yang berwenang, baru kita buktikan bahwa kita orang Indonesia. Tapi bagaimana kalau mereka menolak dan membentak kita? "Kamu melawan police ya?!". Nggak papa, teriak aja, minta tolong, atau lakukan apa saja yang bisa memanggil orang lain, dakuw yakin dia pasti kelabakan, polisi asli nggak bakal menyembunyikan kartu identitasnya. Ingat, yang berhak meng-interogasi kita di negara orang lain itu hanya Bagian Keimigrasian dan Kepolisian aja (CMIIW), selain dari itu cuma oknum nggak bertanggung jawab yang bahkan mungkin punya maksud jahat (
+&lt;a href="http://www.tribunkaltim.com/index.php?option=com_content&amp;amp;task=view&amp;amp;id=436&amp;amp;Itemid=1"&gt;
+ merampok, memperkosa, menganiaya, dll
+&lt;/a&gt;
+). Ingat, jangan dulu kita perlihatkan kartu identitas kita (apalagi passport) sebelum mereka menunjukan bahwa mereka dari polisi atau badan imigrasi. Karena dari cerita teman-teman dakuw yang udah bertahun-tahun disini, mereka (oknum yang tidak bertanggung jawab) bisa saja (bahkan sering) merobek-robek passport kita. Anehnya mereka tidak melakukan itu pada pendatang lainnya seperti India dan Cina. Lebih baik kita berteriak minta tolong atau segera mencari/menelpon polisi beneran untuk klarifikasi yang sebenarnya.&lt;/p&gt;
+&lt;p&gt;Anda mau iseng?. kebanyakan dari oknum-oknum tersebut biasanya adalah gembel-gembel pasar yang mengincar kita saat berbelanja, wajah kita terlihat seperti warga Indonesia, lalu diincarlah oleh mereka. Tapi jangan khawatir, kalau mau sedikit iseng, ajak saja mereka berbahasa asing, Inggris misalnya, atau Spanyol. Meskipun kita nggak ngerti apa artinya, tapi mereka jauh lebih nggak ngerti :mrgreen: . Karena meskipun disini (di Malaysia) dijajah inggris, tapi suer deh warga aslinya englishnya kacau balau, mereka memang menggunakan kosakata inggris tapi ketika diajak berbahasa inggris yang fasih (apalagi dari native speaker), sebagian cuma bisa bengong.&lt;/p&gt;
+&lt;p&gt;Hmm.. mungkin itu udah cukup dijadikan persiapan kalau berada di negri jiran. Dakuw akui disini nggak semua orang sensitif ama Indonesia, hanya sebagian aja kok, sayangnya yang sebagian itu lebih sering mencari kesempatan seperti menganiaya kita yang masuk dengan legal, daripada mencari kebenaran (menangkap TKI ilegal &amp;amp; mengembalikannya ke Indonesia).&lt;/p&gt;
+&lt;p&gt;Mudah2an ini bisa dijadikan pedoman, dan yang paling penting adalah poin ketiga, jangan langsung kasi passport karena biasanya nggak akan ada gunanya, apalagi klo mereka emang udah niat ngincar kita, malahan ntar passport kita disobek-sobek ama mereka, entah apa maksudnya. Intinya cuek aja deh, mereka tanya darimana kita, emang siapa mereka? kalau dari imigrasi atau polisi baru kita layani, selain itu no way, cuek bebek aja.&lt;/p&gt;
+&lt;p&gt;Ini diambil dari pengalaman kemarin jalan2 5 hari ke KL dan ke Semenyih, juga dari pengalaman temen-temen (dari Indonesia, Cina, Malaysia, Nigeria) yang tiap hari jalan-jalan ke kota-kota besar malaysia, fakta yang dakuw dapat adalah, oknum-oknum tersebut selalu mengincar warga Indonesia, entah kenapa yang penting kita harus bisa waspada. Buat yang jalan-jalan ama keluarga, usahakan selalu berada di dekat keramaian dan tidak terpisah satu sama lain.&lt;/p&gt;
+&lt;p&gt;Kalau ada tips-tips lainnya, monggo di share..&lt;/p&gt;</summary></entry><entry><title>Mendikte Dosen!</title><link href="http://kecebongsoft.com/2007/10/mendikte-dosen.html" rel="alternate"></link><updated>2007-10-04T15:09:26+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-10-04:2007/10/mendikte-dosen.html</id><summary type="html">&lt;p&gt;Pagi ini ada kelas E-Commerce System. Dosennya seperti biasa menjelaskan lewat presentasi, ngoceh bla bla bla nggak jelas (karena waktu itu dakuw lagi asik main
+&lt;abbr title="Handphone tau, gitu aja nggak tau katrok amat seh"&gt;
+ hape
+&lt;/abbr&gt;
+). Trus tiba dakuw ditegor gara-gara ketahuan, baru aja mau dimarahin tiba-tiba ada yang masuk, ngobrol-ngobrol bentar ama dosennya trus dosennya disuruh keluar, ada apa nih?
+&lt;!--more--&gt;
+Nggak lama setelah dosen keluar kita dibagiin kertas, dakuw yang duduk paling belakang iseng tanya ke teman soal kertas yang dibagiin tersebut, trus dia bilang itu adalah Teacher Evaluation. Wuih! Ternyata kertas itu isinya tentang penilaian siswa terhadap dosen yang lagi ngajar tadi. Disitu ada sekitar 18 pertanyaan seputar skill &amp;amp; dedikasi seorang dosen dalam menghadapi mahasiswanya, format pertanyaannya adalah pilihan
+&lt;s&gt;
+ janda
+&lt;/s&gt;
+ganda. Hehehe.. lumayan nih, dakuw bisa mendikte guru.. huahahaha!!.
+Pilihan gandanya sendiri terdiri dari 4 pilihan (semua nomor sama pilihannya) :
+a. Excellent
+b. Good
+c. Average
+d. Poor
+Kata temen sih, Teacher Evaluation itu dilakukan tiap semester, karena ini semester pendek (kuliah cuma 2 bulan) jadi dikasih sekarang.
+&lt;img alt="image" src="/img/wordpress/2007-10-mendikteguru.jpg" /&gt;
+Btw karena dakuw dari tadi nggak merhatiin dosennya ngajar, jadi 18 pertanyaan dakuw isi dengan pilihan "C" ama "D" aja,
+&lt;s&gt;
+ Tape
+&lt;/s&gt;
+Cape deee... :mrgreen:&lt;/p&gt;</summary></entry><entry><title>Malam yang damai</title><link href="http://kecebongsoft.com/2007/09/malam-yang-damai.html" rel="alternate"></link><updated>2007-09-15T12:37:06+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-09-15:2007/09/malam-yang-damai.html</id><summary type="html">&lt;p&gt;Sudah lama dakuw nggak merasakan ini. Semenjak pertama kali menginjak
+&lt;abbr title="Nilai, Malaysia"&gt;
+ negeri tetangga
+&lt;/abbr&gt;
+, dakuw selalu diselimuti perasaan cemas, perasaan takut dan tertekan, seperti sesuatu sedang memburu dan mengintaiku dari belakang. Yah, itu memang kebiasaan yang sudah ada semenjak dakuw kecil. Setiap daerah yang baru pertama dakuw datangi tidak bisa membuat perasaan menjadi nyaman dengan cepat.
+&lt;!--more--&gt;
+Tapi malam ini, setelah buka puasa
+&lt;abbr title="15 September 2007"&gt;
+ dihari ketiga
+&lt;/abbr&gt;
+, dakuw akhirnya merasakan bahwa tempat ini lebih bersahabat daripada kemarin. Padahal, tidak ada yang terjadi, sedikitpun tidak ada yang berubah, tapi malam ini dakuw sudah bisa berjalan dengan tenang, hati sudah lebih nyaman. Dakuw mulai bisa berfikir apa saja yang ingin dilakukan besok, apa saja rencana-rencana dan ide-ide seru yang akan dakuw wujudkan. Terima kasih ya Tuhan, engkau telah mengembalikan kedamaian ini, dan biarlah rasa ini tetap melekat di dalam hatiku.&lt;/p&gt;</summary></entry><entry><title>Situs SMKN7 berubah template</title><link href="http://kecebongsoft.com/2007/09/situs-smkn7-berubah-template.html" rel="alternate"></link><updated>2007-09-02T03:18:53+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-09-02:2007/09/situs-smkn7-berubah-template.html</id><summary type="html">&lt;p&gt;Pagi ini, dakuw iseng-iseng buka website
+&lt;a href="http://www.smkn7-smr.sch.id"&gt;
+ SMKN7 Samarinda
+&lt;/a&gt;
+. Oh iya, SMKN7 Samarinda adalah salah satu sekolah kejuruan Teknologi Informasi di
+&lt;a href="http://www.kaltimprov.go.id"&gt;
+ Kalimantan Timur
+&lt;/a&gt;
+, jadi tentu ada banyak orang TI disana. Back to the topic, website ini memakai
+&lt;a href="http://en.wikipedia.org/wiki/Content_management_system"&gt;
+ CMS
+&lt;/a&gt;
+&lt;a href="http://www.joomla.com/"&gt;
+ Joomla!
+&lt;/a&gt;
+, dan templatenya sudah dimodifikasi dan ditambahkan banner.
+&lt;a href="http://en.wikipedia.org/wiki/Web_template"&gt;
+ Template
+&lt;/a&gt;
+website SMKN7 yang sebelumnya memang memiliki beberapa bagian tidak jelas ketika kita membukanya. Hari ini template tersebut dirubah lagi, dan menurut dakuw pribadi sih, malah tambah ancur (maap) :-D.
+&lt;!--more--&gt;
+Hmm.. header first :
+&lt;a href="http://kecebongsoft.files.wordpress.com/2007/09/smkn7-1.jpg" title="smkn7-1.jpg"&gt;
+ &lt;img alt="image" src="/img/wordpress/2007-09-smkn7-1.jpg" /&gt;
+&lt;/a&gt;
+Situs sekolah (apalagi sekolah negri), harusnya mencerminkan sebuah formalitas. Tapi kalau dakuw melihat header yang satu ini, jadi ingat festival musik rock :-D. Font dan style yang bener-bener nggak sesuai dengan tema sekolah (menurut dakuw), juga tidak adanya logo sekolah, yang ada malah logo Pemkot!. Di header tersebut juga ada link yang nggak jelas, sepertinya untuk merubah ukuran font, but it's not working on
+&lt;a href="http://en.wikipedia.org/wiki/Firefox"&gt;
+ firefox
+&lt;/a&gt;
+. Tapi apa pentingnya link untuk merubah font?, even I never see any links to resize font on any websites before. Dan beberapa bagian di header yang bisa dinilai sendiri.&lt;/p&gt;
+&lt;p&gt;Bagaimana dengan left blocks? :
+&lt;a href="http://kecebongsoft.files.wordpress.com/2007/09/smkn7-2.jpg" title="smkn7-2.jpg"&gt;
+ &lt;img alt="image" src="/img/wordpress/2007-09-smkn7-2.jpg" /&gt;
+&lt;/a&gt;
+Mungkin dakuw akan lebih mengerti jika teks "Beranda" diganti dengan "Menu Utama", atau "Menu", atau yang sejenisnya :-D
+&lt;a href="http://kecebongsoft.files.wordpress.com/2007/09/smkn7-3.jpg" title="smkn7-3.jpg"&gt;
+ &lt;img alt="image" src="/img/wordpress/2007-09-smkn7-3.jpg" /&gt;
+&lt;/a&gt;
+Semoga saja kedepannya website ini nggak dikerjakan secara buru-buru, supaya semua teks bisa dicek ulang sebelum di publish.
+&lt;a href="http://kecebongsoft.files.wordpress.com/2007/09/smkn7-4.jpg" title="smkn7-4.jpg"&gt;
+ &lt;img alt="image" src="/img/wordpress/2007-09-smkn7-4.jpg" /&gt;
+&lt;/a&gt;
+Begitulah, nggak boleh buru-buru pengen jadi, semuanya teks harus dicek ulang :D.
+&lt;a href="http://kecebongsoft.files.wordpress.com/2007/09/smkn7-5.jpg" title="smkn7-5.jpg"&gt;
+ &lt;img alt="image" src="/img/wordpress/2007-09-smkn7-5.jpg" /&gt;
+&lt;/a&gt;
+Untung dakuw masih bisa mengerti apa maksud "Kemarin" dan "Hari Ini".. Mungkin kedepannya teks tersebut bisa diganti?
+&lt;a href="http://kecebongsoft.files.wordpress.com/2007/09/smkn7-6.jpg" title="smkn7-6.jpg"&gt;
+ &lt;img alt="image" src="/img/wordpress/2007-09-smkn7-6.thumbnail.jpg" /&gt;
+&lt;/a&gt;
+Banner yang selalu
+&lt;s&gt;
+ nongol
+&lt;/s&gt;
+muncul meskipun halaman sudah beberapa kali dibuka. Entah memang ditujukan agar pengunjung benar-benar mau membaca banner itu, atau sebenarnya sang admin ingin banner tersebut muncul sekali saja tapi nggak tau caranya. Dan beberapa hal yang mungkin bisa dinilai sendiri saat mengunjungi website tersebut.&lt;/p&gt;
+&lt;p&gt;Sayang banget kalau sekolah negri (apalagi sekolah TI) nggak punya perencanaan yang matang dalam pengembangan website. Meskipun kita bisa lihat pesan sang admin yang mengatakan bahwa website tersebut sedang terus dikembangan menjadi lebih baik, tapi kesalahan-kesalahan seperti yang ditampilkan diatas adalah kesalahan yang sangat umum, better you check it 2 times before publishing.&lt;/p&gt;
+&lt;p&gt;Semoga tulisan ini nggak dinilai sebagai hinaan. Dakuw dulu pernah mendapati salah satu entry pengunjung yang isinya nasehat tentang website, entry tersebut ada di bagian buku tamu, tapi entah kenapa sekitar 2 hari kemudian entry tersebut sudah menghilang. Dihapuskah oleh sang admin?. Karena itulah dakuw lebih suka membahasnya melalui blog, more safe :-D.&lt;/p&gt;
+&lt;p&gt;Oke deh, semoga website SMKN7 dan website-website sekolah di Kaltim menjadi lebih baik kedepannya. Amin.&lt;/p&gt;</summary></entry><entry><title>LittlePlanet</title><link href="http://kecebongsoft.com/2007/08/littleplanet.html" rel="alternate"></link><updated>2007-08-31T14:08:25+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-31:2007/08/littleplanet.html</id><summary type="html">&lt;p class="MsoNormal"&gt;
+ Selasa 28 Oktober 2007, 2 hari menjelang keberangkatan ke Inti  University (Jum&amp;#8217;at). Dakuw hari ini punya beberapa agenda. Nemenin mami belanja setelah itu nemenin teman kondangan. Oh iya, hari ini juga dakuw pengen nonton gerhana bulan, tapi sayangnya sedari pagi hujan dan awan hitam terus-terusan menutupi langit. Hingga pukul 5 sore, awan terus-terusan gelap, ditambah lagi hujan yang sebentar berenti sebentar nongol. Oh iya hampir lupa, hari ini juga dakuw ikutan puasa misfu sya&amp;#8217;ban.
+&lt;/p&gt;
+
+&lt;p class="MsoNormal"&gt;
+ Jadi pas pukul 18.30, dakuw buka puasa di rumah teman. Menunya enak tenan rek, sayur kangkung + mie goreng + ikan asin. Makannya rebutan sama kucing. Setelah buka puasa dakuw kembali melongok keluar, awannya masih hitam. Sepertinya harapan melihat gerhana bulan benar-benar cuma harapan :(. Trus pukul 19.15 nemenin teman kondangan hingga pukul 20.00. Sepulangnya dari tempat kondangan, dakuw istirahat sebentar dirumah calon mertua. Nggak beberapa menit kemudian dakuw pamit pulang, sekalian pamit untuk kurun waktu setahun. Pamit yang sebelumnya juga dakuw sampaikan ke maminya babe. Rasanya semakin banyak pamit, hati ini semakin nggak mau ninggalin my beloved east Borneo. But live must go on, no sacrifice no victory (Transformers&amp;#8482;) :-D.
+&lt;/p&gt;
+
+&lt;p class="MsoNormal"&gt;
+ Dan akhirnya pulang kerumah. Selama perjalanan pulang, barulah sang little planet muncul. Cahayanya sangat terang, yang paling terang dari yang selama ini pernah kulihat. Langit-langitpun sangat terang, tidak seperti malam biasanya. Kali ini terlihat seperti menjelang pagi, menjelang hari yang cerah :D. Akhirnya dakuw bisa menyaksikan gerhana bulan ^_^.
+Keep illuminate, little planet.
+&lt;/p&gt;</summary></entry><entry><title>Roy Suryo VS all of us</title><link href="http://kecebongsoft.com/2007/08/roy-suryo-vs-all-of-us.html" rel="alternate"></link><updated>2007-08-28T02:56:29+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-28:2007/08/roy-suryo-vs-all-of-us.html</id><summary type="html">&lt;p&gt;Silahkan baca berita yang isinya tentang
+&lt;a href="http://www.okezone.com/index.php?option=com_content&amp;amp;task=view&amp;amp;id=38957&amp;amp;Itemid=67"&gt;
+ penemuan selanjutnya
+&lt;/a&gt;
+setelah Indonesia Raya 3 Stanza di situs OkeZone.com, Roy Suryo sepertinya telah membuat temuan baru yang disebut sebagai "SuperBagong". Entahlah, apakah tidak ada kapoknya (bahkan setelah
+&lt;a href="http://priyadi.net/archives/2007/08/27/jawaban-dari-leiden-university-library/"&gt;
+ ketangkap basah
+&lt;/a&gt;
+) atau kali ini memang benar-benar temuan baru. Temuan yang kali ini dilansir ada kaitannya dengan Supersemar (Surat Perintah Sebelas Maret), oleh Roy Suryo diperkirakan akan mengundang kontroversi yang lebih heboh daripada kasus Indonesia Raya 3 Stanza kemarin.
+&lt;!--more--&gt;
+&lt;blockquote&gt;
+ &lt;em&gt;
+  "Temuan baru saya ini, nantinya responsnya akan lebih dari Indonesia 3-stanza. Nanti, pasti ada banyak pihak yang mengaku memiliki dokumen yang telah saya ungkapkan," lanjut Roy.
+ &lt;/em&gt;
+&lt;/blockquote&gt;
+Dakuw sendiri nggak bisa ngebayangin seperti apa bentuk "Superbagong" dan darimana asalnya. Yang jelas kita patut menunggu kabar tersebut muncul.
+&lt;blockquote&gt;
+ &lt;em&gt;
+  "Kita tunggu saja bilamana ada orang-orang lain yang memang tahu dan berani bicara terlebih dahulu soal 'Superbagong' itu," ungkap Roy penuh rahasia.
+ &lt;/em&gt;
+&lt;/blockquote&gt;
+Sekali lagi, ini bukan perlombaan siapa yang "nemu" duluan. Dakuw harap si Om&amp;#8482; nggak main klaim dan asal sebut nama instansi, yang penting
+&lt;a href="http://priyadi.net/archives/2007/08/06/kiat-sukses-menjadi-penemu-versi-asli-lagu-indonesia-raya/"&gt;
+ terlihat meyakinkan
+&lt;/a&gt;
+. Diantara kita juga jangan semuanya cuma bisa
+&lt;a href="http://eepinside.com/?p=478"&gt;
+ berteriak dari jauh
+&lt;/a&gt;
+"Oyy.. BasBang!". Salah satu juga mesti mengklarifikasi, kalau ngerasa nggak cukup kuat (atau kebetulan cuma
+&lt;a href="http://www.detiknews.com/index.php/detik.read/tahun/2007/bulan/08/tgl/06/time/180320/idnews/813923/idkanal/10"&gt;
+ tukang kebun
+&lt;/a&gt;
+), maka ajak atasannya untuk mengklarifikasi.&lt;/p&gt;
+&lt;p&gt;Hmm.. harusnya quote pertama bukan "Nanti, pasti ada banyak pihak...", tapi diganti menjadi "Nanti, 68% akan ada banyak pihak..." hehehe.. Hi Oy&amp;#8482;!.&lt;/p&gt;</summary></entry><entry><title>Ada apa dengan AntiDianSastro.org</title><link href="http://kecebongsoft.com/2007/08/ada-apa-dengan-antidiansastroorg.html" rel="alternate"></link><updated>2007-08-22T13:36:39+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-22:2007/08/ada-apa-dengan-antidiansastroorg.html</id><summary type="html">&lt;p&gt;Bermula dari sebuah postingan milik om
+&lt;a href="http://the.sandalian.com/61/to-think-of/nmad.htm"&gt;
+ Sandal
+&lt;/a&gt;
+yang sedang kesepian, dakuw mendapatkan link ke situs
+&lt;a href="http://antidiansastro.org"&gt;
+ antidiansastro.org
+&lt;/a&gt;
+, sebuah situs yang
+&lt;strike&gt;
+ barangkali
+&lt;/strike&gt;
+mungkin ditujukan untuk mereka yang anti dengan Dian Sastro, entah
+&lt;a href="http://id.wikipedia.org/wiki/Dian_sastro"&gt;
+ Dian Sastro
+&lt;/a&gt;
+yang selebritis itu atau Dian Sastro yang lain. Terlepas dari itu semua, pertama kali dakuw melihat situs tersebut kalau tidak salah masih bertuliskan
+&lt;em&gt;
+ &lt;strong&gt;
+  This site is currently under construction
+ &lt;/strong&gt;
+&lt;/em&gt;
+.&lt;/p&gt;
+&lt;p&gt;Tapi sekarang jika kita mengunjungi situs tersebut, yang tampil bukanlah tulisan diatas, melainkan beberapa buah folder ditambah satu link
+&lt;a href="http://en.wikipedia.org/wiki/Keygen"&gt;
+ keygen
+&lt;/a&gt;
+untuk software
+&lt;a href="http://en.wikipedia.org/wiki/Dreamweaver"&gt;
+ Dreamweaver
+&lt;/a&gt;
+.
+&lt;img alt="image" src="/img/wordpress/2007-08-antidiansastro.jpg" /&gt;
+Ada apa dengan AntiDianSastro.org? bosankah?. Sudah coba lari kehutan lalu kepantai?. hehehe..&lt;/p&gt;</summary></entry><entry><title>Solusi Kasus Pornografi Siswi SMU Indramayu</title><link href="http://kecebongsoft.com/2007/08/solusi-kasus-pornografi-siswi-smu-indramayu.html" rel="alternate"></link><updated>2007-08-21T12:14:39+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-21:2007/08/solusi-kasus-pornografi-siswi-smu-indramayu.html</id><summary type="html">&lt;p&gt;Belakangan ini kasus pornografi yang melibatkan
+&lt;a href="http://www.detiknews.com/indexfr.php?url=http://www.detiknews.com/index.php/detik.read/tahun/2007/bulan/08/tgl/21/time/134315/idnews/819711/idkanal/10"&gt;
+ siswi SMU di Indramayu
+&lt;/a&gt;
+lagi hangat-hangatnya. Bukannya mencari solusi, Bupati Indramayu malah ingin melakukan tes keperawanan pada seluruh siswi SMU di Indramayu, setupid!. Dakuw tentu aja 100% nggak setuju dengan rencana tersebut, itu namanya pelecehan, privasi seseorang yang udah menjadi haknya untuk dirahasiakan ataupun disebarkan.&lt;/p&gt;
+&lt;p&gt;Dakuw lebih suka solusi
+&lt;a href="http://www.diskusiweb.com/viewthread.php?tid=27815"&gt;
+ om starboard
+&lt;/a&gt;
+, cewek-cewek harus diberi pengaman biar laki-laki hidung belang nggak bisa beraksi :
+&lt;img alt="image" src="http://titip.starboard.web.id/files/safes.jpg" /&gt;
+Kalau perlu passwordnya mesti pake md5, atau enkripsi 256 bit punya MySQL 4, mesti pake timestamp yang otomatis bakal ngelock lagi setelah 5 menit. Pokoke mesti must kudu harus secure abis!.&lt;/p&gt;
+&lt;p&gt;Tambahan, username nggak boleh lebih dari satu, registrasi harus lewat orang tua si cewek.&lt;/p&gt;</summary></entry><entry><title>Seandainya kita merdeka pada 2 Januari 1900</title><link href="http://kecebongsoft.com/2007/08/seandainya-kita-merdeka-pada-2-januari-1900.html" rel="alternate"></link><updated>2007-08-20T03:00:19+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-20:2007/08/seandainya-kita-merdeka-pada-2-januari-1900.html</id><summary type="html">&lt;p&gt;Lambang negara kita pasti Capung Botak!. Lho kenapa? Kita merdeka 17-8-1945, artinya 17 Sayap, 8 Ekor, 45 Leher.&lt;/p&gt;
+&lt;p&gt;Kalau kita merdeka 2 Januari 1900, artinya? bayangin aja sendiri :D&lt;/p&gt;</summary></entry><entry><title>KalTimProv.go.id is now P*ngecut</title><link href="http://kecebongsoft.com/2007/08/kaltimprovgoid-is-now-pngecut.html" rel="alternate"></link><updated>2007-08-08T06:09:45+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-08:2007/08/kaltimprovgoid-is-now-pngecut.html</id><summary type="html">&lt;p&gt;Iseng-iseng di siang bolong buka milis
+&lt;a href="http://groups.yahoo.com/group/it-kaltim"&gt;
+ IT-Kaltim
+&lt;/a&gt;
+. Disitu terdapat satu
+&lt;a href="http://tech.groups.yahoo.com/group/it-kaltim/message/6625"&gt;
+ thread baru
+&lt;/a&gt;
+yang berisikan seperti ini :
+&lt;blockquote&gt;
+ &lt;p class="subject root grey"&gt;
+  &lt;em&gt;
+   kaltimprov.go.id
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;em&gt;
+  beberapa hr ini sy coba buka situs kaltimprov.go.id, kok gak bs yah....?
+padahal ini proyek milyaran, tp aksesnya lambat bgt....
+apa krn yg ngerjain bukan org kaltim yah???
+ &lt;/em&gt;
+ &lt;em&gt;
+  Rgds,
+Budi
+ &lt;/em&gt;
+&lt;/blockquote&gt;
+Kebetulan,
+&lt;a href="http://www.smka-smr.sch.id/"&gt;
+ SMKTI Airlangga
+&lt;/a&gt;
+dulu sempat mengelola server
+&lt;a href="http://www.kaltimprov.go.id/"&gt;
+ KaltimProv.go.id
+&lt;/a&gt;
+selama beberapa hari (atau minggu?), tapi sayangnya project tersebut telah diambil alih oleh salah satu tim IT dari ITB (CMIIW).&lt;/p&gt;
+&lt;p&gt;Website yang dulunya menggunakan salah satu CMS (lupa namanya) sudah memiliki konten yang sangat lengkap dan up-to-date. Kemudian setelah terjadi kerusakan dari sisi webserver (dimana masa kontrak dengan tim web developer yang telah habis-CMIIW), sehingga ditunjuk beberapa tim untuk memperbaiki webserver dan webmail (termasuk
+&lt;a href="http://www.smka-smr.sch.id/"&gt;
+ SMKTI Airlangga
+&lt;/a&gt;
+). Bahkan berita tentang tidak dapat diaksesnya website tersebut sempat mencuat di milis
+&lt;a href="http://tech.groups.yahoo.com/group/it-kaltim/message/5486"&gt;
+ IT-Kaltim
+&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Yup, setelah server berhasil running kembali (masih menampilkan website yang lama), nothing's wrong with it dan tim IT melanjutkan pekerjaan mereka ke bagian webmail. Namun sayangnya, website yang sebenarnya sudah running dan tidak ada masalah teknis tersebut akhirnya dirubah ke versi terbaru (Joomla, CMIIW) oleh tim IT yang baru. Dan dakuw melihat satu kalimat kep*ngecutan dari siapapun yang telah menginstall CMS tersebut :
+&lt;img alt="image" src="/img/wordpress/2007-08-kaltimprov.jpg" /&gt;
+Bagi dakuw pribadi, meskipun bukan seorang
+&lt;a href="http://en.wikipedia.org/wiki/Web_developer"&gt;
+ web developer
+&lt;/a&gt;
+yang berpengalaman, kalimat tersebut (Best View on &lt;strong&gt;*&lt;/strong&gt;) benar-benar memalukan, apalagi untuk sekelas tim IT elit yang mengerjakan website bernilai milyaran rupiah, tidak bisakah kalian membuat template yang cross browser?. Setahu dakuw
+&lt;a href="http://www.joomla.com/"&gt;
+ CMS Joomla
+&lt;/a&gt;
+tidak pernah menyertakan kalimat tersebut secara default, template gratisan pun hampir tidak ada (CMIIW) yang menyertakan kalimat tersebut (yang berarti kalimat tersebut ditulis sendiri). Bahkan di website
+&lt;a href="http://www.smka-smr.sch.id/sipsa/"&gt;
+ SIPSA
+&lt;/a&gt;
+yang
+&lt;a href="http://www.smka-smr.sch.id/"&gt;
+ SMKTI Airlangga
+&lt;/a&gt;
+bangun tanpa mengeluarkan satu sen pun, tidak terdapat segelintir kalimat yang menyarankan user memakai browser tertentu.&lt;/p&gt;
+&lt;p&gt;Maaf kalau topik ini terkesan nge-flame. Tapi dakuw hanya ingin berpesan sesuatu, browser kan sekarang banyak om, ada ga cuma firefox dan IE aja, ada opera, netscape, flock, torpark, mac safari, macem2 deh. Project website mahal-mahal kok keok sama browser..
+Sebenarnya yang seperti ini udah umum, tapi berhubung ini website
+&lt;a href="http://www.kaltimprov.go.id/"&gt;
+ pemprov Kaltim
+&lt;/a&gt;
+dan dakuw orang Kaltim, jadi ada baiknya dakuw nulis ini, itung-itung masukan. Dan jangan dipikir bahwa dengan tulisan ini dakuw pengen mencalonkan diri jadi backbone IT disana, ga lah, dakuw have an another plan...&lt;/p&gt;
+&lt;p&gt;Untunglah yang punya web gak nambahin,
+&lt;em&gt;
+ "on 1024x768 with Windows XP SP2"
+&lt;/em&gt;
+Huehehehe.. j/k deh :D&lt;/p&gt;</summary></entry><entry><title>Roy Suryo &amp; Lagu Indonesia Raya asli</title><link href="http://kecebongsoft.com/2007/08/roy-suryo-lagu-indonesia-raya-asli.html" rel="alternate"></link><updated>2007-08-06T12:32:03+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-08-06:2007/08/roy-suryo-lagu-indonesia-raya-asli.html</id><summary type="html">&lt;p&gt;Sebenarnya dakuw cuek ketika melihat si &amp;#8220;Om&amp;#8221; bersama Tim Air Putih menemukan dokumen rekaman Lagu Indonesia Raya &amp;#8220;asli&amp;#8221; ini, tapi setelah browsing di beberapa forum dan blog, ternyata data-data tersebut bukanlah hal baru (terlepas dari keaslian lagu tersebut).
+&lt;p class="MsoNormal"&gt;
+ Statement pertama yang pengen dakuw bahas adalah, Roy Suryo menemukan Lagu Indonesia Raya &amp;#8220;asli&amp;#8221; tersebut di server belanda beberapa waktu yang lalu. Hahaha.. tanda tanya besar untuk Pakar Telematika Indonesia ini, kenapa tidak coba cari dulu di
+ &lt;a href="http://www.youtube.com/watch?v=6QvyLkdl1_s"&gt;
+  YouTube
+ &lt;/a&gt;
+ ?, video tersebut bahkan sudah beredar sejak desember 2006 di YouTube.
+&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;
+ Kemudian untuk teks Lagu Indonesia Raya &amp;#8220;asli&amp;#8221;, rasanya teks tersebut tidak bisa dibilang &amp;#8220;baru ditemukan sekarang&amp;#8221;, bagi om-om yang sekarang udah kerja, waktu SD dulu mungkin pernah diajarkan tentang Lagu Indonesia Raya &amp;#8220;asli&amp;#8221; ini melalui buku cetak,
+ &lt;a href="http://diskusiweb.com/viewthread.php?tid=27477"&gt;
+  ini adalah salah satu contoh buku cetak yang memuat lagu tersebut
+ &lt;/a&gt;
+ :
+&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;
+ - Indonesia Persadaku, penyusun W.S. Simajuntak,
+ &lt;strong&gt;
+  th terbit cetakan pertama 1984
+  &lt;!--[if gte vml 1]&amp;gt;                                                  &amp;lt;![endif]--&gt;
+  &lt;!--[if !vml]--&gt;
+  &lt;img alt="image" src="///C:%5CDOCUME%7E1%5CMYCOMP%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtml1%5C01%5Cclip_image001.gif" /&gt;
+  &lt;!--[endif]--&gt;
+  , kode buku TT. 0016.02.1984 (Februari 1984?)
+ &lt;/strong&gt;
+ terbitan Titik Terang hal 9 utk yg teks yg diketahui scr umum, hal 10 utk 2 stanza yg laen (cover warna hijau tua, kayanya ini yg umum dipake)
+- Cintaku Negeriku, Kumpulan Lagu Wajib dan Perjuangan, penyusun DS. Soewito M,
+ &lt;strong&gt;
+  th terbit gak jelas, cuma ada kode buku : T.T. 0102.04.94 (April '94 kah?)
+ &lt;/strong&gt;
+ terbitan Titik Terang hal 9-12 utk yg teks yg diketahui scr umum, hal 12 utk 2 stanza yg laen (dua edisi, satu edisi cover warna kuning telur, edisi yg lain cover warna biru)
+- Lagu Nasional dan Lagu Daerah, penyusun Joko Susilo, th terbit gak ada, penerbit gak ada hal 3 utk yg teks yg diketahui scr umum, hal 3 utk 2 stanza yg laen
+ &lt;p class="MsoNormal"&gt;
+  Semua buku tersebut memuat teks Lagu Indonesia Raya &amp;#8220;asli&amp;#8221;, lantas apanya yang baru ditemukan oleh Pakar Telematika ini? Video udah beredar hampir setahun yang lalu, dan teks udah ada di buku cetak jaman SD dulu.
+ &lt;/p&gt;
+ &lt;p class="MsoNormal"&gt;
+  Tidak bermaksud untuk memojokan pihak manapun, tapi seharusnya hal-hal seperti ini didiskusikan secara publik dahulu sebelum gembar-gembor kemana-mana (apalagi mengingat yang gembar-gembor adalah Pakar Telematika yang kita cintai ini :D ). Ya udah deh, referensi diatas dimaksudkan agar kita tidak terjebak pada berita-berita yang susah dimengerti.&lt;/p&gt;
+&lt;p&gt;Kesimpulan yang dakuw ambil, terlepas lagu itu asli atau enggak, penemuan tersebut nggak bisa disebut hal baru. Beberapa blogger Indonesia pada tahun 2005 juga pernah memposting lagu tersebut, bahkan di wikipedia Indonesia lagu tersebut (dalam bentuk video) sudah diposting 19 Desember 2006. Jadi mohon kepada para pihak-pihak terkait, agar dapat membawa narasumber yang memang tahu benar soal ini, jangan sampai menyesatkan publik. Malu dong kalau bikin statement bahwa lagu itu baru ditemukan sekarang, padahal udah nyebar bertahun-tahun yang lalu di internet dan buku cetak anak SD :D
+  &lt;p class="MsoNormal"&gt;
+   Dan yang terakhir, klo mo cari sesuatu, jangan jauh-jauh ke belanda, googling dulu aja Om :D
+  &lt;/p&gt;
+ &lt;/p&gt;
+&lt;/p&gt;&lt;/p&gt;</summary></entry><entry><title>Kelas Laptop telah berjalan!</title><link href="http://kecebongsoft.com/2007/07/kelas-laptop-telah-berjalan.html" rel="alternate"></link><updated>2007-07-31T05:36:05+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-07-31:2007/07/kelas-laptop-telah-berjalan.html</id><summary type="html">&lt;p&gt;Yup, Hari ini (selasa 31 Juli 2007). Aku sempetin jalan-jalan ke kelas ujung, ternyata kelas laptopnya udah ada!. Whew, that was my first time that I see many students hanging out with that stuff!. Kabel charger berhamburan, flashdisk bertebaran, macem-macem deh. Pokoke penuh dengan kabel dan papan lipat. Salut buat
+&lt;a href="http://www.smka-smr.sch.id"&gt;
+ SMKTI Airlangga
+&lt;/a&gt;
+, karena telah benar-benar membuat kelas ini terwujud (mengingat tahun lalu juga pernah dicanangkan tapi belum terlaksana). Dan jangan lupa untuk siswa-siswi untuk sering-sering ke SCCN dan bawa papan lipatnya. Dan tentu saja harus mengukir prestasi-prestasi yang lebih hebat lagi karena nggak perlu pinjam lab komputer lagi :D&lt;/p&gt;
+&lt;p&gt;Betewe, hari ini situs SMKTI bandwith limitnya exceed. Mungkinkah karena mereka sangat antusias mengakses dengan papan lipatnya?&lt;/p&gt;</summary></entry><entry><title>Kelas Laptop di SMKTI Airlangga</title><link href="http://kecebongsoft.com/2007/07/kelas-laptop-di-smkti-airlangga.html" rel="alternate"></link><updated>2007-07-21T02:11:37+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-07-21:2007/07/kelas-laptop-di-smkti-airlangga.html</id><summary type="html">&lt;blockquote&gt;
+ &lt;em&gt;
+  Tahun ini akan dimulai program baru SMK TI Airlangga Samarinda yang diberi nama" Kelas Laptop" dimana 1 kelas berisi 20 siswa yang masing-masing akan memiliki laptop yang menjadi alat belajar utama bagi siswa. Konsep kelas ini bisa jadi adalah yang pertma kali diterapkan di Indonesia. Dalam proses belajar, siswa dan guru akan mulai menggunakan materi belajar digital, sumber belajar juga akan diperoleh dari sumber digital seperti Internet yang bisa langsung diakses dari kelas melalui fasilitas hotspot sekolah yang sudah ada sejak 2 tahun lalu.
+ &lt;/em&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Berita tersebut dakuw
+&lt;s&gt;
+ ciduk
+&lt;/s&gt;
+ambil dari website
+&lt;a href="http://smka-smr.sch.id/modules.php?op=modload&amp;amp;name=News&amp;amp;file=article&amp;amp;sid=649&amp;amp;mode=thread&amp;amp;order=0&amp;amp;thold=0"&gt;
+ SMKTI Airlangga
+&lt;/a&gt;
+. Ya, pernahkah ada SMK jurusan TI di Kalimantan Timur yang pernah menghasilkan kelas seperti ini sebelumnya?. Maaf jika pengetahuan dakuw terbatas, tapi rasanya belum ada. Mungkin beberapa tahun silam ada juga yang pernah mencanangkan program seperti ini (termasuk SMKTI Airlangga). Tapi sayangnya belum bisa terwujud dikarenakan berbagai macam kendala pada masa itu.&lt;/p&gt;
+&lt;p&gt;Selama 3 tahun menjejaki bangku SMK di sana, dakuw termasuk golongan orang yang kerap disebut fakir bandwith, mencari koneksi internet di sana-sini termasuk di lab sekolah (yang berlaku gratis untuk siswa). Sering kali dakuw mampir ke sekolah meskipun hari libur, hanya untuk mendapatkan koneksi internet. Banyak sekali yang ingin dakuw cari di internet, tapi dengan keterbatasan tempat dan waktu, semua kesenangan (
+&lt;em&gt;
+ internet
+&lt;/em&gt;
+) itu hanya seperti mimpi.&lt;/p&gt;
+&lt;p&gt;Kini, kelas laptop telah didepan mata, siswa-siswi baru yang memegang papan-lipat dilengkapi wifi itu tentu tidak perlu merasa risau dengan koneksi, cukup nyalakan dan browsing sesuka hati. Dulu, dakuw sering ngutak-ngatik script dirumah, waktu ketemu masalah ya lari ke warnet atau ke sekolah. Sekarang, mereka tidak perlu seperti itu, ketemu trouble ya langsung aja buka browser dan googling.&lt;/p&gt;
+&lt;p&gt;Selamat deh buat siswa-siswi baru SMKTI Airlangga, sekarang dan selanjutnya akan selalu ada inovasi dan prestasi-prestasi yang gemilang untuk SMKTI Airlangga, dan kalian para siswa-siswi, adalah pemain-pemain utamanya. Buatlah standar yang tinggi untuk sekolah kita, dan jangan pernah lepas dari komunitas internet.&lt;/p&gt;
+&lt;p&gt;Kembali ke laptop!.&lt;/p&gt;</summary></entry><entry><title>Mengapa Cowok Merokok?</title><link href="http://kecebongsoft.com/2007/07/mengapa-cowok-merokok.html" rel="alternate"></link><updated>2007-07-12T05:20:27+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-07-12:2007/07/mengapa-cowok-merokok.html</id><summary type="html">&lt;p class="main"&gt;
+ 1. Perokok pasif lebih berbahaya daripada perokok aktif, maka untuk mengurangi resiko tersebut aktiflah merokok.
+
+2. Menghindarkan dari perbuatan jahat karena tidak pernah ditemui orang yang membunuh, mencuri dan berkelahi sambil merokok.
+
+3. Mengurangi resiko kematian: Dalam berita tidak pernah ditemui orang yang meninggal dalam posisi merokok.
+
+4. Berbuat amal kebaikan: Kalau ada orang yang mau pinjam korek api paling tidak sudah siap/tidak mengecewakan orang yang ingin meminjam.
+
+5. Baik untuk basa-basi/keakraban: Kalau ketemu orang misalnya di Halte CJDW kita bisa tawarkan rokok.Kalau basa-basinya tawarkan uang kan nggak lucu.
+
+6. Memberikan lapangan kerja bagi buruh rokok, dokter, pedagang asongan dan perusahaan obat batuk.
+
+7. Bisa untuk alasan untuk tambah gaji karena ada post untuk rokok dan resiko baju berlubang kena api rokok.
+
+8. Bisa menambah suasana pedesaan/nature bagi ruangan ber AC dengan asapnya sehingga seolah berkabut.
+
+9. Menghilangkan bau wangian ruang bagi yang alergi bau parfum.
+
+10. Kalau mobil mogok karena busi ngadat tidak ada api, maka sudah siap api.
+
+11. Membantu program KB dan mengurangi penyelewengan karena konon katanya merokok bisa menyebabkan impoten.
+
+12. Melatih kesabaran dan menambah semangat pantang menyerah karena bagi pemula merokok itu tidak mudah, batuk dan tersedak tapi tetap diteruskan (bagi yang lulus).
+
+13. Untuk indikator kesehatan: Biasanya orang yang sakit pasti dilarang dulu merokok, jadi yang merokok itu pasti orang sehat.
+
+14. Menambah kenikmatan: Sore hari minum kopi dan makan pisang goreng sungguh nikmat. Apalagi ditambah merokok!
+
+15. Tanda kalau hari sudah pagi, kita pasti mendengar ayam merokok.
+
+16. Anti maling, waktu perokok batuk berat di malam hari.
+
+17. Membantu shooting film keji, rokok digunakan penjahat buat nyundut jagoan yang terikat di kursi&amp;#8230; Ha penderitaan itu pedih, jendral&amp;#8230;!!!
+
+18. Film Koboi pasti lebih gaya kalau merokok sambil naik kuda, soalnya kalau sambil ngupil susah betul.
+
+19. Teman boker yang setia.
+
+20. Bahan inspirasi dan pendukung membuat Tugas Akhir, sehingga seharusnya dicantumkan ucapan terima kasih untuk rokok pada kata sambutan.
+
+21. Film lebih cool soalnya kalo meledakan mobil atau pom bensin butuh rokok yang disentil ke bensin yang tercecer, KABOOM&amp;#8230;&amp;#8230;&amp;#8230;!!!
+
+source : e-samarinda
+&lt;/p&gt;</summary></entry><entry><title>Indonesia Tidak Akan Diserang AS</title><link href="http://kecebongsoft.com/2007/07/indonesia-tidak-akan-diserang-as.html" rel="alternate"></link><updated>2007-07-12T05:19:56+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-07-12:2007/07/indonesia-tidak-akan-diserang-as.html</id><summary type="html">&lt;p class="main"&gt;
+ Apakah AS akan Menyerang Indonesia ?
+Pentagon membayangkan jika AS terpaksa harus menyerang Indonesia berapa kerugian yang harus di pikul pihak AS dan berapa keuntungan pihak indonesia dari kehadiran tentara AS di sana.
+Begitu memasuki perairan dataran indonesia, mereka akan di hadang pihak bea cukai karena membawa masuk senjata api dan senjata tajam serta
+peralatan perang tanpa surat izin dari pemerintah RI. Ini berarti mereka harus menyediakan &amp;#8220;Uang Damai&amp;#8221;, coba hitung berapa besarnya jika bawaannya sedemikian banyak.
+Kemudian mereka mendirikan Base camp militer , bisa di tebak di sekitar base camp pasti akan di kelilingi oleh penjual Bakso, Tukang Es
+kelapa, lapak VCD bajakan, sampai obral Cel-Dam Rp. 10000 3 Pcs. Belum lagi para pengusaha komedi puter bakal ikut mangkal di sekitar base camp juga.
+Kemudian kendaraan-kendaraan tempur serta tank -tank lapis baja yang diparkir dekat base camp akan di kenakan retribusi parkir oleh petugas dari dinas perpakiran daerah. Jika dua jam pertama perkendaraan dikenakan Rp. 10.000,- (maklum tarif orang bule),
+berapa yang harus di bayar AS kalau kendaraan &amp;amp; tank harus parkir selama sebulan.
+Sepanjang jalan ke lokasi base camp pasukan AS harus menghadapi para Mr. Cepek yang berlagak memperbaiki jalan sambil memungut biaya bagi kendaraan yang melewati jalan tersebut. Dan jika kendaran tempur dan tank harus membelok atau melewati pertigaan mereka harus menyiapkan recehan untuk para Mr. Cepe.
+Suatu kerepotan besar bagi rombongan pasukan jika harus berkonvoi, karena konvoi yang berjalan lambat pasti akan di hampiri para pengamen, pengemis dan anak-anak jalanan, ini berarti harus mengeluarkan recehan lagi.
+Belum lagi jika di jalan bertemu polisi yang sedang bokek, udah pasti kena semprit kerena konvoi tanpa izin. Bayangkan berapa uang damai yang harus dikeluarkan.
+Di base camp militer, tentara AS sudah pasti nggak bisa tidur, karena nyamuknya masya Allah, gede-gede kayak vampire. Malam hari di hutan yang sepi mereka akan di kunjungi para wanita yang tertawa dan menangis.
+Harusnya mereka senang karena bisa berkencan dengan wanita ini tapi kesenangan tersebut akan sirna begitu melihat para wanita ini punya bolong besar di punggungnya.
+Pagi harinya mereka tidak bisa mandi karena di sungai banyak dilalui &amp;#8220;Rudal Kuning&amp;#8221; yang di tembakkan penduduk setempat dari &amp;#8220;Flying helicopter&amp;#8221; alias wc terapung di atas sungai.
+Pasukan AS juga tidak bisa jauh jauh dari pelaratan perangnya, karena di sekitar base camp sudah mengintai pedagang besi loakan yang siap mempereteli peralatan perang canggih yang mereka bawa. Meleng sedikit saja tank canggih mereka bakal siap dikiloin. Belum lagi para curanmor yang siap beraksi dengan kunci T-nya siap merebut jip-jip perang mereka yang kalau di dempul dan cat ulang bisa di jual mahal ke anak-anak orang kaya yang pengen gaya-gayaan.
+Dan yang lebih menyedihkan lagi badan pasukan AS akan jamuran karena tidak bisa berganti pakaian. Kalau berani nekat menjemur pakaiannya dan meleng sedikit saja, besok pakaian mereka sudah mejeng di pasar jatinegara di lapak-lapak pakaian bekas.
+Peralatan telekomunikasi mereka juga harus di jaga ketat, karena para bandit kapak merah sudah mengincar peralatan canggih itu.
+Dan mereka juga harus membayar sewa tanah yang di gunakan untuk basecamp kepada haji Husin, haji mamat, dan engkong jai&amp;#8217; para pemilik tanah.
+Di samping itu mereka juga harus minta izin kepada RT/ RW dan kelurahan setempat, berapa meja yang harus di lalui dan berapa banyak dana yang harus di siapkan untuk meng-Amplopi pejabat-pejabat ini.
+Para komandan di pasukan AS ini juga akan kena tugas tambahan mengawasi para prajuritnya yang banyak menyelinap keluar base camp buat nonton dangdut di RW 06, katanya ada Inul di sana.
+Membayangkan ini semua akhinya Rumsfield memutuskan TIDAK AKAN MENYERANG INDONESIA !!!
+
+sumber : videogamesindonesia.com
+&lt;/p&gt;</summary></entry><entry><title>Anggota DPRD Gagap Teknologi, E-mail Disangka Barang</title><link href="http://kecebongsoft.com/2007/07/anggota-dprd-gagap-teknologi-e-mail-disangka-barang.html" rel="alternate"></link><updated>2007-07-12T05:19:04+08:00</updated><author><name>Dedy Purwanto</name></author><id>tag:kecebongsoft.com,2007-07-12:2007/07/anggota-dprd-gagap-teknologi-e-mail-disangka-barang.html</id><summary type="html">&lt;p class="main"&gt;
+ ANGGOTA DPRD Samarinda ternyata tergolong ketinggalan kemajuan dan gagap teknologi, khususnya dalam pemanfaatan surat elektronik (electronic mail atau e-mail) dalam berkomunikasi. Teknologi yang memanfaatkan komputer dan jaringan internet dan sudah dikenal bahkan oleh pelajar SMM inii bahkan tidak dikenal sebagian anggota Dewan. Sehingga ketika ditanya sudahkah punya e-mail, jawabannya justru mengundang tawa.
+
+&amp;#8220;Saya pernah punya, tapi sudah dijual,&amp;#8221; ujar Didik Sugiarto, anggota Komisi D dari Fraksi AKU dengan gaya meyakinkan seolah-olah e-mail adalah barang berwujud fisik yang bisa dipindahtangankan. Wakil Ketua Dewan, Hairul Anwar setali tiga uang. Awalnya jawabannya terasa wajar, namun belakangan sama sekali tidak &amp;#8216;nyambung.
+
+&amp;#8220;Secara pribadi saya belum memilikinya. Bukannya saya tidak mampu untuk memilikinya, namun saya masih cinta produk dalam negeri,&amp;#8221; katanya seolah-seolah e-mail adalah barang dari luar negeri. &amp;#8220;Buat apa kita membanggakan produk luar, lihat saja HP (handphone) saya masih model lama,&amp;#8221; tuturnya sok yakin.
+
+Tak hanya Didik dan Hairul, 9 anggota Dewan lainnya pun tak kenal atau tidak punya e-mail. Jika itu terjadi di generasi tua seperti H Nichlan yang usianya sudah 70-an, mungkin masih wajar. Namun yang muda-muda seperti Sukardi Surbakti dan Blasius Watu pun tak menyentuh sarana informasi yang efisien dan efektif ini. Begitu juga A Marcus Incau, Mardiah Mulyani, Sabri, Riyanto Rais, Arifin Idris dan Hamzah.
+
+Padahal mereka sebenarnya tak harus memiliki komputer dan langganan internet secara pribadi, sebab lembaga legislatif ini pasti bisa menyediakannya. Baik secara fraksi maupun komisi. Bila memiliki e-mail, interaksi dengan masyarakat secara umum dan konstituen partainya bisa lebih berkembang dan aktif.
+
+Berikut tanggapan anggota Dewan saat ditanya apakah punya e-mail, dan apakah mereka paham kegunaannya di era informasi sekarang.
+
+H Nichan: Apa itu email? Saya belum punya e-mail karena masih kurang paham teknologi macam itu. Kalau keinginan punya ada, cuma untuk mengoperasikan komputer saja saya mesti tanya sana sini. Di lingkungan Dewan ini sebenarnya sudah ada, tapi sampai sekarang tidak dioperasikan karena tidak ada yang menggunakan.
+
+Didik Sugiarto: Saya dulu pernah punya e-mail, namun saya jual.
+
+Blasius Watu: Sekarang ini belum punya, sebab saya tidak ingin punya nafsu besar untuk memilikinya namun tidak ada waktu untuk melihatnya
+
+Riyanto Rais: E-mail memang perlu dan ini akan menjadi masukan buat kami untuk secepatnya mengadakan internet di tempat kami. Dulu sempat pasang di sekretariat tapi nggak tahu kemudian tidak bisa di akses lagi.
+
+Sedangkan Sabri dan Sukardi Surbakti yang mengakui memang penting memiliki e-mail, dan keinginan membuatnya, namun di rumah keduanya tidak ada akses telepon. &amp;#8220;Di Palaran memang belum ada,&amp;#8221; kata Sukardi menyebut domisilinya. (*/gs)
+
+dikutip dari www.kaltimpost.web.id
+&lt;/p&gt;</summary></entry></feed>
