@@ -328,7 +328,7 @@ ul.list-all-articles li time {
 
 /* top menu */
 ul.top-menu li a {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* MailChimp */

@@ -54,18 +54,6 @@
                         <span class="icon-bar"></span>
                     </a>
                     <a class="brand" href="http://kecebongsoft.com/"><span class=site-name>Dedy Purwanto</span></a>
-<div style=" float: left; margin-top: 9px; color:#9e9e9e !important; text-transform: uppercase !important;">
-    <div style=" float: left; font-weight: bold; font-size: 10pt; margin-right: -4px; -webkit-transform: rotate(-90deg); ">
-        Sat 
-    </div>
-    <div style=" font-weight: bold; font-size: 27pt; float: left; margin-right: 4px; ">
-        10 
-    </div>
-    <div style=" font-weight: bold; line-height: 12px; float: left; margin-top: -2px; ">
-        Nov 
-        <br>
-        2012 </div> 
-</div>
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right top-menu">
                             <li ><a href="http://kecebongsoft.com">Home</a></li>
@@ -98,8 +86,9 @@
 <p>IOPS, or IO per second, is a term coined by AWS to allow some resource in EBS volume in order to serve I/O requests, the more you have it, the more you can serve a request in a second. In AWS, there are two flavors of EBS, standard or provisioned, from the latter you will be able to set how many IOPS you want to have in a month, which is called as IOPS-month. 1 IOPS-month is equal to the number of seconds in a month, which is approximately 27 million second, or 27 million IOPS. When looking at my monthly I/O requests, which was 220 million, I can safely provision my IOPS to 100 IOPS which is something around 270 million IOPS per month, a bit higher and also safer in case of sudden peak.</p>
 <p>When using a standard I/O request, you will be charged something around 11 cents per 1 million request, and when using provisioned IOPS, you will be charged 11 cents per 1 IOPS-month, this will approximately save $10 a month for I/O requests. Pricing will depends on region, and provisioned storage will cost more for space, but the end cost is cheaper.</p>
 <p>So far, the only way to use this provisioned IOPS is by creating a new instance / launching new EBS volume, I haven't figured any way to switch my EBS volume to use a provisioned IOPS. For more info, see the EBS detail page in AWS (http://aws.amazon.com/ebs/).</p>
-            <div style='text-align:center; margin: 80px 0px;'>
-                <img src="/pagebreak.png" style="border:none; width:223px;" />
+            <div style='text-align:center; margin: 80px 0px; font-style: italic; font-weight: bold; color: #373737; font-size: 9pt;'>
+                <div> Sat, 10 Nov 2012 </div>
+                <img src="/pagebreak.png" style="border:none; width:223px;margin-top:-17px;" />
             </div>
             <aside style='text-align:center;'>
             <nav>
