@@ -54,6 +54,18 @@
                         <span class="icon-bar"></span>
                     </a>
                     <a class="brand" href="http://kecebongsoft.com/"><span class=site-name>Dedy Purwanto</span></a>
+<div style=" float: left; margin-top: 9px; color:#9e9e9e !important; text-transform: uppercase !important;">
+    <div style=" float: left; font-weight: bold; font-size: 10pt; margin-right: -4px; -webkit-transform: rotate(-90deg); ">
+        Tue 
+    </div>
+    <div style=" font-weight: bold; font-size: 27pt; float: left; margin-right: 4px; ">
+        20 
+    </div>
+    <div style=" font-weight: bold; line-height: 12px; float: left; margin-top: -2px; ">
+        Nov 
+        <br>
+        2012 </div> 
+</div>
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right top-menu">
                             <li ><a href="http://kecebongsoft.com">Home</a></li>
@@ -88,8 +100,10 @@
 <p>While S3 is a simple storage service, hosting your files in a specific region, CloudFront is a CDN service to propagate your S3 contents to several edge locations around the globe. I set up a CloudFront distribution, set the default root object to <em>index.html</em> so when people hit <em>kecebongsoft.com</em> the file will be served, and updated my DNS, things worked fine, until I realize that it cannot serve a sub-site. I have some sub-sites containing my HTML5 slides, in a folder such as <em>slide-blahblah</em>, now if people hit <em>kecebongsoft.com/slide-blahblah</em>, they'll get an <em>Access Denied</em> message, that's because there is no such thing as default object in the subfolder, people will have to hit <em>kecebongsoft.com/slide-blahblah/index.html</em> in order to see the actual content, at this point, I was a bit upset, I looked around and can't find anyone who was able to work around this.</p>
 <p>I should set my target a bit lower now, let's just start to think no one cares about my blog, well maybe just a couple of people, so for now I'll just host it in my shared-cloud account, WebFaction. It's really straight forward compared to the other two, I just need to create a site in the Control Panel and rsync my build path into the remote server, that is all, but I sacrificed the scalability, for now it only live in Singapore region, which at this time, should be just okay.</p>
 <p>I'm really hoping that I could go back using Github User Pages. If the guy contact me back and solves the problem, it will be a home-call, I liked the User Pages mechanism in a way that you only have to push to the master branch to trigger the build, now if only it works well all the time..</p>
-            <aside>
-            <hr/>
+            <div style='text-align:center; margin: 80px 0px;'>
+                <img src="/pagebreak.png" style="border:none; width:223px;" />
+            </div>
+            <aside style='text-align:center;'>
             <nav>
             <ul class="articles_timeline">
  
@@ -97,11 +111,11 @@
  
                 <li class="next_article"><a href="http://kecebongsoft.com/2012/11/passwords.html" title="Next: Passwords">Passwords</a> »</li>
             </ul>
-<div class="fb-comments" data-href="http://kecebongsoft.com/2012/11/places.html" data-numposts="5" data-colorscheme="light"></div>            </nav>
+<div class="fb-comments" style='margin-top:30px;' data-href="http://kecebongsoft.com/2012/11/places.html" data-numposts="5" data-colorscheme="light"></div>            </nav>
             </aside>
         </div>
         <section>
-        <div class="span2" style="float:right;font-size:0.9em;">
+        <div class="span2" style="float:right;font-size:0.9em;display:none;">
  
             <h4>Ditulis</h4>
             <time pubdate="pubdate" datetime="2012-11-20T00:00:00">Nov 20, 2012</time>
