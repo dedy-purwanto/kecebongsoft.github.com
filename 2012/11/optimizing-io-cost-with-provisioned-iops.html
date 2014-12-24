@@ -80,7 +80,7 @@
 </div>
 
 <div class="row-fluid">
-        <div class="span8 article-content">
+        <div class="span12 article-content">
 
             <p>Recently I've been watching my monthly AWS bill and notice the I/O cost has been increased in the last few months. Note that at this point I've been receiving something around 220 million I/O request on my EBS volume. Earlier this week, Amazon Singapore did an introductory workshop nearby our office and introduces provisioned IOPS. I didn't really paid any attention to it, but it turned out really handy.</p>
 <p>IOPS, or IO per second, is a term coined by AWS to allow some resource in EBS volume in order to serve I/O requests, the more you have it, the more you can serve a request in a second. In AWS, there are two flavors of EBS, standard or provisioned, from the latter you will be able to set how many IOPS you want to have in a month, which is called as IOPS-month. 1 IOPS-month is equal to the number of seconds in a month, which is approximately 27 million second, or 27 million IOPS. When looking at my monthly I/O requests, which was 220 million, I can safely provision my IOPS to 100 IOPS which is something around 270 million IOPS per month, a bit higher and also safer in case of sudden peak.</p>
@@ -101,22 +101,6 @@
 <div class="fb-comments" style='margin-top:30px;' data-href="http://kecebongsoft.com/2012/11/optimizing-io-cost-with-provisioned-iops.html" data-numposts="5" data-colorscheme="light"></div>            </nav>
             </aside>
         </div>
-        <section>
-        <div class="span2" style="float:right;font-size:0.9em;display:none;">
- 
-            <h4>Ditulis</h4>
-            <time pubdate="pubdate" datetime="2012-11-10T00:00:00">Nov 10, 2012</time>
-            <h4>Kategori</h4>
-            <a class="category-link" href="/categories.html#Komputer-ref">Komputer</a> 
-            <h4>Tags</h4>
-            <ul class="list-of-tags tags-in-article"> 
-                <li><a href="/tags.html#AWS-ref">AWS
-                    <span>1</span>
-</a></li>
-            </ul>
-
-        </div>
-        </section>
 </div>
 </article>
                 </div>
